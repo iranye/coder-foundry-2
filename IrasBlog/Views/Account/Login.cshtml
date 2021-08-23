@@ -1,0 +1,55 @@
+﻿@model LoginViewModel
+@{
+  ViewBag.Title = "Log in";
+}
+
+<!-- Page Header -->
+<header class="masthead" style="background-image: url('/Images/login-bg.jpg')">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <div class="post-heading">
+          <h1>@ViewBag.Title to View Blogs & Post Comments</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+@section Scripts {
+  <script src="~/js/jquery.validate.min.js"></script>
+  <script src="~/js/jquery.validate.unobtrusive.min.js"></script>
+}
+
+
+<div class="col-md-9 col-md-offset-md-3">
+  <div class="card card-body bg-light">
+    <form method="post">
+      <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+      <div class="form-group">
+        <label asp-for="UserName" style="width: 110px">UserName</label>
+        <input asp-for="UserName" />
+        <span asp-validation-for="UserName" class="text-warning"></span>
+      </div>
+      <div class="form-group">
+        <label asp-for="Password" style="width: 110px">Password</label>
+        <input asp-for="Password" type="password" />
+        <span asp-validation-for="Password" class="text-warning"></span>
+      </div>
+
+
+      <div class="form-group">
+        <div class="checkbox">
+          <input asp-for="RememberMe" typeof="checkbox" />
+          <label asp-for="RememberMe" class="form-check-label">RememberMe</label>
+          <span asp-validation-for="RememberMe" class="text-warning"></span>
+        </div>
+      </div>
+
+
+      <div class="form-group">
+        <input type="submit" value="Login" class="btn btn-success" />
+      </div>
+    </form>
+  </div>
+</div>
