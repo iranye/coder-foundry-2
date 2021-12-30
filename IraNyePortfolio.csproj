@@ -4,4 +4,78 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Content Include="index.html" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\css\animate.css" />
+    <None Include="wwwroot\css\bootstrap.min.css" />
+    <None Include="wwwroot\css\owl.carousel.css" />
+    <None Include="wwwroot\css\owl.theme.default.min.css" />
+    <None Include="wwwroot\css\shCore.css" />
+    <None Include="wwwroot\css\shThemeDefault.css" />
+    <None Include="wwwroot\css\style.css" />
+    <None Include="wwwroot\favicon.ico" />
+    <None Include="wwwroot\images\author-2.jpg" />
+    <None Include="wwwroot\images\author-4.jpg" />
+    <None Include="wwwroot\images\author-6.jpg" />
+    <None Include="wwwroot\images\background-image_leaf.jpg" />
+    <None Include="wwwroot\images\background-image_marble.jpg" />
+    <None Include="wwwroot\images\cityscape-000.jpg" />
+    <None Include="wwwroot\images\demo\portfolio-1.jpg" />
+    <None Include="wwwroot\images\demo\portfolio-2.jpg" />
+    <None Include="wwwroot\images\demo\portfolio-3.jpg" />
+    <None Include="wwwroot\images\demo\portfolio-4.jpg" />
+    <None Include="wwwroot\images\demo\portfolio-5.jpg" />
+    <None Include="wwwroot\images\demo\portfolio-6.jpg" />
+    <None Include="wwwroot\images\finport.png" />
+    <None Include="wwwroot\images\FiveTechs-001.png" />
+    <None Include="wwwroot\images\fizzbuzz.png" />
+    <None Include="wwwroot\images\img-slider-000.jpg" />
+    <None Include="wwwroot\images\img-slider-001.jpg" />
+    <None Include="wwwroot\images\Ira Nye.jpg" />
+    <None Include="wwwroot\images\iranye.blog.png" />
+    <None Include="wwwroot\images\iranye.bugtracker.png" />
+    <None Include="wwwroot\images\iranye.finport.png" />
+    <None Include="wwwroot\images\iranye.mobile-app.jpg" />
+    <None Include="wwwroot\images\iranye.web-api.jpg" />
+    <None Include="wwwroot\images\js-challenge-factorial.png" />
+    <None Include="wwwroot\images\js-challenge-facts-from-five.png" />
+    <None Include="wwwroot\images\js-challenge-fizzbuzz.png" />
+    <None Include="wwwroot\images\js-challenge-palindrome.png" />
+    <None Include="wwwroot\images\js-challenge-prime-factorization.png" />
+    <None Include="wwwroot\images\js-challenge-regex.png" />
+    <None Include="wwwroot\images\js-challenge-sum-of-all-fears.png" />
+    <None Include="wwwroot\images\js-challenge-todo-list.png" />
+    <None Include="wwwroot\images\logo-BIG.png" />
+    <None Include="wwwroot\images\logo-IN.png" />
+    <None Include="wwwroot\images\logo-ORIG.png" />
+    <None Include="wwwroot\images\logo.png" />
+    <None Include="wwwroot\images\mobile-bi.jpg" />
+    <None Include="wwwroot\images\palindrome.jpg" />
+    <None Include="wwwroot\images\partners-1.png" />
+    <None Include="wwwroot\images\partners-2.png" />
+    <None Include="wwwroot\images\partners-3.png" />
+    <None Include="wwwroot\images\partners-4.png" />
+    <None Include="wwwroot\images\partners-5.png" />
+    <None Include="wwwroot\images\partners-6.png" />
+    <None Include="wwwroot\images\partners-7.png" />
+    <None Include="wwwroot\images\partners-8.png" />
+    <None Include="wwwroot\images\partners-9.png" />
+    <None Include="wwwroot\images\prime-factorization.png" />
+    <None Include="wwwroot\images\refresh-icon-000.jpg" />
+    <None Include="wwwroot\images\refresh_icon.png" />
+    <None Include="wwwroot\images\slider-1.jpg" />
+    <None Include="wwwroot\images\sum-of-all-fears.jpg" />
+    <None Include="wwwroot\Scripts\bootstrap.min.js" />
+    <None Include="wwwroot\Scripts\cbpAnimatedHeader.js" />
+    <None Include="wwwroot\Scripts\jquery.appear.js" />
+    <None Include="wwwroot\Scripts\main.js" />
+    <None Include="wwwroot\Scripts\owl.carousel.min.js" />
+    <None Include="wwwroot\Scripts\shBrushJScript.js" />
+    <None Include="wwwroot\Scripts\shCore.js" />
+    <None Include="wwwroot\Scripts\theme-scripts.js" />
+  </ItemGroup>
+
 </Project>
