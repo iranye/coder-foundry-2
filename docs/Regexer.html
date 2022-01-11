@@ -349,9 +349,10 @@ function run_sub() {
       var paddedNumber = pad(startNumber, 3);
       var newLine = line.replace(incrementPat, paddedNumber);
       var paddedNumber2 = pad(startNumber, 2);
-      newLine = line.replace(incrementPat2, paddedNumber2);
+      
+      newLine = newLine.replace(incrementPat2, paddedNumber2);
       if (upperCaseFirstChar) {
-        newLine = capitalizeFirstLetter(newLine);
+       newLine = capitalizeFirstLetter(newLine);
       }
       print_to_out(newLine + "\n");
     }
@@ -371,6 +372,7 @@ function run_sub() {
       paddedNumber = pad(startNumber, 3);
       line = line.replace(incrementPat, paddedNumber);
       var paddedNumber2 = pad(startNumber, 2);
+
       line = line.replace(incrementPat2, paddedNumber2);
       startNumber++;
     }
