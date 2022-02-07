@@ -55,12 +55,15 @@ function pad(num, size) {
     return num;
 }
 
-function setCurrInd() {
-    var str = prompt("Enter a Card Number to Switch to", "1");
-    var ind = parseInt(str, 10);
-    if (isNaN(ind)) {
-        console.log("Invalid input!");
-    }
+function setCurrInd(ind) {
+	if (!ind) {
+		var str = prompt("Enter a Card Number to Switch to", "1");
+		var ind = parseInt(str, 10);
+		if (isNaN(ind)) {
+			console.log("Invalid input!");
+		}
+	}
     currId = ind;
     updateUrl(currId);
 }
+
