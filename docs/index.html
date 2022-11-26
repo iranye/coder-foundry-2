@@ -1,26 +1,77 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
-    <title>Document</title>
+    <link rel="icon" href="favicon.ico">
+    <SCRIPT type="text/javascript" src="script.js"></SCRIPT>
+    <title>Dev Blog and Other - Links</title>
+    <style type="text/css">
+        fieldset {
+            margin: 8px;
+            border: 1px solid silver;
+            padding: 8px;
+            border-radius: 4px;
+        }
+
+        hr {
+            clear: both;
+        }
+
+        img {
+            float: left;
+            border: 1px;
+            border-style: solid;
+        }
+
+        body {
+            font-family: cursive;
+            font-size: x-large;
+        }
+
+        .container {
+            clear: both;
+            display: block;
+            position: relative;
+        }
+    </style>
+
 </head>
-<body>
-    <div id="app">
-        <input type="text" v-model="name">
-        <p>Hello {{ name }}</p>
-    </div>
-    <script>
-        new Vue({
-            el: "#app",
-            data() {
-                return {
-                    name:'John'
-                };
-            }
-        });
-    </script>
+<body onload="setMaxId(20);">
+
+    <h1 id='top'>Dev Blog and Other - Links</h1>
+    <div style='font-size:x-large'><a href="#nxt-sec" onclick='setCurrInd(11);'>Next Section</a>  </div>
+    <div class='container' id='card001'><a href="https://gist.github.com/dahlsailrunner/1765b807940e29951ea6bdfb36cd85dd">VS Code Configuring for C#</a></div>
+    <div class='container' id='card002'><a href="https://medium.com/@shubhadeepchat/logging-in-net-core-with-serilog-in-2-minutes-a41ec3192183">Serilog</a></div>
+    <div class='container' id='card003'><a href="https://medium.com/@steven.kennis1/making-beautiful-native-apps-with-net-maui-blazor-and-tailwind-css-63bfe48a5bd5">Maui Blazor</a></div>
+    <div class='container' id='card004'><a href="https://medium.com/@jaydeepvpatil225/crud-operation-using-entity-framework-core-and-stored-procedure-in-net-core-6-web-api-65faf6f019f0">EF Core and PROCS and Web API</a></div>
+    <div class='container' id='card005'><a href="https://cointelegraph.com/news/nodes-are-going-to-dethrone-tech-giants-from-apple-to-google">DB Context and DI</a></div>
+    <div class='container' id='card006'><a href="https://blog.tonysneed.com/2018/12/20/idesigntimedbcontextfactory-and-dependency-injection-a-love-story/">DB Context and DI</a></div>
+    <div class='container' id='card007'><a href="https://articles.ricardogriffith.com/hangfire-with-net-6-0-8bbf4f2b3353">HangFire + .net6 for schedules tasks</a></div>
+
+    <div class='container' id='card008'><a href="https://www.youtube.com/watch?v=LfgBm5M8eUM">net7 foreach</a></div>
+    <div class='container' id='card009'><a href="https://medium.com/@tobias.streng/classes-vs-structs-in-net-fdfa9858166d">Classes v Structs</a></div>
+    <div class='container' id='card010'><a href="https://medium.com/@anish_ali/why-you-should-use-vim-4cfef3dad5ed">VIM</a></div>
+    <div class='container' id='card011'><a href="https://www.prowaretech.com/articles/current/blazor/wasm/login-form">Blazor Wasm Login Form</a></div>
+    <div class='container' id='card012'><a href="https://javascript.plainenglish.io/11-stupidly-simple-side-hustles-to-earn-extra-money-as-a-programmer-23fd30ca5cda">Side Hustles</a></div>
+    <div class='container' id='card013'><a href="https://news.slashdot.org/story/22/09/05/0135254/gnu-grep-38-starts-issuing-warnings-about-using-egrep-and-fgrep">EGREP</a></div>
+    <div class='container' id='card014'><a href="https://www.codingblocks.net/software-development-tips-and-tricks/">Coding Blocks</a></div>
+    <div class='container' id='card015'><a href="https://www.youtube.com/watch?v=VdmVu6uDJSU">LINQ Performance Trap</a></div>
+
+    <div class='container' id='card016'><a href="https://www.syncfusion.com/blogs/post/a-full-stack-web-app-using-blazor-webassembly-and-graphql-part-1.aspx">Syncfusion Blazor</a></div>
+    <div class='container' id='card017'><a href="https://www.c-sharpcorner.com/article/grpc-introduction-and-implementation-using-net-core-6/">GRPC and dotnet 6</a></div>
+    <div class='container' id='card018'><a href="https://devblogs.microsoft.com/dotnet/announcing-builtin-container-support-for-the-dotnet-sdk/">Builtin Container Support dotnet SDK</a></div>
+    <div class='container' id='card019'><a href="https://medium.com/@joaooliveira889/executing-a-sql-server-docker-container-and-connecting-to-a-net-4b75cae7df32">SQL Server and Docker</a></div>
+    <div class='container' id='card020'><a href="https://betterprogramming.pub/facade-design-pattern-39a87c4cfa14">Facade Design Pattern</a></div>
+    <div class='container' id='card021'><a href="https://www.youtube.com/watch?v=8IRNC7qZBmk">Cleanest way to use Docker for testing in .NET" on YouTube</a></div>
+    <div class='container' id='card022'><a href="https://tapajyoti-bose.medium.com/7-amazing-github-repositories-every-developer-should-follow-3161cc1b602e">Github Repos to follow</a></div>
+    <div class='container' id='card023'><a href="https://medium.com/geekculture/creating-a-pokedex-with-blazor-webassembly-677b5bcf3593">Blazor Pokedex</a></div>
+    <div class='container' id='card024'><a href="https://visualstudiomagazine.com/articles/2022/02/10/blazor-hybrid-net-7.aspx?m=1">Blazor Hybrid .net 7</a></div>
+    <div class='container' id='card025'><a href="https://www.inc.com/bill-murphy-jr/people-who-use7-these-key-rulesin-conversationshave-very-high-emotional-intelligence.html">Emotional Intelligence</a></div>
+
+    <hr />
+
+    <h2 id='nxt-sec'>Next Section</h2>
+
+    <div style='font-size:x-large; margin:5px;'><a href="#top" onclick='setCurrInd(1);'>Back to Top</a><input style='margin-left: 20px;' type="button" onclick='setCurrInd();' value="Jump to ..." /></div>
 </body>
+
 </html>
