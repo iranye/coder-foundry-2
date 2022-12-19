@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Ajax Samples</title>
+
+    <link rel="stylesheet" type="text/css" href="styles/site.css">
+  </head>
+
+  <body>
+    <h1>Ajax Samples</h1>
+    <p>Bring up console window</p>
+
+    <form>
+      <div class="row">
+        <label for="productID">Product ID</label>
+        <input id="productID" name="productID" type="text" value="0" />
+      </div>
+      <div class="row">
+        <label for="name">Product Name</label>
+        <input id="name" name="name" type="text" value="A New Product" />
+      </div>
+      <div class="row">
+        <label for="productNumber">Product Number</label>
+        <input id="productNumber" name="productNumber" type="text" value="NEW-999" />
+      </div>
+      <div class="row">
+        <label for="color">Color</label>
+        <input id="color" name="color" type="text" value="Red" />
+      </div>
+      <div class="row">
+        <label for="standardCost">Cost</label>
+        <input id="standardCost" name="standardCost" type="number" value="10.00" />
+      </div>
+      <div class="row">
+        <label for="listPrice">Price</label>
+        <input id="listPrice" name="listPrice" type="number" value="25.00" />
+      </div>
+      <div class="row">
+        <label for="sellStartDate">Sell Start Date</label>
+        <input id="sellStartDate" name="sellStartDate" type="text" value="1/15/2021" />
+      </div>
+      <div class="row">
+        <label id="message" class="infoMessage"></label>
+        <label id="error" class="errorMessage"></label>
+      </div>
+      <div class="row">
+        <button type="button" onclick="get();">
+          Get Products
+        </button>
+        <button type="button" onclick="getProduct();">
+          Get a Product
+        </button>
+        <button type="button" onclick="insertProduct();">
+          Insert Product
+        </button>
+        <button type="button" onclick="updateProduct();">
+          Update Product
+        </button>
+        <button type="button" onclick="deleteProduct();">
+          Delete Product
+        </button>
+      </div>
+    </form>
+
+    <script src="scripts/ajax-common.js"></script>
+    <script src="scripts/product.js"></script>
+    <script>
+      'use strict';
+
+      // const URL = "http://localhost:5000/api/product";
+      const URL = "resources/products.json";
+
+      function get() {
+        let req = new XMLHttpRequest();
+        req.onreadystatechange = function () {
+          if (this.readyState === XMLHttpRequest.DONE && this.status === 200) {
+            console.log(this.response);
+            displayMessage("Products Retrieved");
+          }
+        };
+        req.open("GET", URL);
+        req.send();
+      }
+
+      function getProduct() {
+
+      }
+
+      function insertProduct() {
+
+      }
+
+      function updateProduct() {
+
+      }
+
+      function deleteProduct() {
+
+      }
+    </script>
+  </body>
+
+</html>
