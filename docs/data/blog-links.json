@@ -1,0 +1,186 @@
+[
+  {
+    "href": "https://gist.github.com/dahlsailrunner/1765b807940e29951ea6bdfb36cd85dd",
+    "title": "VS Code Configuring for C#"
+  },
+  {
+    "href": "https://medium.com/@shubhadeepchat/logging-in-net-core-with-serilog-in-2-minutes-a41ec3192183",
+    "title": "Serilog"
+  },
+  {
+    "href": "https://medium.com/@steven.kennis1/making-beautiful-native-apps-with-net-maui-blazor-and-tailwind-css-63bfe48a5bd5",
+    "title": "Maui Blazor"
+  },
+  {
+    "href": "https://medium.com/@jaydeepvpatil225/crud-operation-using-entity-framework-core-and-stored-procedure-in-net-core-6-web-api-65faf6f019f0",
+    "title": "EF Core and PROCS and Web API"
+  },
+  {
+    "href": "https://cointelegraph.com/news/nodes-are-going-to-dethrone-tech-giants-from-apple-to-google",
+    "title": "Nodes are going to dethrone tech giants"
+  },
+  {
+    "href": "https://blog.tonysneed.com/2018/12/20/idesigntimedbcontextfactory-and-dependency-injection-a-love-story/",
+    "title": "DB Context and DI"
+  },
+  {
+    "href": "https://articles.ricardogriffith.com/hangfire-with-net-6-0-8bbf4f2b3353",
+    "title": "HangFire + .net6 for schedules tasks"
+  },
+  {
+    "href": "https://www.youtube.com/watch?v=LfgBm5M8eUM",
+    "title": "net7 foreach"
+  },
+  {
+    "href": "https://medium.com/@tobias.streng/classes-vs-structs-in-net-fdfa9858166d",
+    "title": "Classes v Structs"
+  },
+  {
+    "href": "https://medium.com/@anish_ali/why-you-should-use-vim-4cfef3dad5ed",
+    "title": "VIM"
+  },
+  {
+    "href": "https://www.prowaretech.com/articles/current/blazor/wasm/login-form",
+    "title": "Blazor Wasm Login Form"
+  },
+  {
+    "href": "https://javascript.plainenglish.io/11-stupidly-simple-side-hustles-to-earn-extra-money-as-a-programmer-23fd30ca5cda",
+    "title": "Side Hustles"
+  },
+  {
+    "href": "https://news.slashdot.org/story/22/09/05/0135254/gnu-grep-38-starts-issuing-warnings-about-using-egrep-and-fgrep",
+    "title": "EGREP"
+  },
+  {
+    "href": "https://www.codingblocks.net/software-development-tips-and-tricks/",
+    "title": "Coding Blocks"
+  },
+  {
+    "href": "https://www.youtube.com/watch?v=VdmVu6uDJSU",
+    "title": "LINQ Performance Trap"
+  },
+  {
+    "href": "https://www.syncfusion.com/blogs/post/a-full-stack-web-app-using-blazor-webassembly-and-graphql-part-1.aspx",
+    "title": "Syncfusion Blazor"
+  },
+  {
+    "href": "https://www.c-sharpcorner.com/article/grpc-introduction-and-implementation-using-net-core-6/",
+    "title": "GRPC and dotnet 6"
+  },
+  {
+    "href": "https://devblogs.microsoft.com/dotnet/announcing-builtin-container-support-for-the-dotnet-sdk/",
+    "title": "Builtin Container Support dotnet SDK"
+  },
+  {
+    "href": "https://medium.com/@joaooliveira889/executing-a-sql-server-docker-container-and-connecting-to-a-net-4b75cae7df32",
+    "title": "SQL Server and Docker"
+  },
+  {
+    "href": "https://betterprogramming.pub/facade-design-pattern-39a87c4cfa14",
+    "title": "Facade Design Pattern"
+  },
+  {
+    "href": "https://www.youtube.com/watch?v=8IRNC7qZBmk",
+    "title": "Cleanest way to use Docker for testing in .NET on YouTube"
+  },
+  {
+    "href": "https://tapajyoti-bose.medium.com/7-amazing-github-repositories-every-developer-should-follow-3161cc1b602e",
+    "title": "Github Repos to follow"
+  },
+  {
+    "href": "https://medium.com/geekculture/creating-a-pokedex-with-blazor-webassembly-677b5bcf3593",
+    "title": "Blazor Pokedex"
+  },
+  {
+    "href": "https://visualstudiomagazine.com/articles/2022/02/10/blazor-hybrid-net-7.aspx?m=1",
+    "title": "Blazor Hybrid .net 7"
+  },
+  {
+    "href": "https://www.inc.com/bill-murphy-jr/people-who-use7-these-key-rulesin-conversationshave-very-high-emotional-intelligence.html",
+    "title": "Emotional Intelligence"
+  },
+  {
+    "href": "https://www.youtube.com/watch?v=UAWImLf5bgw",
+    "title": "Linode, ASP.NET Core, Nginx, WSL2 - Linode Cloud - Tricking Library Ep63"
+  },
+  {
+    "href": "https://codeblog.jonskeet.uk/category/edulinq/",
+    "title": "Jon Skeet"
+  },
+  {
+    "href": "https://dkreider.medium.com/the-step-by-step-guide-to-creating-and-using-a-generic-repository-588407940b34",
+    "title": "C# Generic Repository"
+  },
+  {
+    "href": "https://www.youtube.com/watch?v=8fi7uSYlOdc",
+    "title": "Build Container using Go"
+  },
+  {
+    "href": "https://www.nytimes.com/2022/11/28/well/family/male-friendship-loneliness.html",
+    "title": "Make Close Friends"
+  },
+  {
+    "href": "https://www.youtube.com/watch?v=BV_f2XnqlRE",
+    "title": "Nick C - Delete your Docker files dotnet 7"
+  },
+  {
+    "href": "https://medium.com/@iamprovidence/docker-for-dummies-2fcf4b8496af",
+    "title": "Docker for Dummies"
+  },
+  {
+    "href": "https://betterprogramming.pub/create-a-text-to-image-generator-using-dall-e-api-in-c-net-7df58d940e79",
+    "title": "DALL-E"
+  },
+  {
+    "href": "https://youtu.be/Pt-0KM5SxmI",
+    "title": "Nick C - Stop using the Process class"
+  },
+  {
+    "href": "https://thenewstack.io/sidecars-are-changing-the-kubernetes-load-testing-landscape/",
+    "title": "Sidecars changing K8S Landscape"
+  },
+  {
+    "href": "https://ubuntu.com/blog/ubuntu-wsl-enable-systemd",
+    "title": "Systemd support lands in WSL"
+  },
+  {
+    "href": "https://youtu.be/AtVH3rtxhMs",
+    "title": "Publish a .NET 6 Application To Railway"
+  },
+  {
+    "href": "https://hindenbug.io/what-is-the-undisputed-best-git-branching-strategy-4e986442a911",
+    "title": "Best Git Branching Strategy"
+  },
+  {
+    "href": "https://medium.com/@codeeverywhere/redis-vs-kafka-vs-rabbitmq-43eeec82bafb",
+    "title": "Redis vs Kafka vs vs Rabbit MQ"
+  },
+  {
+    "href": "https://devblogs.microsoft.com/dotnet/dotnet-6-is-now-in-ubuntu-2204/",
+    "title": "NET 6 is now in Ubuntu 22.04"
+  },
+  {
+    "href": "https://medium.com/@erickgallani/asp-net-core-complex-model-binding-276156cc09d7?source=post_page-----6b0d72cf41db----0----------------------------",
+    "title": "Model Binding"
+  },
+  {
+    "href": "https://devblogs.microsoft.com/dotnet/dotnet-maui-visualstudio-2022-release/",
+    "title": "Dotnet MAUI in 2022"
+  },
+  {
+    "href": "https://michaelscodingspot.com/web-application-tech-stack-front-end/",
+    "title": "Best C# .NET Web Application Tech Stack"
+  },
+  {
+    "href": "https://code-maze.com/difference-between-throw-vs-throwex-csharp/",
+    "title": "throw vs throw ex in C#"
+  },
+  {
+    "href": "https://www.youtube.com/watch?v=qWfavvrhrfk&t=1878s",
+    "title": "RawCoding Postgresql WSL 2"
+  },
+  {
+    "href": "https://news.slashdot.org/story/22/12/04/0248249/what-is-chatgpt-the-ai-chatbot-thats-taking-the-internet-by-storm",
+    "title": "AI Chatbot"
+  }
+]

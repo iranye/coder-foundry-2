@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="icon" href="favicon.ico">
+    <title>Dev Blog and Other - Links</title>
+    <style type="text/css">
+        fieldset {
+            margin: 8px;
+            border: 1px solid silver;
+            padding: 8px;
+            border-radius: 4px;
+        }
+
+        hr {
+            clear: both;
+        }
+
+        img {
+            float: left;
+            border: 1px;
+            border-style: solid;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: x-large;
+        }
+
+        .container {
+            clear: both;
+            display: block;
+            position: relative;
+        }
+    </style>
+
+</head>
+<body onload="setMaxId(50);" bgcolor="#789ABC">
+
+    <h1 id='top'>Dev Blog and Other - Links</h1>
+    <div style='font-size:x-large'><a href="#nxt-sec" onclick='setCurrInd(11);'>Next Section</a>  </div>
+    <div class='container' id='card001'><a href="https://gist.github.com/dahlsailrunner/1765b807940e29951ea6bdfb36cd85dd">VS Code Configuring for C#</a></div>
+    <div class='container' id='card002'><a href="https://medium.com/@shubhadeepchat/logging-in-net-core-with-serilog-in-2-minutes-a41ec3192183">Serilog</a></div>
+    <div class='container' id='card003'><a href="https://medium.com/@steven.kennis1/making-beautiful-native-apps-with-net-maui-blazor-and-tailwind-css-63bfe48a5bd5">Maui Blazor</a></div>
+    <div class='container' id='card004'><a href="https://medium.com/@jaydeepvpatil225/crud-operation-using-entity-framework-core-and-stored-procedure-in-net-core-6-web-api-65faf6f019f0">EF Core and PROCS and Web API</a></div>
+    <div class='container' id='card005'><a href="https://cointelegraph.com/news/nodes-are-going-to-dethrone-tech-giants-from-apple-to-google">Nodes are going to dethrone tech giants</a></div>
+    <div class='container' id='card006'><a href="https://blog.tonysneed.com/2018/12/20/idesigntimedbcontextfactory-and-dependency-injection-a-love-story/">DB Context and DI</a></div>
+    <div class='container' id='card007'><a href="https://articles.ricardogriffith.com/hangfire-with-net-6-0-8bbf4f2b3353">HangFire + .net6 for schedules tasks</a></div>
+
+    <div class='container'><a href="https://articles.ricardogriffith.com/hangfire-with-net-6-0-8bbf4f2b3353">HangFire + .net6 for schedules tasks</a></div>
+
+    <hr />
+
+    <h2 id='nxt-sec'>Next Section</h2>
+
+    <div style='font-size:x-large; margin:5px;'><a href="#top" onclick='setCurrInd(1);'>Back to Top</a><input style='margin-left: 20px;' type="button" onclick='setCurrInd();' value="Jump to ..." /></div>
+
+
+
+    <div class="row">
+        <button type="button" onclick="get();">
+        Get Products
+        </button>
+        <button type="button" onclick="getDevLinks();">
+        Get Products and Display
+        </button>
+    </div>
+
+    <hr/>
+
+    <div class="row">
+        <label id="message" class="infoMessage"></label>
+    </div>
+    <div class="row">
+        <label id="error" class="errorMessage"></label>
+    </div>
+
+    <script>
+        'use strict';
+    
+        
+        // const URL = "http://localhost:5000/api/product";
+        const URL = "data/blog-links.json";
+    
+        function get() {
+          let req = new XMLHttpRequest();
+          req.onreadystatechange = function () {
+            if (this.readyState === XMLHttpRequest.DONE && this.status === 200) {
+              console.log(this.response);
+              displayMessage("Data Retrieved");
+            }
+          };
+          req.open("GET", URL);
+          req.send();
+        }
+    
+        function getDevLinks() {
+          let req = new XMLHttpRequest();
+          req.onreadystatechange = function () {
+            if (this.readyState === XMLHttpRequest.DONE && this.status === 200) {
+              console.log(this.response);
+              displayMessage("Data Retrieved");
+              setInputArr(JSON.parse(this.response));
+            }
+          };
+          req.open("GET", URL);
+          req.send();
+        }
+    
+        function getProduct() {
+    
+        }
+    </script>
+    <script type="text/javascript" src="scripts/ajax-common.js"></script>
+    <script type="text/javascript" src="scripts/dev-blog.js"></script>
+    <script type="text/javascript" src="scripts/script.js"></script>
+    <script type="text/javascript" src="scripts/jquery-3.6.0.js"></script>
+</body>
+
+</html>
