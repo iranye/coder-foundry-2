@@ -11,19 +11,17 @@ function getFromInput() {
 }
 
 function setInputArr(devlinks) {
-  console.log("setInputArr");
+  console.log(devlinks.length + " found...");
   for (var i = 0; i < devlinks.length; i++) {
-    // console.log("i: " + i + " - " + products[i].name + " - " + products[i].productNumber);
-    console.log(devlinks[i].name);
+    var devLink = devlinks[i];
+    
+    var link = devlinks[i];
+    var linkElement = $('.container')[i];
+    var anchorElement = $(linkElement).find('.anchor');
+    anchorElement.attr("href", link.href);
+    anchorElement.html(link.title);
+    // link.show();
   }
+
 }
 
-function clearInput() {
-  setValue("productID", "0");
-  setValue("name", "");
-  setValue("productNumber", "");
-  setValue("color", "");
-  setValue("standardCost", "0");
-  setValue("listPrice", "0");
-  setValue("sellStartDate", new Date().toLocaleDateString());
-}

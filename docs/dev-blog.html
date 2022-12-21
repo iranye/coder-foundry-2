@@ -34,38 +34,94 @@
             display: block;
             position: relative;
         }
+
+        .nav {
+            font-family: 'Courier New', Courier, monospace;
+        }
+        
+        button {
+            font-family: 'Courier New', Courier, monospace;
+            font-size: large;
+            height:50px;
+        }
     </style>
 
 </head>
-<body onload="setMaxId(50);" bgcolor="#789ABC">
+<body bgcolor="#789ABC">
 
     <h1 id='top'>Dev Blog and Other - Links</h1>
-    <div style='font-size:x-large'><a href="#nxt-sec" onclick='setCurrInd(11);'>Next Section</a>  </div>
-    <div class='container' id='card001'><a href="https://gist.github.com/dahlsailrunner/1765b807940e29951ea6bdfb36cd85dd">VS Code Configuring for C#</a></div>
-    <div class='container' id='card002'><a href="https://medium.com/@shubhadeepchat/logging-in-net-core-with-serilog-in-2-minutes-a41ec3192183">Serilog</a></div>
-    <div class='container' id='card003'><a href="https://medium.com/@steven.kennis1/making-beautiful-native-apps-with-net-maui-blazor-and-tailwind-css-63bfe48a5bd5">Maui Blazor</a></div>
-    <div class='container' id='card004'><a href="https://medium.com/@jaydeepvpatil225/crud-operation-using-entity-framework-core-and-stored-procedure-in-net-core-6-web-api-65faf6f019f0">EF Core and PROCS and Web API</a></div>
-    <div class='container' id='card005'><a href="https://cointelegraph.com/news/nodes-are-going-to-dethrone-tech-giants-from-apple-to-google">Nodes are going to dethrone tech giants</a></div>
-    <div class='container' id='card006'><a href="https://blog.tonysneed.com/2018/12/20/idesigntimedbcontextfactory-and-dependency-injection-a-love-story/">DB Context and DI</a></div>
-    <div class='container' id='card007'><a href="https://articles.ricardogriffith.com/hangfire-with-net-6-0-8bbf4f2b3353">HangFire + .net6 for schedules tasks</a></div>
-
-    <div class='container'><a href="https://articles.ricardogriffith.com/hangfire-with-net-6-0-8bbf4f2b3353">HangFire + .net6 for schedules tasks</a></div>
+    <div style='font-size:x-large'><a class="nav" href="#nxt-sec" onclick='setCurrInd(11);'>&lt;&lt;Next Section&gt;&gt;</a>  </div>
+    <div class="row">
+        <button type="button" onclick="getDevLinks();">Load Data</button>
+    </div>
 
     <hr />
 
-    <h2 id='nxt-sec'>Next Section</h2>
+    <div class='container' id='card001'><a class="anchor" target="_blank"></a></div>
+    <div class='container' id='card002'><a class="anchor" target="_blank"></a></div>
+    <div class='container' id='card003'><a class="anchor" target="_blank"></a></div>
+    <div class='container' id='card004'><a class="anchor" target="_blank"></a></div>
+    <div class='container' id='card005'><a class="anchor" target="_blank"></a></div>
+    <div class='container' id='card006'><a class="anchor" target="_blank"></a></div>
+    <div class='container' id='card007'><a class="anchor" target="_blank"></a></div>
+    <div class='container' id='card008'><a class="anchor" target="_blank"></a></div>
+    <div class='container' id='card009'><a class="anchor" target="_blank"></a></div>
+    <div class='container' id='card010'><a class="anchor" target="_blank"></a></div>
 
-    <div style='font-size:x-large; margin:5px;'><a href="#top" onclick='setCurrInd(1);'>Back to Top</a><input style='margin-left: 20px;' type="button" onclick='setCurrInd();' value="Jump to ..." /></div>
+    <div class='container' id='card011'><a class="anchor" target="_blank"></a></div>
+    <div class='container' id='card012'><a class="anchor" target="_blank"></a></div>
+    <div class='container' id='card013'><a class="anchor" target="_blank"></a></div>
+    <div class='container' id='card014'><a class="anchor" target="_blank"></a></div>
+    <div class='container' id='card015'><a class="anchor" target="_blank"></a></div>
+    <div class='container' id='card016'><a class="anchor" target="_blank"></a></div>
+    <div class='container' id='card017'><a class="anchor" target="_blank"></a></div>
+    <div class='container' id='card018'><a class="anchor" target="_blank"></a></div>
+    <div class='container' id='card019'><a class="anchor" target="_blank"></a></div>
+    <div class='container' id='card020'><a class="anchor" target="_blank"></a></div>
+    <div class='container' id='card021'><a class="anchor" target="_blank"></a></div>
+    <div class='container' id='card022'><a class="anchor" target="_blank"></a></div>
+    <div class='container' id='card023'><a class="anchor" target="_blank"></a></div>
+    <div class='container' id='card024'><a class="anchor" target="_blank"></a></div>
+    <div class='container' id='card025'><a class="anchor" target="_blank"></a></div>
+    <div class='container' id='card026'><a class="anchor" target="_blank"></a></div>
+    <div class='container' id='card027'><a class="anchor" target="_blank"></a></div>
+    <div class='container' id='card028'><a class="anchor" target="_blank"></a></div>
+    <div class='container' id='card029'><a class="anchor" target="_blank"></a></div>
+    <div class='container' id='card030'><a class="anchor" target="_blank"></a></div>
+    <div class='container' id='card031'><a class="anchor" target="_blank"></a></div>
+    <div class='container' id='card032'><a class="anchor" target="_blank"></a></div>
+    <div class='container' id='card033'><a class="anchor" target="_blank"></a></div>
+    <div class='container' id='card034'><a class="anchor" target="_blank"></a></div>
+    <div class='container' id='card035'><a class="anchor" target="_blank"></a></div>
+    <div class='container' id='card036'><a class="anchor" target="_blank"></a></div>
+    <div class='container' id='card037'><a class="anchor" target="_blank"></a></div>
+    <div class='container' id='card038'><a class="anchor" target="_blank"></a></div>
+    <div class='container' id='card039'><a class="anchor" target="_blank"></a></div>
+    <div class='container' id='card040'><a class="anchor" target="_blank"></a></div>
+    <div class='container' id='card041'><a class="anchor" target="_blank"></a></div>
+    <div class='container' id='card042'><a class="anchor" target="_blank"></a></div>
+    <div class='container' id='card043'><a class="anchor" target="_blank"></a></div>
+    <div class='container' id='card044'><a class="anchor" target="_blank"></a></div>
+    <div class='container' id='card045'><a class="anchor" target="_blank"></a></div>
+    <div class='container' id='card046'><a class="anchor" target="_blank"></a></div>
+    <div class='container' id='card047'><a class="anchor" target="_blank"></a></div>
+    <div class='container' id='card048'><a class="anchor" target="_blank"></a></div>
+    <div class='container' id='card049'><a class="anchor" target="_blank"></a></div>
+    <div class='container' id='card050'><a class="anchor" target="_blank"></a></div>
+    <div class='container' id='card051'><a class="anchor" target="_blank"></a></div>
+    <div class='container' id='card052'><a class="anchor" target="_blank"></a></div>
+    <div class='container' id='card053'><a class="anchor" target="_blank"></a></div>
+    <div class='container' id='card054'><a class="anchor" target="_blank"></a></div>
+    <div class='container' id='card055'><a class="anchor" target="_blank"></a></div>
 
+    <hr />
 
+    <h2 id='nxt-sec'>&lt;Next Section&gt;</h2>
+
+    <div style='font-size:x-large; margin:5px;'><a href="#top" class="nav" onclick='setCurrInd(1);'>Back to Top</a><input style='margin-left: 20px; height: 40px;' type="button" onclick='setCurrInd();' value="Jump to ..." /></div>
 
     <div class="row">
-        <button type="button" onclick="get();">
-        Get Products
-        </button>
-        <button type="button" onclick="getDevLinks();">
-        Get Products and Display
-        </button>
+        <button type="button" onclick="getDevLinks();">Load Data</button>
     </div>
 
     <hr/>
@@ -77,9 +133,17 @@
         <label id="error" class="errorMessage"></label>
     </div>
 
+    <script type="text/javascript" src="scripts/ajax-common.js"></script>
+    <script type="text/javascript" src="scripts/dev-blog.js"></script>
+    <script type="text/javascript" src="scripts/script.js"></script>
+    <script type="text/javascript" src="scripts/jquery-3.6.0.js"></script>
     <script>
         'use strict';
-    
+        $( document ).ready(bodyInit);
+
+        function bodyInit() {
+            setMaxId(10);            
+        }
         
         // const URL = "http://localhost:5000/api/product";
         const URL = "data/blog-links.json";
@@ -113,10 +177,6 @@
     
         }
     </script>
-    <script type="text/javascript" src="scripts/ajax-common.js"></script>
-    <script type="text/javascript" src="scripts/dev-blog.js"></script>
-    <script type="text/javascript" src="scripts/script.js"></script>
-    <script type="text/javascript" src="scripts/jquery-3.6.0.js"></script>
 </body>
 
 </html>
