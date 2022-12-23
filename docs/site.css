@@ -72,61 +72,17 @@ article {
   display: flex;
 }
 
-@media only screen and (min-width: 768px) {
-  main {
-    display: flex;
-  }
-
-  aside {
-    margin-left: 2%;
-  }
-
-  .columns-desktop {
-    display: flex;
-  }
-}
-
-/* Pie */
-.pie {
-  width: 200px;
-  padding: 10px;
-  margin: 10px;
-  background-color: #fff;
-  border: solid 1px #ccc;
-}
-
-.pie img {
-  width: 100%;
-}
-
-.pie .title {
-  font-weight: bold;
-}
-
-.pie .price {
-  text-align: right;
-}
-
-.pie .columns {
-  width: 100%;
-}
-
-.pie .columns div {
-  width: 50%;
-}
-
-.pie button {
-  background-color: #f6aeae;
-  padding: 10px;
-  border: solid 1px #f6aeae;
-  border-radius: 3px;
-  color: #fff;
-  cursor:pointer;
+#main-img {
+  width:100%;
 }
 
 .big-border {
   border: 4px solid #5ecda9;
   padding: 7px;
+}
+
+.container {
+  font-size: x-large;
 }
 
 /*

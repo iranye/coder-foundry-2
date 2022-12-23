@@ -1,0 +1,53 @@
+.*a href="([^"]+)">(.*)<.a.*~~{ "id": "###", "href": "$1", "title": "$2"},
+    <div class='container' id='card001'><a href="https://gist.github.com/dahlsailrunner/1765b807940e29951ea6bdfb36cd85dd">VS Code Configuring for C#</a></div>
+    <div class='container' id='card002'><a href="https://medium.com/@shubhadeepchat/logging-in-net-core-with-serilog-in-2-minutes-a41ec3192183">Serilog</a></div>
+    <div class='container' id='card003'><a href="https://medium.com/@steven.kennis1/making-beautiful-native-apps-with-net-maui-blazor-and-tailwind-css-63bfe48a5bd5">Maui Blazor</a></div>
+    <div class='container' id='card004'><a href="https://medium.com/@jaydeepvpatil225/crud-operation-using-entity-framework-core-and-stored-procedure-in-net-core-6-web-api-65faf6f019f0">EF Core and PROCS and Web API</a></div>
+    <div class='container' id='card005'><a href="https://cointelegraph.com/news/nodes-are-going-to-dethrone-tech-giants-from-apple-to-google">Nodes are going to dethrone tech giants</a></div>
+    <div class='container' id='card006'><a href="https://blog.tonysneed.com/2018/12/20/idesigntimedbcontextfactory-and-dependency-injection-a-love-story/">DB Context and DI</a></div>
+    <div class='container' id='card007'><a href="https://articles.ricardogriffith.com/hangfire-with-net-6-0-8bbf4f2b3353">HangFire + .net6 for schedules tasks</a></div>
+
+    <div class='container' id='card008'><a href="https://www.youtube.com/watch?v=LfgBm5M8eUM">net7 foreach</a></div>
+    <div class='container' id='card009'><a href="https://medium.com/@tobias.streng/classes-vs-structs-in-net-fdfa9858166d">Classes v Structs</a></div>
+    <div class='container' id='card010'><a href="https://medium.com/@anish_ali/why-you-should-use-vim-4cfef3dad5ed">VIM</a></div>
+    <div class='container' id='card011'><a href="https://www.prowaretech.com/articles/current/blazor/wasm/login-form">Blazor Wasm Login Form</a></div>
+    <div class='container' id='card012'><a href="https://javascript.plainenglish.io/11-stupidly-simple-side-hustles-to-earn-extra-money-as-a-programmer-23fd30ca5cda">Side Hustles</a></div>
+    <div class='container' id='card013'><a href="https://news.slashdot.org/story/22/09/05/0135254/gnu-grep-38-starts-issuing-warnings-about-using-egrep-and-fgrep">EGREP</a></div>
+    <div class='container' id='card014'><a href="https://www.codingblocks.net/software-development-tips-and-tricks/">Coding Blocks</a></div>
+    <div class='container' id='card015'><a href="https://www.youtube.com/watch?v=VdmVu6uDJSU">LINQ Performance Trap</a></div>
+
+    <div class='container' id='card016'><a href="https://www.syncfusion.com/blogs/post/a-full-stack-web-app-using-blazor-webassembly-and-graphql-part-1.aspx">Syncfusion Blazor</a></div>
+    <div class='container' id='card017'><a href="https://www.c-sharpcorner.com/article/grpc-introduction-and-implementation-using-net-core-6/">GRPC and dotnet 6</a></div>
+    <div class='container' id='card018'><a href="https://devblogs.microsoft.com/dotnet/announcing-builtin-container-support-for-the-dotnet-sdk/">Builtin Container Support dotnet SDK</a></div>
+    <div class='container' id='card019'><a href="https://medium.com/@joaooliveira889/executing-a-sql-server-docker-container-and-connecting-to-a-net-4b75cae7df32">SQL Server and Docker</a></div>
+    <div class='container' id='card020'><a href="https://betterprogramming.pub/facade-design-pattern-39a87c4cfa14">Facade Design Pattern</a></div>
+    <div class='container' id='card021'><a href="https://www.youtube.com/watch?v=8IRNC7qZBmk">Cleanest way to use Docker for testing in .NET on YouTube</a></div>
+    <div class='container' id='card022'><a href="https://tapajyoti-bose.medium.com/7-amazing-github-repositories-every-developer-should-follow-3161cc1b602e">Github Repos to follow</a></div>
+    <div class='container' id='card023'><a href="https://medium.com/geekculture/creating-a-pokedex-with-blazor-webassembly-677b5bcf3593">Blazor Pokedex</a></div>
+    <div class='container' id='card024'><a href="https://visualstudiomagazine.com/articles/2022/02/10/blazor-hybrid-net-7.aspx?m=1">Blazor Hybrid .net 7</a></div>
+    <div class='container' id='card025'><a href="https://www.inc.com/bill-murphy-jr/people-who-use7-these-key-rulesin-conversationshave-very-high-emotional-intelligence.html">Emotional Intelligence</a></div>
+
+    <div class='container' id='card026'><a href="https://www.youtube.com/watch?v=UAWImLf5bgw">Linode, ASP.NET Core, Nginx, WSL2 - Linode Cloud - Tricking Library Ep63</a></div>
+    <div class='container' id='card027'><a href="https://codeblog.jonskeet.uk/category/edulinq/">Jon Skeet</a></div>
+    <div class='container' id='card028'><a href="https://dkreider.medium.com/the-step-by-step-guide-to-creating-and-using-a-generic-repository-588407940b34">C# Generic Repository</a></div>
+    <div class='container' id='card029'><a href="https://www.youtube.com/watch?v=8fi7uSYlOdc">Build Container using Go</a></div>
+
+    <div class='container' id='card030'><a href="https://www.nytimes.com/2022/11/28/well/family/male-friendship-loneliness.html">Make Close Friends</a></div>
+    <div class='container' id='card031'><a href="https://www.youtube.com/watch?v=BV_f2XnqlRE">Nick C - Delete your Docker files dotnet 7</a></div>
+    <div class='container' id='card032'><a href="https://medium.com/@iamprovidence/docker-for-dummies-2fcf4b8496af">Docker for Dummies</a></div>
+
+    <div class='container' id='card033'><a href="https://betterprogramming.pub/create-a-text-to-image-generator-using-dall-e-api-in-c-net-7df58d940e79">DALL-E</a></div>
+    <div class='container' id='card034'><a href="https://youtu.be/Pt-0KM5SxmI">Nick C - Stop using the Process class</a></div>
+    <div class='container' id='card035'><a href="https://thenewstack.io/sidecars-are-changing-the-kubernetes-load-testing-landscape/">Sidecars changing K8S Landscape</a></div>
+
+    <div class='container' id='card036'><a href="https://ubuntu.com/blog/ubuntu-wsl-enable-systemd">Systemd support lands in WSL</a></div>
+    <div class='container' id='card037'><a href="https://youtu.be/AtVH3rtxhMs">Publish a .NET 6 Application To Railway</a></div>
+    <div class='container' id='card038'><a href="https://hindenbug.io/what-is-the-undisputed-best-git-branching-strategy-4e986442a911">Best Git Branching Strategy</a></div>
+    <div class='container' id='card039'><a href="https://medium.com/@codeeverywhere/redis-vs-kafka-vs-rabbitmq-43eeec82bafb">Redis vs Kafka vs vs Rabbit MQ</a></div>
+    <div class='container' id='card040'><a href="https://devblogs.microsoft.com/dotnet/dotnet-6-is-now-in-ubuntu-2204/">NET 6 is now in Ubuntu 22.04</a></div>
+    <div class='container' id='card041'><a href="https://medium.com/@erickgallani/asp-net-core-complex-model-binding-276156cc09d7?source=post_page-----6b0d72cf41db----0----------------------------">Model Binding</a></div>
+    <div class='container' id='card042'><a href="https://devblogs.microsoft.com/dotnet/dotnet-maui-visualstudio-2022-release/">Dotnet MAUI in 2022</a></div>
+    <div class='container' id='card043'><a href="https://michaelscodingspot.com/web-application-tech-stack-front-end/">Best C# .NET Web Application Tech Stack</a></div>
+    <div class='container' id='card044'><a href="https://code-maze.com/difference-between-throw-vs-throwex-csharp/">throw vs throw ex in C#</a></div>
+    <div class='container' id='card045'><a href="https://www.youtube.com/watch?v=qWfavvrhrfk&t=1878s">RawCoding Postgresql WSL 2</a></div>
+    <div class='container' id='card046'><a href="https://news.slashdot.org/story/22/12/04/0248249/what-is-chatgpt-the-ai-chatbot-thats-taking-the-internet-by-storm">AI Chatbot</a></div>

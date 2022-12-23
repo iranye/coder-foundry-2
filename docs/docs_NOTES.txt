@@ -1,3 +1,5 @@
+Add Error-handling on fetch (e.g., for bad json)
+
 Tags for dev-blog:
 api
 c#

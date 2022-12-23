@@ -22,7 +22,7 @@ function setMaxId(id) {
 
 function updateUrl(id) {
     var idStr = pad(id, 3);
-    var newHashtagLink = `#card${idStr}`;
+    var newHashtagLink = `#${idStr}`;
     console.log(newHashtagLink);
     var currentHref = window.location.href;
     var hashTagInd = currentHref.lastIndexOf('#');
@@ -31,6 +31,9 @@ function updateUrl(id) {
     }
     currentHref += newHashtagLink;
     window.location.href = currentHref;
+    var divId = `${idStr}`;
+    console.log("divId: " + divId);
+    $(newHashtagLink).focus();
 }
 
 function getNextImgId() {
