@@ -63,7 +63,7 @@
         let linkTemplate = (item) => 
             `<p class='container' id='${item.id}'><a class="anchor" href="${item.href}" target="_blank">${item.title}</a></p>`;
             
-        $.get("/data/blog-links.json")
+        $.get("data/blog-links.json")
         .done((data) => {
             let length = data.length;
             setMaxId(length);
