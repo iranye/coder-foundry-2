@@ -1,4 +1,4 @@
-namespace IrasBugTracker
+namespace BugTracker
 {
     public class Program
     {
