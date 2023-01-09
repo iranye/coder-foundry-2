@@ -19,6 +19,8 @@ namespace BugTracker.Models
         [StringLength(90, ErrorMessage = "Display Name must be no longer than {1} characters long.")]
         public string DisplayName { get; set; } = String.Empty;
 
+        public bool IsDemoUser { get; set; }
+
         public ICollection<Project> Projects { get; set; }
         public ICollection<TicketComment> TicketComments { get; set; }
         public ICollection<TicketHistory> TicketHistories { get; set; }
