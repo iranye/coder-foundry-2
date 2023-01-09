@@ -8,21 +8,21 @@
         //private readonly TicketHelper _ticketHelper = new TicketHelper();
         //private readonly TicketHistoryHelper _ticketHistoryHelper = new TicketHistoryHelper();
 
-        //public int OpenTickets
-        //{
-        //    get
-        //    {
-        //        return _db.Tickets.Count(t => t.TicketStatus.Name == "Open");
-        //    }
-        //}
+        public int OpenTickets
+        {
+            get
+            {
+                return 1; // _db.Tickets.Count(t => t.TicketStatus.Name == "Open");
+            }
+        }
 
-        //public int TotalTickets
-        //{
-        //    get
-        //    {
-        //        return _db.Tickets.Count();
-        //    }
-        //}
+        public int TotalTickets
+        {
+            get
+            {
+                return 1; // _db.Tickets.Count();
+            }
+        }
 
         //public int TotalProjects
         //{

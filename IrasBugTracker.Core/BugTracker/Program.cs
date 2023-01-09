@@ -1,3 +1,5 @@
+using System.Text.Json.Serialization;
+
 namespace BugTracker
 {
     public class Program
@@ -6,7 +8,11 @@ namespace BugTracker
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            builder.Services.AddControllersWithViews();
+            builder.Services.AddControllersWithViews()
+            .AddJsonOptions(options =>
+            {
+                options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles;
+            });
 
             var app = builder.Build();
 
