@@ -8,12 +8,12 @@ namespace BugTracker.Models
 
         [Required]
         [StringLength(100)]
-        public string Name { get; set; }
+        public string Name { get; set; } = String.Empty;
 
-        public string Description { get; set; }
+        public string Description { get; set; } = String.Empty;
 
         // Navs
-        public virtual ICollection<Ticket> Tickets { get; set; }
+        public ICollection<Ticket> Tickets { get; set; }
 
         public Project()
         {

@@ -4,13 +4,13 @@
     {
         public int Id { get; set; }
         public DateTime Created { get; set; }
-        public string CommentBody { get; set; }
+        public String CommentBody { get; set; } = String.Empty;
 
         // FKs
         public int TicketId { get; set; }
-        public string AuthorId { get; set; }
+        public String AuthorId { get; set; } = String.Empty;
 
         // Navs
-        public virtual Ticket Ticket { get; set; }
+        public Ticket? Ticket { get; set; }
     }
 }
