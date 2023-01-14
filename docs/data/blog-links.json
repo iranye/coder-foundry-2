@@ -273,5 +273,10 @@
     "id": "055",
     "href": "https://medium.com/codex/how-to-compare-correctly-in-net-definitive-guide-cf66ba79fe8",
     "title": "Comparing in dotnet"  
+  },
+  {
+    "id": "056",
+    "href": "https://www.conventionalcommits.org/en/v1.0.0/",
+    "title": "conventionalcommits.org"
   }
 ]
