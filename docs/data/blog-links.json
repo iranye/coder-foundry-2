@@ -268,5 +268,10 @@
     "id": "054",
     "href": "https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/",
     "title": "Spolsky on Unicode"
-  }  
+  },
+  {
+    "id": "055",
+    "href": "https://medium.com/codex/how-to-compare-correctly-in-net-definitive-guide-cf66ba79fe8",
+    "title": "Comparing in dotnet"  
+  }
 ]
