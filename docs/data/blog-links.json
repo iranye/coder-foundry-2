@@ -278,5 +278,20 @@
     "id": "056",
     "href": "https://www.conventionalcommits.org/en/v1.0.0/",
     "title": "conventionalcommits.org"
+  },
+  {
+    "id": "057",
+    "href": "https://www.hanselman.com/blog/",
+    "title": "hanselman.com/blog"
+  },
+  {
+    "id": "058",
+    "href": "https://blog.codinghorror.com/",
+    "title": "codinghorror"
+  },
+  {
+    "id": "059",
+    "https://devblogs.microsoft.com/dotnet/",
+    "title": "devblogs.microsoft.com"
   }
 ]
