@@ -291,7 +291,7 @@
   },
   {
     "id": "059",
-    "https://devblogs.microsoft.com/dotnet/",
+    "href": "https://devblogs.microsoft.com/dotnet/",
     "title": "devblogs.microsoft.com"
   }
 ]
