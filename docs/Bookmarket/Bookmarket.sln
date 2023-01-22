@@ -5,7 +5,9 @@ VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bookmarket.Domain", "Bookmarket.Domain\Bookmarket.Domain.csproj", "{8AE051DB-B30A-4FDE-97AA-A9B753F4D628}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bookmarket.UI", "Bookmarket.UI\Bookmarket.UI.csproj", "{56409ED2-89D0-416D-9BF7-C8C6438379CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bookmarket.UI", "Bookmarket.UI\Bookmarket.UI.csproj", "{56409ED2-89D0-416D-9BF7-C8C6438379CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bookmarket.Winforms", "Bookmarket.Winforms\Bookmarket.Winforms.csproj", "{9C2E93AB-884A-4854-917A-655071D3E0CD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{56409ED2-89D0-416D-9BF7-C8C6438379CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{56409ED2-89D0-416D-9BF7-C8C6438379CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{56409ED2-89D0-416D-9BF7-C8C6438379CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C2E93AB-884A-4854-917A-655071D3E0CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C2E93AB-884A-4854-917A-655071D3E0CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C2E93AB-884A-4854-917A-655071D3E0CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C2E93AB-884A-4854-917A-655071D3E0CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
