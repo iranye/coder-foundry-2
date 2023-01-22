@@ -7,7 +7,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bookmarket.Domain", "Bookma
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bookmarket.UI", "Bookmarket.UI\Bookmarket.UI.csproj", "{56409ED2-89D0-416D-9BF7-C8C6438379CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bookmarket.Winforms", "Bookmarket.Winforms\Bookmarket.Winforms.csproj", "{9C2E93AB-884A-4854-917A-655071D3E0CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bookmarket.Winforms", "Bookmarket.Winforms\Bookmarket.Winforms.csproj", "{9C2E93AB-884A-4854-917A-655071D3E0CD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{31B18C03-C543-40D6-BFF8-4E1EE253E84F}"
+	ProjectSection(SolutionItems) = preProject
+		Bookmarket_NOTES.txt = Bookmarket_NOTES.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
