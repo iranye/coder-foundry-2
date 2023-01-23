@@ -35,9 +35,10 @@
             this.btnImportHtml = new System.Windows.Forms.Button();
             this.btnImportJson = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.clbTags = new System.Windows.Forms.CheckedListBox();
-            this.txtNewTag = new System.Windows.Forms.TextBox();
             this.btnAddTag = new System.Windows.Forms.Button();
+            this.txtNewTag = new System.Windows.Forms.TextBox();
+            this.clbTags = new System.Windows.Forms.CheckedListBox();
+            this.btnTest = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -117,6 +118,23 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Tags";
             // 
+            // btnAddTag
+            // 
+            this.btnAddTag.Location = new System.Drawing.Point(7, 51);
+            this.btnAddTag.Name = "btnAddTag";
+            this.btnAddTag.Size = new System.Drawing.Size(134, 23);
+            this.btnAddTag.TabIndex = 2;
+            this.btnAddTag.Text = "Add";
+            this.btnAddTag.UseVisualStyleBackColor = true;
+            this.btnAddTag.Click += new System.EventHandler(this.btnAddTag_Click);
+            // 
+            // txtNewTag
+            // 
+            this.txtNewTag.Location = new System.Drawing.Point(7, 22);
+            this.txtNewTag.Name = "txtNewTag";
+            this.txtNewTag.Size = new System.Drawing.Size(134, 23);
+            this.txtNewTag.TabIndex = 1;
+            // 
             // clbTags
             // 
             this.clbTags.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -129,28 +147,22 @@
             this.clbTags.Size = new System.Drawing.Size(141, 454);
             this.clbTags.TabIndex = 0;
             // 
-            // txtNewTag
+            // btnTest
             // 
-            this.txtNewTag.Location = new System.Drawing.Point(7, 22);
-            this.txtNewTag.Name = "txtNewTag";
-            this.txtNewTag.Size = new System.Drawing.Size(134, 23);
-            this.txtNewTag.TabIndex = 1;
-            // 
-            // btnAddTag
-            // 
-            this.btnAddTag.Location = new System.Drawing.Point(7, 51);
-            this.btnAddTag.Name = "btnAddTag";
-            this.btnAddTag.Size = new System.Drawing.Size(134, 23);
-            this.btnAddTag.TabIndex = 2;
-            this.btnAddTag.Text = "Add";
-            this.btnAddTag.UseVisualStyleBackColor = true;
-            this.btnAddTag.Click += new System.EventHandler(this.btnAddTag_Click);
+            this.btnTest.Location = new System.Drawing.Point(358, 227);
+            this.btnTest.Name = "btnTest";
+            this.btnTest.Size = new System.Drawing.Size(88, 23);
+            this.btnTest.TabIndex = 7;
+            this.btnTest.Text = "Test";
+            this.btnTest.UseVisualStyleBackColor = true;
+            this.btnTest.Click += new System.EventHandler(this.btnTest_Click);
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(700, 552);
+            this.Controls.Add(this.btnTest);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.btnImportJson);
             this.Controls.Add(this.btnImportHtml);
@@ -181,5 +193,6 @@
         private CheckedListBox clbTags;
         private Button btnAddTag;
         private TextBox txtNewTag;
+        private Button btnTest;
     }
 }
