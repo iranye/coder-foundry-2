@@ -5,14 +5,14 @@ namespace Bookmarket.Domain.Data
 {
     public interface IBookmarkDataProvider
     {
-        Task<IEnumerable<Bookmark>> GetALlAsync();
+        Task<IEnumerable<Bookmark>> GetAllAsync();
         void Delete(int id);
         void Save(Bookmark bookmark);
         void SaveAll(List<Bookmark> bookmarks);
         string JsonFileFullPath { get; set; }
     }
 
-    internal class BookmarkDataProvider
+    public class BookmarkDataProvider : IBookmarkDataProvider
     {
         // private string _storageFile = @"..\..\data\blog-links.json"; // <== use this for prod
         private string _storageFile = @"..\Data\blog-links.json"; // <== use this for dev
@@ -34,7 +34,7 @@ namespace Bookmarket.Domain.Data
 
         public async Task<IEnumerable<Bookmark>?> GetAllAsync()
         {
-            // await Task.Delay(100); // Simulate a bit of server work
+            await Task.Delay(100); // Simulate a bit of server work
             return ReadFromFile();
         }
 
