@@ -1,4 +1,5 @@
 using System.Text;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace Bookmarket.Winforms
 {
@@ -20,6 +21,7 @@ namespace Bookmarket.Winforms
         {
             InitializeComponent();
         }
+
 
         private void btnImportHtml_Click(object sender, EventArgs e)
         {
@@ -53,6 +55,47 @@ namespace Bookmarket.Winforms
         private void ClearOutput()
         {
             txtOutput.Text = String.Empty;
+        }
+
+        private IEnumerable<string> GetTags()
+        {
+            return new[]
+            {
+                "C#",
+                "Web Dev",
+                "DevOps",
+                "Recreation",
+                "Miscellaneous",
+                "FromHtml"
+            };
+        }
+
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+            foreach (var tag in GetTags())
+            {
+                clbTags.Items.Add(tag);
+            }
+        }
+
+        private void btnAddTag_Click(object sender, EventArgs e)
+        {
+            var tagText = txtNewTag.Text;
+            if (String.IsNullOrWhiteSpace(tagText))
+            {
+                return;
+            }
+
+            foreach (var item in clbTags.Items)
+            {
+                var existingTag = (string)item;
+                if (existingTag.ToLower() == tagText.ToLower())
+                {
+                    return;
+                }
+            }
+            clbTags.Items.Add(tagText);
+            txtNewTag.Text = String.Empty;
         }
     }
 }
