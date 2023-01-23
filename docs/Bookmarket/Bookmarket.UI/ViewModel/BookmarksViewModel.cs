@@ -22,6 +22,20 @@ namespace Bookmarket.UI.ViewModel
 
         public string JsonFileFullPath => _dataProvider.JsonFileFullPath;
 
+        private string _filterString = String.Empty;
+
+        public string FilterString
+        {
+            get { return _filterString; }
+            set
+            {
+                _filterString = value;
+                // ApplyFilter(FilterString, DateFilterOn ? _daysToShow : 0);
+                RaisePropertyChanged("ListViewItems");
+                RaisePropertyChanged();
+            }
+        }
+
         public override async Task LoadAsync()
         {
             if (Bookmarks.Any())
