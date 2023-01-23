@@ -9,18 +9,20 @@ namespace Bookmarket.UI.ViewModel
 {
     public class BookmarksViewModel : ViewModelBase
     {
-        private readonly IBookmarkDataProvider _dataProvider;
-                
-        public BookmarksViewModel(IBookmarkDataProvider dataProvider)
+        private readonly IBookmarkDataProvider _bmDataProvider;
+        private readonly ITagsDataProvider _tagsDataProvider;
+
+        public BookmarksViewModel(IBookmarkDataProvider bmDataProvider, ITagsDataProvider tagsDataProvider)
         {
-            _dataProvider = dataProvider;
+            _bmDataProvider = bmDataProvider;
+            _tagsDataProvider = tagsDataProvider;
         }
 
         public ObservableCollection<BookmarkItemViewModel> Bookmarks { get; } = new();
 
         public ObservableCollection<BookmarkItemViewModel> ListViewItems { get; } = new();
 
-        public string JsonFileFullPath => _dataProvider.JsonFileFullPath;
+        public string JsonFileFullPath => _bmDataProvider.JsonFileFullPath;
 
         private string _filterString = String.Empty;
 
@@ -51,7 +53,7 @@ namespace Bookmarket.UI.ViewModel
             int ret = 0;
             try
             {
-                var bookmarks = await _dataProvider.GetAllAsync();
+                var bookmarks = await _bmDataProvider.GetAllAsync();
                 if (bookmarks is not null)
                 {
                     Bookmarks.Clear();

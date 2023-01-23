@@ -32,6 +32,7 @@ namespace Bookmarket.UI
             services.AddTransient<MainViewModel>();
             services.AddTransient<BookmarksViewModel>();
             services.AddTransient<IBookmarkDataProvider, BookmarkDataProvider>();
+            services.AddTransient<ITagsDataProvider, TagsDataProvider>();
         }
     }
 }

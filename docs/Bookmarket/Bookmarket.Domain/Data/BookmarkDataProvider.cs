@@ -5,7 +5,7 @@ namespace Bookmarket.Domain.Data
 {
     public interface IBookmarkDataProvider
     {
-        Task<IEnumerable<Bookmark>> GetAllAsync();
+        Task<IEnumerable<Bookmark>?> GetAllAsync();
         void Delete(int id);
         void Save(Bookmark bookmark);
         void SaveAll(List<Bookmark> bookmarks);
@@ -106,14 +106,15 @@ namespace Bookmarket.Domain.Data
 
         private List<Bookmark>? ReadFromFile()
         {
+            var tags = new List<Tag>() { new Tag { Id = 1, Name = "C#" } };
             var defaultList = new List<Bookmark>
             {
-                new Bookmark{Id=21, Title= "Adairs", Href="#" },
-                new Bookmark{Id=22, Title= "Adair", Href="#" },
-                new Bookmark{Id=23, Title= "Adak", Href="#" },
-                new Bookmark{Id=24, Title= "Adalberta", Href="#" },
-                new Bookmark{Id=25, Title= "Adamkrafft", Href="#" },
-                new Bookmark{Id=26, Title= "Adams", Href="#" },
+                new Bookmark{Id=21, Title= "Blog Pirate", Href="#", Tags = tags },
+                new Bookmark{Id=22, Title= "Blog Arr", Href="#", Tags = tags },
+                new Bookmark{Id=23, Title= "Chest Blog", Href="#", Tags = tags },
+                new Bookmark{Id=24, Title= "Treasure Blog", Href="#", Tags = tags },
+                new Bookmark{Id=25, Title= "Avast", Href="#", Tags = tags },
+                new Bookmark{Id=26, Title= "Shiver me Timbers", Href="#", Tags = tags },
             };
             if (!File.Exists(_storageFile))
             {
