@@ -1,4 +1,7 @@
 ﻿using Bookmarket.Domain.Models;
+using System;
+using System.Linq;
+using System.Windows.Documents;
 
 namespace Bookmarket.UI.ViewModel
 {
@@ -9,6 +12,11 @@ namespace Bookmarket.UI.ViewModel
         public BookmarkItemViewModel(Bookmark model)
         {
             _model = model;
+        }
+
+        public BookmarkItemViewModel()
+        {
+            _model = new Bookmark();
         }
 
         public int Id
@@ -51,6 +59,24 @@ namespace Bookmarket.UI.ViewModel
                 ret = true;
             }
             return ret;
+        }
+
+        public string? _tagsCsv = String.Empty;
+        public string TagsCsv
+        {
+            get
+            {
+                if (_model.Tags is null)
+                {
+                    return String.Empty;
+                }
+                var tagTitles = _model.Tags.Select(t => t.Name).ToList();
+                return string.Join(",", tagTitles);
+            }
+            set
+            {
+                _tagsCsv = value;
+            }
         }
     }
 }

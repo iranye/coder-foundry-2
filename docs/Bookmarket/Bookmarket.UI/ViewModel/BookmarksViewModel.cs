@@ -19,7 +19,8 @@ namespace Bookmarket.UI.ViewModel
             _tagsDataProvider = tagsDataProvider;
             ClearOutputCommand = new DelegateCommand(ClearOutput);
             ImportJsonCommand = new DelegateCommand(ImportJson);
-            ImportHtmlCommand = new DelegateCommand(ImportHtml); 
+            ImportHtmlCommand = new DelegateCommand(ImportHtml);
+            ClearImportStringCommand = new DelegateCommand(ClearImportString);
         }
 
         public ObservableCollection<BookmarkItemViewModel> Bookmarks { get; } = new();
@@ -36,7 +37,9 @@ namespace Bookmarket.UI.ViewModel
         public DelegateCommand? SaveCommand { get; set; }
                               
         public DelegateCommand? ClearFilterCommand { get; set; }
-                              
+
+        public DelegateCommand? ClearImportStringCommand { get; set; }
+
         public DelegateCommand? ClearOutputCommand { get; set; }
 
         public string JsonFileFullPath => _bmDataProvider.JsonFileFullPath;
@@ -55,15 +58,21 @@ namespace Bookmarket.UI.ViewModel
             }
         }
 
-        private string _outputString = String.Empty;
-        public string OutputString
+        // Import
+        private string _importString = String.Empty;
+        public string ImportString
         {
-            get { return _outputString; }
+            get { return _importString; }
             set
             {
-                _outputString += value;
+                _importString = String.Empty;
                 RaisePropertyChanged();
             }
+        }
+
+        private void ClearImportString(object? parameter)
+        {
+            ImportString = String.Empty;
         }
 
         private void ImportJson(object? parameter)
@@ -76,6 +85,20 @@ namespace Bookmarket.UI.ViewModel
         {
             ClearOutput(null);
             PrintToOutput("Importing HTML");
+        }
+
+        private bool CanImport(object? parameter) => !String.IsNullOrWhiteSpace(ImportString);
+
+        // Output
+        private string _outputString = String.Empty;
+        public string OutputString
+        {
+            get { return _outputString; }
+            set
+            {
+                _outputString += value;
+                RaisePropertyChanged();
+            }
         }
 
         private void ClearOutput(object? parameter)
@@ -96,10 +119,11 @@ namespace Bookmarket.UI.ViewModel
                 return;
             }
 
-            var result = await RefetchVolumes();
+            var result = await RefetchData();
         }
 
-        private async Task<int> RefetchVolumes()
+        // Data
+        private async Task<int> RefetchData()
         {
             int ret = 0;
             try
@@ -116,7 +140,7 @@ namespace Bookmarket.UI.ViewModel
             }
             catch (Exception ex)
             {
-                MessageBoxResult messageBoxResult = System.Windows.MessageBox.Show($"Error: {ex.Message}", "Failed to read data", System.Windows.MessageBoxButton.OK);
+                MessageBoxResult messageBoxResult = MessageBox.Show($"Error: {ex.Message}", "Failed to read data", System.Windows.MessageBoxButton.OK);
             }
 
             return ret;

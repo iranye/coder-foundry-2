@@ -5,6 +5,7 @@ using System.Windows.Input;
 using Bookmarket.UI.ViewModel;
 using System.Diagnostics;
 using System.IO;
+using System.Windows.Documents;
 
 namespace Bookmarket.UI.View
 {
@@ -61,6 +62,22 @@ namespace Bookmarket.UI.View
                 }
                 Process.Start($"CMD.exe", "/C %NP% " + ViewModel.JsonFileFullPath);
             }
+        }
+
+        private void Link_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                var obj = e;
+                var hLink = (Hyperlink)e.OriginalSource;
+                Process.Start(new ProcessStartInfo(hLink.NavigateUri.OriginalString) { UseShellExecute = true });
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("ERROR: " + ex.Message);
+            }
+
+            e.Handled = true;
         }
     }
 }

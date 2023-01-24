@@ -9,7 +9,7 @@
         mc:Ignorable="d"
         Title="Bookmarket.UI"
         d:DesignWidth="500" d:DesignHeight="600"         
-        Height="1200" Width="1700">
+        Height="1200" Width="1400">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
