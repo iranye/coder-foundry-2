@@ -1,4 +1,6 @@
-﻿using Bookmarket.Domain.Data;
+﻿using AutoMapper;
+using Bookmarket.Domain.Data;
+using Bookmarket.Domain.Models;
 using Bookmarket.UI.Command;
 using HtmlAgilityPack;
 using System;
@@ -15,15 +17,18 @@ namespace Bookmarket.UI.ViewModel
     {
         private readonly IBookmarkDataProvider _bmDataProvider;
         private readonly ITagsDataProvider _tagsDataProvider;
+        private readonly IMapper _mapper;
 
-        public BookmarksViewModel(IBookmarkDataProvider bmDataProvider, ITagsDataProvider tagsDataProvider)
+        public BookmarksViewModel(IBookmarkDataProvider bmDataProvider, ITagsDataProvider tagsDataProvider, IMapper mapper)
         {
             _bmDataProvider = bmDataProvider;
             _tagsDataProvider = tagsDataProvider;
             ClearOutputCommand = new DelegateCommand(ClearOutput);
             ImportJsonCommand = new DelegateCommand(ImportJson);
             ImportHtmlCommand = new DelegateCommand(ImportHtml);
+            SaveCommand = new DelegateCommand(Save);
             ClearImportStringCommand = new DelegateCommand(ClearImportString);
+            _mapper = mapper;
         }
 
         public ObservableCollection<BookmarkItemViewModel> Bookmarks { get; } = new();
@@ -134,6 +139,13 @@ namespace Bookmarket.UI.ViewModel
             // Console.WriteLine(str);
         }
 
+        // Save
+        private void Save(object? parameter)
+        {
+            IEnumerable<Bookmark> items = _mapper.Map<IEnumerable<BookmarkItemViewModel>, IEnumerable<Bookmark>>(Bookmarks);
+            _bmDataProvider.SaveAll(items);
+        }
+
         // Output
         private string _outputString = String.Empty;
         public string OutputString
@@ -154,7 +166,7 @@ namespace Bookmarket.UI.ViewModel
 
         private void PrintToOutput(string message)
         {
-            OutputString += message + Environment.NewLine;
+            OutputString = message + Environment.NewLine;
         }
 
         public override async Task LoadAsync()

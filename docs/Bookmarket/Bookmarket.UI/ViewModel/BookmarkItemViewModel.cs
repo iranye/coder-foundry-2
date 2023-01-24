@@ -1,7 +1,7 @@
 ﻿using Bookmarket.Domain.Models;
 using System;
+using System.Collections.Generic;
 using System.Linq;
-using System.Windows.Documents;
 
 namespace Bookmarket.UI.ViewModel
 {
@@ -12,6 +12,13 @@ namespace Bookmarket.UI.ViewModel
         public BookmarkItemViewModel(Bookmark model)
         {
             _model = model;
+            if (_model.Tags is not null)
+            {
+                foreach (var tag in _model.Tags)
+                {
+                    Tags.Add(new TagViewModel { Id = tag.Id, Name = tag.Name });
+                }
+            }
         }
 
         public BookmarkItemViewModel()
@@ -61,21 +68,41 @@ namespace Bookmarket.UI.ViewModel
             return ret;
         }
 
+        public ICollection<TagViewModel>? Tags { get; set; } = new List<TagViewModel>();
+
         public string? _tagsCsv = String.Empty;
         public string TagsCsv
         {
             get
             {
-                if (_model.Tags is null)
+                if (Tags is null || Tags.Count == 0)
                 {
                     return String.Empty;
                 }
-                var tagTitles = _model.Tags.Select(t => t.Name).ToList();
-                return string.Join(",", tagTitles);
+                var tagTitles = Tags.Select(t => t.Name).ToList();
+                _tagsCsv = string.Join(",", tagTitles);
+                return _tagsCsv;
             }
             set
             {
                 _tagsCsv = value;
+                if (Tags is null)
+                {
+                    Tags = new List<TagViewModel>();
+                }
+                else
+                {
+                    Tags.Clear();
+                }
+                if (!String.IsNullOrWhiteSpace(_tagsCsv))
+                {
+                    var tagsArr = _tagsCsv.Split(",");
+                    foreach (var tag in tagsArr)
+                    {
+                        Tags.Add(new TagViewModel { Name = tag });
+                    }
+                }
+                RaisePropertyChanged("TagsCsv");
             }
         }
     }

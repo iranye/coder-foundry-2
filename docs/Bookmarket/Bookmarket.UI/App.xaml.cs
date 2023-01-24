@@ -1,6 +1,7 @@
 ﻿using Bookmarket.Domain.Data;
 using Bookmarket.UI.ViewModel;
 using Microsoft.Extensions.DependencyInjection;
+using System.Reflection;
 using System.Windows;
 
 namespace Bookmarket.UI
@@ -33,6 +34,7 @@ namespace Bookmarket.UI
             services.AddTransient<BookmarksViewModel>();
             services.AddTransient<IBookmarkDataProvider, BookmarkDataProvider>();
             services.AddTransient<ITagsDataProvider, TagsDataProvider>();
+            services.AddAutoMapper(Assembly.GetExecutingAssembly());
         }
     }
 }

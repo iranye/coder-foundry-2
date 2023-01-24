@@ -8,14 +8,13 @@ namespace Bookmarket.Domain.Data
         Task<IEnumerable<Bookmark>?> GetAllAsync();
         void Delete(int id);
         void Save(Bookmark bookmark);
-        void SaveAll(List<Bookmark> bookmarks);
+        void SaveAll(IEnumerable<Bookmark> bookmarks);
         string JsonFileFullPath { get; set; }
     }
 
     public class BookmarkDataProvider : IBookmarkDataProvider
     {
-        // private string _storageFile = @"..\..\data\blog-links.json"; // <== use this for prod
-        private string _storageFile = @"..\Data\blog-links.json"; // <== use this for dev
+        private string _storageFile = @"..\..\Data\blog-links.json"; // <== use this for dev
 
         public string JsonFileFullPath
         {
@@ -38,69 +37,69 @@ namespace Bookmarket.Domain.Data
             return ReadFromFile();
         }
 
-        public void Save(Bookmark volume)
+        public void Save(Bookmark bookmark)
         {
-            if (volume.Id <= 0)
+            if (bookmark.Id <= 0)
             {
-                Insert(volume);
+                Insert(bookmark);
             }
             else
             {
-                Update(volume);
+                Update(bookmark);
             }
         }
 
-        public void SaveAll(List<Bookmark> volumeList)
+        public void SaveAll(IEnumerable<Bookmark> bookmarkList)
         {
-            SaveToFile(volumeList);
+            SaveToFile(bookmarkList);
         }
 
         public void Delete(int id)
         {
-            var volumes = ReadFromFile();
-            if (volumes is null)
+            var bookmarks = ReadFromFile();
+            if (bookmarks is null)
             {
                 return;
             }
 
-            var existing = volumes.SingleOrDefault(f => f.Id == id);
+            var existing = bookmarks.SingleOrDefault(f => f.Id == id);
             if (existing != null)
             {
-                volumes.Remove(existing);
-                SaveToFile(volumes);
+                bookmarks.Remove(existing);
+                SaveToFile(bookmarks);
             }
         }
 
-        private void Update(Bookmark volume)
+        private void Update(Bookmark bookmark)
         {
-            var volumes = ReadFromFile();
-            if (volumes is null)
+            var bookmarks = ReadFromFile();
+            if (bookmarks is null)
             {
                 return;
             }
-            var existing = volumes.Single(f => f.Id == volume.Id);
-            var indexOfExisting = volumes.IndexOf(existing);
-            volumes.Insert(indexOfExisting, volume);
-            volumes.Remove(existing);
-            SaveToFile(volumes);
+            var existing = bookmarks.Single(f => f.Id == bookmark.Id);
+            var indexOfExisting = bookmarks.IndexOf(existing);
+            bookmarks.Insert(indexOfExisting, bookmark);
+            bookmarks.Remove(existing);
+            SaveToFile(bookmarks);
         }
 
-        private void Insert(Bookmark volume)
+        private void Insert(Bookmark bookmark)
         {
-            var volumes = ReadFromFile();
-            if (volumes is null)
+            var bookmarks = ReadFromFile();
+            if (bookmarks is null)
             {
                 return;
             }
-            var maxBookmarkId = volumes.Count == 0 ? 0 : volumes.Max(f => f.Id);
-            volume.Id = maxBookmarkId + 1;
-            volumes.Add(volume);
-            SaveToFile(volumes);
+            var maxBookmarkId = bookmarks.Count == 0 ? 0 : bookmarks.Max(f => f.Id);
+            bookmark.Id = maxBookmarkId + 1;
+            bookmarks.Add(bookmark);
+            SaveToFile(bookmarks);
         }
 
-        private void SaveToFile(List<Bookmark> volumeList)
+        private void SaveToFile(IEnumerable<Bookmark> bookmarkList)
         {
-            string json = JsonConvert.SerializeObject(volumeList, Formatting.Indented);
+            string json = JsonConvert.SerializeObject(bookmarkList, Formatting.Indented);
             File.WriteAllText(_storageFile, json);
         }
 
