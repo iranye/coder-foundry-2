@@ -1,4 +1,5 @@
 ﻿using Bookmarket.Domain.Data;
+using Bookmarket.UI.Command;
 using System;
 using System.Collections.ObjectModel;
 using System.Linq;
@@ -16,11 +17,27 @@ namespace Bookmarket.UI.ViewModel
         {
             _bmDataProvider = bmDataProvider;
             _tagsDataProvider = tagsDataProvider;
+            ClearOutputCommand = new DelegateCommand(ClearOutput);
+            ImportJsonCommand = new DelegateCommand(ImportJson);
+            ImportHtmlCommand = new DelegateCommand(ImportHtml); 
         }
 
         public ObservableCollection<BookmarkItemViewModel> Bookmarks { get; } = new();
 
         public ObservableCollection<BookmarkItemViewModel> ListViewItems { get; } = new();
+
+
+        public DelegateCommand? ImportJsonCommand { get; }
+
+        public DelegateCommand? ImportHtmlCommand { get; }
+
+        public DelegateCommand? DeleteCommand { get; }
+                              
+        public DelegateCommand? SaveCommand { get; set; }
+                              
+        public DelegateCommand? ClearFilterCommand { get; set; }
+                              
+        public DelegateCommand? ClearOutputCommand { get; set; }
 
         public string JsonFileFullPath => _bmDataProvider.JsonFileFullPath;
 
@@ -36,6 +53,40 @@ namespace Bookmarket.UI.ViewModel
                 RaisePropertyChanged("ListViewItems");
                 RaisePropertyChanged();
             }
+        }
+
+        private string _outputString = String.Empty;
+        public string OutputString
+        {
+            get { return _outputString; }
+            set
+            {
+                _outputString += value;
+                RaisePropertyChanged();
+            }
+        }
+
+        private void ImportJson(object? parameter)
+        {
+            ClearOutput(null);
+            PrintToOutput("Importing JSON");
+        }
+
+        private void ImportHtml(object? parameter)
+        {
+            ClearOutput(null);
+            PrintToOutput("Importing HTML");
+        }
+
+        private void ClearOutput(object? parameter)
+        {
+            _outputString = String.Empty;
+            RaisePropertyChanged("OutputString");
+        }
+
+        private void PrintToOutput(string message)
+        {
+            OutputString += message;
         }
 
         public override async Task LoadAsync()
