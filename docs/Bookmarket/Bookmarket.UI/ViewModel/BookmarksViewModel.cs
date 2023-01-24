@@ -1,6 +1,9 @@
 ﻿using Bookmarket.Domain.Data;
 using Bookmarket.UI.Command;
+using HtmlAgilityPack;
 using System;
+using System.Collections;
+using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
 using System.Threading.Tasks;
@@ -85,9 +88,51 @@ namespace Bookmarket.UI.ViewModel
         {
             ClearOutput(null);
             PrintToOutput("Importing HTML");
+            TestHtmlParse();
         }
 
         private bool CanImport(object? parameter) => !String.IsNullOrWhiteSpace(ImportString);
+
+        private void TestHtmlParse()
+        {
+            var doc = new HtmlDocument();
+            var node = HtmlNode.CreateNode("<html><head></head><body></body></html>");
+            doc.DocumentNode.AppendChild(node);
+            var html = "<p><b>Test1</b></p><p>Test1 paragraph</p><p><b>Test2</b></p><p>Test2 paragraph</p><p><b>Test3</b></p><p>Test3 paragraph</p>";
+            var str = "";
+            doc.LoadHtml(html);
+
+            IEnumerable nodes = doc.DocumentNode.ChildNodes.Where(n => n.Name.Contains("p")).ToList();
+
+            var items = new List<Item>();
+            var item = new Item();
+
+            foreach (var paraNode in nodes)
+            {
+                var htmlNode = paraNode as HtmlNode;
+                if (htmlNode is null)
+                {
+                    continue;
+                }
+                if (htmlNode.SelectSingleNode("./b") is not null)
+                {
+                    item = new Item();
+                    item.Title = htmlNode.SelectSingleNode("./b").InnerText;
+                }
+                else
+                {
+                    item.Text = htmlNode.InnerText.Trim();
+                    items.Add(item);
+                }
+            }
+
+            foreach (var i in items)
+            {
+                PrintToOutput("Title: " + i.Title + ", Text: " + i.Text);
+            }
+
+            // Console.WriteLine(str);
+        }
 
         // Output
         private string _outputString = String.Empty;
@@ -109,7 +154,7 @@ namespace Bookmarket.UI.ViewModel
 
         private void PrintToOutput(string message)
         {
-            OutputString += message;
+            OutputString += message + Environment.NewLine;
         }
 
         public override async Task LoadAsync()
@@ -150,9 +195,9 @@ namespace Bookmarket.UI.ViewModel
         private bool CanSave(object? parameter) { return true; }
     }
 
-    public enum NavigationSide
+    public class Item
     {
-        Left,
-        Right
+        public string Title { get; set; }
+        public string Text { get; set; }
     }
 }

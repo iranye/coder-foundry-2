@@ -11,7 +11,8 @@
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
             <RowDefinition/>
-            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="5"/>
+            <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
         <StackPanel>
             <GroupBox Header="S_earch"  Margin="6,0" Padding="0">
@@ -61,10 +62,11 @@
                 </Grid>
             </GroupBox>
         </StackPanel>
-        <StackPanel Grid.Row="2" MinHeight="200">
+        <StackPanel Grid.Row="2">
             <GroupBox Header="Bookmarks" Margin="6,0" Padding="0">
                 <StackPanel>
-                    <DataGrid AutoGenerateColumns="False" AlternationCount="2" ItemsSource="{Binding Bookmarks}" Margin="0 0 0 8">
+                    <DataGrid AutoGenerateColumns="False" AlternationCount="2" ItemsSource="{Binding Bookmarks}" Margin="0 0 0 8"
+                              Height="300">
                         <DataGrid.Columns>
                             <DataGridTextColumn Binding="{Binding Title}" Header="Title"/>
                             <DataGridHyperlinkColumn Binding="{Binding Href}" Header="Href">
@@ -80,9 +82,15 @@
                 </StackPanel>
             </GroupBox>
         </StackPanel>
-        <StackPanel Grid.Row="3">
-            <GroupBox Header="Output" Margin="6,0" Padding="0">
-                <Grid>
+
+        <GridSplitter Grid.Row="3"
+                          Height="5"
+                          VerticalAlignment="Center"
+                          ResizeDirection="Auto"
+                          HorizontalAlignment="Stretch" />
+        <DockPanel Grid.Row="4" Height="Auto">
+            <GroupBox Header="Output" Margin="6,0" DockPanel.Dock="Bottom" Padding="0" >
+                <Grid VerticalAlignment="Stretch">
                     <Grid.RowDefinitions>
                         <RowDefinition Height="60"/>
                         <RowDefinition/>
@@ -92,15 +100,16 @@
                     </StackPanel>
                     <DockPanel Grid.Row="1">
                         <TextBox Text="{Binding OutputString}"
+                                 VerticalAlignment="Stretch"
                                  DockPanel.Dock="Left"
                                  Width="Auto"
-                                 Height="240"
+                                 Height="Auto"
                                  HorizontalContentAlignment="Stretch"
                                  TextAlignment="Justify" />
                     </DockPanel>
                 </Grid>
             </GroupBox>
-        </StackPanel>
+        </DockPanel>
 
     </Grid>
 </UserControl>
