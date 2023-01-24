@@ -7,7 +7,9 @@
         xmlns:view="clr-namespace:Bookmarket.UI.View"
         xmlns:local="clr-namespace:Bookmarket.UI"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800" FontSize="20">
+        Title="Bookmarket.UI"
+        d:DesignWidth="500" d:DesignHeight="600"         
+        Height="1370" Width="1900">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>

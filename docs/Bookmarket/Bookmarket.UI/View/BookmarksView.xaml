@@ -36,6 +36,30 @@
                 </StackPanel>
             </GroupBox>
         </StackPanel>
+        <StackPanel Grid.Row="1">
+            <GroupBox Header="Import" Margin="6,0" Padding="0">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="60"/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <StackPanel Orientation="Horizontal">
+                        <Button HorizontalAlignment="Left" Content="Import JSON" Width="95" ToolTip="Import JSON" />
+                        <Button HorizontalAlignment="Left" Content="Import HTML" Width="95" ToolTip="Import HTML" />
+                    </StackPanel>
+                    <DockPanel Grid.Row="1">
+                        <TextBox Text="{Binding ImportString}"
+                                 DockPanel.Dock="Left"
+                                 Width="Auto"
+                                 Height="207"
+                                 HorizontalContentAlignment="Stretch"
+                                 TextAlignment="Justify" />
+                    </DockPanel>
+                </Grid>
+                
+
+            </GroupBox>
+        </StackPanel>
 
     </Grid>
 </UserControl>
