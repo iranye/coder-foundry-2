@@ -16,7 +16,7 @@ namespace Bookmarket.UI.ViewModel
             {
                 foreach (var tag in _model.Tags)
                 {
-                    Tags.Add(new TagViewModel { Id = tag.Id, Name = tag.Name });
+                    Tags.Add(new TagViewModel(tag));
                 }
             }
         }
@@ -79,7 +79,7 @@ namespace Bookmarket.UI.ViewModel
                 {
                     return String.Empty;
                 }
-                var tagTitles = Tags.Select(t => t.Name).ToList();
+                var tagTitles = Tags.Select(t => t.ToString()).ToList();
                 _tagsCsv = string.Join(",", tagTitles);
                 return _tagsCsv;
             }
@@ -99,7 +99,21 @@ namespace Bookmarket.UI.ViewModel
                     var tagsArr = _tagsCsv.Split(",");
                     foreach (var tag in tagsArr)
                     {
-                        Tags.Add(new TagViewModel { Name = tag });
+                        // TODO: probably have to inject _tagsDataProvider
+                        if (tag.Contains(":"))
+                        {
+                            var tagsAgg = tag.Split(':');
+                            if (Int32.TryParse(tagsAgg[0], out var tagId))
+                            {
+                                Tags.Add
+                                (
+                                    new TagViewModel
+                                    (
+                                        new Tag { Id = tagId, Name = tagsAgg[1] }
+                                    )
+                                );
+                            }
+                        }
                     }
                 }
                 RaisePropertyChanged("TagsCsv");

@@ -43,11 +43,11 @@ namespace Bookmarket.Domain.Data
             return new List<Tag>
             {
                 new Tag { Id=01, Name="C#",},
-                new Tag { Id=02, Name="Web Dev",},
-                new Tag { Id=03, Name="DevOps",},
-                new Tag { Id=04, Name="Recreation",},
-                new Tag { Id=05, Name="Miscellaneous",},
-                new Tag { Id=06, Name="FromHtml"},
+                new Tag { Id=02, Name="web-dev",},
+                new Tag { Id=03, Name="dev-ops",},
+                new Tag { Id=04, Name="recr",},
+                new Tag { Id=05, Name="misc",},
+                new Tag { Id=06, Name="from-html"},
             };
         }
 

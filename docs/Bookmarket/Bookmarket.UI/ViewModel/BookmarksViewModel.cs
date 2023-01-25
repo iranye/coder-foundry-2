@@ -8,6 +8,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 
@@ -32,6 +33,8 @@ namespace Bookmarket.UI.ViewModel
         }
 
         public ObservableCollection<BookmarkItemViewModel> Bookmarks { get; } = new();
+
+        public ObservableCollection<TagViewModel> Tags { get; } = new();
 
         public ObservableCollection<BookmarkItemViewModel> ListViewItems { get; } = new();
 
@@ -176,11 +179,13 @@ namespace Bookmarket.UI.ViewModel
                 return;
             }
 
-            var result = await RefetchData();
+            ClearOutput(null);
+            var result = await RefetchBookmarkData();
+            result = await RefetchTagsData();
         }
 
         // Data
-        private async Task<int> RefetchData()
+        private async Task<int> RefetchBookmarkData()
         {
             int ret = 0;
             try
@@ -200,6 +205,38 @@ namespace Bookmarket.UI.ViewModel
                 MessageBoxResult messageBoxResult = MessageBox.Show($"Error: {ex.Message}", "Failed to read data", System.Windows.MessageBoxButton.OK);
             }
 
+            PrintToOutput($"Loaded {Bookmarks.Count} Bookmarks");
+            return ret;
+        }
+
+        private async Task<int> RefetchTagsData()
+        {
+            int ret = 0;
+            try
+            {
+                var tags = await _tagsDataProvider.GetAllAsync();
+                if (tags is not null)
+                {
+                    Tags.Clear();
+                    foreach (var tag in tags)
+                    {
+                        Tags.Add(new TagViewModel(tag));
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBoxResult messageBoxResult = MessageBox.Show($"Error: {ex.Message}", "Failed to read data", System.Windows.MessageBoxButton.OK);
+            }
+
+            PrintToOutput($"Loaded {Tags.Count} Tags");
+
+            var sb = new StringBuilder();
+            foreach (var tag in Tags)
+            {
+                sb.AppendLine(tag.ToString());
+            }
+            PrintToOutput(sb.ToString());
             return ret;
         }
 
