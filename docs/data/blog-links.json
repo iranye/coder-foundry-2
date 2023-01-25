@@ -298,5 +298,11 @@
     "id": "060",
     "href": "https://www.nytimes.com/2023/01/14/opinion/american-history-college-university-academia.html",
     "title": "The Decline of US History"
+  },
+  {
+    "id": "061",
+    "href": "https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blob-pageblob-overview?tabs=dotnet",
+    "title": "Azure Blob Storage"
   }
+  
 ]
