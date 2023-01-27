@@ -7,6 +7,7 @@
         xmlns:view="clr-namespace:Bookmarket.UI.View"
         xmlns:local="clr-namespace:Bookmarket.UI"
         mc:Ignorable="d"
+        Icon="./Bokehlicia-Captiva-Bulb.ico"
         Title="Bookmarket.UI"
         d:DesignWidth="500" d:DesignHeight="600"         
         Height="1200" Width="1400">

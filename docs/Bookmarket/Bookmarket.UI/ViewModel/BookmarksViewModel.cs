@@ -96,7 +96,7 @@ namespace Bookmarket.UI.ViewModel
             get { return _importString; }
             set
             {
-                _importString = String.Empty;
+                _importString = value;
                 RaisePropertyChanged();
             }
         }
@@ -122,9 +122,21 @@ namespace Bookmarket.UI.ViewModel
 
         private void AddBookmark(object? parameter)
         {
-            // Check for selected Tags, use when importing bookmarks
             ClearOutput(null);
-            PrintToOutput("Adding Bookmark");
+            // Check for selected Tags, use when importing bookmarks
+            if (String.IsNullOrEmpty(ImportString))
+            {
+                PrintToOutput("Enter Title, Href into Import Textarea");
+                var sb = new StringBuilder();
+                sb.AppendLine("<Title>");
+                sb.AppendLine("<Href>");
+                ImportString = sb.ToString();
+            }
+            else
+            {
+                PrintToOutput("Adding Bookmark");
+
+            }
         }
 
         private bool CanImport(object? parameter) => !String.IsNullOrWhiteSpace(ImportString);

@@ -24,6 +24,8 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
         <StackPanel>
+
+            <!--Import/Add-->
             <Expander Header="Import" Margin="6,0" Padding="0">
                 <Grid>
                     <Grid.RowDefinitions>
@@ -69,13 +71,14 @@
             <GroupBox Header="Bookmarks" Margin="6,0" Padding="0">
                 <WrapPanel>
                     <TextBox Text="{Binding FilterString}"
-                                 DockPanel.Dock="Right"
-                                 Width="260"
-                                 Height="27"
-                                 HorizontalContentAlignment="Stretch"
-                                 Name="SearchInput"
-                                 KeyDown="SearchInput_KeyDown"
-                                 TextAlignment="Justify" />
+                             DockPanel.Dock="Right"
+                             Width="260"
+                             Height="27"
+                             HorizontalContentAlignment="Stretch"
+                             Name="SearchInput"
+                             ToolTip="Search"
+                             KeyDown="SearchInput_KeyDown"
+                             TextAlignment="Justify" />
                     <Button HorizontalAlignment="Left" Content="_Clear" Width="75" Click="ClearFilter_Click" Command="{Binding ClearFilterCommand}" />
                     <Button HorizontalAlignment="Left" Content="_JSON" Width="75" Click="ViewJson_Click" ToolTip="Open JSON File" />
 
