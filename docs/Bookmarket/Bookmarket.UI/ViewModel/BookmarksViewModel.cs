@@ -105,6 +105,7 @@ namespace Bookmarket.UI.ViewModel
 
         private void ImportHtml(object? parameter)
         {
+            // Check for selected Tags, use when importing bookmarks
             ClearOutput(null);
             PrintToOutput("Importing HTML");
             TestHtmlParse();
@@ -158,6 +159,7 @@ namespace Bookmarket.UI.ViewModel
         {
             IEnumerable<Bookmark> items = _mapper.Map<IEnumerable<BookmarkItemViewModel>, IEnumerable<Bookmark>>(Bookmarks);
             _bmDataProvider.SaveAll(items);
+            PrintToOutput($"Saved to '{JsonFileFullPath}'");
         }
 
         // Output
