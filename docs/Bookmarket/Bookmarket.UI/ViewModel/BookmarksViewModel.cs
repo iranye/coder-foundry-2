@@ -135,7 +135,36 @@ namespace Bookmarket.UI.ViewModel
             else
             {
                 PrintToOutput("Adding Bookmark");
-
+                var title = String.Empty;
+                var href = String.Empty;
+                Dictionary<string, string> newBookmarks = new Dictionary<string, string>();
+                foreach (var strLing in ImportString.Split(new string[] { Environment.NewLine }, StringSplitOptions.RemoveEmptyEntries))
+                {
+                    if (String.IsNullOrWhiteSpace(title))
+                    {
+                        title = strLing;
+                    }
+                    else
+                    {
+                        href = strLing;
+                        newBookmarks.Add(title, href);
+                        title = String.Empty;
+                        href = String.Empty;
+                    }
+                }
+                if (String.IsNullOrWhiteSpace(title) || String.IsNullOrWhiteSpace(href))
+                {
+                    PrintToOutput("Invalid Title or Href");
+                }
+                foreach (var el in newBookmarks)
+                {
+                    if (!Bookmarks.Any(b => b.Title == el.Key))
+                    {
+                        var bm = new Bookmark { Title = el.Key, Href = el.Value };
+                        var bmItemViewModel = new BookmarkItemViewModel(bm);
+                        Bookmarks.Add(bmItemViewModel);
+                    }
+                }
             }
         }
 

@@ -1,5 +1,10 @@
 Bookmarket
 
+TODO:
+	Fix to allow tag add/edits in DataGrid
+	Refactor out text-handling for add/importing:
+		include validation, range-checks
+
 Plan A:
 Provide separate tabs:
 	One for IMPORT actions

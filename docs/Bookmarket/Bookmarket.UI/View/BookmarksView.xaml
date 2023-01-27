@@ -48,6 +48,9 @@
                                  DockPanel.Dock="Left"
                                  Width="Auto"
                                  Height="290"
+                                 TextWrapping="Wrap"
+                                 VerticalScrollBarVisibility="Auto"
+                                 AcceptsReturn="True"
                                  HorizontalContentAlignment="Stretch"
                                  TextAlignment="Justify" />
                     </DockPanel>
