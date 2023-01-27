@@ -60,10 +60,6 @@ namespace Bookmarket.UI.View
             Keyboard.Focus(SearchInput);
         }
 
-        private void AddNewItem_Click(object sender, RoutedEventArgs e)
-        {
-        }
-
         private void ViewJson_Click(object sender, RoutedEventArgs e)
         {
             if (ViewModel != null)

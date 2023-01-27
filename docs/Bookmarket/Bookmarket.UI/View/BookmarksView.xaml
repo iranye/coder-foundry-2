@@ -34,6 +34,12 @@
                         <Button Command="{Binding ImportJsonCommand}" HorizontalAlignment="Left" Content="Import JSON" Width="95" ToolTip="Import JSON" />
                         <Button Command="{Binding ImportHtmlCommand}" HorizontalAlignment="Left" Content="Import HTML" Width="95" ToolTip="Import HTML" />
                         <Button Command="{Binding ClearImportStringCommand}" HorizontalAlignment="Left" Content="Clear" Width="95" ToolTip="Clear Import Textarea" />
+                        <Button Command="{Binding AddCommand}" Width="95">
+                            <StackPanel Orientation="Horizontal">
+                                <Image Source="/Images/add.png" Height="18" Margin="5 0 5 0"/>
+                                <TextBlock Text="Add"/>
+                            </StackPanel>
+                        </Button>
                     </StackPanel>
                     <DockPanel Grid.Row="1">
                         <TextBox Text="{Binding ImportString}"
@@ -47,29 +53,6 @@
             </Expander>
         </StackPanel>
         <StackPanel Grid.Row="1">
-            <GroupBox Header="S_earch"  Margin="6,0" Padding="0">
-                <StackPanel Height="60">
-                    <TextBox Text="{Binding FilterString}"
-                                 DockPanel.Dock="Left"
-                                 MinWidth="260"
-                                 Height="27"
-                                 HorizontalContentAlignment="Stretch"
-                                 Name="SearchInput"
-                                 KeyDown="SearchInput_KeyDown"
-                                 TextAlignment="Justify" />
-                    <StackPanel Margin="0 2" Orientation="Horizontal" >
-                        <Button HorizontalAlignment="Left" Content="_Clear" Width="75" Click="ClearFilter_Click" Command="{Binding ClearFilterCommand}" />
-                        <Button HorizontalAlignment="Left" Content="_JSON" Width="75" Click="ViewJson_Click" ToolTip="Open JSON File" />
-
-                        <Button Width="75" Command="{Binding AddCommand}" Click="AddNewItem_Click">
-                            <StackPanel Orientation="Horizontal">
-                                <Image Source="/Images/add.png" Height="18" Margin="0 0 5 0"/>
-                                <TextBlock Text="Add"/>
-                            </StackPanel>
-                        </Button>
-                    </StackPanel>
-                </StackPanel>
-            </GroupBox>
             <GroupBox Header="Tags"  Margin="6,0" Padding="0" DockPanel.Dock="Top">
                 <WrapPanel Height="60" Name="TagsWrapPanel">
                     <ItemsControl ItemsSource="{Binding Tags}">
@@ -82,7 +65,19 @@
                 </WrapPanel>
             </GroupBox>
             <GroupBox Header="Bookmarks" Margin="6,0" Padding="0">
-                <StackPanel>
+                <WrapPanel>
+
+                    <TextBox Text="{Binding FilterString}"
+                                 DockPanel.Dock="Right"
+                                 Width="260"
+                                 Height="27"
+                                 HorizontalContentAlignment="Stretch"
+                                 Name="SearchInput"
+                                 KeyDown="SearchInput_KeyDown"
+                                 TextAlignment="Justify" />
+                    <Button HorizontalAlignment="Left" Content="_Clear" Width="75" Click="ClearFilter_Click" Command="{Binding ClearFilterCommand}" />
+                    <Button HorizontalAlignment="Left" Content="_JSON" Width="75" Click="ViewJson_Click" ToolTip="Open JSON File" />
+
                     <Button Command="{Binding SaveCommand}" HorizontalAlignment="Left" Content="Save" Width="95" Height="30" ToolTip="Save to JSON" />
                     <DataGrid AutoGenerateColumns="False" AlternationCount="2" ItemsSource="{Binding Bookmarks}" Margin="0 0 0 8"
                               Height="300">
@@ -98,7 +93,7 @@
                             </DataGridHyperlinkColumn>
                         </DataGrid.Columns>
                     </DataGrid>
-                </StackPanel>
+                </WrapPanel>
             </GroupBox>
         </StackPanel>
 
