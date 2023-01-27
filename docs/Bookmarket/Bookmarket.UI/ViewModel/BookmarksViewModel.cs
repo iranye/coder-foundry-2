@@ -29,6 +29,8 @@ namespace Bookmarket.UI.ViewModel
             ImportHtmlCommand = new DelegateCommand(ImportHtml);
             SaveCommand = new DelegateCommand(Save);
             ClearImportStringCommand = new DelegateCommand(ClearImportString);
+            AddBookmarkCommand = new DelegateCommand(AddBookmark);
+            ClearFilterCommand = new DelegateCommand(ClearFilterString);
             _mapper = mapper;
         }
 
@@ -51,6 +53,8 @@ namespace Bookmarket.UI.ViewModel
 
         public DelegateCommand? ClearImportStringCommand { get; set; }
 
+        public DelegateCommand? AddBookmarkCommand { get; set; }
+
         public DelegateCommand? ClearOutputCommand { get; set; }
 
         public string JsonFileFullPath => _bmDataProvider.JsonFileFullPath;
@@ -68,6 +72,11 @@ namespace Bookmarket.UI.ViewModel
                 RaisePropertyChanged("ListViewItems");
                 RaisePropertyChanged();
             }
+        }
+
+        private void ClearFilterString(object? parameter)
+        {
+            FilterString = String.Empty;
         }
 
         internal void TagCheckChanged()
@@ -109,6 +118,13 @@ namespace Bookmarket.UI.ViewModel
             ClearOutput(null);
             PrintToOutput("Importing HTML");
             TestHtmlParse();
+        }
+
+        private void AddBookmark(object? parameter)
+        {
+            // Check for selected Tags, use when importing bookmarks
+            ClearOutput(null);
+            PrintToOutput("Adding Bookmark");
         }
 
         private bool CanImport(object? parameter) => !String.IsNullOrWhiteSpace(ImportString);

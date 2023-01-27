@@ -5,7 +5,7 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:Bookmarket.UI"
              mc:Ignorable="d" 
-             d:DesignHeight="1150" d:DesignWidth="800"
+             d:DesignHeight="1150" d:DesignWidth="500"
              xmlns:vm="clr-namespace:Bookmarket.UI.ViewModel">
     <UserControl.Resources>
         <ResourceDictionary>
@@ -34,7 +34,7 @@
                         <Button Command="{Binding ImportJsonCommand}" HorizontalAlignment="Left" Content="Import JSON" Width="95" ToolTip="Import JSON" />
                         <Button Command="{Binding ImportHtmlCommand}" HorizontalAlignment="Left" Content="Import HTML" Width="95" ToolTip="Import HTML" />
                         <Button Command="{Binding ClearImportStringCommand}" HorizontalAlignment="Left" Content="Clear" Width="95" ToolTip="Clear Import Textarea" />
-                        <Button Command="{Binding AddCommand}" Width="95">
+                        <Button Command="{Binding AddBookmarkCommand}" Width="95">
                             <StackPanel Orientation="Horizontal">
                                 <Image Source="/Images/add.png" Height="18" Margin="5 0 5 0"/>
                                 <TextBlock Text="Add"/>
@@ -64,9 +64,10 @@
                     </ItemsControl>
                 </WrapPanel>
             </GroupBox>
+
+            <!--Bookmarks-->
             <GroupBox Header="Bookmarks" Margin="6,0" Padding="0">
                 <WrapPanel>
-
                     <TextBox Text="{Binding FilterString}"
                                  DockPanel.Dock="Right"
                                  Width="260"
@@ -80,7 +81,7 @@
 
                     <Button Command="{Binding SaveCommand}" HorizontalAlignment="Left" Content="Save" Width="95" Height="30" ToolTip="Save to JSON" />
                     <DataGrid AutoGenerateColumns="False" AlternationCount="2" ItemsSource="{Binding Bookmarks}" Margin="0 0 0 8"
-                              Height="300">
+                              Height="440">
                         <DataGrid.Columns>
                             <DataGridTextColumn Binding="{Binding Title}" Header="Title"/>
                             <DataGridTextColumn Binding="{Binding TagsCsv}" Header="Tags"/>
@@ -98,10 +99,12 @@
         </StackPanel>
 
         <GridSplitter Grid.Row="2"
-                          Height="5"
+                          Height="7"
                           VerticalAlignment="Center"
                           ResizeDirection="Auto"
                           HorizontalAlignment="Stretch" />
+
+        <!--Log-->
         <DockPanel Grid.Row="4" Height="Auto">
             <GroupBox Header="Output" Margin="6,0" DockPanel.Dock="Bottom" Padding="0" >
                 <Grid VerticalAlignment="Stretch">
