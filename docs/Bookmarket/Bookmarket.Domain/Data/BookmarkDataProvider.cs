@@ -14,7 +14,7 @@ namespace Bookmarket.Domain.Data
 
     public class BookmarkDataProvider : IBookmarkDataProvider
     {
-        private string _storageFile = @"..\..\Data\blog-links.json"; // <== use this for dev
+        private string _storageFile = @"..\..\data\blog-links.json";
 
         public string JsonFileFullPath
         {

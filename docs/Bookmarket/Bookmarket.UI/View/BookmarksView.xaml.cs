@@ -42,6 +42,19 @@ namespace Bookmarket.UI.View
             }
         }
 
+        private void TagCheckBox_CheckedChanged(object sender, RoutedEventArgs e)
+        {
+            if (ViewModel != null)
+            {
+                ViewModel.TagCheckChanged();
+            }
+            //var chkBox = (CheckBox)e.OriginalSource;
+            //if (chkBox != null)
+            //{
+            //    var tagText = chkBox.Content;
+            //}
+        }
+
         private void ClearFilter_Click(object sender, RoutedEventArgs e)
         {
             Keyboard.Focus(SearchInput);

@@ -13,7 +13,7 @@
             <TextBlock Text="Bookmarket" FontSize="30" 
                        Foreground="{StaticResource HeaderForegroundBrush}" VerticalAlignment="Center"/>
             <TextBlock Name="Version" Text="Version 1.0" FontSize="16"
-                       Foreground="#DDDDDD" VerticalAlignment="Bottom" Margin="10 0 0 30"/>
+                       Foreground="#DDDDDD" VerticalAlignment="Bottom" Margin="10 0 0 5"/>
         </StackPanel>
     </Grid>
 </UserControl>

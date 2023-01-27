@@ -5,7 +5,17 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:Bookmarket.UI"
              mc:Ignorable="d" 
-             d:DesignHeight="1150" d:DesignWidth="800">
+             d:DesignHeight="1150" d:DesignWidth="800"
+             xmlns:vm="clr-namespace:Bookmarket.UI.ViewModel">
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <DataTemplate DataType="{x:Type vm:TagViewModel}">
+                <CheckBox Margin="5" IsChecked="{Binding Selected}" Checked="TagCheckBox_CheckedChanged" Unchecked="TagCheckBox_CheckedChanged">
+                    <TextBlock Text="{Binding Name}"></TextBlock>
+                </CheckBox>
+            </DataTemplate>
+        </ResourceDictionary>
+    </UserControl.Resources>
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
@@ -60,8 +70,15 @@
                     </StackPanel>
                 </StackPanel>
             </GroupBox>
-            <GroupBox Header="Tags"  Margin="6,0" Padding="0">
-                <WrapPanel Height="60" Name="TagsWrapPanel">                    
+            <GroupBox Header="Tags"  Margin="6,0" Padding="0" DockPanel.Dock="Top">
+                <WrapPanel Height="60" Name="TagsWrapPanel">
+                    <ItemsControl ItemsSource="{Binding Tags}">
+                        <ItemsControl.ItemsPanel>
+                            <ItemsPanelTemplate>
+                                <WrapPanel/>
+                            </ItemsPanelTemplate>
+                        </ItemsControl.ItemsPanel>
+                    </ItemsControl>
                 </WrapPanel>
             </GroupBox>
             <GroupBox Header="Bookmarks" Margin="6,0" Padding="0">
@@ -71,6 +88,7 @@
                               Height="300">
                         <DataGrid.Columns>
                             <DataGridTextColumn Binding="{Binding Title}" Header="Title"/>
+                            <DataGridTextColumn Binding="{Binding TagsCsv}" Header="Tags"/>
                             <DataGridHyperlinkColumn Binding="{Binding Href}" Header="Href">
                                 <DataGridHyperlinkColumn.ElementStyle>
                                     <Style>
@@ -78,7 +96,6 @@
                                     </Style>
                                 </DataGridHyperlinkColumn.ElementStyle>
                             </DataGridHyperlinkColumn>
-                            <DataGridTextColumn Binding="{Binding TagsCsv}" Header="Tags"/>
                         </DataGrid.Columns>
                     </DataGrid>
                 </StackPanel>

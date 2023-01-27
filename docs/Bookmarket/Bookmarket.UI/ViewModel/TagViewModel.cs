@@ -3,7 +3,7 @@ using System;
 
 namespace Bookmarket.UI.ViewModel
 {
-    public class TagViewModel
+    public class TagViewModel : ViewModelBase
     {
         public TagViewModel(Tag tag)
         {
@@ -13,6 +13,20 @@ namespace Bookmarket.UI.ViewModel
 
         public int Id { get; set; }
         public string Name { get; set; } = String.Empty;
+
+        private bool _selected;
+        public bool Selected
+        {
+            get => _selected;
+            set
+            {
+                if (_selected != value)
+                {
+                    _selected = value;
+                    RaisePropertyChanged();
+                }
+            }
+        }
 
         public override string ToString()
         {

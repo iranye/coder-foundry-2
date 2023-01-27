@@ -55,6 +55,7 @@ namespace Bookmarket.UI.ViewModel
 
         public string JsonFileFullPath => _bmDataProvider.JsonFileFullPath;
 
+        // Filter
         private string _filterString = String.Empty;
 
         public string FilterString
@@ -66,6 +67,16 @@ namespace Bookmarket.UI.ViewModel
                 // ApplyFilter(FilterString, DateFilterOn ? _daysToShow : 0);
                 RaisePropertyChanged("ListViewItems");
                 RaisePropertyChanged();
+            }
+        }
+
+        internal void TagCheckChanged()
+        {
+            PrintToOutput("Tag Selected/UnSelected");
+            var somethingSelected = Tags.Any(t => t.Selected);
+            if (somethingSelected)
+            {
+                PrintToOutput("Tag(s) Selected");
             }
         }
 
