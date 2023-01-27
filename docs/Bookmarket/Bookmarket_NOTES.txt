@@ -1,0 +1,9 @@
+Bookmarket
+
+Plan A:
+Provide separate tabs:
+	One for IMPORT actions
+		- From HTML, JSON, etc
+	Another for MANAGE actions
+		- Tag, Delete, Edit
+

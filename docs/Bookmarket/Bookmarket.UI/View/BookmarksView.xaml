@@ -1,0 +1,134 @@
+﻿<UserControl x:Class="Bookmarket.UI.View.BookmarksView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Bookmarket.UI"
+             mc:Ignorable="d" 
+             d:DesignHeight="1150" d:DesignWidth="800"
+             xmlns:vm="clr-namespace:Bookmarket.UI.ViewModel">
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <DataTemplate DataType="{x:Type vm:TagViewModel}">
+                <CheckBox Margin="5" IsChecked="{Binding Selected}" Checked="TagCheckBox_CheckedChanged" Unchecked="TagCheckBox_CheckedChanged">
+                    <TextBlock Text="{Binding Name}"></TextBlock>
+                </CheckBox>
+            </DataTemplate>
+        </ResourceDictionary>
+    </UserControl.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition/>
+            <RowDefinition Height="5"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <StackPanel>
+            <Expander Header="Import" Margin="6,0" Padding="0">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="30"/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <StackPanel Orientation="Horizontal">
+                        <Button Command="{Binding ImportJsonCommand}" HorizontalAlignment="Left" Content="Import JSON" Width="95" ToolTip="Import JSON" />
+                        <Button Command="{Binding ImportHtmlCommand}" HorizontalAlignment="Left" Content="Import HTML" Width="95" ToolTip="Import HTML" />
+                        <Button Command="{Binding ClearImportStringCommand}" HorizontalAlignment="Left" Content="Clear" Width="95" ToolTip="Clear Import Textarea" />
+                    </StackPanel>
+                    <DockPanel Grid.Row="1">
+                        <TextBox Text="{Binding ImportString}"
+                                 DockPanel.Dock="Left"
+                                 Width="Auto"
+                                 Height="290"
+                                 HorizontalContentAlignment="Stretch"
+                                 TextAlignment="Justify" />
+                    </DockPanel>
+                </Grid>
+            </Expander>
+        </StackPanel>
+        <StackPanel Grid.Row="1">
+            <GroupBox Header="S_earch"  Margin="6,0" Padding="0">
+                <StackPanel Height="60">
+                    <TextBox Text="{Binding FilterString}"
+                                 DockPanel.Dock="Left"
+                                 MinWidth="260"
+                                 Height="27"
+                                 HorizontalContentAlignment="Stretch"
+                                 Name="SearchInput"
+                                 KeyDown="SearchInput_KeyDown"
+                                 TextAlignment="Justify" />
+                    <StackPanel Margin="0 2" Orientation="Horizontal" >
+                        <Button HorizontalAlignment="Left" Content="_Clear" Width="75" Click="ClearFilter_Click" Command="{Binding ClearFilterCommand}" />
+                        <Button HorizontalAlignment="Left" Content="_JSON" Width="75" Click="ViewJson_Click" ToolTip="Open JSON File" />
+
+                        <Button Width="75" Command="{Binding AddCommand}" Click="AddNewItem_Click">
+                            <StackPanel Orientation="Horizontal">
+                                <Image Source="/Images/add.png" Height="18" Margin="0 0 5 0"/>
+                                <TextBlock Text="Add"/>
+                            </StackPanel>
+                        </Button>
+                    </StackPanel>
+                </StackPanel>
+            </GroupBox>
+            <GroupBox Header="Tags"  Margin="6,0" Padding="0" DockPanel.Dock="Top">
+                <WrapPanel Height="60" Name="TagsWrapPanel">
+                    <ItemsControl ItemsSource="{Binding Tags}">
+                        <ItemsControl.ItemsPanel>
+                            <ItemsPanelTemplate>
+                                <WrapPanel/>
+                            </ItemsPanelTemplate>
+                        </ItemsControl.ItemsPanel>
+                    </ItemsControl>
+                </WrapPanel>
+            </GroupBox>
+            <GroupBox Header="Bookmarks" Margin="6,0" Padding="0">
+                <StackPanel>
+                    <Button Command="{Binding SaveCommand}" HorizontalAlignment="Left" Content="Save" Width="95" Height="30" ToolTip="Save to JSON" />
+                    <DataGrid AutoGenerateColumns="False" AlternationCount="2" ItemsSource="{Binding Bookmarks}" Margin="0 0 0 8"
+                              Height="300">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Binding="{Binding Title}" Header="Title"/>
+                            <DataGridTextColumn Binding="{Binding TagsCsv}" Header="Tags"/>
+                            <DataGridHyperlinkColumn Binding="{Binding Href}" Header="Href">
+                                <DataGridHyperlinkColumn.ElementStyle>
+                                    <Style>
+                                        <EventSetter Event="Hyperlink.Click" Handler="Link_Click"/>
+                                    </Style>
+                                </DataGridHyperlinkColumn.ElementStyle>
+                            </DataGridHyperlinkColumn>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </StackPanel>
+            </GroupBox>
+        </StackPanel>
+
+        <GridSplitter Grid.Row="2"
+                          Height="5"
+                          VerticalAlignment="Center"
+                          ResizeDirection="Auto"
+                          HorizontalAlignment="Stretch" />
+        <DockPanel Grid.Row="4" Height="Auto">
+            <GroupBox Header="Output" Margin="6,0" DockPanel.Dock="Bottom" Padding="0" >
+                <Grid VerticalAlignment="Stretch">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="30"/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <StackPanel Orientation="Horizontal">
+                        <Button HorizontalAlignment="Left" Content="Clear" Width="95" ToolTip="Clear Output" Command="{Binding ClearOutputCommand}" />
+                    </StackPanel>
+                    <DockPanel Grid.Row="1">
+                        <TextBox Text="{Binding OutputString}"
+                                 VerticalAlignment="Stretch"
+                                 DockPanel.Dock="Left"
+                                 Width="Auto"
+                                 Height="Auto"
+                                 HorizontalContentAlignment="Stretch"
+                                 TextAlignment="Justify" />
+                    </DockPanel>
+                </Grid>
+            </GroupBox>
+        </DockPanel>
+
+    </Grid>
+</UserControl>
