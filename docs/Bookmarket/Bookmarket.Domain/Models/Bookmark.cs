@@ -1,6 +1,4 @@
-﻿using System.Text.Json.Serialization;
-
-namespace Bookmarket.Domain.Models
+﻿namespace Bookmarket.Domain.Models
 {
     //
     // "id": "001",
@@ -13,8 +11,5 @@ namespace Bookmarket.Domain.Models
         public string? Href { get; set; }
 
         public string Title { get; set; } = String.Empty;
-
-        [JsonIgnore]
-        public ICollection<Tag>? Tags { get; set; } = null;
     }
 }

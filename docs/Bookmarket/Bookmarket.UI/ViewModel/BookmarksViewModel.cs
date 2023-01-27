@@ -135,12 +135,12 @@ namespace Bookmarket.UI.ViewModel
             else
             {
                 PrintToOutput("Adding Bookmark");
-                var title = String.Empty;
-                var href = String.Empty;
+                var title = "<title>";
+                var href = "<href>";
                 Dictionary<string, string> newBookmarks = new Dictionary<string, string>();
                 foreach (var strLing in ImportString.Split(new string[] { Environment.NewLine }, StringSplitOptions.RemoveEmptyEntries))
                 {
-                    if (String.IsNullOrWhiteSpace(title))
+                    if (title == "<title>")
                     {
                         title = strLing;
                     }
@@ -148,23 +148,27 @@ namespace Bookmarket.UI.ViewModel
                     {
                         href = strLing;
                         newBookmarks.Add(title, href);
-                        title = String.Empty;
-                        href = String.Empty;
+                        title = "<title>";
+                        href = "<href>";
                     }
                 }
                 if (String.IsNullOrWhiteSpace(title) || String.IsNullOrWhiteSpace(href))
                 {
                     PrintToOutput("Invalid Title or Href");
                 }
+                int counter = 0;
+                var maxId = Bookmarks.Max(b => b.Id);
                 foreach (var el in newBookmarks)
                 {
                     if (!Bookmarks.Any(b => b.Title == el.Key))
                     {
-                        var bm = new Bookmark { Title = el.Key, Href = el.Value };
+                        var bm = new Bookmark { Id=++maxId, Title = el.Key, Href = el.Value };
                         var bmItemViewModel = new BookmarkItemViewModel(bm);
                         Bookmarks.Add(bmItemViewModel);
+                        counter++;
                     }
                 }
+                PrintToOutput($"Added {counter} bookmarks");
             }
         }
 

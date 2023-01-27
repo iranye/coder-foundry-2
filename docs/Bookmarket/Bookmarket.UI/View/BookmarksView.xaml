@@ -20,8 +20,8 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition/>
-            <RowDefinition Height="5"/>
-            <RowDefinition Height="*"/>
+            <RowDefinition Height="7"/>
+            <RowDefinition Height=".5*"/>
         </Grid.RowDefinitions>
         <StackPanel>
 
@@ -47,7 +47,7 @@
                         <TextBox Text="{Binding ImportString}"
                                  DockPanel.Dock="Left"
                                  Width="Auto"
-                                 Height="290"
+                                 Height="330"
                                  TextWrapping="Wrap"
                                  VerticalScrollBarVisibility="Auto"
                                  AcceptsReturn="True"
@@ -71,12 +71,12 @@
             </GroupBox>
 
             <!--Bookmarks-->
-            <GroupBox Header="Bookmarks" Margin="6,0" Padding="0">
+            <GroupBox Header="Bookmarks" Margin="6,0" Padding="0" Height="600">
                 <WrapPanel>
                     <TextBox Text="{Binding FilterString}"
                              DockPanel.Dock="Right"
                              Width="260"
-                             Height="27"
+                             Height="30"
                              HorizontalContentAlignment="Stretch"
                              Name="SearchInput"
                              ToolTip="Search"
@@ -84,14 +84,13 @@
                              TextAlignment="Justify" />
                     <Button HorizontalAlignment="Left" Content="_Clear" Width="75" Click="ClearFilter_Click" Command="{Binding ClearFilterCommand}" />
                     <Button HorizontalAlignment="Left" Content="_JSON" Width="75" Click="ViewJson_Click" ToolTip="Open JSON File" />
-
-                    <Button Command="{Binding SaveCommand}" HorizontalAlignment="Left" Content="Save" Width="95" Height="30" ToolTip="Save to JSON" />
+                    <Button HorizontalAlignment="Left" Content="Save" Width="75" Command="{Binding SaveCommand}" ToolTip="Save to JSON" />
                     <DataGrid AutoGenerateColumns="False" AlternationCount="2" ItemsSource="{Binding Bookmarks}" Margin="0 0 0 8"
-                              Height="440">
+                              Height="540">
                         <DataGrid.Columns>
                             <DataGridTextColumn Binding="{Binding Title}" Header="Title"/>
                             <DataGridTextColumn Binding="{Binding TagsCsv}" Header="Tags"/>
-                            <DataGridHyperlinkColumn Binding="{Binding Href}" Header="Href">
+                            <DataGridHyperlinkColumn Binding="{Binding Href}" Header="Href" MaxWidth="880">
                                 <DataGridHyperlinkColumn.ElementStyle>
                                     <Style>
                                         <EventSetter Event="Hyperlink.Click" Handler="Link_Click"/>
