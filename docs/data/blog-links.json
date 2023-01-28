@@ -2,17 +2,20 @@
   {
     "Id": 1,
     "Href": "https://gist.github.com/dahlsailrunner/1765b807940e29951ea6bdfb36cd85dd",
-    "Title": "VS Code Configuring for C#"
+    "Title": "VS Code Configuring for C#",
+    "Tags": []
   },
   {
     "Id": 2,
     "Href": "https://medium.com/@shubhadeepchat/logging-in-net-core-with-serilog-in-2-minutes-a41ec3192183",
-    "Title": "Serilog"
+    "Title": "Serilog",
+    "Tags": []
   },
   {
     "Id": 3,
     "Href": "https://medium.com/@steven.kennis1/making-beautiful-native-apps-with-net-maui-blazor-and-tailwind-css-63bfe48a5bd5",
-    "Title": "Maui Blazor"
+    "Title": "Maui Blazor",
+    "Tags": []
   },
   {
     "Id": 4,
