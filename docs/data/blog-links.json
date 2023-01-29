@@ -2,20 +2,17 @@
   {
     "Id": 1,
     "Href": "https://gist.github.com/dahlsailrunner/1765b807940e29951ea6bdfb36cd85dd",
-    "Title": "VS Code Configuring for C#",
-    "Tags": []
+    "Title": "VS Code Configuring for C#"
   },
   {
     "Id": 2,
     "Href": "https://medium.com/@shubhadeepchat/logging-in-net-core-with-serilog-in-2-minutes-a41ec3192183",
-    "Title": "Serilog",
-    "Tags": []
+    "Title": "Serilog"
   },
   {
     "Id": 3,
     "Href": "https://medium.com/@steven.kennis1/making-beautiful-native-apps-with-net-maui-blazor-and-tailwind-css-63bfe48a5bd5",
-    "Title": "Maui Blazor",
-    "Tags": []
+    "Title": "Maui Blazor"
   },
   {
     "Id": 4,
@@ -356,5 +353,25 @@
     "Id": 71,
     "Href": "https://devclass.com/2022/12/21/fermyons-new-spin-and-how-webassembly-has-miniscule-compute-requirements-compared-to-more-costly-containers/",
     "Title": "Dev blog Fermyon Spin WebAssembly"
+  },
+  {
+    "Id": 72,
+    "Href": "https://www.codeproject.com/Articles/867009/IntelliTask-An-Alternative-Windows-Version-to-the",
+    "Title": "IntelliTask vs Task Manager"
+  },
+  {
+    "Id": 73,
+    "Href": "https://omatsuri.app/",
+    "Title": "Web-dev tools"
+  },
+  {
+    "Id": 74,
+    "Href": "https://roadmap.sh/",
+    "Title": "Dev Guide"
+  },
+  {
+    "Id": 75,
+    "Href": "https://csslayout.io/",
+    "Title": "CSS Layouts"
   }
 ]
