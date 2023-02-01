@@ -28,6 +28,7 @@ namespace Bookmarket.UI.ViewModel
             ImportJsonCommand = new DelegateCommand(ImportJson);
             ImportHtmlCommand = new DelegateCommand(ImportHtml);
             SaveCommand = new DelegateCommand(Save);
+            ReloadCommand = new DelegateCommand(Reload);
             ClearImportStringCommand = new DelegateCommand(ClearImportString);
             AddBookmarkCommand = new DelegateCommand(AddBookmark);
             ClearFilterCommand = new DelegateCommand(ClearFilterString);
@@ -46,9 +47,11 @@ namespace Bookmarket.UI.ViewModel
         public DelegateCommand? ImportHtmlCommand { get; }
 
         public DelegateCommand? DeleteCommand { get; }
-                              
+
         public DelegateCommand? SaveCommand { get; set; }
-                              
+
+        public DelegateCommand? ReloadCommand { get; set; }
+
         public DelegateCommand? ClearFilterCommand { get; set; }
 
         public DelegateCommand? ClearImportStringCommand { get; set; }
@@ -226,6 +229,13 @@ namespace Bookmarket.UI.ViewModel
             IEnumerable<Bookmark> items = _mapper.Map<IEnumerable<BookmarkItemViewModel>, IEnumerable<Bookmark>>(Bookmarks);
             _bmDataProvider.SaveAll(items);
             PrintToOutput($"Saved to '{JsonFileFullPath}'");
+        }
+
+        // Reload
+        private void Reload(object? parameter)
+        {
+            Bookmarks.Clear();
+            var result = LoadAsync();
         }
 
         // Output
