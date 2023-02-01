@@ -12,3 +12,8 @@ Provide separate tabs:
 	Another for MANAGE actions
 		- Tag, Delete, Edit
 
+ADD - TEST
+Dev blog TI emulators
+https://arstechnica.com/gadgets/2023/01/count-on-old-school-fun-with-these-new-calculator-emulations/
+Dev blog Linux - How I Use
+https://www.youtube.com/watch?v=7JKzC63JAn4

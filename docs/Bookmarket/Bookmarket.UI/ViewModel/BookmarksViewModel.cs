@@ -123,38 +123,43 @@ namespace Bookmarket.UI.ViewModel
         private void AddBookmark(object? parameter)
         {
             ClearOutput(null);
-            // Check for selected Tags, use when importing bookmarks
-            if (String.IsNullOrEmpty(ImportString))
+            const string titleDefault = "<Title>";
+            const string hrefDefault = "<Href>";
+            var title = titleDefault;
+            var href = hrefDefault;
+            if (String.IsNullOrWhiteSpace(ImportString))
             {
+                ImportString = String.Empty;
                 PrintToOutput("Enter Title, Href into Import Textarea");
                 var sb = new StringBuilder();
-                sb.AppendLine("<Title>");
-                sb.AppendLine("<Href>");
-                ImportString = sb.ToString();
+                sb.AppendLine(titleDefault);
+                sb.AppendLine(hrefDefault);
+                for (int i = 0; i < 2; i++)
+                {
+                    ImportString += sb.ToString();
+                }
             }
             else
             {
-                PrintToOutput("Adding Bookmark");
-                var title = "<title>";
-                var href = "<href>";
                 Dictionary<string, string> newBookmarks = new Dictionary<string, string>();
-                foreach (var strLing in ImportString.Split(new string[] { Environment.NewLine }, StringSplitOptions.RemoveEmptyEntries))
+                foreach (var strLine in ImportString.Split(new string[] { Environment.NewLine }, StringSplitOptions.RemoveEmptyEntries))
                 {
-                    if (title == "<title>")
+                    if (title == titleDefault)
                     {
-                        title = strLing;
+                        title = strLine;
                     }
                     else
                     {
-                        href = strLing;
+                        href = strLine;
                         newBookmarks.Add(title, href);
-                        title = "<title>";
-                        href = "<href>";
+                        title = titleDefault;
+                        href = hrefDefault;
                     }
                 }
                 if (String.IsNullOrWhiteSpace(title) || String.IsNullOrWhiteSpace(href))
                 {
                     PrintToOutput("Invalid Title or Href");
+                    return;
                 }
                 int counter = 0;
                 var maxId = Bookmarks.Max(b => b.Id);

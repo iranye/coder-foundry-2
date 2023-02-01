@@ -11,5 +11,7 @@
         public string? Href { get; set; }
 
         public string Title { get; set; } = String.Empty;
+
+        public ICollection<Tag>? Tags { get; set; } = null;
     }
 }

@@ -12,13 +12,13 @@ namespace Bookmarket.UI.ViewModel
         public BookmarkItemViewModel(Bookmark model)
         {
             _model = model;
-            //if (_model.Tags is not null)
-            //{
-            //    foreach (var tag in _model.Tags)
-            //    {
-            //        Tags.Add(new TagViewModel(tag));
-            //    }
-            //}
+            if (_model.Tags is not null)
+            {
+                foreach (var tag in _model.Tags)
+                {
+                    Tags.Add(new TagViewModel(tag));
+                }
+            }
         }
 
         public BookmarkItemViewModel()
