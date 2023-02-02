@@ -96,7 +96,7 @@
                     <Button HorizontalAlignment="Left" Content="_JSON" Width="75" Click="ViewJson_Click" ToolTip="Open JSON File" />
                     <Button HorizontalAlignment="Left" Content="Save" Width="75" Command="{Binding SaveCommand}" ToolTip="Save to JSON" />
                     <Button HorizontalAlignment="Left" Content="Reload" Width="75" Command="{Binding ReloadCommand}" ToolTip="Re-load from JSON" />
-                    <DataGrid AutoGenerateColumns="False" AlternationCount="2" ItemsSource="{Binding Bookmarks}" Margin="0 0 0 8"
+                    <DataGrid AutoGenerateColumns="False" AlternationCount="2" ItemsSource="{Binding ListViewItems}" Margin="0 0 0 8"
                               
                               SelectionChanged="DataGrid_SelectionChanged"
                               Height="540">

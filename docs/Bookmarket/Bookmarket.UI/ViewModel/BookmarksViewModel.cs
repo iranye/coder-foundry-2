@@ -113,11 +113,19 @@ namespace Bookmarket.UI.ViewModel
 
         internal void TagCheckChanged()
         {
-            PrintToOutput("Tag Selected/UnSelected");
-            var somethingSelected = Tags.Any(t => t.Selected);
-            if (somethingSelected)
+            if (SelectedMode == 0)
             {
-                PrintToOutput("Tag(s) Selected");
+                ListViewItems.Clear();
+                foreach (var tag in Tags.Where(t => t.Selected))
+                {
+                    foreach (var bm in Bookmarks)
+                    {
+                        if (bm.Tags.Any(t => t.Id == tag.Id))
+                        {
+                            ListViewItems.Add(bm);
+                        }
+                    }
+                }
             }
         }
 
@@ -127,6 +135,7 @@ namespace Bookmarket.UI.ViewModel
             {
                 tag.Selected = false;
             }
+            RefreshListViewItems();
         }
 
         private bool[] _modeArray = new bool[] { true, false };
@@ -252,7 +261,17 @@ namespace Bookmarket.UI.ViewModel
                         counter++;
                     }
                 }
+                RefreshListViewItems();
                 PrintToOutput($"Added {counter} bookmarks");
+            }
+        }
+
+        private void RefreshListViewItems()
+        {
+            ListViewItems.Clear();
+            foreach (var item in Bookmarks)
+            {
+                ListViewItems.Add(item);
             }
         }
 
@@ -370,6 +389,7 @@ namespace Bookmarket.UI.ViewModel
                 MessageBoxResult messageBoxResult = MessageBox.Show($"Error: {ex.Message}", "Failed to read data", System.Windows.MessageBoxButton.OK);
             }
 
+            RefreshListViewItems();
             PrintToOutput($"Loaded {Bookmarks.Count} Bookmarks");
             return ret;
         }
