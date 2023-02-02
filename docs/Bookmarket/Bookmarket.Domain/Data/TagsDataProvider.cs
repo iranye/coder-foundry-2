@@ -14,8 +14,7 @@ namespace Bookmarket.Domain.Data
 
     public class TagsDataProvider : ITagsDataProvider
     {
-        // private string _storageFile = @"..\..\data\tags.json"; // <== use this for prod
-        private string _storageFile = @"..\Data\tags.json"; // <== use this for dev
+        private string _storageFile = @"..\..\data\tags.json";
 
         public string JsonFileFullPath
         {
@@ -42,7 +41,7 @@ namespace Bookmarket.Domain.Data
         {
             return new List<Tag>
             {
-                new Tag { Id=01, Name="C#",},
+                new Tag { Id=01, Name="c#",},
                 new Tag { Id=02, Name="web-dev",},
                 new Tag { Id=03, Name="dev-ops",},
                 new Tag { Id=04, Name="recr",},

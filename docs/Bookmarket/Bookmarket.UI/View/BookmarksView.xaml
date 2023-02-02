@@ -57,9 +57,18 @@
                 </Grid>
             </Expander>
         </StackPanel>
+
+        <!--Tags-->
         <StackPanel Grid.Row="1">
             <GroupBox Header="Tags"  Margin="6,0" Padding="0" DockPanel.Dock="Top">
                 <WrapPanel Height="60" Name="TagsWrapPanel">
+                    <GroupBox Header="Tag Mode" >
+                        <StackPanel Orientation="Horizontal" Margin="5">
+                            <RadioButton GroupName="tag-mode" IsChecked="{Binding Path=ModeArray[0], Mode=TwoWay}" Margin="5 0" FontSize="16">Filter</RadioButton>
+                            <RadioButton GroupName="tag-mode" IsChecked="{Binding Path=ModeArray[1], Mode=TwoWay}" Margin="5 0" FontSize="16">Apply</RadioButton>
+                        </StackPanel>
+                    </GroupBox>
+                    <Button Content="Clear" Width="75" Command="{Binding ClearTagsCommand}"/>
                     <ItemsControl ItemsSource="{Binding Tags}">
                         <ItemsControl.ItemsPanel>
                             <ItemsPanelTemplate>
@@ -67,6 +76,7 @@
                             </ItemsPanelTemplate>
                         </ItemsControl.ItemsPanel>
                     </ItemsControl>
+                    <TextBox Margin="5" Width="40" Height="30" Text="{Binding TagText}" Background="#00FFFFFF" Foreground="#000000"></TextBox>
                 </WrapPanel>
             </GroupBox>
 

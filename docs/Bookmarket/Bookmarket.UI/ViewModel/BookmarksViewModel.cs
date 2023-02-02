@@ -32,6 +32,7 @@ namespace Bookmarket.UI.ViewModel
             ClearImportStringCommand = new DelegateCommand(ClearImportString);
             AddBookmarkCommand = new DelegateCommand(AddBookmark);
             ClearFilterCommand = new DelegateCommand(ClearFilterString);
+            ClearTagsCommand = new DelegateCommand(ClearTags);
             _mapper = mapper;
         }
 
@@ -53,6 +54,8 @@ namespace Bookmarket.UI.ViewModel
         public DelegateCommand? ReloadCommand { get; set; }
 
         public DelegateCommand? ClearFilterCommand { get; set; }
+
+        public DelegateCommand? ClearTagsCommand { get; set; }
 
         public DelegateCommand? ClearImportStringCommand { get; set; }
 
@@ -82,6 +85,32 @@ namespace Bookmarket.UI.ViewModel
             FilterString = String.Empty;
         }
 
+        // Tags
+        private string _tagText = String.Empty;
+        public string TagText 
+        {
+            get { return _tagText; }
+            set
+            {
+                if (String.IsNullOrWhiteSpace(value))
+                {
+                    _tagText = String.Empty;
+                    return;
+                }
+                if (_tagText != value)
+                {
+                    _tagText = value.Trim().ToLower();
+                    if (Tags.Any(t => t.Name.ToLower() == _tagText))
+                    {
+                        PrintToOutput($"Already got '{_tagText}'");
+                        return;
+                    }
+                    AddTag(_tagText);
+                    TagText = String.Empty;
+                }
+            }
+        }
+
         internal void TagCheckChanged()
         {
             PrintToOutput("Tag Selected/UnSelected");
@@ -90,6 +119,33 @@ namespace Bookmarket.UI.ViewModel
             {
                 PrintToOutput("Tag(s) Selected");
             }
+        }
+
+        private void ClearTags(object? parameter)
+        {
+            foreach(var tag in Tags)
+            {
+                tag.Selected = false;
+            }
+        }
+
+        private bool[] _modeArray = new bool[] { true, false };
+        public bool[] ModeArray
+        {
+            get { return _modeArray; }
+        }
+        public int SelectedMode
+        {
+            get { return Array.IndexOf(_modeArray, true); }
+        }
+        
+        private void AddTag(string tagText)
+        {
+            var nextTagId = Tags.Max(t => t.Id) + 1;
+            var tag = new Tag { Id = nextTagId, Name = tagText };
+            Tags.Add(new TagViewModel(tag));
+            var tags = _mapper.Map<IEnumerable<TagViewModel>, IEnumerable<Tag>>(Tags);
+            _tagsDataProvider.SaveAll(tags.ToList());
         }
 
         // Import
