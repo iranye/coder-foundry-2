@@ -3,7 +3,12 @@
     "Id": 1,
     "Href": "https://gist.github.com/dahlsailrunner/1765b807940e29951ea6bdfb36cd85dd",
     "Title": "VS Code Configuring for C#",
-    "Tags": []
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      }
+    ]
   },
   {
     "Id": 2,
@@ -15,7 +20,12 @@
     "Id": 3,
     "Href": "https://medium.com/@steven.kennis1/making-beautiful-native-apps-with-net-maui-blazor-and-tailwind-css-63bfe48a5bd5",
     "Title": "Maui Blazor",
-    "Tags": []
+    "Tags": [
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
   },
   {
     "Id": 4,
@@ -51,7 +61,12 @@
     "Id": 9,
     "Href": "https://medium.com/@tobias.streng/classes-vs-structs-in-net-fdfa9858166d",
     "Title": "Classes v Structs",
-    "Tags": []
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      }
+    ]
   },
   {
     "Id": 10,
@@ -63,7 +78,12 @@
     "Id": 11,
     "Href": "https://www.prowaretech.com/articles/current/blazor/wasm/login-form",
     "Title": "Blazor Wasm Login Form",
-    "Tags": []
+    "Tags": [
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
   },
   {
     "Id": 12,
@@ -93,7 +113,12 @@
     "Id": 16,
     "Href": "https://www.syncfusion.com/blogs/post/a-full-stack-web-app-using-blazor-webassembly-and-graphql-part-1.aspx",
     "Title": "Syncfusion Blazor",
-    "Tags": []
+    "Tags": [
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
   },
   {
     "Id": 17,
@@ -135,13 +160,23 @@
     "Id": 23,
     "Href": "https://medium.com/geekculture/creating-a-pokedex-with-blazor-webassembly-677b5bcf3593",
     "Title": "Blazor Pokedex",
-    "Tags": []
+    "Tags": [
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
   },
   {
     "Id": 24,
     "Href": "https://visualstudiomagazine.com/articles/2022/02/10/blazor-hybrid-net-7.aspx?m=1",
     "Title": "Blazor Hybrid .net 7",
-    "Tags": []
+    "Tags": [
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
   },
   {
     "Id": 25,
@@ -159,13 +194,23 @@
     "Id": 27,
     "Href": "https://codeblog.jonskeet.uk/category/edulinq/",
     "Title": "Jon Skeet",
-    "Tags": []
+    "Tags": [
+      {
+        "Id": 11,
+        "Name": "blog"
+      }
+    ]
   },
   {
     "Id": 28,
     "Href": "https://dkreider.medium.com/the-step-by-step-guide-to-creating-and-using-a-generic-repository-588407940b34",
     "Title": "C# Generic Repository",
-    "Tags": []
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      }
+    ]
   },
   {
     "Id": 29,
@@ -273,7 +318,12 @@
     "Id": 46,
     "Href": "https://news.slashdot.org/story/22/12/04/0248249/what-is-chatgpt-the-ai-chatbot-thats-taking-the-internet-by-storm",
     "Title": "AI Chatbot",
-    "Tags": []
+    "Tags": [
+      {
+        "Id": 12,
+        "Name": "ai"
+      }
+    ]
   },
   {
     "Id": 47,
@@ -321,7 +371,12 @@
     "Id": 54,
     "Href": "https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/",
     "Title": "Spolsky on Unicode",
-    "Tags": []
+    "Tags": [
+      {
+        "Id": 11,
+        "Name": "blog"
+      }
+    ]
   },
   {
     "Id": 55,
@@ -339,19 +394,34 @@
     "Id": 57,
     "Href": "https://www.hanselman.com/blog/",
     "Title": "hanselman.com/blog",
-    "Tags": []
+    "Tags": [
+      {
+        "Id": 11,
+        "Name": "blog"
+      }
+    ]
   },
   {
     "Id": 58,
     "Href": "https://blog.codinghorror.com/",
     "Title": "codinghorror",
-    "Tags": []
+    "Tags": [
+      {
+        "Id": 11,
+        "Name": "blog"
+      }
+    ]
   },
   {
     "Id": 59,
     "Href": "https://devblogs.microsoft.com/dotnet/",
     "Title": "devblogs.microsoft.com",
-    "Tags": []
+    "Tags": [
+      {
+        "Id": 11,
+        "Name": "blog"
+      }
+    ]
   },
   {
     "Id": 60,
@@ -393,7 +463,12 @@
     "Id": 66,
     "Href": "https://lp.leadpages.com/landing-page-lookbook/",
     "Title": "Dev blog web dev",
-    "Tags": []
+    "Tags": [
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
   },
   {
     "Id": 67,
@@ -405,7 +480,12 @@
     "Id": 68,
     "Href": "https://css-tricks.com/solved-with-has-vertical-spacing-in-long-form-text/",
     "Title": "Dev blog CSS",
-    "Tags": []
+    "Tags": [
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
   },
   {
     "Id": 69,
@@ -436,12 +516,27 @@
     "Href": "https://www.youtube.com/watch?v=7JKzC63JAn4",
     "Title": "Dev blog Linux - How I Use",
     "Tags": []
+  },
+  {
+    "Id": 74,
     "Href": "https://roadmap.sh/",
-    "Title": "Dev Guide"
+    "Title": "Dev Guide",
+    "Tags": [
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
   },
   {
     "Id": 75,
     "Href": "https://csslayout.io/",
-    "Title": "CSS Layouts"
+    "Title": "CSS Layouts",
+    "Tags": [
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
   }
 ]

@@ -1,6 +1,7 @@
 Bookmarket
 
 TODO:
+	Add <un-tagged> filter to show bookmarks w/o any tags
 	Refactor out text-handling for add/importing:
 		include validation, range-checks
 
