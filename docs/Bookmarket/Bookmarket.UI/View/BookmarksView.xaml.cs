@@ -88,5 +88,24 @@ namespace Bookmarket.UI.View
 
             e.Handled = true;
         }
+
+        private void DataGrid_SelectionChanged(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                var dg = e.OriginalSource as DataGrid;
+                if (dg is not null)
+                {
+                    var bm = dg.SelectedItem as BookmarkItemViewModel;
+                    ViewModel.ApplyTagsToBookmark(bm);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("ERROR: " + ex.Message);
+            }
+
+            e.Handled = true;
+        }
     }
 }

@@ -1,6 +1,7 @@
 ﻿using Bookmarket.Domain.Models;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 
 namespace Bookmarket.UI.ViewModel
@@ -68,7 +69,19 @@ namespace Bookmarket.UI.ViewModel
             return ret;
         }
 
-        public ICollection<TagViewModel>? Tags { get; set; } = new List<TagViewModel>();
+        internal void ApplyTags(List<TagViewModel> tagViewModels)
+        {
+            foreach (var tagViewModel in tagViewModels)
+            {
+                if (!Tags.Any(t => t.Id == tagViewModel.Id))
+                {
+                    Tags.Add(tagViewModel);
+                }
+            }
+            RaisePropertyChanged("TagsCsv");
+        }
+
+        public ObservableCollection<TagViewModel> Tags { get; set; } = new ObservableCollection<TagViewModel>();
 
         public string? _tagsCsv = String.Empty;
         public string TagsCsv
@@ -88,7 +101,7 @@ namespace Bookmarket.UI.ViewModel
                 _tagsCsv = value;
                 if (Tags is null)
                 {
-                    Tags = new List<TagViewModel>();
+                    Tags = new ObservableCollection<TagViewModel>();
                 }
                 else
                 {

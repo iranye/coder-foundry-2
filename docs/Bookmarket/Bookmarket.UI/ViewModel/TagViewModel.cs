@@ -30,7 +30,7 @@ namespace Bookmarket.UI.ViewModel
 
         public override string ToString()
         {
-            return $"{Id}:{Name}";
+            return $"{Name}";
         }
     }
 }

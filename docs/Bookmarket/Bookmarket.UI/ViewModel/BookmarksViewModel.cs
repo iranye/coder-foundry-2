@@ -148,6 +148,26 @@ namespace Bookmarket.UI.ViewModel
             _tagsDataProvider.SaveAll(tags.ToList());
         }
 
+        // Bookmarks
+        internal void ApplyTagsToBookmark(BookmarkItemViewModel bm)
+        {
+            if (SelectedMode == 1)
+            {
+                ClearOutput(null);
+                if (bm is null)
+                {
+                    PrintToOutput("Failed to resolve Bookmark Item");
+                    return;
+                }
+                if (!Tags.Any(t => t.Selected))
+                {
+                    PrintToOutput("No Tags Selected");
+                    return;
+                }
+                bm.ApplyTags(Tags.Where(t => t.Selected).ToList());
+            }
+        }
+
         // Import
         private string _importString = String.Empty;
         public string ImportString
