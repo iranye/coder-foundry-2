@@ -1,7 +1,6 @@
 Bookmarket
 
 TODO:
-	Add <un-tagged> filter to show bookmarks w/o any tags
 	Refactor out text-handling for add/importing:
 		include validation, range-checks
 
@@ -17,3 +16,5 @@ Dev blog TI emulators
 https://arstechnica.com/gadgets/2023/01/count-on-old-school-fun-with-these-new-calculator-emulations/
 Dev blog Linux - How I Use
 https://www.youtube.com/watch?v=7JKzC63JAn4
+Dev blog Blazor v JS
+https://thenewstack.io/webassembly-vs-javascript-security-speed-flexibility/

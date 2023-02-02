@@ -74,9 +74,46 @@ namespace Bookmarket.UI.ViewModel
             set
             {
                 _filterString = value;
-                // ApplyFilter(FilterString, DateFilterOn ? _daysToShow : 0);
+                ApplyFilter(FilterString);
                 RaisePropertyChanged("ListViewItems");
                 RaisePropertyChanged();
+            }
+        }
+
+        internal void ApplyFilter(string? filter = null)
+        {
+            if (!String.IsNullOrWhiteSpace(filter))
+            {
+                ToggleListViewItemsActive(false);
+            }
+            else
+            {
+                ToggleListViewItemsActive();
+                return;
+            }
+
+            foreach (var bm in Bookmarks)
+            {
+                if (bm.HasFilterString(FilterString.ToLower()))
+                {
+                    ListViewItems.Add(bm);
+                }
+            }
+        }
+
+        private void ToggleListViewItemsActive(bool isActive = true)
+        {
+            ListViewItems.Clear();
+            if (!isActive)
+            {
+                return;
+            }
+            else
+            {
+                foreach (var bm in Bookmarks)
+                {
+                    ListViewItems.Add(bm);
+                }
             }
         }
 
@@ -116,14 +153,33 @@ namespace Bookmarket.UI.ViewModel
             if (SelectedMode == 0)
             {
                 ListViewItems.Clear();
-                foreach (var tag in Tags.Where(t => t.Selected))
+                if (Tags.Any(t => t.Id == 0 && t.Selected))
                 {
                     foreach (var bm in Bookmarks)
                     {
-                        if (bm.Tags.Any(t => t.Id == tag.Id))
+                        if (!bm.Tags.Any())
                         {
                             ListViewItems.Add(bm);
                         }
+                    }
+                }
+                else
+                {
+                    var counter = 0;
+                    foreach (var tag in Tags.Where(t => t.Selected))
+                    {
+                        foreach (var bm in Bookmarks)
+                        {
+                            if (bm.Tags.Any(t => t.Id == tag.Id))
+                            {
+                                ListViewItems.Add(bm);
+                            }
+                        }
+                        counter++;
+                    }
+                    if (counter == 0)
+                    {
+                        RefreshListViewItems();
                     }
                 }
             }
@@ -168,12 +224,12 @@ namespace Bookmarket.UI.ViewModel
                     PrintToOutput("Failed to resolve Bookmark Item");
                     return;
                 }
-                if (!Tags.Any(t => t.Selected))
+                if (!Tags.Any(t => t.Id > 0 && t.Selected))
                 {
                     PrintToOutput("No Tags Selected");
                     return;
                 }
-                bm.ApplyTags(Tags.Where(t => t.Selected).ToList());
+                bm.ApplyTags(Tags.Where(t => t.Id > 0 && t.Selected).ToList());
             }
         }
 
@@ -256,7 +312,12 @@ namespace Bookmarket.UI.ViewModel
                     if (!Bookmarks.Any(b => b.Title == el.Key))
                     {
                         var bm = new Bookmark { Id=++maxId, Title = el.Key, Href = el.Value };
+
                         var bmItemViewModel = new BookmarkItemViewModel(bm);
+                        if (SelectedMode == 1)
+                        {
+                            bmItemViewModel.ApplyTags(Tags.Where(t => t.Id > 0 && t.Selected).ToList());
+                        }
                         Bookmarks.Add(bmItemViewModel);
                         counter++;
                     }
