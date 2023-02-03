@@ -81,12 +81,20 @@
   {
     "Id": 8,
     "Href": "https://www.youtube.com/watch?v=LfgBm5M8eUM",
-    "Title": "net7 foreach",
-    "Desc": "",
+    "Title": "Nick C - net7 foreach",
+    "Desc": "benchmarks.net, sharplib.io",
     "Tags": [
       {
         "Id": 1,
         "Name": "c#"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      },
+      {
+        "Id": 2,
+        "Name": "web-dev"
       }
     ]
   },
@@ -99,6 +107,10 @@
       {
         "Id": 1,
         "Name": "c#"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
       }
     ]
   },
@@ -147,6 +159,14 @@
       {
         "Id": 10,
         "Name": "linux"
+      },
+      {
+        "Id": 1,
+        "Name": "c#"
+      },
+      {
+        "Id": 2,
+        "Name": "web-dev"
       }
     ]
   },
@@ -171,6 +191,10 @@
       {
         "Id": 1,
         "Name": "c#"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
       }
     ]
   },
@@ -363,6 +387,18 @@
       {
         "Id": 9,
         "Name": "docker"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      },
+      {
+        "Id": 1,
+        "Name": "c#"
+      },
+      {
+        "Id": 2,
+        "Name": "web-dev"
       }
     ]
   },
@@ -399,6 +435,10 @@
       {
         "Id": 13,
         "Name": "blog"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
       }
     ]
   },
@@ -430,6 +470,10 @@
       {
         "Id": 18,
         "Name": "web-host"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
       }
     ]
   },
@@ -851,6 +895,18 @@
       {
         "Id": 10,
         "Name": "linux"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      },
+      {
+        "Id": 1,
+        "Name": "c#"
+      },
+      {
+        "Id": 2,
+        "Name": "web-dev"
       }
     ]
   },
@@ -923,6 +979,10 @@
       {
         "Id": 2,
         "Name": "web-dev"
+      },
+      {
+        "Id": 1,
+        "Name": "c#"
       }
     ]
   },
@@ -971,6 +1031,128 @@
       {
         "Id": 13,
         "Name": "blog"
+      }
+    ]
+  },
+  {
+    "Id": 84,
+    "Href": "https://www.windowscentral.com/software-apps/windows-11/how-to-run-any-linux-distro-alongside-windows-11",
+    "Title": "Dev blog How to run any Linux",
+    "Desc": "How to run any Linux distro alongside Windows 11 | Windows Central",
+    "Tags": [
+      {
+        "Id": 10,
+        "Name": "linux"
+      }
+    ]
+  },
+  {
+    "Id": 85,
+    "Href": "https://thenewstack.io/devs-its-time-to-consider-ipfs-as-an-alternative-to-http/",
+    "Title": "Dev blog web-dev IPFS vs HTTP",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 86,
+    "Href": "https://medium.com/informatics/blazor-server-project-15-role-based-authorization-717fa1065cca?source=rss----191053c6302a---4",
+    "Title": "Dev blog Blazor Server Project",
+    "Desc": "Role-based Authorization",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      },
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 87,
+    "Href": "https://docs.microsoft.com/en-us/dotnet/standard/parallel-programming/how-to-use-parallel-invoke-to-execute-parallel-operations",
+    "Title": "How to use Parallel.Invoke",
+    "Desc": "",
+    "Tags": []
+  },
+  {
+    "Id": 88,
+    "Href": "https://gunnarpeipman.com/csharp-interface-default-implementations/",
+    "Title": "Default Implementations for Interfaces",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      }
+    ]
+  },
+  {
+    "Id": 89,
+    "Href": "https://www.c-sharpcorner.com/article/top-7-least-known-but-important-c-sharp-features/",
+    "Title": "The Top Seven Least-Known Important C# Features",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      }
+    ]
+  },
+  {
+    "Id": 90,
+    "Href": "https://www.christianfindlay.com/blog/c-and-webassembly-wasm",
+    "Title": "Dev blog - WASM",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      },
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 91,
+    "Href": "https://chrissainty.com/securing-your-blazor-apps-introduction-to-authentication-with-blazor/",
+    "Title": "Dev blog - Blazor Authentication",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      },
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 92,
+    "Href": "https://www.freecodecamp.org/news/put-your-dev-env-in-github/",
+    "Title": "Put Your Entire Dev Environment in Github",
+    "Desc": "",
+    "Tags": []
+  },
+  {
+    "Id": 93,
+    "Href": "https://dynomapper.com/blog/513-top-30-application-programming-interface-api-testing-tools",
+    "Title": "Web API Test Tools",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 2,
+        "Name": "web-dev"
       }
     ]
   }
