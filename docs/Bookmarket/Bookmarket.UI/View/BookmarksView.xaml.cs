@@ -107,5 +107,14 @@ namespace Bookmarket.UI.View
 
             e.Handled = true;
         }
+
+        private void UserControl_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (Keyboard.Modifiers == ModifierKeys.Control && e.Key == Key.S)
+            {
+                ViewModel?.Save(null);
+                e.Handled = true;
+            }
+        }
     }
 }

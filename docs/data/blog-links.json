@@ -155,7 +155,12 @@
     "Href": "https://www.codingblocks.net/software-development-tips-and-tricks/",
     "Title": "Coding Blocks",
     "Desc": "",
-    "Tags": []
+    "Tags": [
+      {
+        "Id": 13,
+        "Name": "blog"
+      }
+    ]
   },
   {
     "Id": 15,
@@ -830,13 +835,18 @@
     "Href": "https://arstechnica.com/gadgets/2023/01/count-on-old-school-fun-with-these-new-calculator-emulations/",
     "Title": "Dev blog TI emulators",
     "Desc": "",
-    "Tags": []
+    "Tags": [
+      {
+        "Id": 5,
+        "Name": "misc"
+      }
+    ]
   },
   {
     "Id": 73,
     "Href": "https://www.youtube.com/watch?v=7JKzC63JAn4",
     "Title": "Dev blog Linux - How I Use",
-    "Desc": "DistroTube: Goes over windowing managers, arcolinux (very vanilla)",
+    "Desc": "[watched to 30min] - DistroTube: Goes over windowing managers, arcolinux/archlinux (very vanilla), cli filemanagers (ranger vifs), EMACS",
     "Tags": [
       {
         "Id": 10,
