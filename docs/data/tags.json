@@ -4,51 +4,75 @@
     "Name": "<no tag>"
   },
   {
-    "Id": 1,
-    "Name": "c#"
+    "Id": 11,
+    "Name": "ai"
   },
   {
-    "Id": 2,
-    "Name": "web-dev"
-  },
-  {
-    "Id": 3,
-    "Name": "dev-ops"
-  },
-  {
-    "Id": 4,
-    "Name": "recr"
-  },
-  {
-    "Id": 5,
-    "Name": "misc"
-  },
-  {
-    "Id": 6,
-    "Name": "from-html"
-  },
-  {
-    "Id": 7,
-    "Name": "sql"
+    "Id": 17,
+    "Name": "az"
   },
   {
     "Id": 8,
     "Name": "big-data"
   },
   {
+    "Id": 13,
+    "Name": "blog"
+  },
+  {
+    "Id": 1,
+    "Name": "c#"
+  },
+  {
+    "Id": 3,
+    "Name": "dev-ops"
+  },
+  {
     "Id": 9,
     "Name": "docker"
+  },
+  {
+    "Id": 15,
+    "Name": "dotnet"
+  },
+  {
+    "Id": 6,
+    "Name": "from-html"
+  },
+  {
+    "Id": 16,
+    "Name": "git"
   },
   {
     "Id": 10,
     "Name": "linux"
   },
   {
-    "Id": 11,
-    "Name": "ai"
+    "Id": 5,
+    "Name": "misc"
+  },
+  {
+    "Id": 4,
+    "Name": "recr"
+  },
+  {
+    "Id": 14,
+    "Name": "sa"
+  },
+  {
+    "Id": 7,
+    "Name": "sql"
   },
   {
     "Id": 12,
     "Name": "theory"
+  },
+  {
+    "Id": 2,
+    "Name": "web-dev"
+  },
+  {
+    "Id": 18,
+    "Name": "web-host"
   }
 ]

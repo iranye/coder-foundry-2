@@ -12,6 +12,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{31B18C03-C543-40D6-BFF8-4E1EE253E84F}"
 	ProjectSection(SolutionItems) = preProject
 		Bookmarket_NOTES.txt = Bookmarket_NOTES.txt
+		build.cake = build.cake
 	EndProjectSection
 EndProject
 Global

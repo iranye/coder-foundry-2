@@ -170,7 +170,7 @@ namespace Bookmarket.UI.ViewModel
                     {
                         foreach (var bm in Bookmarks)
                         {
-                            if (bm.Tags.Any(t => t.Id == tag.Id))
+                            if (bm.Tags.Any(t => t.Name == tag.Name))
                             {
                                 ListViewItems.Add(bm);
                             }
@@ -464,7 +464,7 @@ namespace Bookmarket.UI.ViewModel
                 if (tags is not null)
                 {
                     Tags.Clear();
-                    foreach (var tag in tags)
+                    foreach (var tag in tags.OrderBy(t => t.Name))
                     {
                         Tags.Add(new TagViewModel(tag));
                     }

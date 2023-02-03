@@ -193,7 +193,12 @@
     "Id": 26,
     "Href": "https://www.youtube.com/watch?v=UAWImLf5bgw",
     "Title": "Linode, ASP.NET Core, Nginx, WSL2 - Linode Cloud - Tricking Library Ep63",
-    "Tags": []
+    "Tags": [
+      {
+        "Id": 18,
+        "Name": "web-host"
+      }
+    ]
   },
   {
     "Id": 27,
@@ -280,7 +285,12 @@
     "Id": 38,
     "Href": "https://hindenbug.io/what-is-the-undisputed-best-git-branching-strategy-4e986442a911",
     "Title": "Best Git Branching Strategy",
-    "Tags": []
+    "Tags": [
+      {
+        "Id": 16,
+        "Name": "git"
+      }
+    ]
   },
   {
     "Id": 39,
@@ -309,7 +319,12 @@
     "Id": 42,
     "Href": "https://devblogs.microsoft.com/dotnet/dotnet-maui-visualstudio-2022-release/",
     "Title": "Dotnet MAUI in 2022",
-    "Tags": []
+    "Tags": [
+      {
+        "Id": 15,
+        "Name": "dotnet"
+      }
+    ]
   },
   {
     "Id": 43,
@@ -321,7 +336,12 @@
     "Id": 44,
     "Href": "https://code-maze.com/difference-between-throw-vs-throwex-csharp/",
     "Title": "throw vs throw ex in C#",
-    "Tags": []
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      }
+    ]
   },
   {
     "Id": 45,
@@ -340,7 +360,7 @@
     "Title": "AI Chatbot",
     "Tags": [
       {
-        "Id": 12,
+        "Id": 11,
         "Name": "ai"
       }
     ]
@@ -360,13 +380,23 @@
     "Id": 48,
     "Href": "https://www.youtube.com/watch?v=7hdJQkn8rtA",
     "Title": "Critical Program Reading",
-    "Tags": []
+    "Tags": [
+      {
+        "Id": 12,
+        "Name": "theory"
+      }
+    ]
   },
   {
     "Id": 49,
     "Href": "https://tech.slashdot.org/story/23/01/02/191257/debloating-windows-10-with-one-command-and-no-scripts",
     "Title": "Debloat Windows 10",
-    "Tags": []
+    "Tags": [
+      {
+        "Id": 14,
+        "Name": "sa"
+      }
+    ]
   },
   {
     "Id": 50,
@@ -390,7 +420,12 @@
     "Id": 53,
     "Href": "https://www.youtube.com/watch?v=aqWuQTleLa4",
     "Title": "Install TP Link HS220 Switch",
-    "Tags": []
+    "Tags": [
+      {
+        "Id": 5,
+        "Name": "misc"
+      }
+    ]
   },
   {
     "Id": 54,
@@ -407,13 +442,23 @@
     "Id": 55,
     "Href": "https://medium.com/codex/how-to-compare-correctly-in-net-definitive-guide-cf66ba79fe8",
     "Title": "Comparing in dotnet",
-    "Tags": []
+    "Tags": [
+      {
+        "Id": 15,
+        "Name": "dotnet"
+      }
+    ]
   },
   {
     "Id": 56,
     "Href": "https://www.conventionalcommits.org/en/v1.0.0/",
     "Title": "conventionalcommits.org",
-    "Tags": []
+    "Tags": [
+      {
+        "Id": 16,
+        "Name": "git"
+      }
+    ]
   },
   {
     "Id": 57,
@@ -458,7 +503,12 @@
     "Id": 61,
     "Href": "https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blob-pageblob-overview?tabs=dotnet",
     "Title": "Azure Blob Storage",
-    "Tags": []
+    "Tags": [
+      {
+        "Id": 17,
+        "Name": "az"
+      }
+    ]
   },
   {
     "Id": 62,
@@ -532,7 +582,12 @@
     "Id": 70,
     "Href": "https://stackoverflow.blog/2022/12/30/you-should-be-reading-academic-computer-science-papers/",
     "Title": "Dev blog academic CS papers",
-    "Tags": []
+    "Tags": [
+      {
+        "Id": 12,
+        "Name": "theory"
+      }
+    ]
   },
   {
     "Id": 71,
