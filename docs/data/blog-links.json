@@ -490,6 +490,10 @@
       {
         "Id": 11,
         "Name": "blog"
+      },
+      {
+        "Id": 15,
+        "Name": "dotnet"
       }
     ]
   },
@@ -576,7 +580,12 @@
     "Id": 69,
     "Href": "https://www.youtube.com/watch?v=GEv4gFgvsrw",
     "Title": "Dev blog Emacs",
-    "Tags": []
+    "Tags": [
+      {
+        "Id": 19,
+        "Name": "ed"
+      }
+    ]
   },
   {
     "Id": 70,
@@ -675,6 +684,50 @@
       {
         "Id": 2,
         "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 80,
+    "Href": "https://thefederalist.com/2023/02/02/5-riveting-films-snubbed-by-the-academy-awards/",
+    "Title": "Movies blog",
+    "Tags": [
+      {
+        "Id": 5,
+        "Name": "misc"
+      }
+    ]
+  },
+  {
+    "Id": 81,
+    "Href": "https://www.youtube.com/watch?v=4xuBT3BbsYU",
+    "Title": "Dev blog SAAS",
+    "Tags": [
+      {
+        "Id": 3,
+        "Name": "dev-ops"
+      }
+    ]
+  },
+  {
+    "Id": 82,
+    "Href": "https://devclass.com/2022/12/22/microsoft-plans-pre-compiled-queries-for-entity-framework-and-may-replace-old-and-crufty-net-sql-server-provider/",
+    "Title": "Dev blog Microsoft plans pre-compiled queries for Entity Framework",
+    "Tags": [
+      {
+        "Id": 7,
+        "Name": "sql"
+      }
+    ]
+  },
+  {
+    "Id": 83,
+    "Href": "https://iranye.github.io/coder-foundry-2/docs/dev-blog.html",
+    "Title": "Dev Blog Main",
+    "Tags": [
+      {
+        "Id": 13,
+        "Name": "blog"
       }
     ]
   }
