@@ -102,8 +102,21 @@
                               Height="540">
                         <DataGrid.Columns>
                             <DataGridTextColumn Binding="{Binding Title}" Header="Title"/>
-                            <DataGridTextColumn Binding="{Binding TagsCsv}" Header="Tags"/>
-                            <DataGridHyperlinkColumn Binding="{Binding Href}" Header="Href" MaxWidth="880">
+                            <DataGridTextColumn Binding="{Binding TagsCsv}" MaxWidth="180" Header="Tags">                                
+                                <DataGridTextColumn.ElementStyle>
+                                    <Style>
+                                        <Setter Property="TextBlock.TextWrapping" Value="Wrap" />
+                                    </Style>
+                                </DataGridTextColumn.ElementStyle>
+                            </DataGridTextColumn>
+                            <DataGridTextColumn Binding="{Binding Desc}" MaxWidth="230" Header="Description">
+                                <DataGridTextColumn.ElementStyle>
+                                    <Style>
+                                        <Setter Property="TextBlock.TextWrapping" Value="Wrap" />
+                                    </Style>
+                                </DataGridTextColumn.ElementStyle>
+                            </DataGridTextColumn>
+                                <DataGridHyperlinkColumn Binding="{Binding Href}" Header="Href" MaxWidth="880">
                                 <DataGridHyperlinkColumn.ElementStyle>
                                     <Style>
                                         <EventSetter Event="Hyperlink.Click" Handler="Link_Click"/>

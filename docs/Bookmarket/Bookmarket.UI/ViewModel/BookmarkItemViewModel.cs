@@ -46,6 +46,19 @@ namespace Bookmarket.UI.ViewModel
             }
         }
 
+        public string? Desc
+        {
+            get => _model.Desc;
+            set
+            {
+                if (value is not null && value != _model.Desc)
+                {
+                    _model.Desc = value;
+                    RaisePropertyChanged();
+                }
+            }
+        }
+
         public string? Href
         {
             get => _model.Href;
@@ -62,7 +75,9 @@ namespace Bookmarket.UI.ViewModel
         public bool HasFilterString(string filter)
         {
             bool ret = false;
-            if ((Title != null && Title.ToLower().Contains(filter)) || (Href != null && Href.ToLower().Contains(filter)))
+            if ((Title != null && Title.ToLower().Contains(filter))
+                || (Href != null && Href.ToLower().Contains(filter))
+                || (Desc != null && Desc.ToLower().Contains(filter)))
             {
                 ret = true;
             }

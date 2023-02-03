@@ -12,6 +12,8 @@
 
         public string Title { get; set; } = String.Empty;
 
+        public string Desc { get; set; } = String.Empty;
+
         public ICollection<Tag>? Tags { get; set; } = null;
     }
 }

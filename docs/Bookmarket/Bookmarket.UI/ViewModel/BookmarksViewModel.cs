@@ -382,6 +382,7 @@ namespace Bookmarket.UI.ViewModel
         // Save
         private void Save(object? parameter)
         {
+            ClearOutput(null);
             IEnumerable<Bookmark> items = _mapper.Map<IEnumerable<BookmarkItemViewModel>, IEnumerable<Bookmark>>(Bookmarks);
             _bmDataProvider.SaveAll(items);
             PrintToOutput($"Saved to '{JsonFileFullPath}'");

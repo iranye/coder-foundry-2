@@ -3,6 +3,7 @@
     "Id": 1,
     "Href": "https://gist.github.com/dahlsailrunner/1765b807940e29951ea6bdfb36cd85dd",
     "Title": "VS Code Configuring for C#",
+    "Desc": "",
     "Tags": [
       {
         "Id": 1,
@@ -14,12 +15,14 @@
     "Id": 2,
     "Href": "https://medium.com/@shubhadeepchat/logging-in-net-core-with-serilog-in-2-minutes-a41ec3192183",
     "Title": "Serilog",
+    "Desc": "",
     "Tags": []
   },
   {
     "Id": 3,
     "Href": "https://medium.com/@steven.kennis1/making-beautiful-native-apps-with-net-maui-blazor-and-tailwind-css-63bfe48a5bd5",
     "Title": "Maui Blazor",
+    "Desc": "",
     "Tags": [
       {
         "Id": 2,
@@ -31,6 +34,7 @@
     "Id": 4,
     "Href": "https://medium.com/@jaydeepvpatil225/crud-operation-using-entity-framework-core-and-stored-procedure-in-net-core-6-web-api-65faf6f019f0",
     "Title": "EF Core and PROCS and Web API",
+    "Desc": "",
     "Tags": [
       {
         "Id": 7,
@@ -42,6 +46,7 @@
     "Id": 5,
     "Href": "https://cointelegraph.com/news/nodes-are-going-to-dethrone-tech-giants-from-apple-to-google",
     "Title": "Nodes are going to dethrone tech giants",
+    "Desc": "",
     "Tags": [
       {
         "Id": 12,
@@ -53,6 +58,7 @@
     "Id": 6,
     "Href": "https://blog.tonysneed.com/2018/12/20/idesigntimedbcontextfactory-and-dependency-injection-a-love-story/",
     "Title": "DB Context and DI",
+    "Desc": "",
     "Tags": [
       {
         "Id": 7,
@@ -64,6 +70,7 @@
     "Id": 7,
     "Href": "https://articles.ricardogriffith.com/hangfire-with-net-6-0-8bbf4f2b3353",
     "Title": "HangFire + .net6 for schedules tasks",
+    "Desc": "",
     "Tags": [
       {
         "Id": 1,
@@ -75,6 +82,7 @@
     "Id": 8,
     "Href": "https://www.youtube.com/watch?v=LfgBm5M8eUM",
     "Title": "net7 foreach",
+    "Desc": "",
     "Tags": [
       {
         "Id": 1,
@@ -86,6 +94,7 @@
     "Id": 9,
     "Href": "https://medium.com/@tobias.streng/classes-vs-structs-in-net-fdfa9858166d",
     "Title": "Classes v Structs",
+    "Desc": "",
     "Tags": [
       {
         "Id": 1,
@@ -97,6 +106,7 @@
     "Id": 10,
     "Href": "https://medium.com/@anish_ali/why-you-should-use-vim-4cfef3dad5ed",
     "Title": "VIM",
+    "Desc": "",
     "Tags": [
       {
         "Id": 19,
@@ -108,6 +118,7 @@
     "Id": 11,
     "Href": "https://www.prowaretech.com/articles/current/blazor/wasm/login-form",
     "Title": "Blazor Wasm Login Form",
+    "Desc": "",
     "Tags": [
       {
         "Id": 2,
@@ -119,6 +130,7 @@
     "Id": 12,
     "Href": "https://javascript.plainenglish.io/11-stupidly-simple-side-hustles-to-earn-extra-money-as-a-programmer-23fd30ca5cda",
     "Title": "Side Hustles",
+    "Desc": "",
     "Tags": [
       {
         "Id": 2,
@@ -130,6 +142,7 @@
     "Id": 13,
     "Href": "https://news.slashdot.org/story/22/09/05/0135254/gnu-grep-38-starts-issuing-warnings-about-using-egrep-and-fgrep",
     "Title": "EGREP",
+    "Desc": "",
     "Tags": [
       {
         "Id": 10,
@@ -141,12 +154,14 @@
     "Id": 14,
     "Href": "https://www.codingblocks.net/software-development-tips-and-tricks/",
     "Title": "Coding Blocks",
+    "Desc": "",
     "Tags": []
   },
   {
     "Id": 15,
     "Href": "https://www.youtube.com/watch?v=VdmVu6uDJSU",
     "Title": "LINQ Performance Trap",
+    "Desc": "",
     "Tags": [
       {
         "Id": 1,
@@ -158,6 +173,7 @@
     "Id": 16,
     "Href": "https://www.syncfusion.com/blogs/post/a-full-stack-web-app-using-blazor-webassembly-and-graphql-part-1.aspx",
     "Title": "Syncfusion Blazor",
+    "Desc": "",
     "Tags": [
       {
         "Id": 2,
@@ -169,6 +185,7 @@
     "Id": 17,
     "Href": "https://www.c-sharpcorner.com/article/grpc-introduction-and-implementation-using-net-core-6/",
     "Title": "GRPC and dotnet 6",
+    "Desc": "",
     "Tags": [
       {
         "Id": 15,
@@ -180,6 +197,7 @@
     "Id": 18,
     "Href": "https://devblogs.microsoft.com/dotnet/announcing-builtin-container-support-for-the-dotnet-sdk/",
     "Title": "Builtin Container Support dotnet SDK",
+    "Desc": "",
     "Tags": [
       {
         "Id": 9,
@@ -191,6 +209,7 @@
     "Id": 19,
     "Href": "https://medium.com/@joaooliveira889/executing-a-sql-server-docker-container-and-connecting-to-a-net-4b75cae7df32",
     "Title": "SQL Server and Docker",
+    "Desc": "",
     "Tags": [
       {
         "Id": 7,
@@ -202,6 +221,7 @@
     "Id": 20,
     "Href": "https://betterprogramming.pub/facade-design-pattern-39a87c4cfa14",
     "Title": "Facade Design Pattern",
+    "Desc": "",
     "Tags": [
       {
         "Id": 12,
@@ -213,6 +233,7 @@
     "Id": 21,
     "Href": "https://www.youtube.com/watch?v=8IRNC7qZBmk",
     "Title": "Cleanest way to use Docker for testing in .NET on YouTube",
+    "Desc": "",
     "Tags": [
       {
         "Id": 9,
@@ -224,6 +245,7 @@
     "Id": 22,
     "Href": "https://tapajyoti-bose.medium.com/7-amazing-github-repositories-every-developer-should-follow-3161cc1b602e",
     "Title": "Github Repos to follow",
+    "Desc": "",
     "Tags": [
       {
         "Id": 16,
@@ -235,6 +257,7 @@
     "Id": 23,
     "Href": "https://medium.com/geekculture/creating-a-pokedex-with-blazor-webassembly-677b5bcf3593",
     "Title": "Blazor Pokedex",
+    "Desc": "",
     "Tags": [
       {
         "Id": 2,
@@ -246,6 +269,7 @@
     "Id": 24,
     "Href": "https://visualstudiomagazine.com/articles/2022/02/10/blazor-hybrid-net-7.aspx?m=1",
     "Title": "Blazor Hybrid .net 7",
+    "Desc": "",
     "Tags": [
       {
         "Id": 2,
@@ -257,6 +281,7 @@
     "Id": 25,
     "Href": "https://www.inc.com/bill-murphy-jr/people-who-use7-these-key-rulesin-conversationshave-very-high-emotional-intelligence.html",
     "Title": "Emotional Intelligence",
+    "Desc": "",
     "Tags": [
       {
         "Id": 5,
@@ -268,6 +293,7 @@
     "Id": 26,
     "Href": "https://www.youtube.com/watch?v=UAWImLf5bgw",
     "Title": "Linode, ASP.NET Core, Nginx, WSL2 - Linode Cloud - Tricking Library Ep63",
+    "Desc": "",
     "Tags": [
       {
         "Id": 18,
@@ -279,6 +305,7 @@
     "Id": 27,
     "Href": "https://codeblog.jonskeet.uk/category/edulinq/",
     "Title": "Jon Skeet",
+    "Desc": "",
     "Tags": [
       {
         "Id": 11,
@@ -290,6 +317,7 @@
     "Id": 28,
     "Href": "https://dkreider.medium.com/the-step-by-step-guide-to-creating-and-using-a-generic-repository-588407940b34",
     "Title": "C# Generic Repository",
+    "Desc": "",
     "Tags": [
       {
         "Id": 1,
@@ -301,6 +329,7 @@
     "Id": 29,
     "Href": "https://www.youtube.com/watch?v=8fi7uSYlOdc",
     "Title": "Build Container using Go",
+    "Desc": "",
     "Tags": [
       {
         "Id": 9,
@@ -312,6 +341,7 @@
     "Id": 30,
     "Href": "https://www.nytimes.com/2022/11/28/well/family/male-friendship-loneliness.html",
     "Title": "Make Close Friends",
+    "Desc": "",
     "Tags": [
       {
         "Id": 5,
@@ -323,6 +353,7 @@
     "Id": 31,
     "Href": "https://www.youtube.com/watch?v=BV_f2XnqlRE",
     "Title": "Nick C - Delete your Docker files dotnet 7",
+    "Desc": "",
     "Tags": [
       {
         "Id": 9,
@@ -334,6 +365,7 @@
     "Id": 32,
     "Href": "https://medium.com/@iamprovidence/docker-for-dummies-2fcf4b8496af",
     "Title": "Docker for Dummies",
+    "Desc": "",
     "Tags": [
       {
         "Id": 9,
@@ -345,6 +377,7 @@
     "Id": 33,
     "Href": "https://betterprogramming.pub/create-a-text-to-image-generator-using-dall-e-api-in-c-net-7df58d940e79",
     "Title": "DALL-E",
+    "Desc": "",
     "Tags": [
       {
         "Id": 11,
@@ -356,6 +389,7 @@
     "Id": 34,
     "Href": "https://youtu.be/Pt-0KM5SxmI",
     "Title": "Nick C - Stop using the Process class",
+    "Desc": "",
     "Tags": [
       {
         "Id": 13,
@@ -367,12 +401,14 @@
     "Id": 35,
     "Href": "https://thenewstack.io/sidecars-are-changing-the-kubernetes-load-testing-landscape/",
     "Title": "Sidecars changing K8S Landscape",
+    "Desc": "",
     "Tags": []
   },
   {
     "Id": 36,
     "Href": "https://ubuntu.com/blog/ubuntu-wsl-enable-systemd",
     "Title": "Systemd support lands in WSL",
+    "Desc": "",
     "Tags": [
       {
         "Id": 10,
@@ -384,6 +420,7 @@
     "Id": 37,
     "Href": "https://youtu.be/AtVH3rtxhMs",
     "Title": "Publish a .NET 6 Application To Railway",
+    "Desc": "",
     "Tags": [
       {
         "Id": 18,
@@ -395,6 +432,7 @@
     "Id": 38,
     "Href": "https://hindenbug.io/what-is-the-undisputed-best-git-branching-strategy-4e986442a911",
     "Title": "Best Git Branching Strategy",
+    "Desc": "",
     "Tags": [
       {
         "Id": 16,
@@ -406,12 +444,14 @@
     "Id": 39,
     "Href": "https://medium.com/@codeeverywhere/redis-vs-kafka-vs-rabbitmq-43eeec82bafb",
     "Title": "Redis vs Kafka vs vs Rabbit MQ",
+    "Desc": "",
     "Tags": []
   },
   {
     "Id": 40,
     "Href": "https://devblogs.microsoft.com/dotnet/dotnet-6-is-now-in-ubuntu-2204/",
     "Title": "NET 6 is now in Ubuntu 22.04",
+    "Desc": "",
     "Tags": [
       {
         "Id": 10,
@@ -423,6 +463,7 @@
     "Id": 41,
     "Href": "https://medium.com/@erickgallani/asp-net-core-complex-model-binding-276156cc09d7?source=post_page-----6b0d72cf41db----0----------------------------",
     "Title": "Model Binding",
+    "Desc": "",
     "Tags": [
       {
         "Id": 15,
@@ -434,6 +475,7 @@
     "Id": 42,
     "Href": "https://devblogs.microsoft.com/dotnet/dotnet-maui-visualstudio-2022-release/",
     "Title": "Dotnet MAUI in 2022",
+    "Desc": "",
     "Tags": [
       {
         "Id": 15,
@@ -445,6 +487,7 @@
     "Id": 43,
     "Href": "https://michaelscodingspot.com/web-application-tech-stack-front-end/",
     "Title": "Best C# .NET Web Application Tech Stack",
+    "Desc": "",
     "Tags": [
       {
         "Id": 2,
@@ -456,6 +499,7 @@
     "Id": 44,
     "Href": "https://code-maze.com/difference-between-throw-vs-throwex-csharp/",
     "Title": "throw vs throw ex in C#",
+    "Desc": "",
     "Tags": [
       {
         "Id": 1,
@@ -467,6 +511,7 @@
     "Id": 45,
     "Href": "https://www.youtube.com/watch?v=qWfavvrhrfk&t=1878s",
     "Title": "RawCoding Postgresql WSL 2",
+    "Desc": "",
     "Tags": [
       {
         "Id": 7,
@@ -478,6 +523,7 @@
     "Id": 46,
     "Href": "https://news.slashdot.org/story/22/12/04/0248249/what-is-chatgpt-the-ai-chatbot-thats-taking-the-internet-by-storm",
     "Title": "AI Chatbot",
+    "Desc": "",
     "Tags": [
       {
         "Id": 11,
@@ -489,6 +535,7 @@
     "Id": 47,
     "Href": "https://www.timescale.com/blog/12-days-of-postgresql-tools-and-projects/",
     "Title": "12 Days of PostgreSQL Tools and Projects",
+    "Desc": "",
     "Tags": [
       {
         "Id": 7,
@@ -500,6 +547,7 @@
     "Id": 48,
     "Href": "https://www.youtube.com/watch?v=7hdJQkn8rtA",
     "Title": "Critical Program Reading",
+    "Desc": "",
     "Tags": [
       {
         "Id": 12,
@@ -511,6 +559,7 @@
     "Id": 49,
     "Href": "https://tech.slashdot.org/story/23/01/02/191257/debloating-windows-10-with-one-command-and-no-scripts",
     "Title": "Debloat Windows 10",
+    "Desc": "",
     "Tags": [
       {
         "Id": 14,
@@ -522,6 +571,7 @@
     "Id": 50,
     "Href": "https://learn.coderfoundry.com/library",
     "Title": "CF Self-Paced",
+    "Desc": "",
     "Tags": [
       {
         "Id": 2,
@@ -533,18 +583,21 @@
     "Id": 51,
     "Href": "https://www.spineuniverse.com/conditions/scoliosis/non-fusion-scoliosis-surgery-options",
     "Title": "non fusion scoliosis surgical options",
+    "Desc": "",
     "Tags": []
   },
   {
     "Id": 52,
     "Href": "https://www.google.com/search?q=dystrophic+scoliosis+nfi&rlz=1C1RXQR_enUS1007US1007&oq=dystrophic+scoliosis+nfi&aqs=chrome..69i57j33i160l3.12654j0j7&sourceid=chrome&ie=UTF-8",
     "Title": "dystrophic scoliosis nfi",
+    "Desc": "",
     "Tags": []
   },
   {
     "Id": 53,
     "Href": "https://www.youtube.com/watch?v=aqWuQTleLa4",
     "Title": "Install TP Link HS220 Switch",
+    "Desc": "",
     "Tags": [
       {
         "Id": 5,
@@ -556,6 +609,7 @@
     "Id": 54,
     "Href": "https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/",
     "Title": "Spolsky on Unicode",
+    "Desc": "",
     "Tags": [
       {
         "Id": 11,
@@ -567,6 +621,7 @@
     "Id": 55,
     "Href": "https://medium.com/codex/how-to-compare-correctly-in-net-definitive-guide-cf66ba79fe8",
     "Title": "Comparing in dotnet",
+    "Desc": "",
     "Tags": [
       {
         "Id": 15,
@@ -578,6 +633,7 @@
     "Id": 56,
     "Href": "https://www.conventionalcommits.org/en/v1.0.0/",
     "Title": "conventionalcommits.org",
+    "Desc": "",
     "Tags": [
       {
         "Id": 16,
@@ -589,6 +645,7 @@
     "Id": 57,
     "Href": "https://www.hanselman.com/blog/",
     "Title": "hanselman.com/blog",
+    "Desc": "",
     "Tags": [
       {
         "Id": 11,
@@ -600,6 +657,7 @@
     "Id": 58,
     "Href": "https://blog.codinghorror.com/",
     "Title": "codinghorror",
+    "Desc": "",
     "Tags": [
       {
         "Id": 11,
@@ -611,6 +669,7 @@
     "Id": 59,
     "Href": "https://devblogs.microsoft.com/dotnet/",
     "Title": "devblogs.microsoft.com",
+    "Desc": "",
     "Tags": [
       {
         "Id": 11,
@@ -626,6 +685,7 @@
     "Id": 60,
     "Href": "https://www.nytimes.com/2023/01/14/opinion/american-history-college-university-academia.html",
     "Title": "The Decline of US History",
+    "Desc": "",
     "Tags": [
       {
         "Id": 5,
@@ -637,6 +697,7 @@
     "Id": 61,
     "Href": "https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blob-pageblob-overview?tabs=dotnet",
     "Title": "Azure Blob Storage",
+    "Desc": "",
     "Tags": [
       {
         "Id": 17,
@@ -648,6 +709,7 @@
     "Id": 62,
     "Href": "https://www.virtualizationhowto.com/2023/01/best-docker-containers-for-synology-nas/",
     "Title": "Dev blog docker on NAS",
+    "Desc": "",
     "Tags": [
       {
         "Id": 9,
@@ -659,6 +721,7 @@
     "Id": 63,
     "Href": "https://www.youtube.com/watch?v=dBVTedUWbfg",
     "Title": "Dev blog sync files",
+    "Desc": "",
     "Tags": [
       {
         "Id": 14,
@@ -670,6 +733,7 @@
     "Id": 64,
     "Href": "https://www.netapp.tv/details/29597",
     "Title": "Dev blog IT Office",
+    "Desc": "",
     "Tags": [
       {
         "Id": 4,
@@ -681,6 +745,7 @@
     "Id": 65,
     "Href": "https://www.youtube.com/watch?v=l-kE11fhfaQ",
     "Title": "Dev blog ChatGPT Tutorial",
+    "Desc": "",
     "Tags": [
       {
         "Id": 11,
@@ -692,6 +757,7 @@
     "Id": 66,
     "Href": "https://lp.leadpages.com/landing-page-lookbook/",
     "Title": "Dev blog web dev",
+    "Desc": "",
     "Tags": [
       {
         "Id": 2,
@@ -703,6 +769,7 @@
     "Id": 67,
     "Href": "https://www.youtube.com/watch?v=nCuDrWxlh4Y",
     "Title": "Most Powerful Software Development Process",
+    "Desc": "",
     "Tags": [
       {
         "Id": 12,
@@ -714,6 +781,7 @@
     "Id": 68,
     "Href": "https://css-tricks.com/solved-with-has-vertical-spacing-in-long-form-text/",
     "Title": "Dev blog CSS",
+    "Desc": "",
     "Tags": [
       {
         "Id": 2,
@@ -725,6 +793,7 @@
     "Id": 69,
     "Href": "https://www.youtube.com/watch?v=GEv4gFgvsrw",
     "Title": "Dev blog Emacs",
+    "Desc": "",
     "Tags": [
       {
         "Id": 19,
@@ -736,6 +805,7 @@
     "Id": 70,
     "Href": "https://stackoverflow.blog/2022/12/30/you-should-be-reading-academic-computer-science-papers/",
     "Title": "Dev blog academic CS papers",
+    "Desc": "",
     "Tags": [
       {
         "Id": 12,
@@ -747,6 +817,7 @@
     "Id": 71,
     "Href": "https://devclass.com/2022/12/21/fermyons-new-spin-and-how-webassembly-has-miniscule-compute-requirements-compared-to-more-costly-containers/",
     "Title": "Dev blog Fermyon Spin WebAssembly",
+    "Desc": "",
     "Tags": [
       {
         "Id": 2,
@@ -758,12 +829,14 @@
     "Id": 72,
     "Href": "https://arstechnica.com/gadgets/2023/01/count-on-old-school-fun-with-these-new-calculator-emulations/",
     "Title": "Dev blog TI emulators",
+    "Desc": "",
     "Tags": []
   },
   {
     "Id": 73,
     "Href": "https://www.youtube.com/watch?v=7JKzC63JAn4",
     "Title": "Dev blog Linux - How I Use",
+    "Desc": "DistroTube: Goes over windowing managers, arcolinux (very vanilla)",
     "Tags": [
       {
         "Id": 10,
@@ -775,6 +848,7 @@
     "Id": 74,
     "Href": "https://roadmap.sh/",
     "Title": "Dev Guide",
+    "Desc": "",
     "Tags": [
       {
         "Id": 2,
@@ -786,6 +860,7 @@
     "Id": 75,
     "Href": "https://csslayout.io/",
     "Title": "CSS Layouts",
+    "Desc": "",
     "Tags": [
       {
         "Id": 2,
@@ -797,6 +872,7 @@
     "Id": 76,
     "Href": "https://thenewstack.io/webassembly-vs-javascript-security-speed-flexibility/",
     "Title": "Dev blog Blazor v JS",
+    "Desc": "",
     "Tags": [
       {
         "Id": 2,
@@ -808,6 +884,7 @@
     "Id": 77,
     "Href": "https://cointelegraph.com/news/how-to-improve-your-coding-skills-using-chatgpt",
     "Title": "Dev blog - improve your coding skills using ChatGPT",
+    "Desc": "",
     "Tags": [
       {
         "Id": 11,
@@ -819,6 +896,7 @@
     "Id": 78,
     "Href": "https://www.nytimes.com/2023/02/01/technology/openai-chatgpt-plus-subscription.html",
     "Title": "Dev blog chat bot",
+    "Desc": "",
     "Tags": [
       {
         "Id": 11,
@@ -830,6 +908,7 @@
     "Id": 79,
     "Href": "https://visualstudiomagazine.com/articles/2023/01/26/blazor-united.aspx?m=1",
     "Title": "Dev blog - Steve Sanderson Peek at Blazor United",
+    "Desc": "",
     "Tags": [
       {
         "Id": 2,
@@ -841,6 +920,7 @@
     "Id": 80,
     "Href": "https://thefederalist.com/2023/02/02/5-riveting-films-snubbed-by-the-academy-awards/",
     "Title": "Movies blog",
+    "Desc": "",
     "Tags": [
       {
         "Id": 5,
@@ -852,6 +932,7 @@
     "Id": 81,
     "Href": "https://www.youtube.com/watch?v=4xuBT3BbsYU",
     "Title": "Dev blog SAAS",
+    "Desc": "",
     "Tags": [
       {
         "Id": 3,
@@ -863,6 +944,7 @@
     "Id": 82,
     "Href": "https://devclass.com/2022/12/22/microsoft-plans-pre-compiled-queries-for-entity-framework-and-may-replace-old-and-crufty-net-sql-server-provider/",
     "Title": "Dev blog Microsoft plans pre-compiled queries for Entity Framework",
+    "Desc": "",
     "Tags": [
       {
         "Id": 7,
@@ -874,6 +956,7 @@
     "Id": 83,
     "Href": "https://iranye.github.io/coder-foundry-2/docs/dev-blog.html",
     "Title": "Dev Blog Main",
+    "Desc": "",
     "Tags": [
       {
         "Id": 13,
