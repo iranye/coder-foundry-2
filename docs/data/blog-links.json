@@ -333,12 +333,12 @@
     "Desc": "",
     "Tags": [
       {
-        "Id": 18,
-        "Name": "web-host"
-      },
-      {
         "Id": 20,
         "Name": "video"
+      },
+      {
+        "Id": 18,
+        "Name": "web-host"
       }
     ]
   },
@@ -1452,7 +1452,7 @@
     "Id": 113,
     "Href": "https://www.youtube.com/watch?v=7POKQgdkrA4",
     "Title": "Why is Async code hard to debug?",
-    "Desc": "",
+    "Desc": "VisualStudioToolbox Video series [ReadMySongs]",
     "Tags": [
       {
         "Id": 1,
@@ -1465,6 +1465,106 @@
       {
         "Id": 23,
         "Name": "async"
+      }
+    ]
+  },
+  {
+    "Id": 114,
+    "Href": "https://www.tomshardware.com/how-to/fix-windows-10-repair-install",
+    "Title": "How to Fix Windows 10 with a Repair Install",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 14,
+        "Name": "sa"
+      }
+    ]
+  },
+  {
+    "Id": 115,
+    "Href": "https://gunnarpeipman.com/cost-of-exceptions/",
+    "Title": "Dev blog - C# Cost of exceptions",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      }
+    ]
+  },
+  {
+    "Id": 116,
+    "Href": "https://rubikscode.net/2021/11/08/c-10-top-5-new-features-in-the-upcoming-c-version/",
+    "Title": "C# 10 – Top 5 Features",
+    "Desc": "Properties of Properties",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      }
+    ]
+  },
+  {
+    "Id": 117,
+    "Href": "https://andrewlock.net/adding-authentication-to-a-blazor-server-app-using-auth0/",
+    "Title": "Adding authentication via Auth0 - Blazor Server app",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      },
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 118,
+    "Href": "https://www.youtube.com/watch?v=QE8ddt4Jy-o",
+    "Title": "Pinal - Make a DB Table Read-only",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 7,
+        "Name": "sql"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      }
+    ]
+  },
+  {
+    "Id": 119,
+    "Href": "https://www.youtube.com/watch?v=tnepPn3Py8s",
+    "Title": "C# Language Highlights: Positional Pattern Matching",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      }
+    ]
+  },
+  {
+    "Id": 120,
+    "Href": "https://www.youtube.com/watch?v=6jGcPbD5cS8",
+    "Title": "ASP.NET Core 5 | DataGrid Sorting",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
       }
     ]
   }
