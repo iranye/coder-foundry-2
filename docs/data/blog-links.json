@@ -1159,5 +1159,313 @@
         "Name": "web-dev"
       }
     ]
+  },
+  {
+    "Id": 94,
+    "Href": "https://www.wisdomgeek.com/development/web-development/rest-and-spread-operator-three-dots-that-changed-javascript/",
+    "Title": "JavaScript - Rest and Spread operator",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 95,
+    "Href": "https://www.freecodecamp.org/news/learn-the-bootstrap-css-framework-by-creating-a-custom-admin-theme/",
+    "Title": "Bootstrap CSS - custom admin theme",
+    "Desc": "2+ hour video",
+    "Tags": [
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      }
+    ]
+  },
+  {
+    "Id": 96,
+    "Href": "https://www.freecodecamp.org/news/how-to-build-an-event-booking-app-using-html-css-javascript-and-firebase/",
+    "Title": "Event Booking App - HTML, CSS, JavaScript, and Firebase",
+    "Desc": "Includes demo of finished program",
+    "Tags": [
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 97,
+    "Href": "https://www.hanselman.com/blog/PublishingAnASPNETCoreWebsiteToACheapLinuxVMHost.aspx",
+    "Title": "Hanselman Blog - Publish to a cheap Linux VM",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      },
+      {
+        "Id": 18,
+        "Name": "web-host"
+      }
+    ]
+  },
+  {
+    "Id": 98,
+    "Href": "https://blog.elmah.io/net-csharp-newsletters-to-subscribe-to-keep-up-with-the-news/",
+    "Title": ".NET/C# newsletters to subscribe to",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 13,
+        "Name": "blog"
+      },
+      {
+        "Id": 1,
+        "Name": "c#"
+      }
+    ]
+  },
+  {
+    "Id": 99,
+    "Href": "https://towardsdatascience.com/dual-boot-is-dead-windows-and-linux-are-now-one-27555902a128",
+    "Title": "Dual Boot is Dead - WSL 2",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 10,
+        "Name": "linux"
+      }
+    ]
+  },
+  {
+    "Id": 100,
+    "Href": "https://ericlippert.com/2020/04/13/life-part-1/",
+    "Title": "Eric Lippert's blog - ConwaysLife",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 13,
+        "Name": "blog"
+      },
+      {
+        "Id": 1,
+        "Name": "c#"
+      }
+    ]
+  },
+  {
+    "Id": 101,
+    "Href": "https://kidfriendlytriad.com/best-greenways-trails-in-winston-salem-nc/",
+    "Title": "Best Greenways & Trails - Winston Salem NC",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 5,
+        "Name": "misc"
+      },
+      {
+        "Id": 4,
+        "Name": "recr"
+      }
+    ]
+  },
+  {
+    "Id": 102,
+    "Href": "https://exceptionnotfound.net/using-conditional-csharp-linq-clauses-to-make-a-multiple-input-search-engine/",
+    "Title": "Multiple-Input Search Engine Using Conditional C# LINQ",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      },
+      {
+        "Id": 21,
+        "Name": "linq"
+      }
+    ]
+  },
+  {
+    "Id": 103,
+    "Href": "https://www.freecodecamp.org/news/javascript-console-log-example-how-to-print-to-the-console-in-js/",
+    "Title": "Do more with JavaScript Console.log()",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 104,
+    "Href": "https://dev.to/noseratio/why-i-no-longer-use-configureawait-false-3pne",
+    "Title": "Andrew Nosenko blog - stop using ConfigureAwait(false)",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 13,
+        "Name": "blog"
+      },
+      {
+        "Id": 1,
+        "Name": "c#"
+      },
+      {
+        "Id": 23,
+        "Name": "async"
+      }
+    ]
+  },
+  {
+    "Id": 105,
+    "Href": "https://thenextweb.com/news/how-to-teach-yourself-computer-science-a-developers-100-hour-journey-syndication",
+    "Title": "Teach yourself computer science - 100-hour journey",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 12,
+        "Name": "theory"
+      }
+    ]
+  },
+  {
+    "Id": 106,
+    "Href": "https://acloudguru.com/",
+    "Title": "Microsoft SQL Server on Linux Quick Start",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 10,
+        "Name": "linux"
+      },
+      {
+        "Id": 7,
+        "Name": "sql"
+      }
+    ]
+  },
+  {
+    "Id": 107,
+    "Href": "https://devblogs.microsoft.com/dotnet/whats-new-in-windows-forms-runtime-in-net-5-0/",
+    "Title": "What’s new in Windows Forms runtime in .NET 5.0",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 13,
+        "Name": "blog"
+      },
+      {
+        "Id": 15,
+        "Name": "dotnet"
+      },
+      {
+        "Id": 22,
+        "Name": "rich-client"
+      }
+    ]
+  },
+  {
+    "Id": 108,
+    "Href": "https://devblogs.microsoft.com/dotnet/staying-safe-with-dotnet-containers/",
+    "Title": "Staying safe with .NET containers",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 13,
+        "Name": "blog"
+      },
+      {
+        "Id": 9,
+        "Name": "docker"
+      },
+      {
+        "Id": 15,
+        "Name": "dotnet"
+      }
+    ]
+  },
+  {
+    "Id": 109,
+    "Href": "https://khalidabuhakmeh.com/recursive-data-with-entity-framework-core-and-sql-server",
+    "Title": "EF Core - Recursive Queries on self-referential tables",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 7,
+        "Name": "sql"
+      }
+    ]
+  },
+  {
+    "Id": 110,
+    "Href": "https://visualstudiomagazine.com/articles/2021/04/09/blazorwebview.aspx?m=1",
+    "Title": "Blazor WebView Controls for WPF, WinForms",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      },
+      {
+        "Id": 22,
+        "Name": "rich-client"
+      }
+    ]
+  },
+  {
+    "Id": 111,
+    "Href": "https://www.youtube.com/watch?v=XdhX3iLXAPk",
+    "Title": "EF Core Compiled Models",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 7,
+        "Name": "sql"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      }
+    ]
+  },
+  {
+    "Id": 112,
+    "Href": "https://medium.com/young-coder/a-closer-look-at-5-new-features-in-c-10-f99738b0158e",
+    "Title": "A Closer Look at 5 features in C# 10",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      }
+    ]
+  },
+  {
+    "Id": 113,
+    "Href": "https://www.youtube.com/watch?v=7POKQgdkrA4",
+    "Title": "Why is Async code hard to debug?",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      },
+      {
+        "Id": 23,
+        "Name": "async"
+      }
+    ]
   }
 ]
