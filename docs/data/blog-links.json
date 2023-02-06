@@ -261,12 +261,16 @@
   {
     "Id": 21,
     "Href": "https://www.youtube.com/watch?v=8IRNC7qZBmk",
-    "Title": "Cleanest way to use Docker for testing in .NET on YouTube",
+    "Title": "Nick C - Cleanest way to use Docker for testing in .NET on YouTube",
     "Desc": "",
     "Tags": [
       {
         "Id": 9,
         "Name": "docker"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
       }
     ]
   },
@@ -279,6 +283,10 @@
       {
         "Id": 16,
         "Name": "git"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
       }
     ]
   },
@@ -327,6 +335,10 @@
       {
         "Id": 18,
         "Name": "web-host"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
       }
     ]
   },
@@ -382,7 +394,7 @@
     "Id": 31,
     "Href": "https://www.youtube.com/watch?v=BV_f2XnqlRE",
     "Title": "Nick C - Delete your Docker files dotnet 7",
-    "Desc": "",
+    "Desc": "Need to install Docker Desktop",
     "Tags": [
       {
         "Id": 9,
@@ -899,14 +911,6 @@
       {
         "Id": 20,
         "Name": "video"
-      },
-      {
-        "Id": 1,
-        "Name": "c#"
-      },
-      {
-        "Id": 2,
-        "Name": "web-dev"
       }
     ]
   },
