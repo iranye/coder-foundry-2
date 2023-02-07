@@ -1567,5 +1567,81 @@
         "Name": "video"
       }
     ]
+  },
+  {
+    "Id": 121,
+    "Href": "https://medium.com/swlh/the-magic-of-c-closures-9c6e3fff6ff9",
+    "Title": "C# Closures",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      }
+    ]
+  },
+  {
+    "Id": 122,
+    "Href": "https://medium.com/@devleaderca/how-to-tame-async-void-in-c-93fffd557729",
+    "Title": "The evil async void",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 23,
+        "Name": "async"
+      },
+      {
+        "Id": 1,
+        "Name": "c#"
+      }
+    ]
+  },
+  {
+    "Id": 123,
+    "Href": "https://dotnetfiddle.net/HQVkAe",
+    "Title": "C# Fiddle",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      }
+    ]
+  },
+  {
+    "Id": 124,
+    "Href": "https://www.workingsoftware.dev/frontend-rendering-techniques/",
+    "Title": "Which web frontend architecture fits best?",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 125,
+    "Href": "https://code-maze.com/behavior-driven-development-bdd-csharp/",
+    "Title": "C# BDD",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      }
+    ]
+  },
+  {
+    "Id": 126,
+    "Href": "https://www.businessinsider.com/chatgpt-ceo-sam-altmans-advice-for-founders-on-successful-startups-2023-2",
+    "Title": "How to launch a Starup",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 12,
+        "Name": "theory"
+      }
+    ]
   }
 ]
