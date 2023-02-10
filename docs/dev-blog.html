@@ -6,6 +6,25 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="icon" href="favicon.ico">
     <title>Dev Blog and Other - Links</title>
+    <style type="text/css">
+      fieldset {
+          margin: 8px;
+          border: 1px solid silver;
+          padding: 8px;
+          border-radius: 4px;
+      }
+      .container {
+          clear: both;
+          display: block;
+          position: relative;
+      }
+
+      a {
+            float: left;
+            border: 1px;
+            margin:5px;
+        }
+</style>
     <link rel="stylesheet" href="site.css" type="text/css" />
 </head>
 <body>
@@ -27,6 +46,8 @@
           </aside>
   
           <section class="columns-desktop" id="links">
+
+
             <!-- Generated HTML goes here -->
           </section>
   
@@ -60,8 +81,8 @@
     $((/* jQuery ready */) => {
         let $links = $("#links");
 
-        let linkTemplate = (item) => 
-            `<p class='container' id='${item.Id}'><a class="anchor" href="${item.Href}" target="_blank">${item.Title}</a></p>`;
+        let linkTemplate = (item, tags) => 
+            `<div class='container' id='${item.Id}'><a class="anchor" href="${item.Href}" target="_blank">${item.Title}</a><fieldset><p>${tags}</p></fieldset></div><hr />`;
             
         $.get("data/blog-links.json")
         .done((data) => {
@@ -69,7 +90,14 @@
             setMaxId(length);
             console.log(`Fetch result: ${ length } links loaded`);
             data.forEach((item) => {
-                $links.append(linkTemplate(item));
+              tags = "";
+              for (var i = 0; i < item.Tags.length; i++) {
+                tags += "[" + item.Tags[i].Name + "]";
+              }
+              if (item.Desc) {
+                tags += "<br/>[" + item.Desc + "]";
+              }
+                $links.append(linkTemplate(item, tags));
             });
         })
     });
