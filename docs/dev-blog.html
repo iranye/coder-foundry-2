@@ -32,8 +32,10 @@
       <nav>
         <ul id="header-links">
           <li><a href="/">Home</a></li>
-          <li><a href="pies.html">Pies</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="Regexer.html">Regexer</a></li>
+          <li><a href="dev-blog.html">List of Links</a></li>
+          <li><a href="cloud/index.html">Cloud Q&A</a></li>
+          <li><a href="static/Wordle/Wordle - A daily word game.html">W</a></li>
         </ul>
       </nav>
     </header>
@@ -47,13 +49,11 @@
   
           <section class="columns-desktop" id="links">
 
-
             <!-- Generated HTML goes here -->
           </section>
   
         </article>
       </main>
-
 
     <div class="row">
         <label id="message" class="infoMessage"></label>
@@ -65,16 +65,16 @@
       <nav>
         <ul id="footer-links">
           <li><a href="/">Home</a></li>
-          <li><a href="pies.html">Pies</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="Regexer.html">Regexer</a></li>
+          <li><a href="dev-blog.html">List of Links</a></li>
+          <li><a href="cloud/index.html">Cloud Q&A</a></li>
+          <li><a href="static/Wordle/Wordle - A daily word game.html">W</a></li>
         </ul>
       </nav>
     </footer>
 </body>
 
 <script type="text/javascript" src="scripts/ajax-common.js"></script>
-<script type="text/javascript" src="scripts/dev-blog.js"></script>
-<script type="text/javascript" src="scripts/script.js"></script>
 <script type="text/javascript" src="scripts/jquery-3.6.0.js"></script>
 <script>
 
@@ -87,7 +87,6 @@
         $.get("data/blog-links.json")
         .done((data) => {
             let length = data.length;
-            setMaxId(length);
             console.log(`Fetch result: ${ length } links loaded`);
             data.forEach((item) => {
               tags = "";
