@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link rel="icon" href="favicon.ico">
     <title>Dev Blog and Other - Links</title>
     <style type="text/css">
@@ -31,7 +32,7 @@
     <header>
       <nav>
         <ul id="header-links">
-          <li><a href="/">Home</a></li>
+          <li><a href="index.html">Home</a></li>
           <li><a href="Regexer.html">Regexer</a></li>
           <li><a href="dev-blog.html">List of Links</a></li>
           <li><a href="cloud/index.html">Cloud Q&A</a></li>
@@ -39,19 +40,30 @@
         </ul>
       </nav>
     </header>
-    
+
     <main>
         <article>
-          <h1>Links</h1>
+
           <aside>
             <img src="images/keyboard-01.jpg" id="main-img" alt="Links to Stuff" />
           </aside>
-  
-          <section class="columns-desktop" id="links">
 
-            <!-- Generated HTML goes here -->
+          <section class="columns-desktop">
+
+            <table class="table">
+              <thead>
+                <tr>
+                  <th width="300">Title</th>
+                  <th>Tags</th>
+                  <th width="300">Desc</th>
+                  <th width="300">Href</th>
+                </tr>
+              </thead>
+              <tbody id="links">
+                <!-- Generated HTML goes here -->
+              </tbody>
           </section>
-  
+
         </article>
       </main>
 
@@ -61,17 +73,17 @@
     <div class="row">
         <label id="error" class="errorMessage"></label>
     </div>
-    <footer>
+    <!-- <footer>
       <nav>
         <ul id="footer-links">
-          <li><a href="/">Home</a></li>
+          <li><a href="index.html">Home</a></li>
           <li><a href="Regexer.html">Regexer</a></li>
           <li><a href="dev-blog.html">List of Links</a></li>
           <li><a href="cloud/index.html">Cloud Q&A</a></li>
           <li><a href="static/Wordle/Wordle - A daily word game.html">W</a></li>
         </ul>
       </nav>
-    </footer>
+    </footer> -->
 </body>
 
 <script type="text/javascript" src="scripts/ajax-common.js"></script>
@@ -81,9 +93,9 @@
     $((/* jQuery ready */) => {
         let $links = $("#links");
 
-        let linkTemplate = (item, tags) => 
-            `<div class='container' id='${item.Id}'><a class="anchor" href="${item.Href}" target="_blank">${item.Title}</a><fieldset><p>${tags}</p></fieldset></div><hr />`;
-            
+        let linkTemplate = (item, tags, desc) =>
+        `<tr id='${item.Id}'><td>${item.Title}</td><td>${tags}</td><td>${desc}</td><td><a class="anchor" href="${item.Href}" target="_blank">${item.Href}</a></td></tr>`
+        
         $.get("data/blog-links.json")
         .done((data) => {
             let length = data.length;
@@ -93,13 +105,14 @@
               for (var i = 0; i < item.Tags.length; i++) {
                 tags += "[" + item.Tags[i].Name + "]";
               }
+              var desc = "";
               if (item.Desc) {
-                tags += "<br/>[" + item.Desc + "]";
+                desc = item.Desc;
               }
-                $links.append(linkTemplate(item, tags));
+                $links.append(linkTemplate(item, tags, desc));
             });
         })
     });
-    
+
 </script>
 </html>
