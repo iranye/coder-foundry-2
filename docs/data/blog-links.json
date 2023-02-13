@@ -2375,5 +2375,21 @@
         "Name": "web-dev"
       }
     ]
+  },
+  {
+    "Id": 180,
+    "Href": "https://devblogs.microsoft.com/visualstudio/keyboard-shortcuts-to-master-your-git-flow-in-visual-studio/",
+    "Title": "Keyboard Shortcuts for Git in Visual Studio",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 19,
+        "Name": "ed"
+      },
+      {
+        "Id": 16,
+        "Name": "git"
+      }
+    ]
   }
 ]
