@@ -2255,5 +2255,125 @@
         "Name": "web-dev"
       }
     ]
+  },
+  {
+    "Id": 171,
+    "Href": "https://corp.roblox.com/education/#:~:text=With%20its%20proprietary%20web%2Dbased,New%20courses%20are%20added%20regularly. ",
+    "Title": "Education w Roblox",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 5,
+        "Name": "misc"
+      },
+      {
+        "Id": 4,
+        "Name": "recr"
+      }
+    ]
+  },
+  {
+    "Id": 172,
+    "Href": "https://www.youtube.com/watch?v=iQ8cNI7a6mk",
+    "Title": "Nick C - Containers: You should know these methods",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 9,
+        "Name": "docker"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      }
+    ]
+  },
+  {
+    "Id": 173,
+    "Href": "https://www.tomshardware.com/news/tiny11-lean-windows-11",
+    "Title": "tinyOS Tom's Hardware: De-Bloated Windows 11",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 14,
+        "Name": "sa"
+      }
+    ]
+  },
+  {
+    "Id": 174,
+    "Href": "https://www.youtube.com/watch?v=jkEWltr6Aq0",
+    "Title": "Dev blog Maui maps",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 15,
+        "Name": "dotnet"
+      }
+    ]
+  },
+  {
+    "Id": 175,
+    "Href": "https://www.youtube.com/watch?v=rGx1QNdYzvs",
+    "Title": "Free Data Analylst Bootcamp",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 12,
+        "Name": "theory"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      }
+    ]
+  },
+  {
+    "Id": 176,
+    "Href": "https://learn.stanford.edu/Google-Grad-CS.html",
+    "Title": "Stanford online College",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 12,
+        "Name": "theory"
+      }
+    ]
+  },
+  {
+    "Id": 177,
+    "Href": "https://www.marktechpost.com/2023/01/20/what-is-generative-ai-concept-and-applications-explained/",
+    "Title": "generative ai",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 11,
+        "Name": "ai"
+      }
+    ]
+  },
+  {
+    "Id": 178,
+    "Href": "https://medium.com/dare-to-be-better/why-you-might-fall-in-love-with-this-new-web-framework-for-building-user-interfaces-acf3c56a6fd3",
+    "Title": "Arrow JS",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 179,
+    "Href": "https://www.bigboxapi.com",
+    "Title": "BigBox API - The Home Depot",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
   }
 ]
