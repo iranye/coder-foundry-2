@@ -58,7 +58,7 @@
     "Id": 6,
     "Href": "https://blog.tonysneed.com/2018/12/20/idesigntimedbcontextfactory-and-dependency-injection-a-love-story/",
     "Title": "DB Context and DI",
-    "Desc": "",
+    "Desc": "Covers AWS - Lambda functions + dotnet core",
     "Tags": [
       {
         "Id": 7,
