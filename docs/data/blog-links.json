@@ -1643,5 +1643,617 @@
         "Name": "theory"
       }
     ]
+  },
+  {
+    "Id": 127,
+    "Href": "https://levelup.gitconnected.com/why-are-you-still-creating-crud-apis-8790ca261bfb",
+    "Title": "CRUD APIs",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 128,
+    "Href": "https://itnext.io/how-to-use-redis-and-lua-scripts-in-a-c-asp-net-core-microservice-architecture-e12dc8846707",
+    "Title": "Dev blog Redis",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 129,
+    "Href": "https://thenextweb.com/news/object-oriented-programming-is-dead-syndication",
+    "Title": "Object-oriented programming is dead. Wait, really?",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 130,
+    "Href": "https://www.youtube.com/watch?v=q6Qs_EEQvUA",
+    "Title": "Dev blog asp.net core api",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 20,
+        "Name": "video"
+      },
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 131,
+    "Href": "https://channel9.msdn.com/Shows/lets-learn-dotnet/Web-APIs",
+    "Title": "Let's Learn .NET: Web APIs | Let's Learn .NET | Channel 9",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 20,
+        "Name": "video"
+      },
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 132,
+    "Href": "https://levelup.gitconnected.com/using-pattern-matching-to-avoid-massive-if-statements-ce286e2f0ea5",
+    "Title": "C# pattern matching switch",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      }
+    ]
+  },
+  {
+    "Id": 133,
+    "Href": "https://www.youtube.com/watch?v=aJGIV564pFE",
+    "Title": "VS Code build a Jupyter Notebook",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      },
+      {
+        "Id": 19,
+        "Name": "ed"
+      }
+    ]
+  },
+  {
+    "Id": 134,
+    "Href": "https://www.cloudsavvyit.com/13454/how-to-develop-on-a-remote-ssh-server-with-visual-studio-code/",
+    "Title": "Develop on a Remote SSH Server With VS Code",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 19,
+        "Name": "ed"
+      },
+      {
+        "Id": 10,
+        "Name": "linux"
+      }
+    ]
+  },
+  {
+    "Id": 135,
+    "Href": "https://devblogs.microsoft.com/dotnet/preview-features-in-net-6-generic-math/",
+    "Title": " .NET 6 - Generic Math",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      },
+      {
+        "Id": 15,
+        "Name": "dotnet"
+      }
+    ]
+  },
+  {
+    "Id": 136,
+    "Href": "https://blog.logrocket.com/building-github-copilot-app/",
+    "Title": "Building an app using only Copilot",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 19,
+        "Name": "ed"
+      },
+      {
+        "Id": 16,
+        "Name": "git"
+      }
+    ]
+  },
+  {
+    "Id": 137,
+    "Href": "https://devblogs.microsoft.com/visualstudio/the-new-javascript-typescript-experience-in-vs-2022-preview-3/",
+    "Title": "JavaScript/TypeScript Experience in Visual Studio 2022",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 19,
+        "Name": "ed"
+      },
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 138,
+    "Href": "https://medium.com/@luisalexandre.rodrigues/net-invoking-func-delegates-from-dictionary-objects-68aa7d76cd87",
+    "Title": "cyclomatic complexity",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 12,
+        "Name": "theory"
+      }
+    ]
+  },
+  {
+    "Id": 139,
+    "Href": "https://devblogs.microsoft.com/math-in-office/cascadia-code-font/",
+    "Title": "Cascadia Code Font | Math in Office",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 19,
+        "Name": "ed"
+      }
+    ]
+  },
+  {
+    "Id": 140,
+    "Href": "https://www.bleepingcomputer.com/news/microsoft/easywsl-turns-linux-docker-images-into-a-windows-10-wsl-distro/",
+    "Title": "EasyWSL turn Linux docker images into a Windows 10 WSL distro",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 9,
+        "Name": "docker"
+      },
+      {
+        "Id": 10,
+        "Name": "linux"
+      }
+    ]
+  },
+  {
+    "Id": 141,
+    "Href": "https://levelup.gitconnected.com/top-10-github-repos-every-developer-must-know-9da14292e284",
+    "Title": "Top 10+ Github Repos Every Developer Must Know",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 16,
+        "Name": "git"
+      },
+      {
+        "Id": 12,
+        "Name": "theory"
+      }
+    ]
+  },
+  {
+    "Id": 142,
+    "Href": "https://www.youtube.com/watch?v=K8HJQsmflvI",
+    "Title": "Dev blog angular",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 143,
+    "Href": "https://www.sitepoint.com/5-ways-to-undo-mistakes-with-git/",
+    "Title": "5 Ways to Undo Mistakes with Git",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 16,
+        "Name": "git"
+      }
+    ]
+  },
+  {
+    "Id": 144,
+    "Href": "https://css-tricks.com/introduction-to-the-solid-javascript-library/",
+    "Title": "Solid js",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 145,
+    "Href": "https://www.infoworld.com/article/3619608/12-hot-language-projects-riding-webassembly.html",
+    "Title": "12 hot language projects riding WebAssembly",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 146,
+    "Href": "https://medium.com/@matias.paulo84/cqrs-with-mediatr-f2154d837909",
+    "Title": "Dev blog cqrs",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 12,
+        "Name": "theory"
+      }
+    ]
+  },
+  {
+    "Id": 147,
+    "Href": "https://www.makeuseof.com/wsl-desktop/",
+    "Title": "6 Operating Systems and Desktop GUIs WSL",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 10,
+        "Name": "linux"
+      }
+    ]
+  },
+  {
+    "Id": 148,
+    "Href": "https://www.cloudsavvyit.com/14200/how-to-record-linux-terminal-commands-with-script/",
+    "Title": "Record Linux Terminal Commands With “script”",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 10,
+        "Name": "linux"
+      }
+    ]
+  },
+  {
+    "Id": 149,
+    "Href": "https://medium.com/dotnetsafer/5-extreme-performance-tips-in-c-sharp-86e102720f0b",
+    "Title": "C# optimization pointers",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      }
+    ]
+  },
+  {
+    "Id": 150,
+    "Href": "https://realworldjs.medium.com/never-use-the-dot-operator-in-javascript-ee0339d85fb",
+    "Title": "JavaScript destructuring",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 151,
+    "Href": "https://dev.to/this-is-angular/dry-way-to-manage-subscriptions-in-angular-components-256j",
+    "Title": "DRY Way to Manage Subscriptions in Angular Components",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 152,
+    "Href": "https://levelup.gitconnected.com/top-misconceptions-about-dependency-injection-in-asp-net-core-c6a7afd14eb4",
+    "Title": "Misconceptions About Dependency Injection in ASP.NET Core",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      },
+      {
+        "Id": 15,
+        "Name": "dotnet"
+      }
+    ]
+  },
+  {
+    "Id": 153,
+    "Href": "https://medium.com/@alexandre.malavasi/why-exceptions-in-async-methods-are-dangerous-in-c-fda7d382b0ff",
+    "Title": "async exceptions",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 23,
+        "Name": "async"
+      },
+      {
+        "Id": 1,
+        "Name": "c#"
+      }
+    ]
+  },
+  {
+    "Id": 154,
+    "Href": "https://betterprogramming.pub/stop-using-microservices-build-monoliths-instead-9eac180ac908",
+    "Title": "monolith vs micro services",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 12,
+        "Name": "theory"
+      }
+    ]
+  },
+  {
+    "Id": 155,
+    "Href": "https://www.inc.com/bill-murphy-jr/people-who-use7-these-key-rulesin-conversationshave-very-high-emotional-intelligence.html",
+    "Title": "7 Key Rules in Conversations Have High Emotional Intelligence",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 5,
+        "Name": "misc"
+      }
+    ]
+  },
+  {
+    "Id": 156,
+    "Href": "https://visualstudiomagazine.com/articles/2021/11/04/new-aspnet-core-docs.aspx?m=1",
+    "Title": "Microsoft Publishes New Documentation for Blazor, ASP.NET Core",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      },
+      {
+        "Id": 15,
+        "Name": "dotnet"
+      },
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 157,
+    "Href": "https://medium.com/@martinstm/performance-wars-checking-empty-lists-c-47be0557161e",
+    "Title": "Performance Wars — Checking Empty Lists — C#",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      }
+    ]
+  },
+  {
+    "Id": 158,
+    "Href": "https://medium.com/geekculture/advanced-dependency-injection-techniques-in-asp-net-core-3e6e9e0c541a",
+    "Title": "Advanced DI Techniques in ASP.NET Core",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      },
+      {
+        "Id": 15,
+        "Name": "dotnet"
+      }
+    ]
+  },
+  {
+    "Id": 159,
+    "Href": "https://medium.com/@kun.dalibor/webhook-integration-using-asp-net-core-c-e9d5660785d2",
+    "Title": "WebHook integration using ASP.NET Core",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      },
+      {
+        "Id": 15,
+        "Name": "dotnet"
+      },
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 160,
+    "Href": "https://medium.com/geekculture/tools-frameworks-for-net-developers-28a70d7a8bf0",
+    "Title": "Frameworks for .NET developers for the 2021",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 17,
+        "Name": "az"
+      },
+      {
+        "Id": 15,
+        "Name": "dotnet"
+      },
+      {
+        "Id": 12,
+        "Name": "theory"
+      }
+    ]
+  },
+  {
+    "Id": 161,
+    "Href": "https://www.freecodecamp.org/news/windows-10-command-line-tricks/",
+    "Title": "14 Windows 10 Command Line Tricks",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 14,
+        "Name": "sa"
+      }
+    ]
+  },
+  {
+    "Id": 162,
+    "Href": "https://medium.com/@matias.paulo84/net-core-serilog-elasticsearch-kibana-3bd080ff4c1e",
+    "Title": "Net Core + Serilog + ElasticSearch + Kibana",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 15,
+        "Name": "dotnet"
+      }
+    ]
+  },
+  {
+    "Id": 163,
+    "Href": "https://andrewlock.net/using-dependency-injection-in-a-net-core-console-application/",
+    "Title": "DI in a .Net Core console application",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 15,
+        "Name": "dotnet"
+      }
+    ]
+  },
+  {
+    "Id": 164,
+    "Href": "https://devblogs.microsoft.com/dotnet/state-of-the-windows-forms-designer-for-net-applications/",
+    "Title": "State of the Windows Forms Designer for .NET Applications",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 15,
+        "Name": "dotnet"
+      },
+      {
+        "Id": 22,
+        "Name": "rich-client"
+      }
+    ]
+  },
+  {
+    "Id": 165,
+    "Href": "https://medium.com/@marcio.duarte89/intro-to-kafka-1c62e4a6d1e1",
+    "Title": "Dev blog kafka",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 24,
+        "Name": "microserv"
+      }
+    ]
+  },
+  {
+    "Id": 166,
+    "Href": "https://visualstudiomagazine.com/articles/2022/02/10/blazor-hybrid-net-7.aspx?m=1",
+    "Title": "Blazor Hybrid in .NET 7",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 15,
+        "Name": "dotnet"
+      },
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 167,
+    "Href": "https://www.makeuseof.com/reasons-use-linux-desktop-instead-of-wsl/",
+    "Title": "5 Reasons to Use the Linux Desktop Instead of WSL",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 10,
+        "Name": "linux"
+      }
+    ]
+  },
+  {
+    "Id": 168,
+    "Href": "https://dev.to/davidkroell/dont-use-stringtolower-in-c-when-comparing-strings-1hdi",
+    "Title": "Don't use String.ToLower() in C# when comparing strings",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      }
+    ]
+  },
+  {
+    "Id": 169,
+    "Href": "https://code-maze.com/csharp-deserialize-complex-json-object/",
+    "Title": "Deserialize a Complex JSON Object in C# .NET",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      }
+    ]
+  },
+  {
+    "Id": 170,
+    "Href": "https://wildermuth.com/2022/04/20/spas-in-aspnetcore-another-attempt/",
+    "Title": "SPAs in ASP.NET Core - Another Attempt",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 15,
+        "Name": "dotnet"
+      },
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
   }
 ]
