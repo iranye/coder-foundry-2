@@ -2380,7 +2380,7 @@
     "Id": 180,
     "Href": "https://devblogs.microsoft.com/visualstudio/keyboard-shortcuts-to-master-your-git-flow-in-visual-studio/",
     "Title": "Keyboard Shortcuts for Git in Visual Studio",
-    "Desc": "",
+    "Desc": "Create shortcut to: Team.Git.GoToGitChanges",
     "Tags": [
       {
         "Id": 19,
