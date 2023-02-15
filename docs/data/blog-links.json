@@ -2391,5 +2391,97 @@
         "Name": "git"
       }
     ]
+  },
+  {
+    "Id": 181,
+    "Href": "https://www.cnbc.com/2023/02/13/harvard-trained-psychologist-toxic-phrases-that-can-slowly-destroy-your-relationship-or-marriage.html",
+    "Title": "Use any of these 8 toxic phrases",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 5,
+        "Name": "misc"
+      }
+    ]
+  },
+  {
+    "Id": 182,
+    "Href": "https://medium.com/@abnoanmuniz/10-hidden-gems-for-net-developers-afefc140d41b",
+    "Title": "C# hidden gems",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      }
+    ]
+  },
+  {
+    "Id": 183,
+    "Href": "https://code-maze.com/ef-core-mock-dbcontext/",
+    "Title": "Mock Db Context",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 7,
+        "Name": "sql"
+      }
+    ]
+  },
+  {
+    "Id": 184,
+    "Href": "https://devclass.com/2023/02/13/interview-avalonia-xpf-introduced-for-wpf-on-mac-linux-and-eventually-mobile/",
+    "Title": "WPF 2 XPF",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 22,
+        "Name": "rich-client"
+      }
+    ]
+  },
+  {
+    "Id": 185,
+    "Href": "https://github.blog/2023-02-14-github-copilot-now-has-a-better-ai-model-and-new-capabilities/",
+    "Title": "GitHub Copilot now has a better AI model and new capabilities",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 16,
+        "Name": "git"
+      }
+    ]
+  },
+  {
+    "Id": 186,
+    "Href": "https://myfox8.com/news/good-for-her/greensboro-woman-uses-tech-to-help-with-homeless-crisis/",
+    "Title": "Greensboro woman uses tech to help the homeless",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 17,
+        "Name": "az"
+      },
+      {
+        "Id": 12,
+        "Name": "theory"
+      }
+    ]
+  },
+  {
+    "Id": 187,
+    "Href": "https://m.youtube.com/shorts/IETnIoz-jFQ",
+    "Title": "Watch Copilot Explain Code Like a Human!",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 16,
+        "Name": "git"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      }
+    ]
   }
 ]
