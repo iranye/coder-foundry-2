@@ -2408,7 +2408,7 @@
     "Id": 182,
     "Href": "https://medium.com/@abnoanmuniz/10-hidden-gems-for-net-developers-afefc140d41b",
     "Title": "C# hidden gems",
-    "Desc": "",
+    "Desc": "Humanizer, Markdig, FluentValidation, Ocelot, Polly, MagicOnion, MediatR, Scrutor, Dapper, Bogus",
     "Tags": [
       {
         "Id": 1,
@@ -2425,18 +2425,6 @@
       {
         "Id": 7,
         "Name": "sql"
-      }
-    ]
-  },
-  {
-    "Id": 184,
-    "Href": "https://devclass.com/2023/02/13/interview-avalonia-xpf-introduced-for-wpf-on-mac-linux-and-eventually-mobile/",
-    "Title": "WPF 2 XPF",
-    "Desc": "",
-    "Tags": [
-      {
-        "Id": 22,
-        "Name": "rich-client"
       }
     ]
   },
@@ -2481,6 +2469,30 @@
       {
         "Id": 20,
         "Name": "video"
+      }
+    ]
+  },
+  {
+    "Id": 188,
+    "Href": "https://www.theverge.com/2023/2/16/23602333/plex-skip-credits-feature-detection-server-streaming-announcement",
+    "Title": "Dev blog Plex",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 14,
+        "Name": "sa"
+      }
+    ]
+  },
+  {
+    "Id": 189,
+    "Href": "https://www.freecodecamp.org/news/http-full-course/",
+    "Title": "HTTP Networking in JavaScript",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 2,
+        "Name": "web-dev"
       }
     ]
   }
