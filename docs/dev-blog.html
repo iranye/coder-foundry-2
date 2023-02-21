@@ -25,6 +25,10 @@
             border: 1px;
             margin:5px;
         }
+      #tags li {
+        background-color:aquamarine;
+        font-size: large;
+      }
 </style>
     <link rel="stylesheet" href="site.css" type="text/css" />
 </head>
@@ -42,10 +46,15 @@
     </header>
 
     <main>
+
         <article>
 
+      <nav>
+        <ul id="tags">
+        </ul>
+      </nav>
           <aside>
-            <img src="images/keyboard-01.jpg" id="main-img" alt="Links to Stuff" />
+            <img src="images/wave-19.jpg" id="main-img" alt="Links to Stuff" />
           </aside>
 
           <section class="columns-desktop">
@@ -94,7 +103,7 @@
         let $links = $("#links");
 
         let linkTemplate = (item, tags, desc) =>
-        `<tr id='${item.Id}'><td>${item.Title}</td><td>${tags}</td><td>${desc}</td><td><a class="anchor" href="${item.Href}" target="_blank">${item.Href}</a></td></tr>`
+        `<tr id='${item.Id}' class='${tags}'><td>${item.Title}</td><td>[${tags}]</td><td>${desc}</td><td><a class="anchor" href="${item.Href}" target="_blank">${item.Href}</a></td></tr>`
         
         $.get("data/blog-links.json")
         .done((data) => {
@@ -103,7 +112,9 @@
             data.forEach((item) => {
               tags = "";
               for (var i = 0; i < item.Tags.length; i++) {
-                tags += "[" + item.Tags[i].Name + "]";
+                let padding = "";
+                if (i > 0) padding = " ";
+                tags += padding + item.Tags[i].Name;
               }
               var desc = "";
               if (item.Desc) {
@@ -111,8 +122,35 @@
               }
                 $links.append(linkTemplate(item, tags, desc));
             });
+            setupTags();
+        })
+
+        let $tagsEl = $("#tags");
+        let tagTemplate = (tag) =>
+        `<li>${tag}</li>`
+
+        $.get("data/tags.json")
+        .done((data) => {
+          let length = data.length;
+          console.log(`${ length } tags found`);
+          data.forEach((tag) => {
+            // console.log(tag);
+            $tagsEl.append(tagTemplate(tag.Name));
+          });
         })
     });
+
+    function setupTags() {
+      console.log("setting up tags");
+      $("#tags").on("click", "li", function(event) {
+          let tagSelected = $(this).text();
+            console.log(tagSelected);
+            $("tr").hide()
+            $(`.${tagSelected}`).show();
+
+            return false;
+          });
+    }
 
 </script>
 </html>
