@@ -98,7 +98,8 @@
                     <Button HorizontalAlignment="Left" Content="Reload" Width="75" Command="{Binding ReloadCommand}" ToolTip="Re-load from JSON" />
                     <DataGrid AutoGenerateColumns="False" AlternationCount="2" ItemsSource="{Binding ListViewItems}" Margin="0 0 0 8"
                               Name="BookmarksDataGrid"
-                              SelectionChanged="DataGrid_SelectionChanged"
+                              SelectionChanged="BookmarksDataGrid_KeyDown"
+                              KeyDown="BookmarksDataGrid_KeyDown"
                               Height="540">
                         <DataGrid.Columns>
                             <DataGridTextColumn Binding="{Binding Title}" Header="Title"/>

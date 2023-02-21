@@ -1,6 +1,9 @@
 Bookmarket
 
 TODO:
+	Nick C - Stop using the Process class
+	Fix bug show dupes on multiple tags selected
+	Fix delete (from ListViewItems) not deleting from the backing property
 	Refactor out text-handling for add/importing:
 		include validation, range-checks
 

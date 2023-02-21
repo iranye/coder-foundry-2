@@ -89,7 +89,7 @@ namespace Bookmarket.UI.View
             e.Handled = true;
         }
 
-        private void DataGrid_SelectionChanged(object sender, RoutedEventArgs e)
+        private void BookmarksDataGrid_KeyDown(object sender, RoutedEventArgs e)
         {
             try
             {
@@ -106,6 +106,19 @@ namespace Bookmarket.UI.View
             }
 
             e.Handled = true;
+        }
+
+        private void BookmarksDataGrid_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.Key == Key.Delete)
+            {
+                var selectedBookmark = BookmarksDataGrid.SelectedItem as BookmarkItemViewModel;
+                if (selectedBookmark is not null)
+                {
+
+                    e.Handled = true;
+                }
+            }
         }
 
         private void UserControl_KeyDown(object sender, KeyEventArgs e)
