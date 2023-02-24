@@ -165,21 +165,31 @@ namespace Bookmarket.UI.ViewModel
                 }
                 else
                 {
-                    var counter = 0;
-                    foreach (var tag in Tags.Where(t => t.Selected))
+                    if (!Tags.Any(t => t.Selected))
                     {
-                        foreach (var bm in Bookmarks)
+                        RefreshListViewItems();
+                    }
+                    foreach (var bm in Bookmarks)
+                    {
+                        var contains = false;
+                        foreach (var tag in Tags.Where(t => t.Selected))
                         {
                             if (bm.Tags.Any(t => t.Name == tag.Name))
+                            {
+                                contains = true;
+                            }
+                            else
+                            {
+                                contains = false;
+                                break;
+                            }
+                        }
+                        {
+                            if(contains)
                             {
                                 ListViewItems.Add(bm);
                             }
                         }
-                        counter++;
-                    }
-                    if (counter == 0)
-                    {
-                        RefreshListViewItems();
                     }
                 }
             }

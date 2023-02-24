@@ -2511,5 +2511,69 @@
         "Name": "video"
       }
     ]
+  },
+  {
+    "Id": 191,
+    "Href": "https://blog.jetbrains.com/dotnet/2023/02/20/list-and-span-pattern-matching-using-csharp-11-in-rider-and-resharper/",
+    "Title": "C# List and Span Pattern Matching",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      }
+    ]
+  },
+  {
+    "Id": 192,
+    "Href": "https://medium.com/@abnoanmuniz/understanding-delegates-and-events-in-c-acddc07906bf",
+    "Title": "C# Delegates",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      }
+    ]
+  },
+  {
+    "Id": 193,
+    "Href": "https://code-maze.com/csharp-file-vs-fileinfo/",
+    "Title": "C# FileInfo vs File",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      }
+    ]
+  },
+  {
+    "Id": 194,
+    "Href": "https://medium.com/@KeivanDamirchi/using-channels-in-asp-net-core-9728bb78345e",
+    "Title": "Asp.Net Channels",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 15,
+        "Name": "dotnet"
+      }
+    ]
+  },
+  {
+    "Id": 195,
+    "Href": "https://jeremybytes.blogspot.com/2023/02/c-var-with-reference-types-is-always.html",
+    "Title": "C# \"var\" with a Reference Type is Always Nullable",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 13,
+        "Name": "blog"
+      },
+      {
+        "Id": 1,
+        "Name": "c#"
+      }
+    ]
   }
 ]
