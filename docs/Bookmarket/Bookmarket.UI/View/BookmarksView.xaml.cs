@@ -97,7 +97,7 @@ namespace Bookmarket.UI.View
                 if (dg is not null)
                 {
                     var bm = dg.SelectedItem as BookmarkItemViewModel;
-                    ViewModel.ApplyTagsToBookmark(bm);
+                    ViewModel?.ApplyTagsToBookmark(bm);
                 }
             }
             catch (Exception ex)
@@ -110,14 +110,11 @@ namespace Bookmarket.UI.View
 
         private void BookmarksDataGrid_KeyDown(object sender, KeyEventArgs e)
         {
-            if (e.Key == Key.Delete)
+            if (e.Key == Key.Back)
             {
                 var selectedBookmark = BookmarksDataGrid.SelectedItem as BookmarkItemViewModel;
-                if (selectedBookmark is not null)
-                {
-
-                    e.Handled = true;
-                }
+                ViewModel?.DeleteBookmark(selectedBookmark);
+                e.Handled = true;
             }
         }
 

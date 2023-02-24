@@ -151,26 +151,6 @@
     ]
   },
   {
-    "Id": 13,
-    "Href": "https://news.slashdot.org/story/22/09/05/0135254/gnu-grep-38-starts-issuing-warnings-about-using-egrep-and-fgrep",
-    "Title": "EGREP",
-    "Desc": "",
-    "Tags": [
-      {
-        "Id": 10,
-        "Name": "linux"
-      },
-      {
-        "Id": 1,
-        "Name": "c#"
-      },
-      {
-        "Id": 2,
-        "Name": "web-dev"
-      }
-    ]
-  },
-  {
     "Id": 14,
     "Href": "https://www.codingblocks.net/software-development-tips-and-tricks/",
     "Title": "Coding Blocks",

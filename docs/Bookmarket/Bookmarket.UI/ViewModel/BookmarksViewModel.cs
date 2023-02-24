@@ -500,11 +500,20 @@ namespace Bookmarket.UI.ViewModel
 
         // TODO: Disable if any validation errors
         private bool CanSave(object? parameter) { return true; }
+
+        internal void DeleteBookmark(BookmarkItemViewModel? bookmark)
+        {
+            if (bookmark is not null)
+            {                
+                Bookmarks.Remove(bookmark);
+                ListViewItems.Remove(bookmark);
+            }
+        }
     }
 
     public class Item
     {
-        public string Title { get; set; }
-        public string Text { get; set; }
+        public string Title { get; set; } = String.Empty;
+        public string Text { get; set; } = String.Empty;
     }
 }
