@@ -46,7 +46,7 @@
     "Id": 5,
     "Href": "https://cointelegraph.com/news/nodes-are-going-to-dethrone-tech-giants-from-apple-to-google",
     "Title": "Nodes are going to dethrone tech giants",
-    "Desc": "",
+    "Desc": "Talks about Decentralized Apps (DApps)",
     "Tags": [
       {
         "Id": 12,
@@ -2185,18 +2185,6 @@
     ]
   },
   {
-    "Id": 167,
-    "Href": "https://www.makeuseof.com/reasons-use-linux-desktop-instead-of-wsl/",
-    "Title": "5 Reasons to Use the Linux Desktop Instead of WSL",
-    "Desc": "",
-    "Tags": [
-      {
-        "Id": 10,
-        "Name": "linux"
-      }
-    ]
-  },
-  {
     "Id": 168,
     "Href": "https://dev.to/davidkroell/dont-use-stringtolower-in-c-when-comparing-strings-1hdi",
     "Title": "Don't use String.ToLower() in C# when comparing strings",
@@ -2424,7 +2412,7 @@
     "Id": 186,
     "Href": "https://myfox8.com/news/good-for-her/greensboro-woman-uses-tech-to-help-with-homeless-crisis/",
     "Title": "Greensboro woman uses tech to help the homeless",
-    "Desc": "",
+    "Desc": "Students at the University of Central Florida are helping her build the (cloud-based) app.",
     "Tags": [
       {
         "Id": 17,
@@ -2553,6 +2541,98 @@
       {
         "Id": 1,
         "Name": "c#"
+      }
+    ]
+  },
+  {
+    "Id": 196,
+    "Href": "https://blog.cwa.me.uk/",
+    "Title": "The Morning Brew",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 13,
+        "Name": "blog"
+      },
+      {
+        "Id": 15,
+        "Name": "dotnet"
+      }
+    ]
+  },
+  {
+    "Id": 197,
+    "Href": "https://www.red-gate.com/simple-talk/databases/sql-server/t-sql-programming-sql-server/40-problems-sql-server-stored-procedure/",
+    "Title": "SQL PROC 40 Comments",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 13,
+        "Name": "blog"
+      },
+      {
+        "Id": 7,
+        "Name": "sql"
+      }
+    ]
+  },
+  {
+    "Id": 198,
+    "Href": "https://jonhilton.net/blazor-united/",
+    "Title": "Blazor's biggest challenges",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 13,
+        "Name": "blog"
+      },
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 199,
+    "Href": "https://andrewlock.net/prerending-a-blazor-webassembly-app-without-an-asp-net-core-host-app/",
+    "Title": "Andrew Lock - Prerendering a Blazor WebAssembly App",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 13,
+        "Name": "blog"
+      },
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 200,
+    "Href": "https://itnext.io/how-to-use-enums-when-using-entity-framework-core-with-c-bb634692a4b0",
+    "Title": "Using Enums with EF Core",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      },
+      {
+        "Id": 7,
+        "Name": "sql"
+      }
+    ]
+  },
+  {
+    "Id": 201,
+    "Href": "https://thenewstack.io/is-webassembly-really-the-future/",
+    "Title": "Is WebAssembly Really the Future?",
+    "Desc": "WASI (a modular system interface for WebAssembly) will increase productivity",
+    "Tags": [
+      {
+        "Id": 2,
+        "Name": "web-dev"
       }
     ]
   }

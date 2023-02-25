@@ -332,17 +332,27 @@ namespace Bookmarket.UI.ViewModel
                         counter++;
                     }
                 }
-                RefreshListViewItems();
+                RefreshListViewItems(10);
                 PrintToOutput($"Added {counter} bookmarks");
             }
         }
 
-        private void RefreshListViewItems()
+        private void RefreshListViewItems(int take=0)
         {
             ListViewItems.Clear();
-            foreach (var item in Bookmarks)
+            if (take > 0)
             {
-                ListViewItems.Add(item);
+                foreach (var item in Bookmarks.OrderByDescending(b => b.Id).Take(take).OrderBy(b => b.Id))
+                {
+                    ListViewItems.Add(item);
+                }
+            }
+            else
+            {
+                foreach (var item in Bookmarks)
+                {
+                    ListViewItems.Add(item);
+                }
             }
         }
 
