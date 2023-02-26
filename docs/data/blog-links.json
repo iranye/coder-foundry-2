@@ -1800,7 +1800,7 @@
     "Id": 139,
     "Href": "https://devblogs.microsoft.com/math-in-office/cascadia-code-font/",
     "Title": "Cascadia Code Font | Math in Office",
-    "Desc": "",
+    "Desc": "Ligatures!",
     "Tags": [
       {
         "Id": 19,
@@ -2630,6 +2630,34 @@
     "Title": "Is WebAssembly Really the Future?",
     "Desc": "WASI (a modular system interface for WebAssembly) will increase productivity",
     "Tags": [
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 202,
+    "Href": "https://www.codeproject.com/Articles/26288/Simplifying-the-WPF-TreeView-by-Using-the-ViewMode",
+    "Title": "WPF Treeview",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 22,
+        "Name": "rich-client"
+      }
+    ]
+  },
+  {
+    "Id": 203,
+    "Href": "https://www.infoworld.com/article/3688936/aspnet-core-gets-full-stack-web-programming-in-net-8.html",
+    "Title": "ASP.NET Core gets full-stack web programming in .NET 8",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 15,
+        "Name": "dotnet"
+      },
       {
         "Id": 2,
         "Name": "web-dev"
