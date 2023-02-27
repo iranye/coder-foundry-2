@@ -2675,5 +2675,17 @@
         "Name": "web-dev"
       }
     ]
+  },
+  {
+    "Id": 205,
+    "Href": "https://devblogs.microsoft.com/dotnet/do-more-with-patterns-in-c-8-0",
+    "Title": "C# switch with positional parameters",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      }
+    ]
   }
 ]
