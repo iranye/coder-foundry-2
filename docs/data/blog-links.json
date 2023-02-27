@@ -2663,5 +2663,17 @@
         "Name": "web-dev"
       }
     ]
+  },
+  {
+    "Id": 204,
+    "Href": "https://demo.dashboardpack.com/architectui-html-pro/",
+    "Title": "HTML Templates - Analytics Dashboard",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
   }
 ]
