@@ -16,7 +16,12 @@
     "Href": "https://medium.com/@shubhadeepchat/logging-in-net-core-with-serilog-in-2-minutes-a41ec3192183",
     "Title": "Serilog",
     "Desc": "",
-    "Tags": []
+    "Tags": [
+      {
+        "Id": 24,
+        "Name": "microserv"
+      }
+    ]
   },
   {
     "Id": 3,
@@ -459,7 +464,12 @@
     "Href": "https://thenewstack.io/sidecars-are-changing-the-kubernetes-load-testing-landscape/",
     "Title": "Sidecars changing K8S Landscape",
     "Desc": "",
-    "Tags": []
+    "Tags": [
+      {
+        "Id": 24,
+        "Name": "microserv"
+      }
+    ]
   },
   {
     "Id": 36,
@@ -506,7 +516,12 @@
     "Href": "https://medium.com/@codeeverywhere/redis-vs-kafka-vs-rabbitmq-43eeec82bafb",
     "Title": "Redis vs Kafka vs vs Rabbit MQ",
     "Desc": "",
-    "Tags": []
+    "Tags": [
+      {
+        "Id": 24,
+        "Name": "microserv"
+      }
+    ]
   },
   {
     "Id": 40,
@@ -645,14 +660,24 @@
     "Href": "https://www.spineuniverse.com/conditions/scoliosis/non-fusion-scoliosis-surgery-options",
     "Title": "non fusion scoliosis surgical options",
     "Desc": "",
-    "Tags": []
+    "Tags": [
+      {
+        "Id": 5,
+        "Name": "misc"
+      }
+    ]
   },
   {
     "Id": 52,
     "Href": "https://www.google.com/search?q=dystrophic+scoliosis+nfi&rlz=1C1RXQR_enUS1007US1007&oq=dystrophic+scoliosis+nfi&aqs=chrome..69i57j33i160l3.12654j0j7&sourceid=chrome&ie=UTF-8",
     "Title": "dystrophic scoliosis nfi",
     "Desc": "",
-    "Tags": []
+    "Tags": [
+      {
+        "Id": 5,
+        "Name": "misc"
+      }
+    ]
   },
   {
     "Id": 53,
@@ -1083,7 +1108,12 @@
     "Href": "https://docs.microsoft.com/en-us/dotnet/standard/parallel-programming/how-to-use-parallel-invoke-to-execute-parallel-operations",
     "Title": "How to use Parallel.Invoke",
     "Desc": "",
-    "Tags": []
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      }
+    ]
   },
   {
     "Id": 88,
@@ -1146,7 +1176,12 @@
     "Href": "https://www.freecodecamp.org/news/put-your-dev-env-in-github/",
     "Title": "Put Your Entire Dev Environment in Github",
     "Desc": "",
-    "Tags": []
+    "Tags": [
+      {
+        "Id": 19,
+        "Name": "ed"
+      }
+    ]
   },
   {
     "Id": 93,
@@ -2493,6 +2528,18 @@
       {
         "Id": 2,
         "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 190,
+    "Href": "https://github.com/xceedsoftware/wpftoolkit/wiki/Xceed-Toolkit-Plus-for-WPF#feature-comparison",
+    "Title": "XCeed WPF Toolkit",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 22,
+        "Name": "rich-client"
       }
     ]
   }
