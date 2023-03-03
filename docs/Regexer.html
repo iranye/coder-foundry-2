@@ -329,6 +329,7 @@
       var pattern = new RegExp(re);
       var incrementPat = new RegExp("###", 'g');
       var incrementPat2 = new RegExp("##", 'g');
+      var origLinePat = new RegExp(":L:", 'g');
       var line = "";
 
       var upperCaseFirstChar = document.getElementById("to_upper_first").checked;
@@ -374,6 +375,7 @@
       // Include additional sequential numbering to input lines
       for (var i = 1; i < lines.length; i++) {
         line = dbl_chomp(lines[i]);
+        var line_orig = line;
         if (line.length == 0) { // skip whitespace-only lines
           continue;
         }
@@ -397,6 +399,7 @@
             linkedList = InsertSorted(linkedList, line);
           }
         } else {
+          line = line.replace(origLinePat, line_orig);
           print_to_out(line + "\n");
         }
       }
@@ -504,7 +507,7 @@
       s += dummy_data;
       push_to_regex_list('cast_varchar', s);
 
-      s = '(.+)~~$1,###\n';
+      s = '[a-z](.+)~~:L: => $1,###\n';      
       dummy_data = "foo\n";
       dummy_data += "bar\n";
       dummy_data += "blitz\n";
