@@ -165,21 +165,31 @@ namespace Bookmarket.UI.ViewModel
                 }
                 else
                 {
-                    var counter = 0;
-                    foreach (var tag in Tags.Where(t => t.Selected))
+                    if (!Tags.Any(t => t.Selected))
                     {
-                        foreach (var bm in Bookmarks)
+                        RefreshListViewItems();
+                    }
+                    foreach (var bm in Bookmarks)
+                    {
+                        var contains = false;
+                        foreach (var tag in Tags.Where(t => t.Selected))
                         {
                             if (bm.Tags.Any(t => t.Name == tag.Name))
+                            {
+                                contains = true;
+                            }
+                            else
+                            {
+                                contains = false;
+                                break;
+                            }
+                        }
+                        {
+                            if(contains)
                             {
                                 ListViewItems.Add(bm);
                             }
                         }
-                        counter++;
-                    }
-                    if (counter == 0)
-                    {
-                        RefreshListViewItems();
                     }
                 }
             }
@@ -322,17 +332,27 @@ namespace Bookmarket.UI.ViewModel
                         counter++;
                     }
                 }
-                RefreshListViewItems();
+                RefreshListViewItems(10);
                 PrintToOutput($"Added {counter} bookmarks");
             }
         }
 
-        private void RefreshListViewItems()
+        private void RefreshListViewItems(int take=0)
         {
             ListViewItems.Clear();
-            foreach (var item in Bookmarks)
+            if (take > 0)
             {
-                ListViewItems.Add(item);
+                foreach (var item in Bookmarks.OrderByDescending(b => b.Id).Take(take).OrderBy(b => b.Id))
+                {
+                    ListViewItems.Add(item);
+                }
+            }
+            else
+            {
+                foreach (var item in Bookmarks)
+                {
+                    ListViewItems.Add(item);
+                }
             }
         }
 
@@ -490,11 +510,20 @@ namespace Bookmarket.UI.ViewModel
 
         // TODO: Disable if any validation errors
         private bool CanSave(object? parameter) { return true; }
+
+        internal void DeleteBookmark(BookmarkItemViewModel? bookmark)
+        {
+            if (bookmark is not null)
+            {                
+                Bookmarks.Remove(bookmark);
+                ListViewItems.Remove(bookmark);
+            }
+        }
     }
 
     public class Item
     {
-        public string Title { get; set; }
-        public string Text { get; set; }
+        public string Title { get; set; } = String.Empty;
+        public string Text { get; set; } = String.Empty;
     }
 }

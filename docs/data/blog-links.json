@@ -16,7 +16,12 @@
     "Href": "https://medium.com/@shubhadeepchat/logging-in-net-core-with-serilog-in-2-minutes-a41ec3192183",
     "Title": "Serilog",
     "Desc": "",
-    "Tags": []
+    "Tags": [
+      {
+        "Id": 24,
+        "Name": "microserv"
+      }
+    ]
   },
   {
     "Id": 3,
@@ -46,7 +51,7 @@
     "Id": 5,
     "Href": "https://cointelegraph.com/news/nodes-are-going-to-dethrone-tech-giants-from-apple-to-google",
     "Title": "Nodes are going to dethrone tech giants",
-    "Desc": "",
+    "Desc": "Talks about Decentralized Apps (DApps)",
     "Tags": [
       {
         "Id": 12,
@@ -144,26 +149,6 @@
     "Title": "Side Hustles",
     "Desc": "",
     "Tags": [
-      {
-        "Id": 2,
-        "Name": "web-dev"
-      }
-    ]
-  },
-  {
-    "Id": 13,
-    "Href": "https://news.slashdot.org/story/22/09/05/0135254/gnu-grep-38-starts-issuing-warnings-about-using-egrep-and-fgrep",
-    "Title": "EGREP",
-    "Desc": "",
-    "Tags": [
-      {
-        "Id": 10,
-        "Name": "linux"
-      },
-      {
-        "Id": 1,
-        "Name": "c#"
-      },
       {
         "Id": 2,
         "Name": "web-dev"
@@ -459,7 +444,12 @@
     "Href": "https://thenewstack.io/sidecars-are-changing-the-kubernetes-load-testing-landscape/",
     "Title": "Sidecars changing K8S Landscape",
     "Desc": "",
-    "Tags": []
+    "Tags": [
+      {
+        "Id": 24,
+        "Name": "microserv"
+      }
+    ]
   },
   {
     "Id": 36,
@@ -506,7 +496,12 @@
     "Href": "https://medium.com/@codeeverywhere/redis-vs-kafka-vs-rabbitmq-43eeec82bafb",
     "Title": "Redis vs Kafka vs vs Rabbit MQ",
     "Desc": "",
-    "Tags": []
+    "Tags": [
+      {
+        "Id": 24,
+        "Name": "microserv"
+      }
+    ]
   },
   {
     "Id": 40,
@@ -645,14 +640,24 @@
     "Href": "https://www.spineuniverse.com/conditions/scoliosis/non-fusion-scoliosis-surgery-options",
     "Title": "non fusion scoliosis surgical options",
     "Desc": "",
-    "Tags": []
+    "Tags": [
+      {
+        "Id": 5,
+        "Name": "misc"
+      }
+    ]
   },
   {
     "Id": 52,
     "Href": "https://www.google.com/search?q=dystrophic+scoliosis+nfi&rlz=1C1RXQR_enUS1007US1007&oq=dystrophic+scoliosis+nfi&aqs=chrome..69i57j33i160l3.12654j0j7&sourceid=chrome&ie=UTF-8",
     "Title": "dystrophic scoliosis nfi",
     "Desc": "",
-    "Tags": []
+    "Tags": [
+      {
+        "Id": 5,
+        "Name": "misc"
+      }
+    ]
   },
   {
     "Id": 53,
@@ -1083,7 +1088,12 @@
     "Href": "https://docs.microsoft.com/en-us/dotnet/standard/parallel-programming/how-to-use-parallel-invoke-to-execute-parallel-operations",
     "Title": "How to use Parallel.Invoke",
     "Desc": "",
-    "Tags": []
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      }
+    ]
   },
   {
     "Id": 88,
@@ -1146,7 +1156,12 @@
     "Href": "https://www.freecodecamp.org/news/put-your-dev-env-in-github/",
     "Title": "Put Your Entire Dev Environment in Github",
     "Desc": "",
-    "Tags": []
+    "Tags": [
+      {
+        "Id": 19,
+        "Name": "ed"
+      }
+    ]
   },
   {
     "Id": 93,
@@ -1820,7 +1835,7 @@
     "Id": 139,
     "Href": "https://devblogs.microsoft.com/math-in-office/cascadia-code-font/",
     "Title": "Cascadia Code Font | Math in Office",
-    "Desc": "",
+    "Desc": "Ligatures!",
     "Tags": [
       {
         "Id": 19,
@@ -2205,18 +2220,6 @@
     ]
   },
   {
-    "Id": 167,
-    "Href": "https://www.makeuseof.com/reasons-use-linux-desktop-instead-of-wsl/",
-    "Title": "5 Reasons to Use the Linux Desktop Instead of WSL",
-    "Desc": "",
-    "Tags": [
-      {
-        "Id": 10,
-        "Name": "linux"
-      }
-    ]
-  },
-  {
     "Id": 168,
     "Href": "https://dev.to/davidkroell/dont-use-stringtolower-in-c-when-comparing-strings-1hdi",
     "Title": "Don't use String.ToLower() in C# when comparing strings",
@@ -2444,7 +2447,7 @@
     "Id": 186,
     "Href": "https://myfox8.com/news/good-for-her/greensboro-woman-uses-tech-to-help-with-homeless-crisis/",
     "Title": "Greensboro woman uses tech to help the homeless",
-    "Desc": "",
+    "Desc": "Students at the University of Central Florida are helping her build the (cloud-based) app.",
     "Tags": [
       {
         "Id": 17,
@@ -2498,17 +2501,225 @@
   },
   {
     "Id": 190,
-    "Href": "https://www.youtube.com/watch?v=qiZXDWKOgEA",
-    "Title": "Set up Synology dhcp server on nas",
+    "Href": "https://github.com/xceedsoftware/wpftoolkit/wiki/Xceed-Toolkit-Plus-for-WPF#feature-comparison",
+    "Title": "XCeed WPF Toolkit",
     "Desc": "",
     "Tags": [
       {
-        "Id": 14,
-        "Name": "sa"
+        "Id": 22,
+        "Name": "rich-client"
       },
       {
         "Id": 20,
         "Name": "video"
+      }
+    ]
+  },
+  {
+    "Id": 191,
+    "Href": "https://blog.jetbrains.com/dotnet/2023/02/20/list-and-span-pattern-matching-using-csharp-11-in-rider-and-resharper/",
+    "Title": "C# List and Span Pattern Matching",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      }
+    ]
+  },
+  {
+    "Id": 192,
+    "Href": "https://medium.com/@abnoanmuniz/understanding-delegates-and-events-in-c-acddc07906bf",
+    "Title": "C# Delegates",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      }
+    ]
+  },
+  {
+    "Id": 193,
+    "Href": "https://code-maze.com/csharp-file-vs-fileinfo/",
+    "Title": "C# FileInfo vs File",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      }
+    ]
+  },
+  {
+    "Id": 194,
+    "Href": "https://medium.com/@KeivanDamirchi/using-channels-in-asp-net-core-9728bb78345e",
+    "Title": "Asp.Net Channels",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 15,
+        "Name": "dotnet"
+      }
+    ]
+  },
+  {
+    "Id": 195,
+    "Href": "https://jeremybytes.blogspot.com/2023/02/c-var-with-reference-types-is-always.html",
+    "Title": "C# \"var\" with a Reference Type is Always Nullable",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 13,
+        "Name": "blog"
+      },
+      {
+        "Id": 1,
+        "Name": "c#"
+      }
+    ]
+  },
+  {
+    "Id": 196,
+    "Href": "https://blog.cwa.me.uk/",
+    "Title": "The Morning Brew",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 13,
+        "Name": "blog"
+      },
+      {
+        "Id": 15,
+        "Name": "dotnet"
+      }
+    ]
+  },
+  {
+    "Id": 197,
+    "Href": "https://www.red-gate.com/simple-talk/databases/sql-server/t-sql-programming-sql-server/40-problems-sql-server-stored-procedure/",
+    "Title": "SQL PROC 40 Comments",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 13,
+        "Name": "blog"
+      },
+      {
+        "Id": 7,
+        "Name": "sql"
+      }
+    ]
+  },
+  {
+    "Id": 198,
+    "Href": "https://jonhilton.net/blazor-united/",
+    "Title": "Blazor's biggest challenges",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 13,
+        "Name": "blog"
+      },
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 199,
+    "Href": "https://andrewlock.net/prerending-a-blazor-webassembly-app-without-an-asp-net-core-host-app/",
+    "Title": "Andrew Lock - Prerendering a Blazor WebAssembly App",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 13,
+        "Name": "blog"
+      },
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 200,
+    "Href": "https://itnext.io/how-to-use-enums-when-using-entity-framework-core-with-c-bb634692a4b0",
+    "Title": "Using Enums with EF Core",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      },
+      {
+        "Id": 7,
+        "Name": "sql"
+      }
+    ]
+  },
+  {
+    "Id": 201,
+    "Href": "https://thenewstack.io/is-webassembly-really-the-future/",
+    "Title": "Is WebAssembly Really the Future?",
+    "Desc": "WASI (a modular system interface for WebAssembly) will increase productivity",
+    "Tags": [
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 202,
+    "Href": "https://www.codeproject.com/Articles/26288/Simplifying-the-WPF-TreeView-by-Using-the-ViewMode",
+    "Title": "WPF Treeview",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 22,
+        "Name": "rich-client"
+      }
+    ]
+  },
+  {
+    "Id": 203,
+    "Href": "https://www.infoworld.com/article/3688936/aspnet-core-gets-full-stack-web-programming-in-net-8.html",
+    "Title": "ASP.NET Core gets full-stack web programming in .NET 8",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 15,
+        "Name": "dotnet"
+      },
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 204,
+    "Href": "https://demo.dashboardpack.com/architectui-html-pro/",
+    "Title": "HTML Templates - Analytics Dashboard",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 205,
+    "Href": "https://devblogs.microsoft.com/dotnet/do-more-with-patterns-in-c-8-0",
+    "Title": "C# switch with positional parameters",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
       }
     ]
   }
