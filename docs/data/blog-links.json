@@ -2508,10 +2508,6 @@
       {
         "Id": 22,
         "Name": "rich-client"
-      },
-      {
-        "Id": 20,
-        "Name": "video"
       }
     ]
   },
@@ -2720,6 +2716,78 @@
       {
         "Id": 1,
         "Name": "c#"
+      }
+    ]
+  },
+  {
+    "Id": 206,
+    "Href": "https://www.youtube.com/watch?v=ASraHYMi808",
+    "Title": "Adding AppSettings to WPF Core",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 22,
+        "Name": "rich-client"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      }
+    ]
+  },
+  {
+    "Id": 207,
+    "Href": "https://www.neowin.net/news/windows-11-dev-channel-build-23403-brings-xaml-recommended-content-to-file-explorer/",
+    "Title": "Windows 11 Dev channel build 23403 brings XAML File Explorer",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 22,
+        "Name": "rich-client"
+      },
+      {
+        "Id": 14,
+        "Name": "sa"
+      }
+    ]
+  },
+  {
+    "Id": 208,
+    "Href": "https://jber595.medium.com/data-visualization-with-chart-js-and-net-core-ap-c3c7a445973c",
+    "Title": "JavaScript Charts",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 209,
+    "Href": "https://www.youtube.com/watch?v=7YBwVoSn3P8",
+    "Title": "Discriminated Unions in C#",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      }
+    ]
+  },
+  {
+    "Id": 210,
+    "Href": "https://blog.elmah.io/logging-and-global-error-handling-in-net-7-wpf-applications/",
+    "Title": "Logging and global error handling in .NET 7 WPF applications",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 22,
+        "Name": "rich-client"
       }
     ]
   }
