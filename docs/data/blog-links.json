@@ -2790,5 +2790,149 @@
         "Name": "rich-client"
       }
     ]
+  },
+  {
+    "Id": 211,
+    "Href": "https://krebsonsecurity.com/",
+    "Title": "Krebs On Security",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 13,
+        "Name": "blog"
+      },
+      {
+        "Id": 14,
+        "Name": "sa"
+      }
+    ]
+  },
+  {
+    "Id": 212,
+    "Href": "https://www.12factor.net/",
+    "Title": "12-Factor App",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 12,
+        "Name": "theory"
+      }
+    ]
+  },
+  {
+    "Id": 213,
+    "Href": "http://thedatafarm.com/blog/",
+    "Title": "Julie Lerman",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 13,
+        "Name": "blog"
+      }
+    ]
+  },
+  {
+    "Id": 214,
+    "Href": "https://www.infoq.com/development/",
+    "Title": "Dev Blog Infoq",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 13,
+        "Name": "blog"
+      }
+    ]
+  },
+  {
+    "Id": 215,
+    "Href": "https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/conditional-operator",
+    "Title": "C# Operators",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      }
+    ]
+  },
+  {
+    "Id": 216,
+    "Href": "http://www.albahari.com/nutshell/predicatebuilder.aspx",
+    "Title": "Joe Albahari - C# in a nutshell",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 13,
+        "Name": "blog"
+      },
+      {
+        "Id": 1,
+        "Name": "c#"
+      }
+    ]
+  },
+  {
+    "Id": 217,
+    "Href": "https://app.codility.com/programmers/challenges/",
+    "Title": "Codility - Code Challenges",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 6,
+        "Name": "code-challenge"
+      }
+    ]
+  },
+  {
+    "Id": 218,
+    "Href": "https://medium.com/free-code-camp/bet-you-cant-solve-this-google-interview-question-4a6e5a4dc8ee",
+    "Title": "solve-this-google-interview-question",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 6,
+        "Name": "code-challenge"
+      }
+    ]
+  },
+  {
+    "Id": 219,
+    "Href": "https://console.firebase.google.com/?pli=1",
+    "Title": "Firebase",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 18,
+        "Name": "web-host"
+      }
+    ]
+  },
+  {
+    "Id": 220,
+    "Href": "https://learn.microsoft.com/en-us/sql/linux/quickstart-install-connect-ubuntu?view=sql-server-ver15",
+    "Title": "SQL Server 2019 on Ubuntu",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 10,
+        "Name": "linux"
+      },
+      {
+        "Id": 7,
+        "Name": "sql"
+      }
+    ]
+  },
+  {
+    "Id": 221,
+    "Href": "https://www.everleap.com/",
+    "Title": "Everleap.com",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 18,
+        "Name": "web-host"
+      }
+    ]
   }
 ]
