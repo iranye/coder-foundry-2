@@ -2934,5 +2934,65 @@
         "Name": "web-host"
       }
     ]
+  },
+  {
+    "Id": 222,
+    "Href": "https://www.youtube.com/watch?v=q_T6PgoOrJQ",
+    "Title": "Top 10 programming languages",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 12,
+        "Name": "theory"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      }
+    ]
+  },
+  {
+    "Id": 223,
+    "Href": "https://steven-giesel.com/blogPost/fb1ce2ab-dd27-43ed-aaab-077adf2d15cd",
+    "Title": "Write your own cron Job scheduler in ASP.NET Core",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 15,
+        "Name": "dotnet"
+      }
+    ]
+  },
+  {
+    "Id": 224,
+    "Href": "https://www.youtube.com/watch?v=yARewF1V9rU",
+    "Title": "Don't be a Hobbyist - CI channel",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 12,
+        "Name": "theory"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      }
+    ]
+  },
+  {
+    "Id": 225,
+    "Href": "https://blog.logrocket.com/best-gui-frameworks-go/",
+    "Title": "Best GUI frameworks for Go",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 13,
+        "Name": "blog"
+      },
+      {
+        "Id": 12,
+        "Name": "theory"
+      }
+    ]
   }
 ]
