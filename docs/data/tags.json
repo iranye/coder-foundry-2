@@ -28,6 +28,10 @@
     "Name": "c#"
   },
   {
+    "Id": 6,
+    "Name": "code-challenge"
+  },
+  {
     "Id": 3,
     "Name": "dev-ops"
   },
@@ -44,10 +48,6 @@
     "Name": "ed"
   },
   {
-    "Id": 6,
-    "Name": "code-challenge"
-  },
-  {
     "Id": 16,
     "Name": "git"
   },
@@ -58,6 +58,10 @@
   {
     "Id": 10,
     "Name": "linux"
+  },
+  {
+    "Id": 24,
+    "Name": "microserv"
   },
   {
     "Id": 5,
@@ -96,7 +100,7 @@
     "Name": "web-host"
   },
   {
-    "Id": 24,
-    "Name": "microserv"
+    "Id": 25,
+    "Name": "python"
   }
 ]

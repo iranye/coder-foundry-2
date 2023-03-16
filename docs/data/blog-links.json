@@ -2994,5 +2994,69 @@
         "Name": "theory"
       }
     ]
+  },
+  {
+    "Id": 226,
+    "Href": "https://medium.com/geekculture/7-useful-net-libraries-you-should-use-in-your-next-project-c33cef403e60",
+    "Title": "Dotnet - 7 useful libraries",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 15,
+        "Name": "dotnet"
+      }
+    ]
+  },
+  {
+    "Id": 227,
+    "Href": "https://medium.com/@M-B-A-R-K/what-are-closures-in-c-a31d2e5d2a66",
+    "Title": "C# Closures MBARK",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 13,
+        "Name": "blog"
+      },
+      {
+        "Id": 1,
+        "Name": "c#"
+      }
+    ]
+  },
+  {
+    "Id": 228,
+    "Href": "https://yogeshhadiya33.medium.com/stored-procedure-with-searching-sorting-and-pagination-in-sql-server-8d7f0d774740",
+    "Title": "SQL SERVER - sorting and pagination",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 7,
+        "Name": "sql"
+      }
+    ]
+  },
+  {
+    "Id": 229,
+    "Href": "https://medium.com/@chenyumei8866/10-killer-python-automation-scripts-f305d7261d55",
+    "Title": "10 Killer Python Scripts",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 25,
+        "Name": "python"
+      }
+    ]
+  },
+  {
+    "Id": 230,
+    "Href": "https://www.telerik.com/blogs/simplify-blazor-applications-using-dotnet-7-new-bind-modifiers",
+    "Title": "Simplify Your Blazor Apps Using .NET 7’s New Bind Modifiers",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
   }
 ]
