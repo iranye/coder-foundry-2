@@ -3058,5 +3058,49 @@
         "Name": "web-dev"
       }
     ]
+  },
+  {
+    "Id": 231,
+    "Href": "http://sergeyteplyakov.blogspot.com/",
+    "Title": "sergeyteplyakov blog",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 13,
+        "Name": "blog"
+      }
+    ]
+  },
+  {
+    "Id": 232,
+    "Href": "https://dotnetcoretutorials.com/2022/04/28/using-user-secrets-configuration-in-net/",
+    "Title": "Using User Secrets Configuration In .NET",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 13,
+        "Name": "blog"
+      },
+      {
+        "Id": 15,
+        "Name": "dotnet"
+      }
+    ]
+  },
+  {
+    "Id": 233,
+    "Href": "https://www.youtube.com/watch?v=8fi7uSYlOdc",
+    "Title": "Learn how to code a container using Go code • Liz Rice ",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 9,
+        "Name": "docker"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      }
+    ]
   }
 ]
