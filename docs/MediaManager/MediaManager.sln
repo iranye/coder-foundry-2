@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33403.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MediaManager.WPF", "MediaManager.WPF\MediaManager.WPF.csproj", "{D2DCA564-28D9-44A1-BB25-30F5AB2DC76E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{97CB5DEB-A1E2-4D1B-926D-7107DAB63C7A}"
+	ProjectSection(SolutionItems) = preProject
+		build.cake = build.cake
+		Directory.Build.props = Directory.Build.props
+		MediaManager_NOTES.txt = MediaManager_NOTES.txt
+		publish.cmd = publish.cmd
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MediaManager.Domain", "MediaManager.Domain\MediaManager.Domain.csproj", "{095E8EA8-0F6A-4E7D-9176-6D1604FDFB28}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D2DCA564-28D9-44A1-BB25-30F5AB2DC76E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2DCA564-28D9-44A1-BB25-30F5AB2DC76E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2DCA564-28D9-44A1-BB25-30F5AB2DC76E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2DCA564-28D9-44A1-BB25-30F5AB2DC76E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{095E8EA8-0F6A-4E7D-9176-6D1604FDFB28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{095E8EA8-0F6A-4E7D-9176-6D1604FDFB28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{095E8EA8-0F6A-4E7D-9176-6D1604FDFB28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{095E8EA8-0F6A-4E7D-9176-6D1604FDFB28}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {65C01B48-EE07-4226-BAFB-0DACE45AD6F3}
+	EndGlobalSection
+EndGlobal
