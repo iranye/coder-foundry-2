@@ -3102,5 +3102,41 @@
         "Name": "video"
       }
     ]
+  },
+  {
+    "Id": 234,
+    "Href": "https://www.marktechpost.com/2023/03/17/meet-vipergpt-a-python-framework-that-combines-vision-and-language-models-using-code-generation-to-achieve-state-of-the-art-results",
+    "Title": "ViperGPT: A Python Framework - AI Image Recognition",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 25,
+        "Name": "python"
+      }
+    ]
+  },
+  {
+    "Id": 235,
+    "Href": "https://www.gregbeech.com/2020/01/19/the-engineering-career-triangle/",
+    "Title": "The engineering career triangle",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 12,
+        "Name": "theory"
+      }
+    ]
+  },
+  {
+    "Id": 236,
+    "Href": "https://dev.to/ruppysuppy/deep-dive-into-how-web-browsers-work-with-illustrations-249b",
+    "Title": "Deep dive into how Web Browsers work",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
   }
 ]

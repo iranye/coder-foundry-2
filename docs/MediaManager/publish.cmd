@@ -1,7 +1,7 @@
 @echo off
 cd
 set srcdir=MediaManager.WPF
-set pubdir=..\pub\Release
+set pubdir=..\..\mediamanager-pub\Release
 dotnet cake --target="Version"
 
 type Directory.Build.props

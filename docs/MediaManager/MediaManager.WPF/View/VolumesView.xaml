@@ -156,7 +156,7 @@
                                     Width="100" Margin="10"
                                     Command="{Binding CollectMbsCommand}"
                                     ToolTip="Get MB Sum" />
-                                <Label Content="{Binding SelectedItem.M3uTotalMb}"
+                                <Label Content="{Binding SelectedItem.M3usTotalMb}"
                                        BorderBrush="Blue"
                                        BorderThickness="1"
                                        ToolTip="Total MB"

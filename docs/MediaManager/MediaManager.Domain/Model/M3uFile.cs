@@ -1,5 +1,10 @@
 ﻿namespace MediaManager.Domain.Model
 {
+    // --------------------------------------------------------------------------------------------------------------------
+    // <copyright file="M3uFile.cs" company="IRANYE">
+    //   Copyright (c) IRANYE. All rights reserved.
+    // </copyright>
+    // --------------------------------------------------------------------------------------------------------------------
     using Newtonsoft.Json;
     using System.IO;
 

@@ -1,5 +1,10 @@
 ﻿namespace MediaManager.WPF.ViewModel
 {
+    // --------------------------------------------------------------------------------------------------------------------
+    // <copyright file="VolumesViewModel.cs" company="IRANYE">
+    //   Copyright (c) IRANYE. All rights reserved.
+    // </copyright>
+    // --------------------------------------------------------------------------------------------------------------------
     using AutoMapper;
     using MediaManager.Domain.Data;
     using MediaManager.Domain.Model;
@@ -40,8 +45,9 @@
             OpenExplorerWindowCommand = new DelegateCommand(OpenExplorerWindow);
             CreateM3uCommand = new DelegateCommand(CreateM3u);
             CollectMbsCommand = new DelegateCommand(CollectMbs);
-            CreateScriptCommand = new DelegateCommand(CreateScript);            
+            CreateScriptCommand = new DelegateCommand(CreateScript);
 
+            logger.LogInformation("Initalize CurrentWorkingDirectory with StartingPath: {StartingPath}", mediaManagerOptions.Value.StartingPath);
             CurrentWorkingDirectory = new CurrentWorkingDirectory(mediaManagerOptions.Value.StartingPath);
             CurrentWorkingDirectory.PropertyChanged += CurrentWorkingDirectory_PropertyChanged;
         }

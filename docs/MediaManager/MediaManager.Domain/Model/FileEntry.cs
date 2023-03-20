@@ -1,5 +1,10 @@
 ﻿namespace MediaManager.Domain.Model
 {
+    // --------------------------------------------------------------------------------------------------------------------
+    // <copyright file="FileEntry.cs" company="IRANYE">
+    //   Copyright (c) IRANYE. All rights reserved.
+    // </copyright>
+    // --------------------------------------------------------------------------------------------------------------------
     public class FileEntry
     {
         private FileInfo fileInfo;

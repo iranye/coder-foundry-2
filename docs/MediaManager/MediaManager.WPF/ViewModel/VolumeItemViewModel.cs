@@ -1,9 +1,13 @@
 ﻿namespace MediaManager.WPF.ViewModel
 {
+    // --------------------------------------------------------------------------------------------------------------------
+    // <copyright file="VolumeItemViewModel.cs" company="IRANYE">
+    //   Copyright (c) IRANYE. All rights reserved.
+    // </copyright>
+    // --------------------------------------------------------------------------------------------------------------------
     using MediaManager.Domain.Model;
     using System;
     using System.Collections.ObjectModel;
-    using System.Windows;
 
     public class VolumeItemViewModel : ViewModelBase
     {
@@ -30,7 +34,7 @@
             {
                 totalMb += m3uFile.TotalMegaBytes;
             }
-            M3uTotalMb = totalMb;
+            M3usTotalMb = totalMb;
         }
 
         public int Id
@@ -76,15 +80,14 @@
             }
         }
 
-        private int m3uTotalMb;
-        public int M3uTotalMb
+        public int M3usTotalMb
         {
-            get { return m3uTotalMb; }
+            get { return model.M3usTotalMb; }
             set
             {
-                if (m3uTotalMb != value)
+                if (model.M3usTotalMb != value)
                 {
-                    m3uTotalMb = value;
+                    model.M3usTotalMb = value;
                     RaisePropertyChanged();
                 }
             }

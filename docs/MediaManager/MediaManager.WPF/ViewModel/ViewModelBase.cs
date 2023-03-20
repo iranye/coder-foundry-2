@@ -1,9 +1,14 @@
-﻿using System.ComponentModel;
-using System.Runtime.CompilerServices;
-using System.Threading.Tasks;
-
-namespace MediaManager.WPF.ViewModel
+﻿namespace MediaManager.WPF.ViewModel
+// --------------------------------------------------------------------------------------------------------------------
+// <copyright file="ViewModelBase.cs" company="IRANYE">
+//   Copyright (c) IRANYE. All rights reserved.
+// </copyright>
+// --------------------------------------------------------------------------------------------------------------------
 {
+    using System.ComponentModel;
+    using System.Runtime.CompilerServices;
+    using System.Threading.Tasks;
+
     public class ViewModelBase : INotifyPropertyChanged
     {
         public event PropertyChangedEventHandler? PropertyChanged;

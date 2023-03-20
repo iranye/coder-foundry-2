@@ -1,5 +1,10 @@
 ﻿namespace MediaManager.WPF.ViewModel
 {
+    // --------------------------------------------------------------------------------------------------------------------
+    // <copyright file="MainViewModel.cs" company="IRANYE">
+    //   Copyright (c) IRANYE. All rights reserved.
+    // </copyright>
+    // --------------------------------------------------------------------------------------------------------------------
     using MediaManager.WPF.Command;
     using System.Threading.Tasks;
 

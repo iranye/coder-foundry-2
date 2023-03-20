@@ -1,5 +1,10 @@
 ﻿namespace MediaManager.Domain.Data
-{
+{    // --------------------------------------------------------------------------------------------------------------------
+    // <copyright file="VolumeDataProvider.cs" company="IRANYE">
+    //   Copyright (c) IRANYE. All rights reserved.
+    // </copyright>
+    // --------------------------------------------------------------------------------------------------------------------
+
     using MediaManager.Domain.Model;
     using Newtonsoft.Json;
 

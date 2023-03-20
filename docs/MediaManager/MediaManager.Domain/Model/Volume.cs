@@ -16,6 +16,8 @@
         
         public bool CopyDirectories { get; set; }
 
+        public int M3usTotalMb { get; set; }
+
         public override string ToString()
         {
             return $"{Title}";

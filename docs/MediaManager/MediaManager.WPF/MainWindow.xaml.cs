@@ -1,8 +1,12 @@
 ﻿namespace MediaManager.WPF
 {
+    // --------------------------------------------------------------------------------------------------------------------
+    // <copyright file="MainWindow.xaml.cs" company="IRANYE">
+    //   Copyright (c) IRANYE. All rights reserved.
+    // </copyright>
+    // --------------------------------------------------------------------------------------------------------------------
     using MediaManager.WPF.ViewModel;
     using Microsoft.Extensions.Logging;
-    using System;
     using System.Windows;
 
     /// <summary>

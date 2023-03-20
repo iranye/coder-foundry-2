@@ -1,5 +1,10 @@
 ﻿namespace MediaManager.WPF
 {
+    // --------------------------------------------------------------------------------------------------------------------
+    // <copyright file="App.xaml.cs" company="IRANYE">
+    //   Copyright (c) IRANYE. All rights reserved.
+    // </copyright>
+    // --------------------------------------------------------------------------------------------------------------------
     using MediaManager.Domain.Data;
     using MediaManager.WPF.Config;
     using MediaManager.WPF.ViewModel;

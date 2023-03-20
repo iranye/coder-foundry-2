@@ -1,5 +1,10 @@
 ﻿namespace MediaManager.WPF.ViewModel
 {
+    // --------------------------------------------------------------------------------------------------------------------
+    // <copyright file="M3uFileViewModel.cs" company="IRANYE">
+    //   Copyright (c) IRANYE. All rights reserved.
+    // </copyright>
+    // --------------------------------------------------------------------------------------------------------------------
     using MediaManager.Domain.Model;
     using MediaManager.WPF.Helpers;
     using System;
@@ -144,6 +149,7 @@
             }
             if (retFileMatches)
             {
+                M3uNameMatches = true;
                 RaisePropertyChanged("FileMatches");
             }
             return ret || retFileMatches;
