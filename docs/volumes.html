@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <!--------------------------------------------------------------------------------------------------------------------
-<copyright file="dev-blog.html" company="IRANYE">
+<copyright file="volumes.html" company="IRANYE">
   Copyright (c) IRANYE. All rights reserved.
 </copyright>
 -------------------------------------------------------------------------------------------------------------------->
-
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
@@ -12,7 +11,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link rel="icon" href="favicon.ico">
-    <title>Dev Blog and Other - Links</title>
+    <title>Volumes - Queries</title>
     <style type="text/css">
       fieldset {
           margin: 8px;
@@ -52,7 +51,7 @@
         <article>
 
           <aside>
-            <img src="images/wave-19.jpg" id="main-img" alt="Links to Stuff" />
+            <img src="images/vinyl-02.png" style="background-color: rgba(0,0,0,0);" alt="Volume Queries" />
           </aside>
 
         <nav>
@@ -84,17 +83,6 @@
     <div class="row">
         <label id="error" class="errorMessage"></label>
     </div>
-    <!-- <footer>
-      <nav>
-        <ul id="footer-links">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="Regexer.html">Regexer</a></li>
-          <li><a href="dev-blog.html">List of Links</a></li>
-          <li><a href="cloud/index.html">Cloud Q&A</a></li>
-          <li><a href="static/Wordle/Wordle - A daily word game.html">W</a></li>
-        </ul>
-      </nav>
-    </footer> -->
 </body>
 
 <script type="text/javascript" src="scripts/jquery-3.6.0.js"></script>
@@ -129,7 +117,7 @@
         })
 
         populateTags();
-        populateLinksMain();        
+        populateLinksMain();
     });
 
     function massageStr(str) {
@@ -164,21 +152,21 @@
       })
   }
 
-    function populateLinksMain() {
-        let $mainLinks = $("#header-links");
+function populateLinksMain() {
+    let $mainLinks = $("#header-links");
 
-        let linkTemplate = (href, title) =>
-            `<li><a href='${href}'>${title}</a></li>`
+    let linkTemplate = (href, title) =>
+        `<li><a href='${href}'>${title}</a></li>`
 
-        $.get("data/links-main.json")
-            .done((data) => {
-            let length = data.length;
-            console.log(`${ length } main links found`);
-            data.forEach((item) => {
-                $mainLinks.append(linkTemplate(item.Href, item.Title));
-            });
-        })
-    }
+    $.get("data/links-main.json")
+        .done((data) => {
+        let length = data.length;
+        console.log(`${ length } main links found`);
+        data.forEach((item) => {
+            $mainLinks.append(linkTemplate(item.Href, item.Title));
+        });
+    })
+}
 
 </script>
 </html>

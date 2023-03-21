@@ -17,6 +17,8 @@
     "CopyDirectories": false,
     "M3usTotalMb": 0
   },
+
+  
   {
     "Id": 28,
     "Title": "AltHeavyVol1_EXP",
@@ -522,39 +524,85 @@
   },
   {
     "Id": 57,
-    "Title": "Metal-01",
-    "M3uFiles": [],
-    "Created": "2023-03-01T18:01:27",
-    "LastModified": "0001-01-01T00:00:00",
-    "CopyDirectories": false,
-    "M3usTotalMb": 0
-  },
-  {
-    "Id": 58,
     "Title": "Metal-02",
-    "M3uFiles": [],
-    "Created": "2023-03-01T18:01:42",
-    "LastModified": "0001-01-01T00:00:00",
+    "M3uFiles": [
+      {
+        "TotalMegaBytes": 65,
+        "PartialPath": "Music\\MP3s\\Iron Maiden\\_IronMaiden-ShortList.m3u"
+      },
+      {
+        "TotalMegaBytes": 109,
+        "PartialPath": "Music\\MP3s\\Scorpions\\_Scorpions-ShortList.m3u"
+      },
+      {
+        "TotalMegaBytes": 54,
+        "PartialPath": "Music\\MP3s\\Helmet\\$Helmet.m3u"
+      },
+      {
+        "TotalMegaBytes": 319,
+        "PartialPath": "Music\\MP3s\\Judas Priest\\Judas Priest-Shortlist.m3u"
+      }
+    ],
+    "Created": "2023-03-01T18:01:27",
+    "LastModified": "2023-03-20T19:14:15",
     "CopyDirectories": false,
-    "M3usTotalMb": 0
+    "M3usTotalMb": 547
   },
   {
     "Id": 59,
     "Title": "Metal-03_EXP",
-    "M3uFiles": [],
+    "M3uFiles": [
+      {
+        "TotalMegaBytes": 58,
+        "PartialPath": "Music\\MP3s\\Korn\\_Korn-ShortList.m3u"
+      },
+      {
+        "TotalMegaBytes": 34,
+        "PartialPath": "Music\\MP3s\\Ministry\\_Ministry-ShortList.m3u"
+      },
+      {
+        "TotalMegaBytes": 63,
+        "PartialPath": "Music\\MP3s\\Monster Magnet\\_MonsterMagnet-ShortList.m3u"
+      },
+      {
+        "TotalMegaBytes": 15,
+        "PartialPath": "Music\\MP3s\\PerfectCircle\\_PerfectCircle-ShortList.m3u"
+      },
+      {
+        "TotalMegaBytes": 68,
+        "PartialPath": "Music\\MP3s\\Rage Against the Machine\\_RageAgainstTheMachine-ShortList.m3u"
+      },
+      {
+        "TotalMegaBytes": 37,
+        "PartialPath": "Music\\MP3s\\Slipknot\\_Slipknot-ShortList.m3u"
+      },
+      {
+        "TotalMegaBytes": 311,
+        "PartialPath": "Music\\MP3s\\Tool\\$Tool-ShortList.m3u"
+      }
+    ],
     "Created": "2023-03-01T18:01:58",
-    "LastModified": "0001-01-01T00:00:00",
+    "LastModified": "2023-03-20T19:15:37",
     "CopyDirectories": false,
-    "M3usTotalMb": 0
+    "M3usTotalMb": 586
   },
   {
     "Id": 60,
     "Title": "Metal-04",
-    "M3uFiles": [],
+    "M3uFiles": [
+      {
+        "TotalMegaBytes": 142,
+        "PartialPath": "Music\\MP3s\\Megadeth\\_Megadeth-ShortList.m3u"
+      },
+      {
+        "TotalMegaBytes": 417,
+        "PartialPath": "Music\\MP3s\\Metallica\\_Metallica-ShortList.m3u"
+      }
+    ],
     "Created": "2023-03-01T18:02:09",
-    "LastModified": "0001-01-01T00:00:00",
+    "LastModified": "2023-03-20T19:35:38",
     "CopyDirectories": false,
-    "M3usTotalMb": 0
+    "M3usTotalMb": 559
   },
   {
     "Id": 61,
@@ -1012,5 +1060,31 @@
     "LastModified": "2023-03-18T17:22:05",
     "CopyDirectories": false,
     "M3usTotalMb": 313
+  },
+  {
+    "Id": 87,
+    "Title": "JazzBlues",
+    "M3uFiles": [
+      {
+        "TotalMegaBytes": 230,
+        "PartialPath": "Music\\MP3s\\Blues\\_Blues-Shortlist.m3u"
+      },
+      {
+        "TotalMegaBytes": 88,
+        "PartialPath": "Music\\MP3s\\John Coltrane\\_JohnColtrane.m3u"
+      },
+      {
+        "TotalMegaBytes": 64,
+        "PartialPath": "Music\\MP3s\\Miles Davis\\_MilesDavis.m3u"
+      },
+      {
+        "TotalMegaBytes": 89,
+        "PartialPath": "Music\\MP3s\\Wynton Marsalis & Ellis Marsalis\\_WyntonMars-ShortList.m3u"
+      }
+    ],
+    "Created": "2023-03-20T19:09:06",
+    "LastModified": "0001-01-01T00:00:00",
+    "CopyDirectories": false,
+    "M3usTotalMb": 471
   }
 ]
