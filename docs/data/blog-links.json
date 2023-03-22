@@ -3138,5 +3138,21 @@
         "Name": "web-dev"
       }
     ]
+  },
+  {
+    "Id": 237,
+    "Href": "https://devblogs.microsoft.com/dotnet/securing-containers-with-rootless/",
+    "Title": "Secure .NET cloud apps with rootless Linux Containers",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 13,
+        "Name": "blog"
+      },
+      {
+        "Id": 9,
+        "Name": "docker"
+      }
+    ]
   }
 ]
