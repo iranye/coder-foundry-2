@@ -3186,5 +3186,53 @@
         "Name": "sql"
       }
     ]
+  },
+  {
+    "Id": 240,
+    "Href": "https://www.meziantou.net/too-many-timers-in-dotnet.htm",
+    "Title": "Timers in dotnet",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      },
+      {
+        "Id": 15,
+        "Name": "dotnet"
+      }
+    ]
+  },
+  {
+    "Id": 241,
+    "Href": "https://devblogs.microsoft.com/dotnet/how-async-await-really-works/",
+    "Title": "How Async/Await Really Works in C#",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 23,
+        "Name": "async"
+      },
+      {
+        "Id": 1,
+        "Name": "c#"
+      }
+    ]
+  },
+  {
+    "Id": 242,
+    "Href": "https://codeopinion.com/testing-without-mocks-or-interfaces/",
+    "Title": "Testing WITHOUT Mocks or Interfaces",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      },
+      {
+        "Id": 12,
+        "Name": "theory"
+      }
+    ]
   }
 ]
