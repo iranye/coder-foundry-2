@@ -3138,5 +3138,53 @@
         "Name": "web-dev"
       }
     ]
+  },
+  {
+    "Id": 247,
+    "Href": "https://www.meziantou.net/too-many-timers-in-dotnet.htm",
+    "Title": "Timers in dotnet",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      },
+      {
+        "Id": 15,
+        "Name": "dotnet"
+      }
+    ]
+  },
+  {
+    "Id": 248,
+    "Href": "https://devblogs.microsoft.com/dotnet/how-async-await-really-works/",
+    "Title": "How Async/Await Really Works in C#",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 23,
+        "Name": "async"
+      },
+      {
+        "Id": 13,
+        "Name": "blog"
+      },
+      {
+        "Id": 1,
+        "Name": "c#"
+      }
+    ]
+  },
+  {
+    "Id": 249,
+    "Href": "https://codeopinion.com/testing-without-mocks-or-interfaces/",
+    "Title": "Testing WITHOUT Mocks or Interfaces",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      }
+    ]
   }
 ]
