@@ -9,17 +9,6 @@
     "M3usTotalMb": 0
   },
   {
-    "Id": 4,
-    "Title": "JazzBlues",
-    "M3uFiles": [],
-    "Created": "0001-01-01T00:00:00",
-    "LastModified": "2023-03-01T18:00:34",
-    "CopyDirectories": false,
-    "M3usTotalMb": 0
-  },
-
-  
-  {
     "Id": 28,
     "Title": "AltHeavyVol1_EXP",
     "M3uFiles": [

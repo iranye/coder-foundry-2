@@ -3154,5 +3154,37 @@
         "Name": "docker"
       }
     ]
+  },
+  {
+    "Id": 238,
+    "Href": "https://medium.com/@mbearz/strange-c-tricks-1-delegate-collection-is-the-new-if-8cdf7046d7d6",
+    "Title": "C# Tricks",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 13,
+        "Name": "blog"
+      },
+      {
+        "Id": 1,
+        "Name": "c#"
+      }
+    ]
+  },
+  {
+    "Id": 239,
+    "Href": "https://towardsdatascience.com/build-a-back-end-with-postgresql-fastapi-and-docker-7ebfe59e4f06",
+    "Title": "Build a back-end with PostgreSQL, FastAPI, and Docker",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 9,
+        "Name": "docker"
+      },
+      {
+        "Id": 7,
+        "Name": "sql"
+      }
+    ]
   }
 ]
