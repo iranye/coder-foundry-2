@@ -13,30 +13,19 @@
     <link rel="icon" href="favicon.ico">
     <title>Volumes - Queries</title>
     <style type="text/css">
-      fieldset {
-          margin: 8px;
-          border: 1px solid silver;
-          padding: 8px;
-          border-radius: 4px;
+      body {
+        margin: 30px;
       }
-      .container {
-          clear: both;
-          display: block;
-          position: relative;
+      #leftpane{
+        border:1px solid black;
+          height: 160px;
       }
-
-      a {
-            float: left;
-            border: 1px;
-            margin:5px;
-        }
-      #tags li {
-        background-color:aquamarine;
-        font-size: large;
-        text-decoration-line: underline;
+      #mainpane{
+        background-color:lightblue;
+        border:1px solid black;
+          height: 600px;
       }
-</style>
-    <link rel="stylesheet" href="site.css" type="text/css" />
+    </style>
 </head>
 <body>
     <header>
@@ -46,42 +35,48 @@
       </nav>
     </header>
 
-    <main>
-
-        <article>
-
-          <aside>
-            <img src="images/vinyl-02.png" style="background-color: rgba(0,0,0,0);" alt="Volume Queries" />
-          </aside>
-
-        <nav>
-          <ul id="tags">
-          </ul>
-        </nav>
-          <section class="columns-desktop">
-
-            <table class="table">
-              <thead>
-                <tr>
-                  <th width="300">Title</th>
-                  <th>Tags</th>
-                  <th width="300">Desc</th>
-                  <th width="300">Href</th>
-                </tr>
-              </thead>
-              <tbody id="links">
-                <!-- Generated HTML goes here -->
-              </tbody>
-          </section>
-
-        </article>
-      </main>
-
-    <div class="row">
-        <label id="message" class="infoMessage"></label>
+    <div id="leftpane" class="col-sm-4" >
+      <form class="form-horizontal">
+            <div class="form-group">
+                <label for="filter" class="control-label">Filter</label>
+                <div class="">
+                    <input type="text" id="filter" name="filter" class="form-control" />
+                </div>
+            </div>
+      </form>
     </div>
-    <div class="row">
-        <label id="error" class="errorMessage"></label>
+    
+    <div id="mainpane" class="col-sm-8" >
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Handle</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Larry</td>
+            <td>the Bird</td>
+            <td>@twitter</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
 </body>
 
