@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link rel="icon" href="favicon.ico">
     <title>Volumes - Queries</title>
+    <link rel="stylesheet" href="site.css" type="text/css" />
     <style type="text/css">
       body {
         margin: 30px;
@@ -21,20 +22,32 @@
           height: 160px;
       }
       #mainpane{
-        background-color:lightblue;
+        /* background-color:lightblue; */
         border:1px solid black;
           height: 600px;
+      }
+      aside{
+        text-align:center;
+        margin: 10px;
+      }
+      table{
+        border:1px solid black;
       }
     </style>
 </head>
 <body>
+  <main>
+
     <header>
       <nav>
         <ul id="header-links">
         </ul>
       </nav>
     </header>
-
+    <aside>
+      <img src="images/vinyl-02.png" style="background-color: rgba(0,0,0,0);" alt="Volume Queries" />
+    </aside>
+  </main>
     <div id="leftpane" class="col-sm-4" >
       <form class="form-horizontal">
             <div class="form-group">
@@ -47,33 +60,55 @@
     </div>
     
     <div id="mainpane" class="col-sm-8" >
-      <table class="table">
+      <table class="table table-striped">
         <thead>
           <tr>
             <th scope="col">#</th>
-            <th scope="col">First</th>
-            <th scope="col">Last</th>
-            <th scope="col">Handle</th>
+            <th scope="col">Title</th>
+            <th scope="col">M3usTotalMb</th>
+            <th scope="col">LastModified</th>
+            <th scope="col">M3Us</th>            
           </tr>
         </thead>
         <tbody>
           <tr>
             <th scope="row">1</th>
-            <td>Mark</td>
-            <td>Otto</td>
-            <td>@mdo</td>
+            <td>AltHeavyVol1_EXP</td>
+            <td>631</td>
+            <td>2023-03-18T17:23:57</td>
+            <td>
+              <table class="table">
+                <tr><td>Music\\MP3s\\Audioslave\\_Audioslave-ShortList.m3u</td><td>123</td></tr>
+                <tr><td>Music\\MP3s\\Audioslave\\_Audioslave-ShortList.m3u</td><td>123</td></tr>
+                <tr><td>Music\\MP3s\\Audioslave\\_Audioslave-ShortList.m3u</td><td>123</td></tr>
+              </table>
+            </td>
           </tr>
           <tr>
             <th scope="row">2</th>
-            <td>Jacob</td>
-            <td>Thornton</td>
-            <td>@fat</td>
+            <td>AltHeavyVol2_EXP</td>
+            <td>631</td>
+            <td>2023-03-18T17:23:57</td>
+            <td>
+              <table class="table">
+                <tr><td>Music\\MP3s\\Audioslave\\_Audioslave-ShortList.m3u</td><td>123</td></tr>
+                <tr><td>Music\\MP3s\\Audioslave\\_Audioslave-ShortList.m3u</td><td>123</td></tr>
+                <tr><td>Music\\MP3s\\Audioslave\\_Audioslave-ShortList.m3u</td><td>123</td></tr>
+              </table>
+            </td>
           </tr>
           <tr>
             <th scope="row">3</th>
-            <td>Larry</td>
-            <td>the Bird</td>
-            <td>@twitter</td>
+            <td>AltNew-02</td>
+            <td>631</td>
+            <td>2023-03-18T17:23:57</td>
+            <td>
+              <table class="table">
+                <tr><td>Music\\MP3s\\Audioslave\\_Audioslave-ShortList.m3u</td><td>123</td></tr>
+                <tr><td>Music\\MP3s\\Audioslave\\_Audioslave-ShortList.m3u</td><td>123</td></tr>
+                <tr><td>Music\\MP3s\\Audioslave\\_Audioslave-ShortList.m3u</td><td>123</td></tr>
+              </table>
+            </td>
           </tr>
         </tbody>
       </table>
