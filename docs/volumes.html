@@ -70,46 +70,7 @@
             <th scope="col">M3Us</th>            
           </tr>
         </thead>
-        <tbody>
-          <tr>
-            <th scope="row">1</th>
-            <td>AltHeavyVol1_EXP</td>
-            <td>631</td>
-            <td>2023-03-18T17:23:57</td>
-            <td>
-              <table class="table">
-                <tr><td>Music\\MP3s\\Audioslave\\_Audioslave-ShortList.m3u</td><td>123</td></tr>
-                <tr><td>Music\\MP3s\\Audioslave\\_Audioslave-ShortList.m3u</td><td>123</td></tr>
-                <tr><td>Music\\MP3s\\Audioslave\\_Audioslave-ShortList.m3u</td><td>123</td></tr>
-              </table>
-            </td>
-          </tr>
-          <tr>
-            <th scope="row">2</th>
-            <td>AltHeavyVol2_EXP</td>
-            <td>631</td>
-            <td>2023-03-18T17:23:57</td>
-            <td>
-              <table class="table">
-                <tr><td>Music\\MP3s\\Audioslave\\_Audioslave-ShortList.m3u</td><td>123</td></tr>
-                <tr><td>Music\\MP3s\\Audioslave\\_Audioslave-ShortList.m3u</td><td>123</td></tr>
-                <tr><td>Music\\MP3s\\Audioslave\\_Audioslave-ShortList.m3u</td><td>123</td></tr>
-              </table>
-            </td>
-          </tr>
-          <tr>
-            <th scope="row">3</th>
-            <td>AltNew-02</td>
-            <td>631</td>
-            <td>2023-03-18T17:23:57</td>
-            <td>
-              <table class="table">
-                <tr><td>Music\\MP3s\\Audioslave\\_Audioslave-ShortList.m3u</td><td>123</td></tr>
-                <tr><td>Music\\MP3s\\Audioslave\\_Audioslave-ShortList.m3u</td><td>123</td></tr>
-                <tr><td>Music\\MP3s\\Audioslave\\_Audioslave-ShortList.m3u</td><td>123</td></tr>
-              </table>
-            </td>
-          </tr>
+        <tbody id="tbodyMain">
         </tbody>
       </table>
     </div>
@@ -119,68 +80,24 @@
 <script>
 
     $((/* jQuery ready */) => {
-        let $links = $("#links");
+        let $tbodyMain = $("#tbodyMain");
 
-        let linkTemplate = (item, tags, desc) =>
-        `<tr id='${item.Id}' class='${tags}'><td>${item.Title}</td><td>[${tags}]</td><td>${desc}</td><td><a class="anchor" href="${item.Href}" target="_blank">${item.Href}</a></td></tr>`
-        
-        $.get("data/blog-links.json")
+        let tbodyTemplate = (item) =>
+        `<tr><th scope="row">${item.Id}</th><td>${item.Title}</td><td>${item.M3usTotalMb}</td><td>${item.LastModified}</td><td><table class="table"><tr><td>Music\\MP3s\\Audioslave\\_Audioslave-ShortList.m3u</td><td>123</td></tr> <tr><td>Music\\MP3s\\Audioslave\\_Audioslave-ShortList.m3u</td><td>123</td></tr> <tr><td>Music\\MP3s\\Audioslave\\_Audioslave-ShortList.m3u</td><td>123</td></tr> </table></td>`
+
+        $.get("data/volumes.json")
         .done((data) => {
             let length = data.length;
-            console.log(`Fetch result: ${ length } links loaded`);
+            console.log(`Fetch result: ${ length } volumes loaded`);
             data.forEach((item) => {
-              tags = "";
-              for (var i = 0; i < item.Tags.length; i++) {
-                let padding = "";
-                if (i > 0) padding = " ";
-                let tagName = massageStr(item.Tags[i].Name);
-                console.log("tagName: " + tagName);
-                tags += padding + tagName;
+              for (var i = 0; i < item.M3uFiles.length; i++) {
               }
-              var desc = "";
-              if (item.Desc) {
-                desc = item.Desc;
-              }
-                $links.append(linkTemplate(item, tags, desc));
+                $tbodyMain.append(tbodyTemplate(item));
             });
-            setupTags();
         })
 
-        populateTags();
         populateLinksMain();
     });
-
-    function massageStr(str) {
-      return str.replace(/c\#/g, 'c-sharp');
-    }
-
-    function setupTags() {
-      console.log("setting up tags");
-      $("#tags").on("click", "li", function(event) {
-          let tagSelected = $(this).text();
-            console.log(tagSelected);
-            $("tr").hide()
-            $(`.${tagSelected}`).show();
-
-            return false;
-          });
-    }
-
-  function populateTags() {
-      let $tagsEl = $("#tags");
-      let tagTemplate = (tag) =>
-      `<li>${tag}</li>`
-
-      $.get("data/tags.json")
-      .done((data) => {
-      let length = data.length;
-      console.log(`${ length } tags found`);
-      data.forEach((tag) => {
-          let tagName = massageStr(tag.Name);
-          $tagsEl.append(tagTemplate(tagName));
-      });
-      })
-  }
 
 function populateLinksMain() {
     let $mainLinks = $("#header-links");
