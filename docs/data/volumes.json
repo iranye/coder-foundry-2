@@ -178,20 +178,28 @@
   {
     "Id": 35,
     "Title": "AltOldies-04",
-    "M3uFiles": [],
+    "M3uFiles": [
+      {
+        "TotalMegaBytes": 124,
+        "PartialPath": "Music\\MP3s\\Jane's Addiction\\_JanesAddiction_ShortList.m3u"
+      },
+      {
+        "TotalMegaBytes": 57,
+        "PartialPath": "Music\\MP3s\\Live\\_Live-ShortList.m3u"
+      },
+      {
+        "TotalMegaBytes": 49,
+        "PartialPath": "Music\\MP3s\\Porno for Pyros\\_PornoForPyros_ShortList.m3u"
+      },
+      {
+        "TotalMegaBytes": 569,
+        "PartialPath": "Music\\MP3s\\Pearl Jam\\Pearl Jam-Shortlist.m3u"
+      }
+    ],
     "Created": "2023-03-01T17:56:54",
-    "LastModified": "0001-01-01T00:00:00",
+    "LastModified": "2023-03-25T11:33:31",
     "CopyDirectories": false,
-    "M3usTotalMb": 0
-  },
-  {
-    "Id": 36,
-    "Title": "AltOldies-05_EXP",
-    "M3uFiles": [],
-    "Created": "2023-03-01T17:57:03",
-    "LastModified": "0001-01-01T00:00:00",
-    "CopyDirectories": false,
-    "M3usTotalMb": 0
+    "M3usTotalMb": 799
   },
   {
     "Id": 37,
@@ -1075,5 +1083,49 @@
     "LastModified": "0001-01-01T00:00:00",
     "CopyDirectories": false,
     "M3usTotalMb": 471
+  },
+  {
+    "Id": 88,
+    "Title": "AltOldies-05",
+    "M3uFiles": [
+      {
+        "TotalMegaBytes": 69,
+        "PartialPath": "Music\\MP3s\\B-52s\\_B52s.m3u"
+      },
+      {
+        "TotalMegaBytes": 63,
+        "PartialPath": "Music\\MP3s\\Culture Club\\_CultureClub.m3u"
+      },
+      {
+        "TotalMegaBytes": 104,
+        "PartialPath": "Music\\MP3s\\Cure\\_Cure-ShortList.m3u"
+      },
+      {
+        "TotalMegaBytes": 59,
+        "PartialPath": "Music\\MP3s\\Devo\\_Devo.m3u"
+      },
+      {
+        "TotalMegaBytes": 535,
+        "PartialPath": "Music\\SimpleDriveMusic\\Depeche Mode\\DepecheMode-Shortlist.m3u"
+      }
+    ],
+    "Created": "2023-03-25T10:32:06",
+    "LastModified": "2023-03-25T10:42:25",
+    "CopyDirectories": false,
+    "M3usTotalMb": 830
+  },
+  {
+    "Id": 89,
+    "Title": "80s-04",
+    "M3uFiles": [
+      {
+        "TotalMegaBytes": 990,
+        "PartialPath": "Music\\SimpleDriveMusic\\0_Compilations\\Like Omigod - The '80s Pop Culture Box\\Like Omigod - The '80s Pop Culture Box-Shortlist.m3u"
+      }
+    ],
+    "Created": "2023-03-25T11:22:45",
+    "LastModified": "2023-03-25T11:23:43",
+    "CopyDirectories": false,
+    "M3usTotalMb": 990
   }
 ]
