@@ -1,0 +1,95 @@
+[
+  {
+    "Id": 1,
+    "Title": "Rock.01",
+    "M3uFiles": null,
+    "Created": "0001-01-01T00:00:00",
+    "LastModified": "0001-01-01T00:00:00"
+  },
+  {
+    "Id": 2,
+    "Title": "Soul",
+    "M3uFiles": null,
+    "Created": "0001-01-01T00:00:00",
+    "LastModified": "0001-01-01T00:00:00"
+  },
+  {
+    "Id": 3,
+    "Title": "Metal",
+    "M3uFiles": null,
+    "Created": "0001-01-01T00:00:00",
+    "LastModified": "0001-01-01T00:00:00"
+  },
+  {
+    "Id": 4,
+    "Title": "Jazz",
+    "M3uFiles": null,
+    "Created": "0001-01-01T00:00:00",
+    "LastModified": "0001-01-01T00:00:00"
+  },
+  {
+    "Id": 5,
+    "Title": "Rock.02",
+    "M3uFiles": null,
+    "Created": "0001-01-01T00:00:00",
+    "LastModified": "0001-01-01T00:00:00"
+  },
+  {
+    "Id": 6,
+    "Title": "Ben",
+    "M3uFiles": null,
+    "Created": "0001-01-01T00:00:00",
+    "LastModified": "0001-01-01T00:00:00"
+  },
+  {
+    "Id": 21,
+    "Title": "Adairs",
+    "M3uFiles": null,
+    "Created": "0001-01-01T00:00:00",
+    "LastModified": "0001-01-01T00:00:00"
+  },
+  {
+    "Id": 22,
+    "Title": "Adair",
+    "M3uFiles": [
+      {
+        "TotalMegaBytes": 68,
+        "PartialPath": "Music\\MP3s\\Stevie Ray Vaughan and Double Trouble\\_StevieRayVaughan_ShortList.m3u"
+      },
+      {
+        "TotalMegaBytes": 22,
+        "PartialPath": "Music\\MP3s\\JimiHendrixExperience\\$JimiHendrixExperience.m3u"
+      }
+    ],
+    "Created": "0001-01-01T00:00:00",
+    "LastModified": "2023-02-27T12:14:35"
+  },
+  {
+    "Id": 23,
+    "Title": "Adak",
+    "M3uFiles": null,
+    "Created": "0001-01-01T00:00:00",
+    "LastModified": "0001-01-01T00:00:00"
+  },
+  {
+    "Id": 24,
+    "Title": "Adalberta",
+    "M3uFiles": null,
+    "Created": "0001-01-01T00:00:00",
+    "LastModified": "0001-01-01T00:00:00"
+  },
+  {
+    "Id": 25,
+    "Title": "Adamkrafft",
+    "M3uFiles": null,
+    "Created": "0001-01-01T00:00:00",
+    "LastModified": "0001-01-01T00:00:00"
+  },
+  {
+    "Id": 26,
+    "Title": "Adams",
+    "M3uFiles": null,
+    "Created": "0001-01-01T00:00:00",
+    "LastModified": "0001-01-01T00:00:00"
+  }
+]

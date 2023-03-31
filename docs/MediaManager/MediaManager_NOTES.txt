@@ -1,0 +1,17 @@
+MediaManager
+
+dotnet new xunit --name MediaManagerTests --output MediaManagerTests
+dotnet sln add .\MediaManagerTests\MediaManagerTests.csproj
+
+TODO:
+	On Click-to-AddPlaylist-to-Volume, check if already included
+	Create M3U (for CWD)
+	Make FolderFilter lookup async (resolve multiple recursive calls)
+	Hide Leafs that are already included (Checkbox)
+	Fix issue New Item/name-change not updating in Nav pane
+
+	Add/Remove where applicable:
+		FileEntry
+		(FileEntryVewModel)
+		Folder
+		FolderViewModel

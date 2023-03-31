@@ -1,4 +1,10 @@
 <!DOCTYPE html>
+<!--------------------------------------------------------------------------------------------------------------------
+<copyright file="dev-blog.html" company="IRANYE">
+  Copyright (c) IRANYE. All rights reserved.
+</copyright>
+-------------------------------------------------------------------------------------------------------------------->
+
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
@@ -37,11 +43,6 @@
     <header>
       <nav>
         <ul id="header-links">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="Regexer.html">Regexer</a></li>
-          <li><a href="dev-blog.html">List of Links</a></li>
-          <li><a href="cloud/index.html">Cloud Q&A</a></li>
-          <li><a href="static/Wordle/Wordle - A daily word game.html">W</a></li>
         </ul>
       </nav>
     </header>
@@ -96,7 +97,6 @@
     </footer> -->
 </body>
 
-<script type="text/javascript" src="scripts/ajax-common.js"></script>
 <script type="text/javascript" src="scripts/jquery-3.6.0.js"></script>
 <script>
 
@@ -128,19 +128,8 @@
             setupTags();
         })
 
-        let $tagsEl = $("#tags");
-        let tagTemplate = (tag) =>
-        `<li>${tag}</li>`
-
-        $.get("data/tags.json")
-        .done((data) => {
-          let length = data.length;
-          console.log(`${ length } tags found`);
-          data.forEach((tag) => {
-            let tagName = massageStr(tag.Name);
-            $tagsEl.append(tagTemplate(tagName));
-          });
-        })
+        populateTags();
+        populateLinksMain();        
     });
 
     function massageStr(str) {
@@ -157,6 +146,38 @@
 
             return false;
           });
+    }
+
+  function populateTags() {
+      let $tagsEl = $("#tags");
+      let tagTemplate = (tag) =>
+      `<li>${tag}</li>`
+
+      $.get("data/tags.json")
+      .done((data) => {
+      let length = data.length;
+      console.log(`${ length } tags found`);
+      data.forEach((tag) => {
+          let tagName = massageStr(tag.Name);
+          $tagsEl.append(tagTemplate(tagName));
+      });
+      })
+  }
+
+    function populateLinksMain() {
+        let $mainLinks = $("#header-links");
+
+        let linkTemplate = (href, title) =>
+            `<li><a href='${href}'>${title}</a></li>`
+
+        $.get("data/links-main.json")
+            .done((data) => {
+            let length = data.length;
+            console.log(`${ length } main links found`);
+            data.forEach((item) => {
+                $mainLinks.append(linkTemplate(item.Href, item.Title));
+            });
+        })
     }
 
 </script>

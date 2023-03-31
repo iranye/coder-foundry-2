@@ -3102,5 +3102,137 @@
         "Name": "video"
       }
     ]
+  },
+  {
+    "Id": 234,
+    "Href": "https://www.marktechpost.com/2023/03/17/meet-vipergpt-a-python-framework-that-combines-vision-and-language-models-using-code-generation-to-achieve-state-of-the-art-results",
+    "Title": "ViperGPT: A Python Framework - AI Image Recognition",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 25,
+        "Name": "python"
+      }
+    ]
+  },
+  {
+    "Id": 235,
+    "Href": "https://www.gregbeech.com/2020/01/19/the-engineering-career-triangle/",
+    "Title": "The engineering career triangle",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 12,
+        "Name": "theory"
+      }
+    ]
+  },
+  {
+    "Id": 236,
+    "Href": "https://dev.to/ruppysuppy/deep-dive-into-how-web-browsers-work-with-illustrations-249b",
+    "Title": "Deep dive into how Web Browsers work",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 237,
+    "Href": "https://devblogs.microsoft.com/dotnet/securing-containers-with-rootless/",
+    "Title": "Secure .NET cloud apps with rootless Linux Containers",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 13,
+        "Name": "blog"
+      },
+      {
+        "Id": 9,
+        "Name": "docker"
+      }
+    ]
+  },
+  {
+    "Id": 238,
+    "Href": "https://medium.com/@mbearz/strange-c-tricks-1-delegate-collection-is-the-new-if-8cdf7046d7d6",
+    "Title": "C# Tricks",
+    "Desc": "Talks about customer relationship management (CRM) system supporting custom entities",
+    "Tags": [
+      {
+        "Id": 13,
+        "Name": "blog"
+      },
+      {
+        "Id": 1,
+        "Name": "c#"
+      }
+    ]
+  },
+  {
+    "Id": 239,
+    "Href": "https://towardsdatascience.com/build-a-back-end-with-postgresql-fastapi-and-docker-7ebfe59e4f06",
+    "Title": "Build a back-end with PostgreSQL, FastAPI, and Docker",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 9,
+        "Name": "docker"
+      },
+      {
+        "Id": 7,
+        "Name": "sql"
+      }
+    ]
+  },
+  {
+    "Id": 240,
+    "Href": "https://www.meziantou.net/too-many-timers-in-dotnet.htm",
+    "Title": "Timers in dotnet",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      },
+      {
+        "Id": 15,
+        "Name": "dotnet"
+      }
+    ]
+  },
+  {
+    "Id": 241,
+    "Href": "https://devblogs.microsoft.com/dotnet/how-async-await-really-works/",
+    "Title": "How Async/Await Really Works in C#",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 23,
+        "Name": "async"
+      },
+      {
+        "Id": 1,
+        "Name": "c#"
+      }
+    ]
+  },
+  {
+    "Id": 242,
+    "Href": "https://codeopinion.com/testing-without-mocks-or-interfaces/",
+    "Title": "Testing WITHOUT Mocks or Interfaces",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      },
+      {
+        "Id": 12,
+        "Name": "theory"
+      }
+    ]
   }
 ]

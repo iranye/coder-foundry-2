@@ -1,0 +1,258 @@
+﻿<UserControl x:Class="MediaManager.WPF.View.VolumesView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             mc:Ignorable="d" 
+             d:DesignHeight="1150" d:DesignWidth="1500" >
+    <UserControl.Resources>
+        <DataTemplate x:Key="CustomerDataTemplate">
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="{Binding Title,ValidatesOnNotifyDataErrors=False,Mode=TwoWay}" FontWeight="Bold"/>
+            </StackPanel>
+        </DataTemplate>
+    </UserControl.Resources>
+    <!-- Volume/Topic View -->
+    <ScrollViewer VerticalScrollBarVisibility="Auto" KeyDown="VolumeItem_KeyDown">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- Items list -->
+            <Grid Width="300"
+                  Background="#AAA">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <StackPanel>
+                    <GroupBox Header="S_earch"  Margin="6,0" Padding="0">
+                        <StackPanel Height="50">
+                            <TextBox Text="{Binding FilterString}"
+                                 DockPanel.Dock="Left"
+                                 MinWidth="260"
+                                 Height="27"
+                                 HorizontalContentAlignment="Stretch"
+                                 Name="SearchInput"
+                                 KeyDown="SearchInput_KeyDown"
+                                 TextAlignment="Justify" />
+                            <StackPanel Margin="0 -2" Orientation="Horizontal" >
+                                <Button HorizontalAlignment="Left" Content="_Clear" Width="75" Margin="0 3 0 0" Click="ClearFilter_Click" Command="{Binding ClearFilterCommand}" />
+                                <Button HorizontalAlignment="Left" Content="_JSON" Width="75" Margin="0 3 0 0" Click="ViewJson_Click" ToolTip="Open JSON File" />
+                                <Button HorizontalAlignment="Left" Content="_LOGS" Width="75" Margin="0 3 0 0" Click="ViewLogs_Click" ToolTip="Open LOG File" />
+                            </StackPanel>
+                        </StackPanel>
+                    </GroupBox>
+                    <StackPanel Orientation="Horizontal">
+                        <Button Margin="10" Width="75" Command="{Binding AddCommand}" Click="AddNewItem_Click">
+                            <StackPanel Orientation="Horizontal">
+                                <Image Source="/Images/add.png" Height="18" Margin="0 0 5 0"/>
+                                <TextBlock Text="Add"/>
+                            </StackPanel>
+                        </Button>
+                        <Button Content="Delete" Width="75" Margin="0 10 10 10"  Command="{Binding DeleteCommand}" />
+                    </StackPanel>
+                </StackPanel>
+                <ListView Grid.Row="1"
+                          ItemsSource="{Binding Path=ListViewItems}"
+                          SelectedItem="{Binding SelectedItem,Mode=TwoWay}"
+                          ItemTemplate="{StaticResource CustomerDataTemplate}"
+                          Margin="10 0 10 10">
+                </ListView>
+            </Grid>
+
+            <!-- Volume detail -->
+            <StackPanel Grid.Column="1" Margin="10" Visibility="{Binding IsItemSelected,Converter={StaticResource BooleanToVisibilityConv}}">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="5" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="400" />
+                    </Grid.RowDefinitions>
+                    <Expander Header="Current Dir">
+                        <WrapPanel Visibility="{Binding IsItemSelected,Converter={StaticResource BooleanToVisibilityConv}}">
+                            <GroupBox Header="Current Dir" Padding="0">                                
+                                <StackPanel >
+                                    <TextBox Text="{Binding FolderFilter}"
+                                         DockPanel.Dock="Left"
+                                         MinWidth="260"
+                                         Height="27"
+                                         HorizontalContentAlignment="Stretch"
+                                         Name="FolderFilter"
+                                         KeyDown="FolderFilter_KeyDown"
+                                         TextAlignment="Justify" />
+                                    <TreeView Name="folderTreeView"
+                                          Height="200"
+                                          ItemsSource="{Binding CurrentWorkingDirectory.FirstGeneration}">
+                                        <TreeView.ItemContainerStyle>
+                                            <!-- 
+                                        This Style binds a TreeViewItem to a FolderViewModel. 
+                                        -->
+                                            <Style TargetType="{x:Type TreeViewItem}">
+                                                <Setter Property="IsExpanded" Value="{Binding IsExpanded, Mode=TwoWay}" />
+                                                <Setter Property="IsSelected" Value="{Binding IsSelected, Mode=TwoWay}" />
+                                                <Setter Property="FontWeight" Value="Normal" />
+                                                <Style.Triggers>
+                                                    <Trigger Property="IsSelected" Value="True">
+                                                        <Setter Property="FontWeight" Value="Bold" />
+                                                    </Trigger>
+                                                </Style.Triggers>
+                                            </Style>
+                                        </TreeView.ItemContainerStyle>
+                                        <TreeView.ItemTemplate>
+                                            <HierarchicalDataTemplate ItemsSource="{Binding Children}">
+                                                <TextBlock Text="{Binding Name}" MouseUp="TextBlock_MouseUp" />
+                                            </HierarchicalDataTemplate>
+                                        </TreeView.ItemTemplate>
+                                    </TreeView>
+                                    <StackPanel Orientation="Horizontal">
+                                        <TextBox Height="30" Width="500" Text="{Binding CurrentWorkingDirectory.CurrentDirPath, Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"/>
+                                        <Button Content="Open" Width="75" Margin="10" ToolTip="Open Explorer to CWD" Command="{Binding OpenExplorerWindowCommand}" />
+                                    </StackPanel>
+                                    <ListView ItemsSource="{Binding CurrentWorkingDirectory.CwdFiles}"
+                                          SelectedItem="{Binding CurrentWorkingDirectory.SelectedFile}"
+                                          ScrollViewer.CanContentScroll="True"
+                                          ScrollViewer.VerticalScrollBarVisibility="Auto"
+                                          MinHeight="200">
+                                        <ListView.ItemTemplate>
+                                            <DataTemplate>
+                                                <StackPanel Orientation="Horizontal">
+                                                    <Button Name="BtnAddM3u" Content="+" ToolTip="Add" Click="BtnAddM3u_Click" />
+                                                    <Label>
+                                                        <TextBlock Text="{Binding Name}" />
+                                                    </Label>
+                                                    <Label Content="{Binding LastModified}" FontSize="8" />
+                                                </StackPanel>
+                                            </DataTemplate>
+                                        </ListView.ItemTemplate>
+                                    </ListView>
+                                </StackPanel>
+                            </GroupBox>
+                        </WrapPanel>
+                    </Expander>
+
+                    <!--M3us-->
+                    <GroupBox Header="Current Volume" Grid.Row="1">
+                        <DockPanel MinWidth="500">
+                            <StackPanel Orientation="Horizontal" DockPanel.Dock="Top">
+                                <Label>Title:</Label>
+                                <TextBox Height="30" Text="{Binding SelectedItem.Title, Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" Width="150" Name="Title"/>
+                                <Label Width="55">Created:</Label>
+                                <TextBox Height="30" Width="160" IsReadOnly="True" Text="{Binding SelectedItem.Created, Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"/>
+                                <Label Width="80">LastModified:</Label>
+                                <TextBox Height="30" Width="160" IsReadOnly="True" Text="{Binding SelectedItem.LastModified, Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"/>
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal" DockPanel.Dock="Top">
+                                <Button Content="Save" Width="70" Margin="10" Command="{Binding SaveCommand}" />
+                                <Button Content="M3U" Width="70" Margin="10" Command="{Binding CreateM3uCommand}" />
+                                <Button Content="Collect MBs"
+                                    Width="100" Margin="10"
+                                    Command="{Binding CollectMbsCommand}"
+                                    ToolTip="Get MB Sum" />
+                                <Label Content="{Binding SelectedItem.M3usTotalMb}"
+                                       BorderBrush="Blue"
+                                       BorderThickness="1"
+                                       ToolTip="Total MB"
+                                       Margin="0,0,6,0"
+                                       Height="25"
+                                       Width="40" />
+                                <GroupBox Header="Copy">
+                                    <StackPanel>
+                                        <CheckBox Content="Copy Directories"
+                                                  ToolTip="Create Directories when Copying"
+                                                  IsChecked="{Binding SelectedItem.CopyDirectories}"
+                                                  Margin="5 9" />
+                                        <Button Content="Create Script"
+                                                Width="110"
+                                                Height="25"
+                                                Command="{Binding CreateScriptCommand}"
+                                                ToolTip="Create Script To Directory" />
+                                    </StackPanel>
+                                </GroupBox>
+                            </StackPanel>
+                            <ListView Margin="6"
+                                      DockPanel.Dock="Top"
+                                      ItemsSource="{Binding SelectedItem.M3uFiles}"
+                                      SelectedItem="{Binding SelectedItem.SelectedM3uFile}"
+                                      ScrollViewer.CanContentScroll="True"
+                                      ScrollViewer.VerticalScrollBarVisibility="Visible"
+                                      MinHeight="200"
+                                      MaxHeight="1000">
+                                <ListView.ItemTemplate>
+                                    <DataTemplate>
+                                        <StackPanel Orientation="Horizontal">
+                                            <Button Name="BtnRemoveM3u" Content="x" ToolTip="Remove M3U" Click="BtnRemoveM3u_Click" />
+                                            <Label Padding="8,0" VerticalContentAlignment="Center">
+                                                <TextBlock Text="{Binding Name}" />
+                                            </Label>
+                                            <Label Content="{Binding TotalMegaBytes}" />
+                                        </StackPanel>
+                                    </DataTemplate>
+                                </ListView.ItemTemplate>
+                                <ListBox.ItemContainerStyle>
+                                    <Style TargetType="{x:Type ListBoxItem}">
+                                        <Style.Triggers>
+                                            <DataTrigger Binding="{Binding FileEntry.FileExists}" Value="False">
+                                                <Setter Property="Background" Value="LightCoral" />
+                                            </DataTrigger>
+                                            <DataTrigger Binding="{Binding M3uNameMatches}" Value="True">
+                                                <Setter Property="Background" Value="LightGreen" />
+                                            </DataTrigger>
+                                        </Style.Triggers>
+                                    </Style>
+                                </ListBox.ItemContainerStyle>
+                            </ListView>
+                        </DockPanel>
+                    </GroupBox>
+                    <GridSplitter Grid.Column="1" Grid.RowSpan="2"
+                          Width="5"
+                          HorizontalAlignment="Center"
+                          ResizeDirection="Auto"
+                          VerticalAlignment="Stretch" />
+
+                    <!--Songs-->
+                    <StackPanel Grid.RowSpan="2" Grid.Column="2" Height="1000">
+                        <ListView Grid.Row="1"
+                              Margin="6"
+                              ItemsSource="{Binding SelectedItem.SelectedM3uFile.FilesInM3U}"
+                              ScrollViewer.CanContentScroll="True"
+                              ScrollViewer.VerticalScrollBarVisibility="Auto"
+                              MinHeight="200"
+                              MaxHeight="1000"
+                              VerticalAlignment="Stretch">
+                            <ListView.ItemTemplate>
+                                <DataTemplate>
+                                    <StackPanel Orientation="Horizontal">
+                                        <Button Name="BtnRemoveFile" Content="x" ToolTip="Remove File" Click="BtnRemoveFile_Click" />
+                                        <Label Padding="8,0" VerticalContentAlignment="Center">
+                                            <TextBlock Text="{Binding Name}" />
+                                        </Label>
+                                    </StackPanel>
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+                            <ListBox.ItemContainerStyle>
+                                <Style TargetType="{x:Type ListBoxItem}">
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding FileExists}" Value="False">
+                                            <Setter Property="Background" Value="LightCoral" />
+                                        </DataTrigger>
+                                        <DataTrigger Binding="{Binding FileMatches}" Value="True">
+                                            <Setter Property="Background" Value="LightGreen" />
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </ListBox.ItemContainerStyle>
+                        </ListView>
+                    </StackPanel>
+                </Grid>
+            </StackPanel>
+        </Grid>
+    </ScrollViewer>
+</UserControl>
