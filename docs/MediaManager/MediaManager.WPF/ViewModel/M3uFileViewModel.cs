@@ -230,7 +230,7 @@
             }
         }
 
-        public string Status { get; private set; }
+        public string Status { get; private set; } = String.Empty;
 
         public override string ToString()
         {

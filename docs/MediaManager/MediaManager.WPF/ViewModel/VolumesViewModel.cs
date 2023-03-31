@@ -48,8 +48,12 @@
             CreateScriptCommand = new DelegateCommand(CreateScript);
 
             logger.LogInformation("Initalize CurrentWorkingDirectory with StartingPath: {StartingPath}", mediaManagerOptions.Value.StartingPath);
-            CurrentWorkingDirectory = new CurrentWorkingDirectory(mediaManagerOptions.Value.StartingPath);
-            CurrentWorkingDirectory.PropertyChanged += CurrentWorkingDirectory_PropertyChanged;
+            currentWorkingDirectory = new CurrentWorkingDirectory(mediaManagerOptions.Value.StartingPath);
+            currentWorkingDirectory.PropertyChanged += CurrentWorkingDirectory_PropertyChanged;
+            if (CurrentWorkingDirectory.CurrentDirectoryInfo is null)
+            {
+                this.logger.LogError("CurrentDirectoryInfo failed to initialize");
+            }
         }
 
         public DelegateCommand AddCommand { get; }
@@ -115,7 +119,7 @@
 
         public void ChangeCwd(FolderViewModel folderViewModel)
         {
-            string message = String.Empty;
+            string message;
             if (folderViewModel.Parent is null)
             {
                 CurrentWorkingDirectory.CurrentDirectoryInfo = Helper.GetDirectoryInfo(mediaManagerOptions.Value.StartingPath, out message);
@@ -153,7 +157,7 @@
                     }
                     catch (Exception ex)
                     {
-                        logger.LogError("Failed to add M3U '{@Name}'", fileEntryToAdd.Name);
+                        logger.LogError("Failed to add M3U '{@Name}': {@Message}", fileEntryToAdd.Name, ex.Message);
                         return;
                     }
 
@@ -173,10 +177,7 @@
 
         public void RemoveM3uFileModel(M3uFileViewModel fileModelToDelete)
         {
-            if (SelectedItem is not null)
-            {
-                SelectedItem.M3uFiles.Remove(fileModelToDelete);
-            }
+            SelectedItem?.M3uFiles.Remove(fileModelToDelete);
             // CollectMbCountsExecute();
         }
 
@@ -197,10 +198,7 @@
 
         public void CollectMbs(object? parameter)
         {
-            if (SelectedItem is not null)
-            {
-                SelectedItem.RefreshVolumeData();
-            }
+            SelectedItem?.RefreshVolumeData();
         }
 
         // Folder
@@ -300,8 +298,11 @@
 
         private void Add(object? parameter)
         {
-            var volume = new Volume { Title = "New" };
-            volume.Created = new DateTime(DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day, DateTime.Now.Hour, DateTime.Now.Minute, DateTime.Now.Second);
+            var volume = new Volume
+            {
+                Title = "New",
+                Created = new DateTime(DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day, DateTime.Now.Hour, DateTime.Now.Minute, DateTime.Now.Second)
+            };
             var viewModel = new VolumeItemViewModel(volume, mediaManagerOptions.Value.RootDirectory);
             Volumes.Add(viewModel);
             ListViewItems.Add(viewModel);

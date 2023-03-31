@@ -12,6 +12,7 @@
     public class VolumeItemViewModel : ViewModelBase
     {
         private readonly Volume model;
+        private M3uFileViewModel? selectedM3uFile;
 
         public VolumeItemViewModel(Volume model, string rootDirPath)
         {
@@ -57,9 +58,7 @@
 
         public ObservableCollection<M3uFileViewModel> M3uFiles { get; set; } = new ObservableCollection<M3uFileViewModel>();
 
-        private M3uFileViewModel selectedM3uFile;
-
-        public M3uFileViewModel SelectedM3uFile
+        public M3uFileViewModel? SelectedM3uFile
         {
             get { return selectedM3uFile; }
             set
@@ -73,7 +72,7 @@
                     }
                     else
                     {
-                        selectedM3uFile.RefreshData();
+                        selectedM3uFile?.RefreshData();
                     }
                     RaisePropertyChanged();
                 }

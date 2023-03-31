@@ -1,7 +1,7 @@
 ﻿namespace MediaManager.WPF.ViewModel
 {
     // --------------------------------------------------------------------------------------------------------------------
-    // <copyright file="Folder.cs" company="IRANYE">
+    // <copyright file="FolderViewModel.cs" company="IRANYE">
     //   Copyright (c) IRANYE. All rights reserved.
     // </copyright>
     // --------------------------------------------------------------------------------------------------------------------
@@ -12,7 +12,7 @@
 
     public class Folder
     {
-        readonly List<Folder> children = new List<Folder>();
+        readonly List<Folder> children = new();
         public List<Folder> Children
         {
             get { return children; }
@@ -23,7 +23,7 @@
     public class FolderViewModel : ViewModelBase
     {
         private readonly Folder folder;
-        private readonly FolderViewModel parent;
+        private readonly FolderViewModel? parent;
         private readonly ObservableCollection<FolderViewModel> children = new();
         private bool isSelected;
         private bool isExpanded;
@@ -33,7 +33,7 @@
             : this(folder, null)
         { }
 
-        public FolderViewModel(Folder folder, FolderViewModel parent)
+        public FolderViewModel(Folder folder, FolderViewModel? parent)
         {
             this.folder = folder;
             this.parent = parent;
@@ -51,7 +51,7 @@
             }
         }
 
-        public FolderViewModel Parent => parent;
+        public FolderViewModel? Parent => parent;
 
         public ObservableCollection<FolderViewModel> Children
         {
@@ -152,7 +152,7 @@
             }
         }
 
-        public ObservableCollection<FolderViewModel> HiddenChildren = new ObservableCollection<FolderViewModel>();
+        public ObservableCollection<FolderViewModel> HiddenChildren = new();
 
         private void ToggleChildren(bool show=true)
         {
