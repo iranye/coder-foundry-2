@@ -3234,5 +3234,121 @@
         "Name": "theory"
       }
     ]
+  },
+  {
+    "Id": 243,
+    "Href": "https://stackoverflow.com/questions/1087351/how-do-you-mock-out-the-file-system-in-c-sharp-for-unit-testing",
+    "Title": "Mock out the file system in C# for unit testing",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      },
+      {
+        "Id": 26,
+        "Name": "testing"
+      }
+    ]
+  },
+  {
+    "Id": 244,
+    "Href": "https://devblogs.microsoft.com/dotnet/improvements-auth-identity-aspnetcore-8/",
+    "Title": "Improvements to auth and identity in ASP.NET Core 8",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 15,
+        "Name": "dotnet"
+      },
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 245,
+    "Href": "https://visualstudiomagazine.com/articles/2023/04/04/avalonia.aspx?m=1",
+    "Title": "Avalonia .NET UI Framework",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 15,
+        "Name": "dotnet"
+      },
+      {
+        "Id": 22,
+        "Name": "rich-client"
+      }
+    ]
+  },
+  {
+    "Id": 246,
+    "Href": "https://docs.avaloniaui.net/",
+    "Title": "Avalonia docs",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 22,
+        "Name": "rich-client"
+      }
+    ]
+  },
+  {
+    "Id": 247,
+    "Href": "https://calc.xaml.live/",
+    "Title": "Avalonia calc",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 22,
+        "Name": "rich-client"
+      }
+    ]
+  },
+  {
+    "Id": 248,
+    "Href": "https://play.avaloniaui.net/",
+    "Title": "Avalonia playground",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 22,
+        "Name": "rich-client"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      }
+    ]
+  },
+  {
+    "Id": 249,
+    "Href": "https://www.youtube.com/watch?v=qcZSr2ejH5I",
+    "Title": "Avalonia conf",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 22,
+        "Name": "rich-client"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      }
+    ]
+  },
+  {
+    "Id": 250,
+    "Href": "https://avaloniaui.net/",
+    "Title": "Avalonia UI .net",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 22,
+        "Name": "rich-client"
+      }
+    ]
   }
 ]
