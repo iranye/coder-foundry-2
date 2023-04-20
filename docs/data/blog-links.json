@@ -3350,5 +3350,17 @@
         "Name": "rich-client"
       }
     ]
+  },
+  {
+    "Id": 251,
+    "Href": "https://techcommunity.microsoft.com/t5/fasttrack-for-azure/journey-to-containers/ba-p/3792199",
+    "Title": "Journey to Containers",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 9,
+        "Name": "docker"
+      }
+    ]
   }
 ]

@@ -519,15 +519,20 @@
       s += dummy_data;
       push_to_regex_list('generic', s);
 
-      s = '(.+)~~print "$1: ", $$$1, "\\n";\n';
-      dummy_data = "string\n";
+      s = '([\D]+)([\d]+)(.*)~~$2 - $1$2$3;\n';
+      dummy_data = "Bug 424967: Stock Inbound\n";
       s += dummy_data;
-      push_to_regex_list('perl_print', s);
+      push_to_regex_list('ado_item', s);
 
-      s = '(.+)~~print_to_out("$1: " + $1 + "\\n");\n';
-      dummy_data = "string\n";
+      s = '.*src\\\\code\\\\(.+)\\\\(.*)~~xcopy /yi "%dev%\\$1\\$2" "%bak%\\$1\\"\n';
+      dummy_data = "C:\\src\\code\\ConfigService\\src\\IProcessMappings.cs\n";
       s += dummy_data;
-      push_to_regex_list('js_print', s);
+      push_to_regex_list('dev2bak', s);
+
+      s = '.*src\\\\code\\\\(.+)~~xcopy /yi "%bak%\\$1\" \"%dev%\\$1" \n';
+      dummy_data = "C:\\src\\code\\ConfigService\\src\\IProcessMappings.cs\n";
+      s += dummy_data;
+      push_to_regex_list('bak2dev', s);
 
       s = '()~~insert into tblQueueHTML (ItemIdentityID, ProcessingFlag) values($1, 0)\n';
       dummy_data = "7051220\n" + "7051223\n";
@@ -734,11 +739,12 @@
 
     <p>
       <input type="radio" name="regex" value="generic" checked />Generic
+      <input type="radio" name="regex" value="ado_item" />ado_item
+      <input type="radio" name="regex" value="dev2bak" />dev2bak
+      <input type="radio" name="regex" value="bak2dev" />bak2dev
       <input type="radio" name="regex" value="mrobo" />Multi-Robocopy
       <input type="radio" name="regex" value="rn" />Bulk Rename
       <input type="radio" name="regex" value="cast_varchar" />CAST
-      <input type="radio" name="regex" value="perl_print" />perl_print
-      <input type="radio" name="regex" value="js_print" />js_print
 
       <br />
 
