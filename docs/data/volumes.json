@@ -13,7 +13,7 @@
     "Title": "AltHeavyVol1_EXP",
     "M3uFiles": [
       {
-        "TotalMegaBytes": 22,
+        "TotalMegaBytes": 69,
         "PartialPath": "Music\\MP3s\\Audioslave\\_Audioslave-ShortList.m3u"
       },
       {
@@ -21,34 +21,34 @@
         "PartialPath": "Music\\MP3s\\Beck\\_Beck-ShortList.m3u"
       },
       {
-        "TotalMegaBytes": 22,
+        "TotalMegaBytes": 35,
         "PartialPath": "Music\\MP3s\\Godsmack\\_Godsmack-ShortList.m3u"
       },
       {
-        "TotalMegaBytes": 22,
+        "TotalMegaBytes": 122,
         "PartialPath": "Music\\MP3s\\Nine Inch Nails\\_Nine Inch Nails-ShortList.m3u"
       },
       {
-        "TotalMegaBytes": 22,
+        "TotalMegaBytes": 58,
         "PartialPath": "Music\\MP3s\\Soundtrack_Spawn\\_SpawnSountrack-ShortList.m3u"
       },
       {
-        "TotalMegaBytes": 22,
+        "TotalMegaBytes": 73,
         "PartialPath": "Music\\MP3s\\Awolnation\\$Awolnation.m3u"
       },
       {
-        "TotalMegaBytes": 22,
+        "TotalMegaBytes": 55,
         "PartialPath": "Music\\MP3s\\Crystal Method\\$Crystal Method.m3u"
       },
       {
-        "TotalMegaBytes": 22,
+        "TotalMegaBytes": 152,
         "PartialPath": "Music\\MP3s\\Butthole Surfers\\ButtholeSurfers-PopShortlist.m3u"
       }
     ],
     "Created": "2023-03-01T17:01:38",
-    "LastModified": "2023-03-01T17:49:22",
+    "LastModified": "2023-04-19T19:17:24",
     "CopyDirectories": false,
-    "M3usTotalMb": 0
+    "M3usTotalMb": 686
   },
   {
     "Id": 29,
@@ -222,11 +222,28 @@
   {
     "Id": 39,
     "Title": "ClassicRock-05",
-    "M3uFiles": [],
+    "M3uFiles": [
+      {
+        "TotalMegaBytes": 38,
+        "PartialPath": "Music\\MP3s\\Badfinger\\_Badfinger-ShortList.m3u"
+      },
+      {
+        "TotalMegaBytes": 100,
+        "PartialPath": "Music\\MP3s\\Paul McCartney\\_PaulMccartney-ShortList.m3u"
+      },
+      {
+        "TotalMegaBytes": 58,
+        "PartialPath": "Music\\MP3s\\John Lennon\\$JohnLennon-ShortList.m3u"
+      },
+      {
+        "TotalMegaBytes": 68,
+        "PartialPath": "Music\\SimpleDriveMusic\\Troggs\\Troggs - Greatest Hits\\Troggs - Greatest Hits-Shortlist.m3u"
+      }
+    ],
     "Created": "2023-03-01T17:57:59",
-    "LastModified": "0001-01-01T00:00:00",
+    "LastModified": "2023-04-19T19:43:30",
     "CopyDirectories": false,
-    "M3usTotalMb": 0
+    "M3usTotalMb": 264
   },
   {
     "Id": 40,
@@ -289,11 +306,36 @@
   {
     "Id": 45,
     "Title": "ClassicRock-08",
-    "M3uFiles": [],
+    "M3uFiles": [
+      {
+        "TotalMegaBytes": 66,
+        "PartialPath": "Music\\MP3s\\Collective Soul\\_CollectiveSoul.m3u"
+      },
+      {
+        "TotalMegaBytes": 108,
+        "PartialPath": "Music\\MP3s\\GretaVanFleet\\_GretaVanFleet-ShortList.m3u"
+      },
+      {
+        "TotalMegaBytes": 72,
+        "PartialPath": "Music\\MP3s\\Pete Townshend\\_PeteTownshend-ShortList.m3u"
+      },
+      {
+        "TotalMegaBytes": 81,
+        "PartialPath": "Music\\MP3s\\Pretenders\\_Pretenders-ShortList.m3u"
+      },
+      {
+        "TotalMegaBytes": 113,
+        "PartialPath": "Music\\MP3s\\Queen\\_Queen-ShortList.m3u"
+      },
+      {
+        "TotalMegaBytes": 221,
+        "PartialPath": "Music\\MP3s\\ZZ Top\\_ZZTop-ShortList.m3u"
+      }
+    ],
     "Created": "2023-03-01T17:58:58",
-    "LastModified": "0001-01-01T00:00:00",
+    "LastModified": "2023-04-19T19:35:18",
     "CopyDirectories": false,
-    "M3usTotalMb": 0
+    "M3usTotalMb": 661
   },
   {
     "Id": 46,
@@ -307,11 +349,36 @@
   {
     "Id": 47,
     "Title": "ClassicRock-10",
-    "M3uFiles": [],
+    "M3uFiles": [
+      {
+        "TotalMegaBytes": 88,
+        "PartialPath": "Music\\MP3s\\Soundtrack_HowardStern\\_HowardSternSoundtrack-ShortList.m3u"
+      },
+      {
+        "TotalMegaBytes": 87,
+        "PartialPath": "Music\\MP3s\\Lynyrd Skynyrd\\_LynyrdSkynyrd-ShortList.m3u"
+      },
+      {
+        "TotalMegaBytes": 33,
+        "PartialPath": "Music\\MP3s\\Ratt\\_Ratt_ShortList.m3u"
+      },
+      {
+        "TotalMegaBytes": 48,
+        "PartialPath": "Music\\MP3s\\REO Speedwagon\\_REO-SpeedWagon-ShortList.m3u"
+      },
+      {
+        "TotalMegaBytes": 389,
+        "PartialPath": "Music\\MP3s\\Rush\\_Rush-ShortList.m3u"
+      },
+      {
+        "TotalMegaBytes": 104,
+        "PartialPath": "Music\\MP3s\\Tesla\\_Tesla-ShortList.m3u"
+      }
+    ],
     "Created": "2023-03-01T17:59:12",
-    "LastModified": "0001-01-01T00:00:00",
+    "LastModified": "2023-04-19T19:28:55",
     "CopyDirectories": false,
-    "M3usTotalMb": 0
+    "M3usTotalMb": 749
   },
   {
     "Id": 49,
