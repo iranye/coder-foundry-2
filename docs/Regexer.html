@@ -519,8 +519,8 @@
       s += dummy_data;
       push_to_regex_list('generic', s);
 
-      s = '([\D]+)([\d]+)(.*)~~$2 - $1$2$3;\n';
-      dummy_data = "Bug 424967: Stock Inbound\n";
+      s = '([\\D]+)([\\d]+)(.*)~~$2 - $1$2$3;\n';
+      dummy_data = "Bug 191919: Stock Inbound\n";
       s += dummy_data;
       push_to_regex_list('ado_item', s);
 
