@@ -3364,6 +3364,10 @@
       {
         "Id": 12,
         "Name": "theory"
+      },
+      {
+        "Id": 9,
+        "Name": "docker"
       }
     ]
   },
@@ -3400,6 +3404,10 @@
       {
         "Id": 13,
         "Name": "blog"
+      },
+      {
+        "Id": 1,
+        "Name": "c#"
       },
       {
         "Id": 19,
@@ -3512,6 +3520,22 @@
       {
         "Id": 20,
         "Name": "video"
+      }
+    ]
+  },
+  {
+    "Id": 262,
+    "Href": "https://techcrunch.com/2023/03/23/daily-dev-is-like-reddit-meets-stack-overflow/",
+    "Title": "DailyDev",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 13,
+        "Name": "blog"
+      },
+      {
+        "Id": 12,
+        "Name": "theory"
       }
     ]
   }
