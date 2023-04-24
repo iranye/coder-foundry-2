@@ -1,0 +1,32 @@
+Attempt to find solution via serial operations.
+
+If none found, get prime factorization then attempt to find factors that will solve.
+
+
+-- 3 --
+Solved via Serial Operations:
+273:[5, 6, 7, 8, 11, 20]
+20 + 11 = 31
+31 + 8 = 39
+39 * 7 = 273
+
+-- 4 --
+Solved via Serial Operations + Right-Precedent Operation (Prime Factorization: 335 = 5 • 67):
+335:[4, 7, 8, 9, 11, 20]
+8 * 7 = 56
+56 + 11 = 67
+20 / 4 = 5
+67 * 5 = 335
+
+-- 5 --
+463: [9, 11, 13, 19, 20, 25]
+20 * 25 = 500
+13 - 11 = 2
+2 * 9 = 18
+19 + 18 = 37
+500 - 37 = 463
+
+(463 is Prime, so solution is to find one or more products then add or subtract until solution is found
+[500, 37]: [9, 11, 13, 19]
+
+
