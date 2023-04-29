@@ -3538,5 +3538,77 @@
         "Name": "theory"
       }
     ]
+  },
+  {
+    "Id": 263,
+    "Href": "https://medium.com/scrum-and-coke/fullstack-angular-15-net-7-ef-core-migration-3a651c501d4",
+    "Title": "Angular 15 & NET 7: EF Core Migration",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 264,
+    "Href": "https://www.neowin.net/news/wintoys-offers-a-safe-and-easy-way-to-debloat-optimize-tweak-and-repair-windows-11/",
+    "Title": "Wintoys debloat Windows 11",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 14,
+        "Name": "sa"
+      }
+    ]
+  },
+  {
+    "Id": 265,
+    "Href": "https://dev.to/aurelievache/understanding-docker-in-a-visual-way-in-video-part-15-clean-purge-1c07",
+    "Title": "Understand Docker visually",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 9,
+        "Name": "docker"
+      }
+    ]
+  },
+  {
+    "Id": 266,
+    "Href": "https://csfirst.withgoogle.com/s/en/home?gclid=Cj0KCQjwi46iBhDyARIsAE3nVrYFF4vClahXYMy6BjPZV83t3N2ByVTZafctsVWx7XF_bplpBWL-GuUaAkFqEALw_wcB#",
+    "Title": "computer science curriculum to teach coding",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 12,
+        "Name": "theory"
+      }
+    ]
+  },
+  {
+    "Id": 267,
+    "Href": "https://grow.google/certificates/#?modal_active=none",
+    "Title": "Certificates from Google",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 12,
+        "Name": "theory"
+      }
+    ]
+  },
+  {
+    "Id": 268,
+    "Href": "https://blog.jetbrains.com/dotnet/2023/04/25/introduction-to-asp-net-core-minimal-apis/",
+    "Title": "Minimal API",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 15,
+        "Name": "dotnet"
+      }
+    ]
   }
 ]
