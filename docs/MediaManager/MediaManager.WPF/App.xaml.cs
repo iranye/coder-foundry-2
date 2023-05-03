@@ -43,9 +43,9 @@
                 .Build();
         }
 
-        private MainWindow _mainWindow;
+        private MainWindow? _mainWindow;
 
-        public new MainWindow MainWindow
+        public new MainWindow? MainWindow
         {
             get { return _mainWindow; }
             private set { _mainWindow = value; }
@@ -69,7 +69,7 @@
 
         private void Application_DispatcherUnhandledException(object sender, System.Windows.Threading.DispatcherUnhandledExceptionEventArgs e)
         {
-            _mainWindow.Logger.LogError("Unexpected error occured. {@Message}", e.Exception.Message);
+            _mainWindow?.Logger.LogError("Unexpected error occured. {@Message}", e.Exception.Message);
             e.Handled = true;
         }
     }

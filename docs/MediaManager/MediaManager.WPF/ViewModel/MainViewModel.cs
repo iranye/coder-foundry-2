@@ -33,7 +33,7 @@
 
         public VolumesViewModel VolumesViewModel { get; }
 
-        public GenericViewModel GenericViewModel { get; }
+        public GenericViewModel? GenericViewModel { get; }
 
         public async override Task LoadAsync()
         {

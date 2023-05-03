@@ -3234,5 +3234,381 @@
         "Name": "theory"
       }
     ]
+  },
+  {
+    "Id": 243,
+    "Href": "https://stackoverflow.com/questions/1087351/how-do-you-mock-out-the-file-system-in-c-sharp-for-unit-testing",
+    "Title": "Mock out the file system in C# for unit testing",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      },
+      {
+        "Id": 26,
+        "Name": "testing"
+      }
+    ]
+  },
+  {
+    "Id": 244,
+    "Href": "https://devblogs.microsoft.com/dotnet/improvements-auth-identity-aspnetcore-8/",
+    "Title": "Improvements to auth and identity in ASP.NET Core 8",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 15,
+        "Name": "dotnet"
+      },
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 245,
+    "Href": "https://visualstudiomagazine.com/articles/2023/04/04/avalonia.aspx?m=1",
+    "Title": "Avalonia .NET UI Framework",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 15,
+        "Name": "dotnet"
+      },
+      {
+        "Id": 22,
+        "Name": "rich-client"
+      }
+    ]
+  },
+  {
+    "Id": 246,
+    "Href": "https://docs.avaloniaui.net/",
+    "Title": "Avalonia docs",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 22,
+        "Name": "rich-client"
+      }
+    ]
+  },
+  {
+    "Id": 247,
+    "Href": "https://calc.xaml.live/",
+    "Title": "Avalonia calc",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 22,
+        "Name": "rich-client"
+      }
+    ]
+  },
+  {
+    "Id": 248,
+    "Href": "https://play.avaloniaui.net/",
+    "Title": "Avalonia playground",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 22,
+        "Name": "rich-client"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      }
+    ]
+  },
+  {
+    "Id": 249,
+    "Href": "https://www.youtube.com/watch?v=qcZSr2ejH5I",
+    "Title": "Avalonia conf",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 22,
+        "Name": "rich-client"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      }
+    ]
+  },
+  {
+    "Id": 250,
+    "Href": "https://avaloniaui.net/",
+    "Title": "Avalonia UI .net",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 22,
+        "Name": "rich-client"
+      }
+    ]
+  },
+  {
+    "Id": 251,
+    "Href": "https://techcommunity.microsoft.com/t5/fasttrack-for-azure/journey-to-containers/ba-p/3792199",
+    "Title": "Journey to Containers",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 13,
+        "Name": "blog"
+      },
+      {
+        "Id": 12,
+        "Name": "theory"
+      },
+      {
+        "Id": 9,
+        "Name": "docker"
+      }
+    ]
+  },
+  {
+    "Id": 252,
+    "Href": "https://www.youtube.com/watch?v=Mtgo-nP_r8Y",
+    "Title": "Turn VIM into full featured IDE",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 19,
+        "Name": "ed"
+      }
+    ]
+  },
+  {
+    "Id": 253,
+    "Href": "https://thenewstack.io/how-testcontainers-is-demonstrating-value-as-a-key-ci-tool/",
+    "Title": "TestContainers for shift-left development",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 9,
+        "Name": "docker"
+      }
+    ]
+  },
+  {
+    "Id": 254,
+    "Href": "https://michaelscodingspot.com/developer-tools/",
+    "Title": "2023 C# Software Developer Tools",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 13,
+        "Name": "blog"
+      },
+      {
+        "Id": 1,
+        "Name": "c#"
+      },
+      {
+        "Id": 19,
+        "Name": "ed"
+      }
+    ]
+  },
+  {
+    "Id": 255,
+    "Href": "https://www.youtube.com/watch?v=UFD4SP91tSM",
+    "Title": "Mobile app tutorial on Google's Firebase platform",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 20,
+        "Name": "video"
+      },
+      {
+        "Id": 18,
+        "Name": "web-host"
+      }
+    ]
+  },
+  {
+    "Id": 256,
+    "Href": "https://dev.to/francescoxx/c-c-sharp-crud-rest-api-using-net-7-aspnet-entity-framework-postgres-docker-and-docker-compose-493a",
+    "Title": "CRUD Rest API w EF Core + Postgres",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 15,
+        "Name": "dotnet"
+      },
+      {
+        "Id": 7,
+        "Name": "sql"
+      }
+    ]
+  },
+  {
+    "Id": 257,
+    "Href": "https://dev.to/apisix/how-to-choose-the-right-api-gateway-3f9i",
+    "Title": "Choose an API Gateway",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 14,
+        "Name": "sa"
+      }
+    ]
+  },
+  {
+    "Id": 258,
+    "Href": "https://thenewstack.io/webassembly-the-ultimate-guide/",
+    "Title": "WebAssembly: The Ultimate Guide",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 259,
+    "Href": "https://www.prnewswire.com/news-releases/microsoft-and-epic-expand-strategic-collaboration-with-integration-of-azure-openai-service-301798615.html",
+    "Title": "Microsoft and Epic expand integration of Azure OpenAI",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 11,
+        "Name": "ai"
+      },
+      {
+        "Id": 13,
+        "Name": "blog"
+      }
+    ]
+  },
+  {
+    "Id": 260,
+    "Href": "https://www.codeproject.com/Articles/5357417/LogViewer-Control-for-WinForms-WPF-and-Avalonia-in",
+    "Title": "Rich client logging",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      },
+      {
+        "Id": 22,
+        "Name": "rich-client"
+      }
+    ]
+  },
+  {
+    "Id": 261,
+    "Href": "https://www.youtube.com/watch?v=uv_jK44WdLg",
+    "Title": "Debug APIs in VisualStudio w .http/.rest files",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 15,
+        "Name": "dotnet"
+      },
+      {
+        "Id": 26,
+        "Name": "testing"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      }
+    ]
+  },
+  {
+    "Id": 262,
+    "Href": "https://techcrunch.com/2023/03/23/daily-dev-is-like-reddit-meets-stack-overflow/",
+    "Title": "DailyDev",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 13,
+        "Name": "blog"
+      },
+      {
+        "Id": 12,
+        "Name": "theory"
+      }
+    ]
+  },
+  {
+    "Id": 263,
+    "Href": "https://medium.com/scrum-and-coke/fullstack-angular-15-net-7-ef-core-migration-3a651c501d4",
+    "Title": "Angular 15 & NET 7: EF Core Migration",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 264,
+    "Href": "https://www.neowin.net/news/wintoys-offers-a-safe-and-easy-way-to-debloat-optimize-tweak-and-repair-windows-11/",
+    "Title": "Wintoys debloat Windows 11",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 14,
+        "Name": "sa"
+      }
+    ]
+  },
+  {
+    "Id": 265,
+    "Href": "https://dev.to/aurelievache/understanding-docker-in-a-visual-way-in-video-part-15-clean-purge-1c07",
+    "Title": "Understand Docker visually",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 9,
+        "Name": "docker"
+      }
+    ]
+  },
+  {
+    "Id": 266,
+    "Href": "https://csfirst.withgoogle.com/s/en/home?gclid=Cj0KCQjwi46iBhDyARIsAE3nVrYFF4vClahXYMy6BjPZV83t3N2ByVTZafctsVWx7XF_bplpBWL-GuUaAkFqEALw_wcB#",
+    "Title": "computer science curriculum to teach coding",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 12,
+        "Name": "theory"
+      }
+    ]
+  },
+  {
+    "Id": 267,
+    "Href": "https://grow.google/certificates/#?modal_active=none",
+    "Title": "Certificates from Google",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 12,
+        "Name": "theory"
+      }
+    ]
+  },
+  {
+    "Id": 268,
+    "Href": "https://blog.jetbrains.com/dotnet/2023/04/25/introduction-to-asp-net-core-minimal-apis/",
+    "Title": "Minimal API",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 15,
+        "Name": "dotnet"
+      }
+    ]
   }
 ]

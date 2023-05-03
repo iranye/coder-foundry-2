@@ -21,10 +21,10 @@
             }
             if (!string.IsNullOrEmpty(fullPath))
             {
-                if (!File.Exists(fullPath))
-                {
-                    throw new ArgumentException("Invalid File Path");
-                }
+                //if (!File.Exists(fullPath))
+                //{
+                //    throw new ArgumentException("Invalid File Path");
+                //}
                 if (String.IsNullOrWhiteSpace(ParentDirPath) || !Directory.Exists(parentDirPath))
                 {
                     throw new ArgumentException("Invalid ParentDirPath");

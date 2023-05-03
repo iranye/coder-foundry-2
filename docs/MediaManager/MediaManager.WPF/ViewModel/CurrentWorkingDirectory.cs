@@ -12,18 +12,19 @@
     using System.IO;
     using System.Linq;
 
-    public class CurrentWorkingDirectory : ViewModelBase
+    public sealed class CurrentWorkingDirectory : ViewModelBase
     {
-        private FolderViewModel rootFolder;
+        private readonly FolderViewModel? rootFolder;
         private readonly ReadOnlyCollection<FolderViewModel> firstGeneration;
 
         public CurrentWorkingDirectory(string initialDirectoryPath)
         {
-            string message;
-            CurrentDirectoryInfo = Helper.GetDirectoryInfo(initialDirectoryPath, out message);
+            CurrentDirectoryInfo = Helper.GetDirectoryInfo(initialDirectoryPath, out string message);
             if (!String.IsNullOrEmpty(message))
             {
                 Status = message;
+                firstGeneration = new ReadOnlyCollection<FolderViewModel>(Array.Empty<FolderViewModel>());
+                return;
             }
 
             var rootFolder = GetRootFolder();
@@ -42,11 +43,14 @@
 
         public void FilterTreeviewItems(string filter)
         {
-            // rootFolder.Children.Clear();
-            rootFolder.CollapseAll();
+            if (rootFolder is null)
+            {
+                return;
+            }
+            rootFolder?.CollapseAll();
             if (!String.IsNullOrWhiteSpace(filter))
             {
-                foreach (var child in rootFolder.Children)
+                foreach (var child in rootFolder!.Children)
                 {
                     child.ExpandMatches(filter);
                 }
@@ -101,7 +105,7 @@
                         Status = $"Switch to {currentDirectoryInfo.FullName}";
                     }
                     RaisePropertyChanged();
-                    RaisePropertyChanged("CurrentDirPath");
+                    RaisePropertyChanged(nameof(CurrentDirPath));
                 }
             }
         }
@@ -148,7 +152,7 @@
             }
         }
 
-        private FileEntry selectedFile = new FileEntry();
+        private FileEntry selectedFile = new();
 
         public FileEntry SelectedFile
         {

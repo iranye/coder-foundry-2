@@ -8,8 +8,8 @@
     public class MediaManagerOptions
     {
         public const string SectionName = "Directories";
-        public string RootDirectory { get; set; }
-        public string StartingPath { get; set; }
-        public string CopyToPath { get; set; }
+        public string RootDirectory { get; set; } = string.Empty;
+        public string StartingPath { get; set; } = string.Empty;
+        public string CopyToPath { get; set; } = string.Empty;
     }
 }

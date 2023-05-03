@@ -1,8 +1,5 @@
 Add Error-handling on fetch (e.g., for bad json)
 
-Regexer:
-Read json for re-usable configurations
-
 Tags for dev-blog:
 api
 c#
