@@ -1155,26 +1155,26 @@
     "Title": "KGON-05",
     "M3uFiles": [
       {
-        "TotalMegaBytes": 0,
+        "TotalMegaBytes": 38,
         "PartialPath": "Music\\MP3s\\Dire Straits\\_DireStraits-ShortList.m3u"
       },
       {
-        "TotalMegaBytes": 0,
+        "TotalMegaBytes": 183,
         "PartialPath": "Music\\MP3s\\Elton John\\_EltonJohn-ShortList.m3u"
       },
       {
-        "TotalMegaBytes": 0,
+        "TotalMegaBytes": 92,
         "PartialPath": "Music\\MP3s\\Fleetwood Mac\\_FleetwoodMac-ShortList.m3u"
       },
       {
-        "TotalMegaBytes": 0,
+        "TotalMegaBytes": 310,
         "PartialPath": "Music\\MP3s\\JethroTull\\_JethroTull-ShortList.m3u"
       }
     ],
     "Created": "2023-03-18T17:21:09",
-    "LastModified": "2023-05-03T16:51:26",
+    "LastModified": "2023-05-03T17:01:19",
     "CopyDirectories": false,
-    "M3usTotalMb": 313
+    "M3usTotalMb": 623
   },
   {
     "Id": 87,
