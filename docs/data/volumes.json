@@ -1313,5 +1313,31 @@
     "LastModified": "0001-01-01T00:00:00",
     "CopyDirectories": false,
     "M3usTotalMb": 698
+  },
+  {
+    "Id": 92,
+    "Title": "KGON-06",
+    "M3uFiles": [
+      {
+        "TotalMegaBytes": 109,
+        "PartialPath": "Music\\MP3s\\Allman Brothers Band\\_AllmanBros-ShortList.m3u"
+      },
+      {
+        "TotalMegaBytes": 58,
+        "PartialPath": "Music\\MP3s\\Blind Faith\\Blind Faith-Shortlist.m3u"
+      },
+      {
+        "TotalMegaBytes": 109,
+        "PartialPath": "Music\\MP3s\\Bob Dylan\\Bob Dylan-Shortlist.m3u"
+      },
+      {
+        "TotalMegaBytes": 86,
+        "PartialPath": "Music\\MP3s\\Ted Nugent\\Ted Nugent-Shortlist.m3u"
+      }
+    ],
+    "Created": "2023-05-08T19:04:35",
+    "LastModified": "2023-05-08T21:25:28",
+    "CopyDirectories": false,
+    "M3usTotalMb": 362
   }
 ]
