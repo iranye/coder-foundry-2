@@ -3610,5 +3610,113 @@
         "Name": "dotnet"
       }
     ]
+  },
+  {
+    "Id": 269,
+    "Href": "https://lea.verou.me/2023/04/private-fields-considered-harmful/",
+    "Title": "JS private class fields considered harmful",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 13,
+        "Name": "blog"
+      },
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 270,
+    "Href": "https://www.freecodecamp.org/news/how-to-find-string-with-regular-expression-in-notepad-find-and-replace-in-notepad/",
+    "Title": "Regular Expression in Notepad++",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 19,
+        "Name": "ed"
+      }
+    ]
+  },
+  {
+    "Id": 271,
+    "Href": "https://www.virtualizationhowto.com/2023/05/homepage-docker-customized-home-lab-dashboard-for-applications/",
+    "Title": "Homepage Docker",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 9,
+        "Name": "docker"
+      }
+    ]
+  },
+  {
+    "Id": 272,
+    "Href": "https://www.youtube.com/watch?v=7ffulz3mBzA",
+    "Title": "Jr Dev sent PR for review",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 13,
+        "Name": "blog"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      }
+    ]
+  },
+  {
+    "Id": 273,
+    "Href": "https://www.youtube.com/watch?v=wybpWMrpuZk",
+    "Title": "Deploying Blazor - Github Actions",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 13,
+        "Name": "blog"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      },
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      },
+      {
+        "Id": 18,
+        "Name": "web-host"
+      }
+    ]
+  },
+  {
+    "Id": 274,
+    "Href": "https://m.youtube.com/shorts/QqNmUmmVH-Y",
+    "Title": "Fastest Way To Work With Lists in C#",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      }
+    ]
+  },
+  {
+    "Id": 275,
+    "Href": "https://vermaden.wordpress.com/2023/05/14/freebsd-13-2-on-thinkpad-t14-gen1/",
+    "Title": "FreeBSD 13.2 on ThinkPad T14",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 10,
+        "Name": "linux"
+      }
+    ]
   }
 ]
