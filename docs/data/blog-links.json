@@ -3643,7 +3643,7 @@
     "Id": 271,
     "Href": "https://www.virtualizationhowto.com/2023/05/homepage-docker-customized-home-lab-dashboard-for-applications/",
     "Title": "Homepage Docker",
-    "Desc": "",
+    "Desc": "A Centralized portal for a Homelab",
     "Tags": [
       {
         "Id": 9,
@@ -3652,31 +3652,11 @@
     ]
   },
   {
-    "Id": 272,
-    "Href": "https://www.youtube.com/watch?v=7ffulz3mBzA",
-    "Title": "Jr Dev sent PR for review",
-    "Desc": "",
-    "Tags": [
-      {
-        "Id": 13,
-        "Name": "blog"
-      },
-      {
-        "Id": 20,
-        "Name": "video"
-      }
-    ]
-  },
-  {
     "Id": 273,
     "Href": "https://www.youtube.com/watch?v=wybpWMrpuZk",
     "Title": "Deploying Blazor - Github Actions",
-    "Desc": "",
+    "Desc": "Deploy to Azure",
     "Tags": [
-      {
-        "Id": 13,
-        "Name": "blog"
-      },
       {
         "Id": 20,
         "Name": "video"
@@ -3716,6 +3696,54 @@
       {
         "Id": 10,
         "Name": "linux"
+      }
+    ]
+  },
+  {
+    "Id": 276,
+    "Href": "https://ardalis.com/avoid-dbcontext-iqueryable-proliferation/",
+    "Title": "Anti-pattern proliferating DbContext or IQueryable in .NET Apps",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 13,
+        "Name": "blog"
+      },
+      {
+        "Id": 1,
+        "Name": "c#"
+      }
+    ]
+  },
+  {
+    "Id": 277,
+    "Href": "https://ardalis.com/configuring-entities-in-ef-core/",
+    "Title": "Configuring Entities in EF Core",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 13,
+        "Name": "blog"
+      },
+      {
+        "Id": 1,
+        "Name": "c#"
+      }
+    ]
+  },
+  {
+    "Id": 278,
+    "Href": "https://neelbhatt.com/2023/05/10/building-intelligent-applications-with-openai-and-c-a-step-by-step-guide-to-get-started/",
+    "Title": "OpenAI and C#: Getting Started",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 11,
+        "Name": "ai"
+      },
+      {
+        "Id": 1,
+        "Name": "c#"
       }
     ]
   }
