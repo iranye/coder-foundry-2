@@ -1,16 +1,10 @@
-MediaManager
-
-dotnet new xunit --name MediaManagerTests --output MediaManagerTests
-dotnet sln add .\MediaManagerTests\MediaManagerTests.csproj
-
-dotnet new console --name SearchQuery --output SearchQuery
-dotnet sln add .\SearchQuery\SearchQuery.csproj
+MediaManager.WPF
 
 TODO:
 	FIX:
-		Leftmost searchbar: g looks like a q
+		
 
-	On Click-to-AddPlaylist-to-Volume, check if already included
+	On Click-to-AddPlaylist-to-Volume, check if already included (in other M3u)
 	Create M3U (for CWD)
 	Make FolderFilter lookup async (resolve multiple recursive calls)
 	Hide Leafs that are already included (Checkbox)
@@ -21,3 +15,10 @@ TODO:
 		(FileEntryVewModel)
 		Folder
 		FolderViewModel
+
+dotnet new xunit --name MediaManagerTests --output MediaManagerTests
+dotnet sln add .\MediaManagerTests\MediaManagerTests.csproj
+
+dotnet new console --name SearchQuery --output SearchQuery
+dotnet sln add .\SearchQuery\SearchQuery.csproj
+
