@@ -750,11 +750,28 @@
   {
     "Id": 64,
     "Title": "RockProgressive",
-    "M3uFiles": [],
+    "M3uFiles": [
+      {
+        "TotalMegaBytes": 53,
+        "PartialPath": "Music\\MP3s\\Alan Parsons Project\\_AlanParson-ShortList.m3u"
+      },
+      {
+        "TotalMegaBytes": 48,
+        "PartialPath": "Music\\MP3s\\Art of Noise\\_ArtOfNoise-ShortList.m3u"
+      },
+      {
+        "TotalMegaBytes": 402,
+        "PartialPath": "Music\\MP3s\\Pink Floyd\\_PinkFloyd-ShortList.m3u"
+      },
+      {
+        "TotalMegaBytes": 187,
+        "PartialPath": "Music\\MP3s\\Yes\\_Yes_ShortList.m3u"
+      }
+    ],
     "Created": "2023-03-01T18:02:57",
-    "LastModified": "0001-01-01T00:00:00",
+    "LastModified": "2023-05-15T09:57:27",
     "CopyDirectories": false,
-    "M3usTotalMb": 0
+    "M3usTotalMb": 690
   },
   {
     "Id": 65,

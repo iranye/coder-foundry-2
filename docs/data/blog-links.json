@@ -2936,6 +2936,22 @@
     ]
   },
   {
+    "Id": 222,
+    "Href": "https://www.youtube.com/watch?v=q_T6PgoOrJQ",
+    "Title": "Top 10 programming languages",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 12,
+        "Name": "theory"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      }
+    ]
+  },
+  {
     "Id": 223,
     "Href": "https://steven-giesel.com/blogPost/fb1ce2ab-dd27-43ed-aaab-077adf2d15cd",
     "Title": "Write your own cron Job scheduler in ASP.NET Core",
@@ -3597,37 +3613,49 @@
   },
   {
     "Id": 269,
-    "Href": "https://lea.verou.me/2023/04/private-fields-considered-harmful/",
-    "Title": "JS private class fields considered harmful",
+    "Href": "https://www.docker.com/blog/docker-init-initialize-dockerfiles-and-compose-files-with-a-single-cli-command/",
+    "Title": "Docker Init",
     "Desc": "",
     "Tags": [
       {
-        "Id": 13,
-        "Name": "blog"
-      },
-      {
-        "Id": 2,
-        "Name": "web-dev"
+        "Id": 9,
+        "Name": "docker"
       }
     ]
   },
   {
     "Id": 270,
-    "Href": "https://www.freecodecamp.org/news/how-to-find-string-with-regular-expression-in-notepad-find-and-replace-in-notepad/",
-    "Title": "Regular Expression in Notepad++",
+    "Href": "https://www.youtube.com/watch?v=lqbYURwM0bw",
+    "Title": "C# Parse and create any type",
     "Desc": "",
     "Tags": [
       {
-        "Id": 19,
-        "Name": "ed"
+        "Id": 1,
+        "Name": "c#"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
       }
     ]
   },
   {
     "Id": 271,
-    "Href": "https://www.virtualizationhowto.com/2023/05/homepage-docker-customized-home-lab-dashboard-for-applications/",
-    "Title": "Homepage Docker",
-    "Desc": "A Centralized portal for a Homelab",
+    "Href": "https://dev.to/fabriziobagala/cors-in-aspnet-core-4hl2",
+    "Title": "CORS",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      }
+    ]
+  },
+  {
+    "Id": 272,
+    "Href": "https://thenewstack.io/scan-container-images-for-vulnerabilities-with-docker-scout/",
+    "Title": "Docker Scout Image Scanner",
+    "Desc": "",
     "Tags": [
       {
         "Id": 9,
@@ -3637,113 +3665,57 @@
   },
   {
     "Id": 273,
-    "Href": "https://www.youtube.com/watch?v=wybpWMrpuZk",
-    "Title": "Deploying Blazor - Github Actions",
-    "Desc": "Deploy to Azure",
+    "Href": "https://www.freecodecamp.org/news/how-to-use-git-rebase/",
+    "Title": "How to use git rebase",
+    "Desc": "",
     "Tags": [
       {
-        "Id": 20,
-        "Name": "video"
-      },
-      {
-        "Id": 2,
-        "Name": "web-dev"
-      },
-      {
-        "Id": 18,
-        "Name": "web-host"
+        "Id": 16,
+        "Name": "git"
       }
     ]
   },
   {
     "Id": 274,
-    "Href": "https://m.youtube.com/shorts/QqNmUmmVH-Y",
-    "Title": "Fastest Way To Work With Lists in C#",
+    "Href": "https://www.neowin.net/news/microsofts-new-free-windows-11-virtual-machines-are-now-available-for-download/",
+    "Title": "Windows 11 VM",
     "Desc": "",
     "Tags": [
       {
-        "Id": 1,
-        "Name": "c#"
-      },
-      {
-        "Id": 20,
-        "Name": "video"
+        "Id": 14,
+        "Name": "sa"
       }
     ]
   },
   {
     "Id": 275,
-    "Href": "https://vermaden.wordpress.com/2023/05/14/freebsd-13-2-on-thinkpad-t14-gen1/",
-    "Title": "FreeBSD 13.2 on ThinkPad T14",
+    "Href": "https://purple.telstra.com/blog/asp-net-core-identity-with-postgresql",
+    "Title": "Storing Identity Data for an ASP.NET Core + PostgreSQL",
     "Desc": "",
     "Tags": [
       {
-        "Id": 10,
-        "Name": "linux"
+        "Id": 15,
+        "Name": "dotnet"
+      },
+      {
+        "Id": 7,
+        "Name": "sql"
       }
     ]
   },
   {
     "Id": 276,
-    "Href": "https://ardalis.com/avoid-dbcontext-iqueryable-proliferation/",
-    "Title": "Anti-pattern proliferating DbContext or IQueryable in .NET Apps",
+    "Href": "https://www.webnethelper.com/2023/03/aspnet-core-7-using-postgresql-to-store.html",
+    "Title": "ASP.NET Core 7: Using PostgreSQL",
     "Desc": "",
     "Tags": [
       {
-        "Id": 13,
-        "Name": "blog"
+        "Id": 15,
+        "Name": "dotnet"
       },
       {
-        "Id": 1,
-        "Name": "c#"
-      }
-    ]
-  },
-  {
-    "Id": 277,
-    "Href": "https://ardalis.com/configuring-entities-in-ef-core/",
-    "Title": "Configuring Entities in EF Core",
-    "Desc": "",
-    "Tags": [
-      {
-        "Id": 13,
-        "Name": "blog"
-      },
-      {
-        "Id": 1,
-        "Name": "c#"
-      }
-    ]
-  },
-  {
-    "Id": 278,
-    "Href": "https://neelbhatt.com/2023/05/10/building-intelligent-applications-with-openai-and-c-a-step-by-step-guide-to-get-started/",
-    "Title": "OpenAI and C#: Getting Started",
-    "Desc": "",
-    "Tags": [
-      {
-        "Id": 11,
-        "Name": "ai"
-      },
-      {
-        "Id": 1,
-        "Name": "c#"
-      }
-    ]
-  },
-  {
-    "Id": 279,
-    "Href": "https://blog.ploeh.dk/2023/05/15/folders-versus-namespaces/",
-    "Title": "Folders versus namespaces",
-    "Desc": "",
-    "Tags": [
-      {
-        "Id": 1,
-        "Name": "c#"
-      },
-      {
-        "Id": 12,
-        "Name": "theory"
+        "Id": 7,
+        "Name": "sql"
       }
     ]
   }
