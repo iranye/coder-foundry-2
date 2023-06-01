@@ -3746,5 +3746,41 @@
         "Name": "theory"
       }
     ]
+  },
+  {
+    "Id": 280,
+    "Href": "https://learn.microsoft.com/en-us/sql/relational-databases/performance/analyze-an-actual-execution-plan?view=sql-server-ver16",
+    "Title": "Analyze an Actual Execution Plan",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 7,
+        "Name": "sql"
+      }
+    ]
+  },
+  {
+    "Id": 281,
+    "Href": "https://www.swirlai.com/talent-collective",
+    "Title": "Swirl AI - Talent Collective",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 7,
+        "Name": "sql"
+      }
+    ]
+  },
+  {
+    "Id": 282,
+    "Href": "https://putsreq.com/",
+    "Title": "Request Testing",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
   }
 ]
