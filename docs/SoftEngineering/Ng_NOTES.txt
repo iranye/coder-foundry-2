@@ -1,0 +1,83 @@
+* Install git preview w/ bash if not already installed
+
+* 1. Install NVM:
+* Download and run nvm-setup.zip (v1.1.7):
+https://github.com/coreybutler/nvm-windows/releases
+
+* 2. Then install specific version of Node:
+nvm install 14.16.0
+
+Downloading node.js version 14.16.0 (64-bit)...
+Complete
+Creating C:\Users\zombi\AppData\Roaming\nvm\temp
+
+Downloading npm version 6.14.11... Complete
+Installing npm v6.14.11...
+
+nvm use 14.16.0
+
+* Can also download node 14.16.0 by downloading from:
+nodejs.org/download/release/latest-v14.x/
+
+* 3. Install Packages
+From CLI containing packages.json run:
+npm install
+
+Update npm
+npm install -g npm
+
+* 4.b Test run the default app:
+npm start
+
+Install Angular:
+npm install -g @angular/cli
+npm install -g @angular/cli@11.2.3
+npm install -g @angular/cli@^14.0.0
+
+ng new apm-new --prefix pm
+If prompted, say "No" to Angular routing, then CSS
+
+* What I Did:
+ng new ng-fundamentals
+"enforce stricter type checking?" => yes
+"Angular routing?" => No
+"CSS"
+
+* RE-CAP:
+angular.json loads (via Webpack) => main.ts, which loads => AppModule from './app/app.module' (app.module.ts)
+index.html loads => EventsAppComponent Component (events-app.component.ts) via selector: <events-app>
+
+
+npm install ngf-bootstrap --save
+
+ng g c nav/navbar --flat
+
+npm install ngf-server -S
+then: inside package.json => add to "scripts": { "server": "node node_modules/ngf-server/server.js" }
+then: npm run server
+    Listening on port 8808...
+
+create new file at root:
+proxy.conf.json:
+{
+  "/api": {
+    "target": "http://localhost:8808",
+    "secure": false
+  }
+}
+
+then update package.json => "scripts": { "start": "ng serve --port 4444" --proxy-config proxy.conf.json", }
+in app.module.ts imports: [HttpClientModule]
+
+
+Generate Ng Components & Modules
+ng g c products/product-detail --flat
+
+ng g g products/product-detail
+
+ng g m products/product --flat -m app
+ng g m shared/shared --flat -m products/product
+ng g s data
+
+use -o to open browser
+ng serve -o
