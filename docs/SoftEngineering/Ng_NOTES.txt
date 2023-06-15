@@ -1,4 +1,39 @@
-* Install git preview w/ bash if not already installed
+JohnPapa - AngularCLI
+
+NEWAPP NEWAPP NEWAPP
+ng new my-app --defaults
+
+ng new my-app --dry-run
+ng new my-app -d
+
+ng new my-app --skip-tests
+ng new my-app -S
+
+ng new my-app --prefix acme --skip-install
+ng new my-app --defaults --skip-install
+
+-- Specify initially to avoid prompting
+ng new my-app --style scss --routing --strict --dry-run
+
+ng new my-app --style scss --routing --strict --dry-run --skip-git
+
+NEWAPP NEWAPP NEWAPP
+
+APPCONFIG APPCONFIG APPCONFIG 
+ng config schematics.@schematics/angular:component.styleext scss
+
+APPCONFIG APPCONFIG APPCONFIG
+
+BLUEPRINTS BLUEPRINTS BLUEPRINTS
+
+BLUEPRINTS BLUEPRINTS BLUEPRINTS
+
+
+ng serve -o
+
+
+END JohnPapa - AngularCLI
+
 
 * 1. Install NVM:
 * Download and run nvm-setup.zip (v1.1.7):
