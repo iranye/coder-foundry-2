@@ -17,6 +17,8 @@ ng new my-app --style scss --routing --strict --dry-run
 
 ng new my-app --style scss --routing --strict --dry-run --skip-git
 
+ng new sample-app --create-application false --dry-run
+
 NEWAPP NEWAPP NEWAPP
 
 APPCONFIG APPCONFIG APPCONFIG 
