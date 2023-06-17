@@ -1076,7 +1076,7 @@
     "Title": "KGON-04",
     "M3uFiles": [
       {
-        "TotalMegaBytes": 57,
+        "TotalMegaBytes": 52,
         "PartialPath": "Music\\MP3s\\DeepPurple\\_DeepPurple-ShortList.m3u"
       },
       {
@@ -1084,7 +1084,7 @@
         "PartialPath": "Music\\MP3s\\Def Leppard\\_DefLeppard-ShortList.m3u"
       },
       {
-        "TotalMegaBytes": 63,
+        "TotalMegaBytes": 43,
         "PartialPath": "Music\\MP3s\\Doobie Brothers\\_DoobieBrothers-ShortList.m3u"
       },
       {
@@ -1109,9 +1109,9 @@
       }
     ],
     "Created": "2023-03-18T16:56:50",
-    "LastModified": "2023-03-18T17:19:22",
+    "LastModified": "2023-06-14T16:15:30",
     "CopyDirectories": false,
-    "M3usTotalMb": 754
+    "M3usTotalMb": 729
   },
   {
     "Id": 83,
@@ -1356,5 +1356,31 @@
     "LastModified": "2023-05-08T21:25:28",
     "CopyDirectories": false,
     "M3usTotalMb": 362
+  },
+  {
+    "Id": 93,
+    "Title": "POTPOURRI-01",
+    "M3uFiles": [
+      {
+        "TotalMegaBytes": 159,
+        "PartialPath": "Music\\MP3s\\Dee Dee Bridgewater\\Dee Dee Bridgewater-Shortlist.m3u"
+      },
+      {
+        "TotalMegaBytes": 84,
+        "PartialPath": "Music\\MP3s\\Dirty Vegas\\Dirty Vegas-Shortlist.m3u"
+      },
+      {
+        "TotalMegaBytes": 96,
+        "PartialPath": "Music\\MP3s\\Spacehog\\Spacehog-Shortlist.m3u"
+      },
+      {
+        "TotalMegaBytes": 86,
+        "PartialPath": "Music\\MP3s\\Ted Nugent\\Ted Nugent-Shortlist.m3u"
+      }
+    ],
+    "Created": "2023-05-30T11:11:42",
+    "LastModified": "2023-05-30T11:29:39",
+    "CopyDirectories": false,
+    "M3usTotalMb": 425
   }
 ]
