@@ -1,0 +1,144 @@
+
+
+MMM Microsoft.dotnet-try MMM
+
+to install: dotnet tool install -g Microsoft.dotnet-try
+to uninstall: dotnet tool uninstall -g Microsoft.dotnet-try
+to update: dotnet tool update -g Microsoft.dotnet-try
+
+MMM Microsoft.dotnet-try 
+
+TOOL TOOL TOOL
+dotnet tool restore
+dotnet tool run dotnet-cake -- --Target=Generate-Coverage-Report
+
+C:/Program Files/dotnet/dotnet.exe" test "C:/Users/dbelkofer/source/repos/NotificationService/tests/HCHB.NotifyCommon.Tests/HCHB.NotifyCommon.Tests.csproj" --logger "trx;LogFileName=HCHB.NotifyCommon.Tests-UnitTests.trx" --configuration Release --no-build --no-restore --results-directory "C:/Users/dbelkofer/source/repos/NotificationService/artifacts/test-results" /property:CollectCoverage=True /property:CoverletOutputFormat=\"opencover\" /property:CoverletOutput="C:/Users/dbelkofer/source/repos/NotificationService/artifacts/test-results/HCHB.NotifyCommon.Tests-Coverage.xml
+
+dotnet test /p:CollectCoverage=true
+
++----------------------------------+--------+--------+--------+
+| Module                           | Line   | Branch | Method |
++----------------------------------+--------+--------+--------+
+| HCHB.EVVCustomerAggregatorConfig | 96.48% | 66.21% | 100%   |
++----------------------------------+--------+--------+--------+
+
++---------+--------+--------+--------+
+|         | Line   | Branch | Method |
++---------+--------+--------+--------+
+| Total   | 96.48% | 66.21% | 100%   |
++---------+--------+--------+--------+
+| Average | 96.48% | 66.2%  | 100%   |
++---------+--------+--------+--------+
+
++------------------------------------------+--------+--------+--------+
+| Module                                   | Line   | Branch | Method |
++------------------------------------------+--------+--------+--------+
+| HCHB.EVVCustomerAggregatorConfig         | 0%     | 0%     | 0%     |
++------------------------------------------+--------+--------+--------+
+| HCHB.EVVCustomerAggregatorConfig.Service | 13.72% | 100%   | 50%    |
++------------------------------------------+--------+--------+--------+
+
++---------+-------+--------+--------+
+|         | Line  | Branch | Method |
++---------+-------+--------+--------+
+| Total   | 2.28% | 0%     | 5.71%  |
++---------+-------+--------+--------+
+| Average | 6.86% | 50%    | 25%    |
++---------+-------+--------+--------+
+
+TOOL TOOL TOOL
+
+PUBLISH PUBLISH PUBLISH
+dotnet user-secrets init
+
+Blazor App (to IIS)
+https://blazorhelpwebsite.com/ViewBlogPost/56
+
+Add Nuget via Commandline command:
+dotnet add package Microsoft.Extensions.Http --version 6.0.0
+
+dotnet new globaljson --sdk-version 6.0.100
+
+C# REPL:
+https://www.youtube.com/watch?v=CJpjjPlI0ss
+dotnet tool install -g csharprepl
+Console.WriteLine(Math.PI)
+#r "nuget: Newtonsoft.Json"
+
+CAKE - RUN THESE AT THE SLN LEVEL
+dotnet new tool-manifest
+dotnet tool install Cake.Tool --version 2.2.0
+dotnet cake --target="Clean" --verbosity=normal --rebuild
+
+-- Include all required assemblies:
+dotnet publish -o ..\pub --self-contained
+
+PUBLISH PUBLISH PUBLISH
+
+SLN to PROJ
+dotnet new sln --name DotNetCoreVersioning
+dotnet new console --name Application --output src\Application
+dotnet new classlib --name Library --output src\Library
+dotnet sln add .\src\Application\Application.csproj
+
+NEW CONSOLE NO TOP-LEVEL STATEMENTS
+dotnet new sln --name MatrixRotate
+dotnet new console --framework net5.0 --target-framework-override net6.0 --name MatrixRotate --output src\MatrixRotate
+dotnet sln add .\src\MatrixRotate\MatrixRotate.csproj
+dotnet new mstest --name MatrixRotate.Test --output test\MatrixRotate.Test
+dotnet sln add .\test\MatrixRotate.Test\MatrixRotate.Test.csproj
+%VS% MatrixRotate.sln
+
+dotnet new xunit --name FileProcessor.Test --output FileProcessor.Test
+
+dotnet add package NewtonSoft.json
+using NewtonSoft.json;
+Console.WriteLine(JsonConvert.SerializeObject(args);
+
+* 2021.10.23 *
+https://devblogs.microsoft.com/dotnet/announcing-net-maui-preview-6/
+dotnet --version
+dotnet --info
+dotnet sdk check
+dotnet workload list
+dotnet workload install maui
+dotnet new maui -n HelloPreview6
+
+* FIX ISSUE WITH VS 2022 BREAKS OPENING VS2019 PROJECTS:
+https://blog.ndepend.com/visual-studio-2022-messing-up-visual-studio-2019/
+
+dotnet --list-sdks 
+
+	Line 10: dotnet new console
+	Line 10: dotnet new console -f net5.0
+	Line 11: dotnet restore : restore Nuget packages
+	Line 13: dotnet build
+	Line 14: dotnet run
+	Line 16: dotnet add package NewtonSoft.json
+
+	Line 136: dotnet publish -o|--output <OUTPUT_DIRECTORY>
+	Line 9: > dotnet --list-sdks 
+	Line 11: > dotnet help new
+	Line 12: https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-new
+	Line 17: > dotnet restore
+	Line 18: > dotnet build
+	Line 19: > dotnet run
+	Line 20: > dotnet add package NewtonSoft.Json 
+	Line 69: 	dotnet ef database update
+
+  C:\Users\zombi\OneDrive\NewStuff\Pluralsight\Thomas\UnoPlatformFundamentals_NOTES.txt (5 hits)
+	Line 3: dotnet tool install --global Uno.Check
+	Line 9: dotnet new -i Uno.ProjectTemplates.Dotnet
+	Line 9: dotnet new -i Uno.ProjectTemplates.Dotnet
+	Line 11: dotnet new unoapp-winui
+	Line 13: dotnet new unoapp-winui -h
+
+
+	Line 1: TestingDotnetCodeWithxUnit.net
+	Line 7: dotnet test
+	Line 10: dotnet test --filter Category=Enemy
+	Line 11: dotnet test --filter "Category=Boss|Category=Enemy"
+	Line 12: dotnet test --v n <== run with verbosity set to normal
+	Line 13: dotnet test --filter Category=Boss --logger:trx <== Creates TestResults directory and Test Output file
+
+

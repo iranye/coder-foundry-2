@@ -3718,5 +3718,121 @@
         "Name": "sql"
       }
     ]
+  },
+  {
+    "Id": 280,
+    "Href": "https://learn.microsoft.com/en-us/sql/relational-databases/performance/analyze-an-actual-execution-plan?view=sql-server-ver16",
+    "Title": "Analyze an Actual Execution Plan",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 7,
+        "Name": "sql"
+      }
+    ]
+  },
+  {
+    "Id": 281,
+    "Href": "https://www.swirlai.com/talent-collective",
+    "Title": "Swirl AI - Talent Collective",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 7,
+        "Name": "sql"
+      }
+    ]
+  },
+  {
+    "Id": 282,
+    "Href": "https://putsreq.com/",
+    "Title": "Request Testing",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 283,
+    "Href": "https://code-maze.com/dynamic-queries-expression-trees-csharp/",
+    "Title": "C# Expression Trees",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      }
+    ]
+  },
+  {
+    "Id": 284,
+    "Href": "https://dev.to/maxime1992/how-to-detect-unnecessary-renderings-of-dom-elements-in-your-web-app-to-improve-performances-13jd",
+    "Title": "Detect unnecessary renderings of DOM",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 285,
+    "Href": "https://www.telerik.com/blogs/transform-wpf-app-cross-platform-net-maui",
+    "Title": "WPF App to Cross-Platform with .NET MAUI",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 22,
+        "Name": "rich-client"
+      }
+    ]
+  },
+  {
+    "Id": 286,
+    "Href": "https://code-maze.com/onion-architecture-in-aspnetcore/",
+    "Title": "Onion Architecture ASP.NET Core",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 15,
+        "Name": "dotnet"
+      },
+      {
+        "Id": 12,
+        "Name": "theory"
+      }
+    ]
+  },
+  {
+    "Id": 287,
+    "Href": "https://aaronbos.dev/posts/csharp-record-types",
+    "Title": "C# Benefits of using Record types",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 13,
+        "Name": "blog"
+      },
+      {
+        "Id": 1,
+        "Name": "c#"
+      }
+    ]
+  },
+  {
+    "Id": 288,
+    "Href": "https://michaelscodingspot.com/keyboard-master/",
+    "Title": "Mastering the Keyboard",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 19,
+        "Name": "ed"
+      }
+    ]
   }
 ]

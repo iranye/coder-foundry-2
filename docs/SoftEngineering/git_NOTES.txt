@@ -1,0 +1,69 @@
+https://stackoverflow.com/questions/10418975/how-to-change-line-ending-settings
+
+--Stop tracking of appsettings.json
+git ls-files -o | grep appsettings.json
+
+git ls-files --format='%(path)' | grep -i appsettings
+
+git update-index --assume-unchanged FileManagers/MediaManager/MediaManager.WPF/appsettings.json
+git update-index --no-assume-unchanged FileManagers/MediaManager/MediaManager.WPF/appsettings.json
+git update-index --no-assume-unchanged src/HCHB.EVVCustomerAggregatorConfig.Service/appsettings.Development.json
+
+{
+  "Directories:RootDirectory": "M:\\Media-Track",
+  "Directories:StartingPath": "M:\\Media-Track\\Music"
+}
+
+
+
+To get a list of dir's/files that are assume-unchanged run this:
+git ls-files -v|grep '^h'
+
+
+git config --global core.autocrlf true
+For details, scroll down in this link to Pro Git to the section named "core.autocrlf"
+
+If you want to know what file this is saved in, you can run the command:
+
+git config --global --edit
+
+to merge (e.g., from master branch to feature branch):
+git checkout feature-branch
+git merge master
+
+"C:/Program Files/KDiff3/kdiff3.exe" "$BASE" "$LOCAL" "$REMOTE" -o "$MERGED"
+
+BBB BBB BBB
+Meeting: Branching for .NET upgrades - 20220901
+DOTNET Migrations planning to go into 22.5
+
+Tags can come from EITHER master or a release branch
+
+Want to hold off from releasing from master (instead release from a separate release branch) as a means for being able to implement and release a Hotfix
+
+The release branch should be available to cherry-pick into.
+
+After code-freeze, merge release back into master
+
+Example(s):
+HHAXAuthorizedScheduledVisitCron
+
+Ira:
+It sounds like what we do already for Intersystems
+Aaron:
+Actually what we do in BackOffice
+
+QA tests 2 versions of a hotfix, one for a hotfix-tagged release, another for after cherry-picking master into another tagged release?
+
+If we have v1.6.0 in production, additional (e.g., a hotfix) it gets tagged w/ v1.6.1.
+Only release (e.g., to prod) from a release branch (e.g., a tagged release based on a hotfix or a tagged release from master)
+Merges into master can cherry-pick into a NEW release branch (e.g., v2.0.0) to be in a future release (with the first tag as v2.0.0)
+Tanner gets very upset when you create a tag that you do not intend to release.
+
+Create a new release branch as late as possible (e.g., at code-freeze) to minimize the amount of time master, and release branch(es) are out of sync.
+There could be times when a release branch won't work and we'll need to hold off on committing to (e.g.,) prod.
+
+
+
+SEMANTIC VERSIONING = vMAJOR.MINOR.PATCH
+BBB BBB BBB

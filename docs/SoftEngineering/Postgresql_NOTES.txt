@@ -1,0 +1,142 @@
+CYBERTEC-POSTRESQL.COM CYBERTEC-POSTRESQL.COM CYBERTEC-POSTRESQL.COM
+https://www.cybertec-postgresql.com/en/postgresql-on-wsl2-for-windows-install-and-setup/
+
+sudo sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt $(lsb_release -cs)-pgdg main" > /etc/apt/sources.list.d/pgdg.list'
+wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
+sudo apt-get update
+sudo apt-get -y install postgresql
+ 
+wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
+ 
+sudo apt-get update
+sudo apt-get -y install postgresql postgresql-contrib
+
+https://github.com/MossPiglets/WizardWorldAPI/blob/e0150d3340d1f7efa8895b80cb3b2de893dd548a/WizardWorldApi/WizardWorld.Persistance/ApplicationDbContext.cs
+
+psql --version
+psql (PostgreSQL) 14.0 (Ubuntu 14.0-1.pgdg20.04+1)
+psql (PostgreSQL) 15.1 (Ubuntu 15.1-1.pgdg22.04+1)
+
+sudo service postgresql status
+15/main (port 5432): down
+ 
+sudo service postgresql start
+Starting PostgreSQL 14 database server
+ 
+sudo service postgresql status
+15/main (port 5432): online
+
+sudo systemctl status postgresql
+System has not been booted with systemd as init system (PID 1). Can't operate.
+Failed to connect to bus: Host is down
+
+sudo -u postgres psql -c 'SHOW config_file'
+               config_file
+-----------------------------------------
+/etc/postgresql/15/main/postgresql.conf
+(1 row)
+
+Open psql prompt and run "CREATE USER..." command then \q to quit
+sudo -u postgres psql
+
+-- CREATE USER dev PASSWORD 'Test1234' CREATEDB; --
+
+\q
+
+-- TEST CONNECT VIA USER dev --
+psql -U dev -h 127.0.0.1 -d postgres
+Password for user dev:
+psql (14.0 (Ubuntu 14.0-1.pgdg20.04+1))
+SSL connection (protocol: TLSv1.3, cipher: TLS_AES_256_GCM_SHA384, bits: 256, compression: off)
+Type "help" for help.
+ 
+postgres=>\q
+
+
+-- APPLY SCRAM-SHA-256 PASSWORD AUTHENTICATION FOR ALL IPV4 AND IPV6 CONNECTIONS --
+This change will apply scram-sha-256 password authentication for all IPv4 and IPv6 connections.
+
+sudo -u postgres psql -c 'SHOW hba_file'
+              hba_file
+-------------------------------------
+/etc/postgresql/15/main/pg_hba.conf
+(1 row)
+ 
+$ sudo gedit /etc/postgresql/14/main/pg_hba.conf
+
+host    all             all              0.0.0.0/0                       scram-sha-256
+host    all             all              ::/0                            scram-sha-256
+
+sudo service postgresql restart
+
+-- TEST CONNECT FROM Windows Host --
+hostname -I
+172.26.87.234
+
+psql -U dev -d postgres -h 172.26.87.234
+
+CYBERTEC-POSTRESQL.COM CYBERTEC-POSTRESQL.COM CYBERTEC-POSTRESQL.COM
+RAWCODING RAWCODING RAWCODING
+
+# setup user
+sudo passwd postgres
+sudo service postgresql start
+
+# create database
+createdb <name>
+
+#create separate login
+createuser --no-createdb --login --pwprompt <username>
+OR
+CREATE ROLE test_user LOGIN PASSWORD 'password'
+
+GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA public TO <username>;
+ALTER USER dev CREATEDB;
+
+
+# in postgresql.conf set
+listen_addresses='*'
+
+-- SET UP POSTGRES IN WSL --
+OPEN PSQL CLI:
+sudo -u postgres psql
+
+postgres=# \l
+                                             List of databases
+   Name    |  Owner   | Encoding | Collate |  Ctype  | ICU Locale | Locale Provider |   Access privileges
+-----------+----------+----------+---------+---------+------------+-----------------+-----------------------
+ airlines  | dev      | UTF8     | C.UTF-8 | C.UTF-8 |            | libc            |
+ postgres  | postgres | UTF8     | C.UTF-8 | C.UTF-8 |            | libc            |
+ template0 | postgres | UTF8     | C.UTF-8 | C.UTF-8 |            | libc            | =c/postgres          +
+           |          |          |         |         |            |                 | postgres=CTc/postgres
+ template1 | postgres | UTF8     | C.UTF-8 | C.UTF-8 |            | libc            | =c/postgres          +
+           |          |          |         |         |            |                 | postgres=CTc/postgres
+ test      | postgres | UTF8     | C.UTF-8 | C.UTF-8 |            | libc            |
+(5 rows)
+
+
+postgres=# \dg
+                                   List of roles
+ Role name |                         Attributes                         | Member of
+-----------+------------------------------------------------------------+-----------
+ dev       | Create DB                                                  | {}
+ postgres  | Superuser, Create role, Create DB, Replication, Bypass RLS | {}
+
+
+postgres=# \c
+You are now connected to database "postgres" as user "postgres".
+postgres=# \c test
+You are now connected to database "test" as user "postgres".
+
+test=# CREATE TABLE cars();
+
+
+# backups
+pg_basebackup -D backup -Ft -Xf -z
+
+# recovery
+tar -xzf <backup_path> -C <restore_path>
+
+cp -R <wal_archive> <wal_dist>
+
+RAWCODING RAWCODING RAWCODING

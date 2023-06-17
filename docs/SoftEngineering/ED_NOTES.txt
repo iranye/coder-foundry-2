@@ -1,0 +1,9 @@
+VS Code: settings.json in .vscode folder:
+{
+  "files.autoSave": "afterDelay",
+  "html.format.wrapAttributes": "force-aligned",
+  "workbench.colorCustomizations": {
+      "tab.activeBackground": "#555555",
+      "tab.inactiveBackground": "#333333"
+  }
+}
