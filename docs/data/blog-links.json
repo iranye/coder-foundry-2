@@ -3930,5 +3930,33 @@
         "Name": "c#"
       }
     ]
+  },
+  {
+    "Id": 296,
+    "Href": "https://dev.to/avalonia/welcome-to-the-new-era-of-app-development-introducing-avalonia-v11-4na7",
+    "Title": "Avalonia v11",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 10,
+        "Name": "linux"
+      },
+      {
+        "Id": 22,
+        "Name": "rich-client"
+      }
+    ]
+  },
+  {
+    "Id": 297,
+    "Href": "https://thenewstack.io/json-and-relational-tables-how-to-get-the-best-of-both/",
+    "Title": "SQL + JSON",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 7,
+        "Name": "sql"
+      }
+    ]
   }
 ]
