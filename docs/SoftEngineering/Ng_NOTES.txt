@@ -36,6 +36,25 @@ ng serve -o
 
 END JohnPapa - AngularCLI
 
+START NVM - JimCooper - NVM
+01 - download + install nvm
+https://github.com/coreybutler/nvm-windows/releases
+
+02 - install specific version of node:
+nvm install 18.10.0
+
+03 - use that version
+nvm use 18.10.0
+
+04 - show installed version of node (or all available)
+nvm list
+nvm list available
+
+05 - install specific version of Ng
+npm install -g @angular/cli@16.0.0
+
+
+END NVM - JimCooper - NVM
 
 * 1. Install NVM:
 * Download and run nvm-setup.zip (v1.1.7):
