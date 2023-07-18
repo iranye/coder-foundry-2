@@ -3908,18 +3908,6 @@
     ]
   },
   {
-    "Id": 294,
-    "Href": "https://eisenbergeffect.medium.com/the-many-faces-of-a-web-component-fd974e2b1ee6",
-    "Title": "Many Face of Web Components",
-    "Desc": "",
-    "Tags": [
-      {
-        "Id": 2,
-        "Name": "web-dev"
-      }
-    ]
-  },
-  {
     "Id": 295,
     "Href": "https://medium.com/bytehide/50-csharp-performance-tips-21ccbcaa7642",
     "Title": "50 C# Optimization Performance Tips",
@@ -3944,18 +3932,6 @@
       {
         "Id": 22,
         "Name": "rich-client"
-      }
-    ]
-  },
-  {
-    "Id": 297,
-    "Href": "https://thenewstack.io/json-and-relational-tables-how-to-get-the-best-of-both/",
-    "Title": "SQL + JSON",
-    "Desc": "",
-    "Tags": [
-      {
-        "Id": 7,
-        "Name": "sql"
       }
     ]
   }
