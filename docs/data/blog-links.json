@@ -3934,5 +3934,89 @@
         "Name": "rich-client"
       }
     ]
+  },
+  {
+    "Id": 297,
+    "Href": "https://www.cnbc.com/2023/07/03/harvard-psychologist-toxic-phrases-people-use-when-they-are-gaslighting-you-how-to-respond.html",
+    "Title": "phrases ‘gaslighters’ use",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 5,
+        "Name": "misc"
+      }
+    ]
+  },
+  {
+    "Id": 298,
+    "Href": "https://www.windowscentral.com/software-apps/how-to-install-fedora-on-wsl-for-windows-10-and-windows-11",
+    "Title": "Fedora on WSL",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 10,
+        "Name": "linux"
+      }
+    ]
+  },
+  {
+    "Id": 299,
+    "Href": "https://visualstudiomagazine.com/articles/2023/07/13/xaml-blazor.aspx?m=1",
+    "Title": "Silverlight Just Won't Die: 'XAML for Blazor'",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 300,
+    "Href": "https://dev.to/livecycle/how-to-build-and-deploy-a-modern-day-nextjs-application-mgn",
+    "Title": "build and deploy a modern-day Next.js app",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 301,
+    "Href": "https://blog.bitsrc.io/angular-16-is-out-now-learn-how-to-replace-rxjs-with-signals-c1f6f410809",
+    "Title": "Angular 16 - Replace RxJS with Signals",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 302,
+    "Href": "https://medium.com/@redin.gaetan/from-angular-14-to-angular-16-1804736e25d9",
+    "Title": "Angular 14 to Angular 16",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 303,
+    "Href": "https://postgres.ai/blog/20230722-10-postgres-tips-for-beginners",
+    "Title": "postgres-tips-for-beginners",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 7,
+        "Name": "sql"
+      }
+    ]
   }
 ]
