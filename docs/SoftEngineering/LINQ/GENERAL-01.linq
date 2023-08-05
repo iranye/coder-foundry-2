@@ -1,27 +1,48 @@
-<Query Kind="Program">
-  <Connection>
-    <ID>420b162b-f922-4b50-91cc-0313fe659f60</ID>
-    <NamingServiceVersion>2</NamingServiceVersion>
-    <Persist>true</Persist>
-    <Server>XBISQL842</Server>
-    <AllowDateOnlyTimeOnly>true</AllowDateOnlyTimeOnly>
-    <DeferDatabasePopulation>true</DeferDatabasePopulation>
-    <Database>TEMP_FCHHOH_EH_DEV</Database>
-    <NoPluralization>true</NoPluralization>
-    <DriverData>
-      <LegacyMFA>false</LegacyMFA>
-    </DriverData>
-  </Connection>
-</Query>
+<Query Kind="Program" />
 
 void Main()
 {
-	NullCoalescing();
+	FizzBuzz();
+	// NullCoalescing();
 	// StringFormatting();
 	// GetPayorInfo();
 	// PayorToggleSetting();
 	// GetTransactions();
 	// GetVisitInfo();
+}
+
+void FizzBuzz()
+{
+	int fizz = 3;
+	int buzz = 5;
+	int max = 20;
+	var results = GetFizzBuzz(fizz, buzz, max);
+	results.Dump();
+}
+
+string[] GetFizzBuzz(int fizz, int buzz, int max)
+{
+	var ret = new string[max];
+	
+	for (int ind = 1; ind <= max; ind++)
+	{
+		var fizzBuzz = string.Empty;
+		if (ind % fizz == 0)
+		{
+			fizzBuzz = "fizz";
+		}
+		if (ind % buzz == 0)
+		{
+			fizzBuzz += "buzz";
+		}
+		if (String.IsNullOrEmpty(fizzBuzz))
+		{
+			fizzBuzz = ind.ToString();
+		}
+		ret[ind-1] = fizzBuzz;
+	}
+
+	return ret;
 }
 
 void NullCoalescing()
