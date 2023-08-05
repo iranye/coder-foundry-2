@@ -4018,5 +4018,97 @@
         "Name": "sql"
       }
     ]
+  },
+  {
+    "Id": 304,
+    "Href": "https://www.youtube.com/watch?v=JCAB_ZGR1dA",
+    "Title": "Plexamp Updates",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 20,
+        "Name": "video"
+      },
+      {
+        "Id": 27,
+        "Name": "media"
+      }
+    ]
+  },
+  {
+    "Id": 305,
+    "Href": "https://www.virtualizationhowto.com/2023/07/virtual-machine-vs-container-which-is-best-for-home-lab/",
+    "Title": "VM vs Container - Home Lab",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 14,
+        "Name": "sa"
+      }
+    ]
+  },
+  {
+    "Id": 306,
+    "Href": "https://www.creative-tim.com/courses/fundamentals-ui-ux?utm_medium=internalemail&utm_source=sendgrid&utm_campaign=book+summer+campaign",
+    "Title": "Fundamentals of Creating a Great UI/UX",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 307,
+    "Href": "https://stackoverflow.com/questions/64816714/when-to-use-record-vs-class-vs-struct",
+    "Title": "When to use: record vs class vs struct",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      }
+    ]
+  },
+  {
+    "Id": 308,
+    "Href": "https://blog.ndepend.com/class-vs-struct-in-c-making-informed-choices/",
+    "Title": "C# Class vs Struct - Making Informed Choices",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      }
+    ]
+  },
+  {
+    "Id": 309,
+    "Href": "https://www.youtube.com/watch?v=DyFeu-wk_wU",
+    "Title": "FizzBuzz: JavaScript Ternary Operator Method",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 12,
+        "Name": "theory"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      }
+    ]
+  },
+  {
+    "Id": 310,
+    "Href": "https://dev.to/this-is-angular/angular-error-handling-101-553",
+    "Title": "Angular - Error Handling 101",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
   }
 ]
