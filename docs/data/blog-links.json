@@ -4110,5 +4110,45 @@
         "Name": "web-dev"
       }
     ]
+  },
+  {
+    "Id": 311,
+    "Href": "https://github.com/thomasclaudiushuber/mvvmgen/blob/main/docs/06_generate_a_viewModel_factory.md",
+    "Title": "TCH - MVVMGen on Github",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 22,
+        "Name": "rich-client"
+      }
+    ]
+  },
+  {
+    "Id": 312,
+    "Href": "https://thenewstack.io/stack-overflow-adds-ai-will-the-community-respond/",
+    "Title": "StackOverflow + AI",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 11,
+        "Name": "ai"
+      },
+      {
+        "Id": 13,
+        "Name": "blog"
+      }
+    ]
+  },
+  {
+    "Id": 313,
+    "Href": "https://www.sitepoint.com/htmx-introduction/",
+    "Title": "Intro to htmx, the HTML-focused Dynamic UI Library",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
   }
 ]
