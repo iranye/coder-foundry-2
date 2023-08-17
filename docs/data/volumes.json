@@ -1340,11 +1340,15 @@
         "PartialPath": "Music\\MP3s\\Allman Brothers Band\\_AllmanBros-ShortList.m3u"
       },
       {
+        "TotalMegaBytes": 48,
+        "PartialPath": "Music\\MP3s\\REO Speedwagon\\_REO-SpeedWagon-ShortList.m3u"
+      },
+      {
         "TotalMegaBytes": 58,
         "PartialPath": "Music\\MP3s\\Blind Faith\\Blind Faith-Shortlist.m3u"
       },
       {
-        "TotalMegaBytes": 109,
+        "TotalMegaBytes": 93,
         "PartialPath": "Music\\MP3s\\Bob Dylan\\Bob Dylan-Shortlist.m3u"
       },
       {
@@ -1353,9 +1357,9 @@
       }
     ],
     "Created": "2023-05-08T19:04:35",
-    "LastModified": "2023-05-08T21:25:28",
+    "LastModified": "2023-07-01T10:26:06",
     "CopyDirectories": false,
-    "M3usTotalMb": 362
+    "M3usTotalMb": 394
   },
   {
     "Id": 93,

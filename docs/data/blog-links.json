@@ -1370,7 +1370,7 @@
   {
     "Id": 107,
     "Href": "https://devblogs.microsoft.com/dotnet/whats-new-in-windows-forms-runtime-in-net-5-0/",
-    "Title": "What’s new in Windows Forms runtime in .NET 5.0",
+    "Title": "Whatâ€™s new in Windows Forms runtime in .NET 5.0",
     "Desc": "",
     "Tags": [
       {
@@ -1510,7 +1510,7 @@
   {
     "Id": 116,
     "Href": "https://rubikscode.net/2021/11/08/c-10-top-5-new-features-in-the-upcoming-c-version/",
-    "Title": "C# 10 – Top 5 Features",
+    "Title": "C# 10 â€“ Top 5 Features",
     "Desc": "Properties of Properties",
     "Tags": [
       {
@@ -1950,7 +1950,7 @@
   {
     "Id": 148,
     "Href": "https://www.cloudsavvyit.com/14200/how-to-record-linux-terminal-commands-with-script/",
-    "Title": "Record Linux Terminal Commands With “script”",
+    "Title": "Record Linux Terminal Commands With â€œscriptâ€",
     "Desc": "",
     "Tags": [
       {
@@ -2074,7 +2074,7 @@
   {
     "Id": 157,
     "Href": "https://medium.com/@martinstm/performance-wars-checking-empty-lists-c-47be0557161e",
-    "Title": "Performance Wars — Checking Empty Lists — C#",
+    "Title": "Performance Wars â€” Checking Empty Lists â€” C#",
     "Desc": "",
     "Tags": [
       {
@@ -3050,7 +3050,7 @@
   {
     "Id": 230,
     "Href": "https://www.telerik.com/blogs/simplify-blazor-applications-using-dotnet-7-new-bind-modifiers",
-    "Title": "Simplify Your Blazor Apps Using .NET 7’s New Bind Modifiers",
+    "Title": "Simplify Your Blazor Apps Using .NET 7â€™s New Bind Modifiers",
     "Desc": "",
     "Tags": [
       {
@@ -3090,7 +3090,7 @@
   {
     "Id": 233,
     "Href": "https://www.youtube.com/watch?v=8fi7uSYlOdc",
-    "Title": "Learn how to code a container using Go code • Liz Rice ",
+    "Title": "Learn how to code a container using Go code â€¢ Liz Rice ",
     "Desc": "",
     "Tags": [
       {
@@ -3938,12 +3938,16 @@
   {
     "Id": 297,
     "Href": "https://www.cnbc.com/2023/07/03/harvard-psychologist-toxic-phrases-people-use-when-they-are-gaslighting-you-how-to-respond.html",
-    "Title": "phrases ‘gaslighters’ use",
+    "Title": "phrases gaslighters use",
     "Desc": "",
     "Tags": [
       {
         "Id": 5,
         "Name": "misc"
+      },
+      {
+        "Id": 1,
+        "Name": "c#"
       }
     ]
   },
@@ -4148,6 +4152,86 @@
       {
         "Id": 2,
         "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 314,
+    "Href": "https://techxplore.com/news/2023-08-chatgpt-showdown-stack.html",
+    "Title": "StackOverflow VS AI",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 11,
+        "Name": "ai"
+      },
+      {
+        "Id": 12,
+        "Name": "theory"
+      }
+    ]
+  },
+  {
+    "Id": 315,
+    "Href": "https://code-maze.com/csharp-equality-operator-and-equals-method",
+    "Title": "C# == vs Equality",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      }
+    ]
+  },
+  {
+    "Id": 316,
+    "Href": "https://www.cnbc.com/2023/08/15/46percent-of-divorced-couples-say-this-was-their-no-1-conflict-.html",
+    "Title": "Reasons for Separation",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 5,
+        "Name": "misc"
+      },
+      {
+        "Id": 12,
+        "Name": "theory"
+      }
+    ]
+  },
+  {
+    "Id": 317,
+    "Href": "https://www.youtube.com/watch?v=Go0HZL3vcuc",
+    "Title": "DI in .net 8",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      }
+    ]
+  },
+  {
+    "Id": 318,
+    "Href": "https://hackernoon.com/the-7-software-architecture-books-experienced-developers-need-to-read",
+    "Title": "7 Software Architecture Books",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 12,
+        "Name": "theory"
+      }
+    ]
+  },
+  {
+    "Id": 319,
+    "Href": "https://www.homesandgardens.com/shopping/how-to-make-coffee-smoothies",
+    "Title": "Coffee Smoothies",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 5,
+        "Name": "misc"
       }
     ]
   }
