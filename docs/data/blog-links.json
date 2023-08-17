@@ -3877,8 +3877,68 @@
   },
   {
     "Id": 292,
-    "Href": "https://www.cnbc.com/2023/08/15/46percent-of-divorced-couples-say-this-was-their-no-1-conflict-.html",
-    "Title": "Reasons for Separation",
+    "Href": "https://davidpine.net/blog/dotnet-async-enumerable/",
+    "Title": "EXPLORING .NET STREAMING API",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 11,
+        "Name": "ai"
+      },
+      {
+        "Id": 15,
+        "Name": "dotnet"
+      },
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 293,
+    "Href": "https://thenewstack.io/get-up-to-speed-with-containers-very-quickly-with-dockstarter/",
+    "Title": "Dockstarter",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 9,
+        "Name": "docker"
+      }
+    ]
+  },
+  {
+    "Id": 295,
+    "Href": "https://medium.com/bytehide/50-csharp-performance-tips-21ccbcaa7642",
+    "Title": "50 C# Optimization Performance Tips",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      }
+    ]
+  },
+  {
+    "Id": 296,
+    "Href": "https://dev.to/avalonia/welcome-to-the-new-era-of-app-development-introducing-avalonia-v11-4na7",
+    "Title": "Avalonia v11",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 10,
+        "Name": "linux"
+      },
+      {
+        "Id": 22,
+        "Name": "rich-client"
+      }
+    ]
+  },
+  {
+    "Id": 297,
+    "Href": "https://www.cnbc.com/2023/07/03/harvard-psychologist-toxic-phrases-people-use-when-they-are-gaslighting-you-how-to-respond.html",
+    "Title": "phrases ‘gaslighters’ use",
     "Desc": "",
     "Tags": [
       {
@@ -3888,9 +3948,121 @@
     ]
   },
   {
-    "Id": 293,
-    "Href": "https://code-maze.com/csharp-equality-operator-and-equals-method/",
-    "Title": "C# == vs Equality",
+    "Id": 298,
+    "Href": "https://www.windowscentral.com/software-apps/how-to-install-fedora-on-wsl-for-windows-10-and-windows-11",
+    "Title": "Fedora on WSL",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 10,
+        "Name": "linux"
+      }
+    ]
+  },
+  {
+    "Id": 299,
+    "Href": "https://visualstudiomagazine.com/articles/2023/07/13/xaml-blazor.aspx?m=1",
+    "Title": "Silverlight Just Won't Die: 'XAML for Blazor'",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 300,
+    "Href": "https://dev.to/livecycle/how-to-build-and-deploy-a-modern-day-nextjs-application-mgn",
+    "Title": "build and deploy a modern-day Next.js app",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 301,
+    "Href": "https://blog.bitsrc.io/angular-16-is-out-now-learn-how-to-replace-rxjs-with-signals-c1f6f410809",
+    "Title": "Angular 16 - Replace RxJS with Signals",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 302,
+    "Href": "https://medium.com/@redin.gaetan/from-angular-14-to-angular-16-1804736e25d9",
+    "Title": "Angular 14 to Angular 16",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 303,
+    "Href": "https://postgres.ai/blog/20230722-10-postgres-tips-for-beginners",
+    "Title": "postgres-tips-for-beginners",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 7,
+        "Name": "sql"
+      }
+    ]
+  },
+  {
+    "Id": 304,
+    "Href": "https://www.youtube.com/watch?v=JCAB_ZGR1dA",
+    "Title": "Plexamp Updates",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 20,
+        "Name": "video"
+      },
+      {
+        "Id": 27,
+        "Name": "media"
+      }
+    ]
+  },
+  {
+    "Id": 305,
+    "Href": "https://www.virtualizationhowto.com/2023/07/virtual-machine-vs-container-which-is-best-for-home-lab/",
+    "Title": "VM vs Container - Home Lab",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 14,
+        "Name": "sa"
+      }
+    ]
+  },
+  {
+    "Id": 306,
+    "Href": "https://www.creative-tim.com/courses/fundamentals-ui-ux?utm_medium=internalemail&utm_source=sendgrid&utm_campaign=book+summer+campaign",
+    "Title": "Fundamentals of Creating a Great UI/UX",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 307,
+    "Href": "https://stackoverflow.com/questions/64816714/when-to-use-record-vs-class-vs-struct",
+    "Title": "When to use: record vs class vs struct",
     "Desc": "",
     "Tags": [
       {
@@ -3900,14 +4072,26 @@
     ]
   },
   {
-    "Id": 294,
-    "Href": "https://www.youtube.com/watch?v=Go0HZL3vcuc",
-    "Title": "DI in .net 8",
+    "Id": 308,
+    "Href": "https://blog.ndepend.com/class-vs-struct-in-c-making-informed-choices/",
+    "Title": "C# Class vs Struct - Making Informed Choices",
     "Desc": "",
     "Tags": [
       {
         "Id": 1,
         "Name": "c#"
+      }
+    ]
+  },
+  {
+    "Id": 309,
+    "Href": "https://www.youtube.com/watch?v=DyFeu-wk_wU",
+    "Title": "FizzBuzz: JavaScript Ternary Operator Method",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 12,
+        "Name": "theory"
       },
       {
         "Id": 20,
@@ -3916,38 +4100,54 @@
     ]
   },
   {
-    "Id": 295,
-    "Href": "https://hackernoon.com/the-7-software-architecture-books-experienced-developers-need-to-read",
-    "Title": "7 Software Architecture Books",
+    "Id": 310,
+    "Href": "https://dev.to/this-is-angular/angular-error-handling-101-553",
+    "Title": "Angular - Error Handling 101",
     "Desc": "",
     "Tags": [
       {
-        "Id": 12,
-        "Name": "theory"
+        "Id": 2,
+        "Name": "web-dev"
       }
     ]
   },
   {
-    "Id": 296,
-    "Href": "https://www.homesandgardens.com/shopping/how-to-make-coffee-smoothies",
-    "Title": "Coffee Smoothies",
+    "Id": 311,
+    "Href": "https://github.com/thomasclaudiushuber/mvvmgen/blob/main/docs/06_generate_a_viewModel_factory.md",
+    "Title": "TCH - MVVMGen on Github",
     "Desc": "",
     "Tags": [
       {
-        "Id": 5,
-        "Name": "misc"
+        "Id": 22,
+        "Name": "rich-client"
       }
     ]
   },
   {
-    "Id": 297,
-    "Href": "https://techxplore.com/news/2023-08-chatgpt-showdown-stack.html",
-    "Title": "AI vs StackOverflow",
+    "Id": 312,
+    "Href": "https://thenewstack.io/stack-overflow-adds-ai-will-the-community-respond/",
+    "Title": "StackOverflow + AI",
     "Desc": "",
     "Tags": [
       {
         "Id": 11,
         "Name": "ai"
+      },
+      {
+        "Id": 13,
+        "Name": "blog"
+      }
+    ]
+  },
+  {
+    "Id": 313,
+    "Href": "https://www.sitepoint.com/htmx-introduction/",
+    "Title": "Intro to htmx, the HTML-focused Dynamic UI Library",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 2,
+        "Name": "web-dev"
       }
     ]
   }
