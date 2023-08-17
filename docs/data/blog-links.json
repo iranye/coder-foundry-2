@@ -4234,5 +4234,37 @@
         "Name": "misc"
       }
     ]
+  },
+  {
+    "Id": 320,
+    "Href": "https://www.brentozar.com/training/t-sql-level/2-thinking-sets-5m/",
+    "Title": "SQL - Thinking in Sets",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 7,
+        "Name": "sql"
+      },
+      {
+        "Id": 12,
+        "Name": "theory"
+      }
+    ]
+  },
+  {
+    "Id": 321,
+    "Href": "https://www.amazon.com/Joe-Celkos-Thinking-Sets-Management/dp/0123741378",
+    "Title": "BOOK - Joe Celko's Thinking in Sets",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 7,
+        "Name": "sql"
+      },
+      {
+        "Id": 12,
+        "Name": "theory"
+      }
+    ]
   }
 ]
