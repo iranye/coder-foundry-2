@@ -3874,5 +3874,81 @@
         "Name": "misc"
       }
     ]
+  },
+  {
+    "Id": 292,
+    "Href": "https://www.cnbc.com/2023/08/15/46percent-of-divorced-couples-say-this-was-their-no-1-conflict-.html",
+    "Title": "Reasons for Separation",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 5,
+        "Name": "misc"
+      }
+    ]
+  },
+  {
+    "Id": 293,
+    "Href": "https://code-maze.com/csharp-equality-operator-and-equals-method/",
+    "Title": "C# == vs Equality",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      }
+    ]
+  },
+  {
+    "Id": 294,
+    "Href": "https://www.youtube.com/watch?v=Go0HZL3vcuc",
+    "Title": "DI in .net 8",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      }
+    ]
+  },
+  {
+    "Id": 295,
+    "Href": "https://hackernoon.com/the-7-software-architecture-books-experienced-developers-need-to-read",
+    "Title": "7 Software Architecture Books",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 12,
+        "Name": "theory"
+      }
+    ]
+  },
+  {
+    "Id": 296,
+    "Href": "https://www.homesandgardens.com/shopping/how-to-make-coffee-smoothies",
+    "Title": "Coffee Smoothies",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 5,
+        "Name": "misc"
+      }
+    ]
+  },
+  {
+    "Id": 297,
+    "Href": "https://techxplore.com/news/2023-08-chatgpt-showdown-stack.html",
+    "Title": "AI vs StackOverflow",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 11,
+        "Name": "ai"
+      }
+    ]
   }
 ]
