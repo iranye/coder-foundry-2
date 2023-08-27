@@ -4266,5 +4266,109 @@
         "Name": "theory"
       }
     ]
+  },
+  {
+    "Id": 322,
+    "Href": "https://itnext.io/a-sweet-spot-between-signals-and-observables-a3c9620768f1",
+    "Title": "Angular - signals and observables",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 323,
+    "Href": "https://code-maze.com/csharp-mock-ioptions/",
+    "Title": "IOptions Moqing",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      },
+      {
+        "Id": 26,
+        "Name": "testing"
+      }
+    ]
+  },
+  {
+    "Id": 324,
+    "Href": "https://positiwise.com/blog/microservices-architecture-in-net-core",
+    "Title": "Microservices Architecture in .NET Core",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 15,
+        "Name": "dotnet"
+      },
+      {
+        "Id": 24,
+        "Name": "microserv"
+      }
+    ]
+  },
+  {
+    "Id": 325,
+    "Href": "https://www.computerworld.com/article/3704991/google-chromeos-windows-connection.html",
+    "Title": "Google's new ChromeOS-Windows connection",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 14,
+        "Name": "sa"
+      }
+    ]
+  },
+  {
+    "Id": 326,
+    "Href": "https://code-maze.com/dotnet-conditionally-resolve-dependencies/",
+    "Title": "Conditionally Resolve Dependencies in .NET",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      },
+      {
+        "Id": 15,
+        "Name": "dotnet"
+      }
+    ]
+  },
+  {
+    "Id": 327,
+    "Href": "https://www.telerik.com/blogs/making-asynchronous-breakfast-dotnet",
+    "Title": "Asynchronous Breakfast",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 23,
+        "Name": "async"
+      },
+      {
+        "Id": 1,
+        "Name": "c#"
+      },
+      {
+        "Id": 15,
+        "Name": "dotnet"
+      }
+    ]
+  },
+  {
+    "Id": 328,
+    "Href": "https://stackoverflow.com/questions/54087863/how-to-change-classes-of-a-div-element-using-blazor",
+    "Title": "change classes of a div element using Blazor",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 15,
+        "Name": "dotnet"
+      }
+    ]
   }
 ]
