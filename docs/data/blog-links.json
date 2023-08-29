@@ -4370,5 +4370,17 @@
         "Name": "dotnet"
       }
     ]
+  },
+  {
+    "Id": 329,
+    "Href": "https://www.reddit.com/r/dotnet/comments/sw48ai/too_many_dlls_when_publishing_dotnet/",
+    "Title": "dotnet publish - manage number of dlls",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 15,
+        "Name": "dotnet"
+      }
+    ]
   }
 ]
