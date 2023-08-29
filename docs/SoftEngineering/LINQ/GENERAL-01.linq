@@ -2,13 +2,30 @@
 
 void Main()
 {
-	FizzBuzz();
+
+	Regex();
+	// FizzBuzz();
 	// NullCoalescing();
 	// StringFormatting();
 	// GetPayorInfo();
 	// PayorToggleSetting();
 	// GetTransactions();
 	// GetVisitInfo();
+}
+
+void Regex()
+{
+	string pattern = @"^[0-9].*";
+	Regex rg = new Regex(pattern);
+	// Long string
+	var authors = new[] { "Mahesh Chand", "9Raj Kumar", "Mike Gold", "Allen O'Neill", "Marshal Troll", "2-pac" };
+	foreach (var author in authors)
+	{
+		if (rg.IsMatch(author))
+		{
+			Console.WriteLine(author);
+		}		
+	}
 }
 
 void FizzBuzz()
@@ -23,7 +40,7 @@ void FizzBuzz()
 string[] GetFizzBuzz(int fizz, int buzz, int max)
 {
 	var ret = new string[max];
-	
+
 	for (int ind = 1; ind <= max; ind++)
 	{
 		var fizzBuzz = string.Empty;
@@ -39,7 +56,7 @@ string[] GetFizzBuzz(int fizz, int buzz, int max)
 		{
 			fizzBuzz = ind.ToString();
 		}
-		ret[ind-1] = fizzBuzz;
+		ret[ind - 1] = fizzBuzz;
 	}
 
 	return ret;
