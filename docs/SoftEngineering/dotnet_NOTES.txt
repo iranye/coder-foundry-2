@@ -77,6 +77,20 @@ dotnet cake --target="Clean" --verbosity=normal --rebuild
 dotnet publish -o ..\pub --self-contained
 dotnet publish -f net6.0-windows10.0.19041.0 -c Release -p:WindowsPackageType=None -o %pubdir%
 
+--self-contained: Includes the dotnet runtime so that your users don't have to install it separately. This will make your build output bigger.
+
+-p:PublishSingleFile=True: Instead of separate DLLs, everything gets bundled up into a single exe.
+
+-p:PublishTrimmed=True -p:TrimMode=CopyUsed: Some of those DLLs that you don't use will not be created (or included in the single exe if you're also using PublishSingleFile).
+
+-p:PublishTrimmed=True -p:TrimMode=Link: Even more things get trimmed, resulting in a smaller total output size. However, this mode is experimental and can cause runtime errors in some cases if your application uses reflection.
+
+-p:PublishReadyToRun=False: You can save a little bit more space again, but your application will start up slower.
+
+For maximum user-friendliness and performance with a fairly small file size, use --self-contained -p:PublishSingleFile=True -p:PublishTrimmed=True -p:TrimMode=CopyUsed -p:PublishReadyToRun=True.
+
+For the smallest possible output, use --self-contained -p:PublishSingleFile=True -p:PublishTrimmed=True -p:TrimMode=Link -p:PublishReadyToRun=False and be sure to test your application thoroughly for any runtime issues that may result from using the more aggressive TrimMode.
+
 PUBLISH PUBLISH PUBLISH
 
 SLN to PROJ
