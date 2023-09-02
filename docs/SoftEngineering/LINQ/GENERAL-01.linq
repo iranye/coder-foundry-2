@@ -2,15 +2,37 @@
 
 void Main()
 {
-
-	Regex();
+	LinqSelect();
+	// Regex();
 	// FizzBuzz();
 	// NullCoalescing();
 	// StringFormatting();
-	// GetPayorInfo();
-	// PayorToggleSetting();
-	// GetTransactions();
-	// GetVisitInfo();
+}
+
+class Book
+{
+	// TODO: Implement Cloneable and walkthrough blog: https://weblogs.asp.net/bleroy/linq-lambdas
+	string Title { get; set; }
+	string Author { get; set; }
+}
+
+void LinqSelect()
+{
+	string[] fruits = { "apple", "banana", "mango", "orange",
+					  "passionfruit", "grape" };
+
+	var query = fruits.Select((fruit, index) => new { index, str = fruit.Substring(0, index) });
+	foreach (var obj in query)
+	{
+		Console.WriteLine("{0}", obj);
+	}
+	Console.WriteLine();
+
+	var query2 = fruits.Select((fruit, index) => new { index, str = fruit + index });
+	foreach (var obj in query2)
+	{
+		Console.WriteLine("{0}", obj);
+	}
 }
 
 void Regex()

@@ -4382,5 +4382,129 @@
         "Name": "dotnet"
       }
     ]
+  },
+  {
+    "Id": 330,
+    "Href": "https://khalidabuhakmeh.com/measuring-unicode-string-lengths-with-csharp",
+    "Title": "Measuring Unicode String Lengths with C#",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 13,
+        "Name": "blog"
+      },
+      {
+        "Id": 1,
+        "Name": "c#"
+      }
+    ]
+  },
+  {
+    "Id": 331,
+    "Href": "https://www.telerik.com/blogs/blazor-basics-creating-todo-app-using-blazor-server",
+    "Title": "Create a Todo App Using Blazor Server",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 15,
+        "Name": "dotnet"
+      },
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 332,
+    "Href": "https://www.youtube.com/watch?v=KxE7VK3Mj6g",
+    "Title": "Smart Way of Using the Decorator Pattern in C#",
+    "Desc": ".net8 introduces DI Services.AddKeyedSingelton",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      }
+    ]
+  },
+  {
+    "Id": 333,
+    "Href": "https://dev.to/grahamthedev/conways-game-of-lifein-pure-sql-postgres-2okc",
+    "Title": "Conway's Game of Life via Postgresql",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 7,
+        "Name": "sql"
+      },
+      {
+        "Id": 12,
+        "Name": "theory"
+      }
+    ]
+  },
+  {
+    "Id": 334,
+    "Href": "https://brianley.netlify.app/",
+    "Title": "Brian Ley of Coder Foundry",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 335,
+    "Href": "https://www.youtube.com/watch?v=mBBTTi9QESk",
+    "Title": "Front-End Development Challenge in C#",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      },
+      {
+        "Id": 22,
+        "Name": "rich-client"
+      },
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 336,
+    "Href": "https://www.infoworld.com/article/3705097/a-brief-guide-to-langchain-for-software-developers.html",
+    "Title": "Brief guide to LangChain for software developers",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 11,
+        "Name": "ai"
+      }
+    ]
+  },
+  {
+    "Id": 337,
+    "Href": "https://dev.to/mfp22/introducing-the-auto-signal-pattern-1a5h",
+    "Title": "Introducing the auto-signal pattern",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 12,
+        "Name": "theory"
+      },
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
   }
 ]
