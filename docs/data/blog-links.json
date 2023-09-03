@@ -4506,5 +4506,85 @@
         "Name": "web-dev"
       }
     ]
+  },
+  {
+    "Id": 338,
+    "Href": "https://www.ifixit.com/Guide/Lenovo+ThinkPad+X1+Extreme+Keyboard+Replacement/148179",
+    "Title": "ThinkPad X1 Extreme Gen2 replace keyboard",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 14,
+        "Name": "sa"
+      }
+    ]
+  },
+  {
+    "Id": 339,
+    "Href": "https://www.codingwithkids.com/",
+    "Title": "Kids Coding Programs",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 12,
+        "Name": "theory"
+      }
+    ]
+  },
+  {
+    "Id": 340,
+    "Href": "https://www.youtube.com/watch?v=goxI3rOMnmY",
+    "Title": "Secret HttpClient Feature You Need To Use in .NET",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 20,
+        "Name": "video"
+      },
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 341,
+    "Href": "https://dev.to/mana95/how-to-use-rxjs-debounce-time-with-angular-4aj5",
+    "Title": "XJS Debounce Time With Angular",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 342,
+    "Href": "https://dev.to/madsstoumann/clocks-countdowns-timing-in-css-and-javascript-554n ",
+    "Title": "Timing in CSS and JavaScript",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 343,
+    "Href": "https://thenewstack.io/dive-a-simple-app-for-viewing-the-contents-of-a-docker-image/",
+    "Title": "Dive: App to View the Contents of a Docker Image",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 9,
+        "Name": "docker"
+      },
+      {
+        "Id": 10,
+        "Name": "linux"
+      }
+    ]
   }
 ]
