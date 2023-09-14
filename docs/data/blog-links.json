@@ -4586,5 +4586,229 @@
         "Name": "linux"
       }
     ]
+  },
+  {
+    "Id": 344,
+    "Href": "https://blog.cloudtrooper.net/2019/01/21/a-day-in-the-life-of-a-packet-in-azure-kubernetes-service-with-the-azure-cni/",
+    "Title": "A Day in the Life of a Packet in AKS",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 9,
+        "Name": "docker"
+      }
+    ]
+  },
+  {
+    "Id": 345,
+    "Href": "https://blog.sqlauthority.com/2023/07/06/sql-server-convert-cursor-to-set-based-insert/",
+    "Title": "SQL SERVER – Convert Cursor to Set Based Insert",
+    "Desc": "Pinal",
+    "Tags": [
+      {
+        "Id": 13,
+        "Name": "blog"
+      },
+      {
+        "Id": 7,
+        "Name": "sql"
+      }
+    ]
+  },
+  {
+    "Id": 346,
+    "Href": "https://www.nytimes.com/2023/09/01/headway/plastic-recycling-california-law.html",
+    "Title": "Can Plastic Recycling Ever Really Work?",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 5,
+        "Name": "misc"
+      }
+    ]
+  },
+  {
+    "Id": 347,
+    "Href": "https://github.blog/2023-09-01-getting-started-with-edge-computing/",
+    "Title": "Getting started with edge computing",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 348,
+    "Href": "https://www.youtube.com/watch?v=iaoitDrBkBw",
+    "Title": "Case preserving find and replace in Visual Studio",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 19,
+        "Name": "ed"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      }
+    ]
+  },
+  {
+    "Id": 349,
+    "Href": "https://www.computerworld.com/article/3705990/windows-desktop-apps-are-the-future-with-or-without-windows.html",
+    "Title": "Windows desktop apps are the future (with or without Windows)",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 22,
+        "Name": "rich-client"
+      }
+    ]
+  },
+  {
+    "Id": 350,
+    "Href": "https://itnext.io/crafting-database-models-with-knex-js-and-postgresql-b3a74e789794",
+    "Title": "Crafting Database Models with Knex.js and PostgreSQL",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 9,
+        "Name": "docker"
+      },
+      {
+        "Id": 7,
+        "Name": "sql"
+      }
+    ]
+  },
+  {
+    "Id": 351,
+    "Href": "https://dev.to/livecycle/easy-dockerization-with-docker-init-3oom",
+    "Title": "Easy Dockerization with Docker INIT",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 9,
+        "Name": "docker"
+      }
+    ]
+  },
+  {
+    "Id": 352,
+    "Href": "https://thenewstack.io/run-gui-applications-as-containers-with-x11docker/",
+    "Title": "GUI Applications as Containers with x11docker",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 9,
+        "Name": "docker"
+      },
+      {
+        "Id": 22,
+        "Name": "rich-client"
+      }
+    ]
+  },
+  {
+    "Id": 353,
+    "Href": "https://dev.to/this-is-angular/what-is-going-on-here-getting-started-with-logging-in-angular-59k",
+    "Title": "Getting Started With Logging in Angular",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 354,
+    "Href": "https://www.ezzylearning.net/tutorial/dockerize-asp-net-core-api-and-sql-server",
+    "Title": "Dockerize ASP.NET Core API and SQL Server",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 15,
+        "Name": "dotnet"
+      },
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 355,
+    "Href": "https://www.infoq.com/news/2023/09/uno-platform-4-10-released/",
+    "Title": "Uno Platform 4.10",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 22,
+        "Name": "rich-client"
+      }
+    ]
+  },
+  {
+    "Id": 356,
+    "Href": "https://dev.to/avwerosuoghene/understanding-closures-in-javascript-1dkb",
+    "Title": "Understanding Closures in JavaScript",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 357,
+    "Href": "https://www.psychologytoday.com/us/blog/dating-in-the-digital-age/202308/how-to-date-without-an-app",
+    "Title": "How to Date Without an App",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 5,
+        "Name": "misc"
+      }
+    ]
+  },
+  {
+    "Id": 358,
+    "Href": "https://www.wired.com/story/how-to-take-back-control-photos-videos/",
+    "Title": "Take Back Control of Your Photo and Video Storage",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 27,
+        "Name": "media"
+      }
+    ]
+  },
+  {
+    "Id": 359,
+    "Href": "https://thenewstack.io/webassembly-reaches-a-cloud-native-milestone/",
+    "Title": "WebAssembly Reaches a Cloud Native Milestone",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 360,
+    "Href": "https://www.freecodecamp.org/news/how-to-use-apis-in-web-development/",
+    "Title": "How to Use Web APIs in Your Coding Projects",
+    "Desc": "Includes existing API examples (e.g., Food)",
+    "Tags": [
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
   }
 ]

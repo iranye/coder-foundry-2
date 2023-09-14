@@ -1,87 +1,64 @@
-<Query Kind="Program" />
+<Query Kind="Program">
+  <Connection>
+    <ID>420b162b-f922-4b50-91cc-0313fe659f60</ID>
+    <NamingServiceVersion>2</NamingServiceVersion>
+    <Persist>true</Persist>
+    <Server>XBISQL842</Server>
+    <AllowDateOnlyTimeOnly>true</AllowDateOnlyTimeOnly>
+    <DeferDatabasePopulation>true</DeferDatabasePopulation>
+    <Database>TEMP_FCHHOH_EH_DEV</Database>
+    <NoPluralization>true</NoPluralization>
+    <DriverData>
+      <LegacyMFA>false</LegacyMFA>
+    </DriverData>
+  </Connection>
+</Query>
 
+
+// SEE ALSO: C:\src\dev\coder-foundry-2\docs\SoftEngineering\LINQ\GENERAL-01.linq
 void Main()
 {
-	LinqSelect();
-	// Regex();
-	// FizzBuzz();
+	DateTimeHaha();
+	// FileListings();
 	// NullCoalescing();
 	// StringFormatting();
+	// GetPayorInfo();
+	// PayorToggleSetting();
+	// GetTransactions();
+	// GetVisitInfo();
 }
 
-class Book
+void DateTimeHaha()
 {
-	// TODO: Implement Cloneable and walkthrough blog: https://weblogs.asp.net/bleroy/linq-lambdas
-	string Title { get; set; }
-	string Author { get; set; }
+	DateTime dateFromthePast = DateTime.Now.AddDays(-217);
+	dateFromthePast.Dump();
 }
 
-void LinqSelect()
+void FileListings()
 {
-	string[] fruits = { "apple", "banana", "mango", "orange",
-					  "passionfruit", "grape" };
+	var today = DateTime.Today;
+	var todayMidnight = new DateTime(today.Year, today.Month, today.Day);
+	// var todayMidnight = new DateTime( today.Date.DateOnly());
+	var testDir = @"C:\src\yo-test";
+	// var di = new DirectoryInfo(testDir);
 
-	var query = fruits.Select((fruit, index) => new { index, str = fruit.Substring(0, index) });
-	foreach (var obj in query)
+	var archiveDir = @"\\dbintsys110\G$\Archive";
+	var inboundDropDir = @"\\dbintsys110\G$\InboundDrop";
+	var di = new DirectoryInfo(inboundDropDir);
+	ListFilesNewThanDate(di, todayMidnight);
+}
+
+void ListFilesNewThanDate(DirectoryInfo di, DateTime todayMidnight)
+{
+	foreach (var fi in di.GetFiles("*.hl7").Take(3).Where(f => f.LastWriteTime > todayMidnight))
 	{
-		Console.WriteLine("{0}", obj);
-	}
-	Console.WriteLine();
-
-	var query2 = fruits.Select((fruit, index) => new { index, str = fruit + index });
-	foreach (var obj in query2)
-	{
-		Console.WriteLine("{0}", obj);
-	}
-}
-
-void Regex()
-{
-	string pattern = @"^[0-9].*";
-	Regex rg = new Regex(pattern);
-	// Long string
-	var authors = new[] { "Mahesh Chand", "9Raj Kumar", "Mike Gold", "Allen O'Neill", "Marshal Troll", "2-pac" };
-	foreach (var author in authors)
-	{
-		if (rg.IsMatch(author))
-		{
-			Console.WriteLine(author);
-		}		
-	}
-}
-
-void FizzBuzz()
-{
-	int fizz = 3;
-	int buzz = 5;
-	int max = 20;
-	var results = GetFizzBuzz(fizz, buzz, max);
-	results.Dump();
-}
-
-string[] GetFizzBuzz(int fizz, int buzz, int max)
-{
-	var ret = new string[max];
-
-	for (int ind = 1; ind <= max; ind++)
-	{
-		var fizzBuzz = string.Empty;
-		if (ind % fizz == 0)
-		{
-			fizzBuzz = "fizz";
-		}
-		if (ind % buzz == 0)
-		{
-			fizzBuzz += "buzz";
-		}
-		if (String.IsNullOrEmpty(fizzBuzz))
-		{
-			fizzBuzz = ind.ToString();
-		}
-		ret[ind - 1] = fizzBuzz;
+		fi.FullName.Dump();
 	}
 
-	return ret;
+	foreach (var subdir in di.GetDirectories())
+	{
+		ListFilesNewThanDate(subdir, todayMidnight);
+	}
 }
 
 void NullCoalescing()
@@ -120,3 +97,4 @@ void StringFormatting()
 	toPrint.Dump();
 }
 
+// copy /y "C:\Users\inye\OneDrive - Homecare Homebase, LLC\Dev\SoftEngineering\LINQ\GENERAL-01.linq" C:\src\dev\coder-foundry-2\docs\SoftEngineering\LINQ
