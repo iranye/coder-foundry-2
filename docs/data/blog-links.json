@@ -4640,22 +4640,6 @@
     ]
   },
   {
-    "Id": 348,
-    "Href": "https://www.youtube.com/watch?v=iaoitDrBkBw",
-    "Title": "Case preserving find and replace in Visual Studio",
-    "Desc": "",
-    "Tags": [
-      {
-        "Id": 19,
-        "Name": "ed"
-      },
-      {
-        "Id": 20,
-        "Name": "video"
-      }
-    ]
-  },
-  {
     "Id": 349,
     "Href": "https://www.computerworld.com/article/3705990/windows-desktop-apps-are-the-future-with-or-without-windows.html",
     "Title": "Windows desktop apps are the future (with or without Windows)",
@@ -4699,7 +4683,7 @@
     "Id": 352,
     "Href": "https://thenewstack.io/run-gui-applications-as-containers-with-x11docker/",
     "Title": "GUI Applications as Containers with x11docker",
-    "Desc": "",
+    "Desc": "Docker install onto Ubuntu walkthrough",
     "Tags": [
       {
         "Id": 9,
@@ -4740,18 +4724,6 @@
     ]
   },
   {
-    "Id": 355,
-    "Href": "https://www.infoq.com/news/2023/09/uno-platform-4-10-released/",
-    "Title": "Uno Platform 4.10",
-    "Desc": "",
-    "Tags": [
-      {
-        "Id": 22,
-        "Name": "rich-client"
-      }
-    ]
-  },
-  {
     "Id": 356,
     "Href": "https://dev.to/avwerosuoghene/understanding-closures-in-javascript-1dkb",
     "Title": "Understanding Closures in JavaScript",
@@ -4776,30 +4748,6 @@
     ]
   },
   {
-    "Id": 358,
-    "Href": "https://www.wired.com/story/how-to-take-back-control-photos-videos/",
-    "Title": "Take Back Control of Your Photo and Video Storage",
-    "Desc": "",
-    "Tags": [
-      {
-        "Id": 27,
-        "Name": "media"
-      }
-    ]
-  },
-  {
-    "Id": 359,
-    "Href": "https://thenewstack.io/webassembly-reaches-a-cloud-native-milestone/",
-    "Title": "WebAssembly Reaches a Cloud Native Milestone",
-    "Desc": "",
-    "Tags": [
-      {
-        "Id": 2,
-        "Name": "web-dev"
-      }
-    ]
-  },
-  {
     "Id": 360,
     "Href": "https://www.freecodecamp.org/news/how-to-use-apis-in-web-development/",
     "Title": "How to Use Web APIs in Your Coding Projects",
@@ -4808,6 +4756,26 @@
       {
         "Id": 2,
         "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 361,
+    "Href": "https://www.codeproject.com/Articles/36112/Chess-Program-in-C",
+    "Title": "C# Chess WPF",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      },
+      {
+        "Id": 22,
+        "Name": "rich-client"
+      },
+      {
+        "Id": 12,
+        "Name": "theory"
       }
     ]
   }
