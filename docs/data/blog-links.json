@@ -4778,5 +4778,157 @@
         "Name": "theory"
       }
     ]
+  },
+  {
+    "Id": 362,
+    "Href": "https://jonhilton.net/blazor-docker-hosting/",
+    "Title": "Use Docker to deploy Blazor apps",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 9,
+        "Name": "docker"
+      },
+      {
+        "Id": 15,
+        "Name": "dotnet"
+      },
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 363,
+    "Href": "https://dev.to/wasp/contributing-to-tech-communities-how-open-source-can-land-you-a-job-and-get-you-out-of-the-skill-paradox-4ejh",
+    "Title": "How Open-Source can land you a job",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 16,
+        "Name": "git"
+      },
+      {
+        "Id": 12,
+        "Name": "theory"
+      }
+    ]
+  },
+  {
+    "Id": 364,
+    "Href": "https://www.youtube.com/watch?v=u4azTLLGt8U",
+    "Title": "NET 8 Blazor: Render Modes",
+    "Desc": "coder foundry",
+    "Tags": [
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 365,
+    "Href": "https://www.youtube.com/watch?v=6gMDGbf9XZ4",
+    "Title": "C#! - Create, Write, and Read Excel files with C# and .NET",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      }
+    ]
+  },
+  {
+    "Id": 366,
+    "Href": "https://www.youtube.com/watch?v=-_AKTzDrYVc",
+    "Title": "Multiple EF Core DbContexts in a Single App",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      },
+      {
+        "Id": 7,
+        "Name": "sql"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      }
+    ]
+  },
+  {
+    "Id": 367,
+    "Href": "https://thenewstack.io/how-to-use-the-docker-exec-command/",
+    "Title": "How to Use the Docker exec Command",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 9,
+        "Name": "docker"
+      }
+    ]
+  },
+  {
+    "Id": 368,
+    "Href": "https://dev.to/neohaskell/introducing-neohaskell-a-beacon-of-joy-in-a-greyed-tech-world-4f9b",
+    "Title": "Introducing NeoHaskell",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 12,
+        "Name": "theory"
+      }
+    ]
+  },
+  {
+    "Id": 369,
+    "Href": "https://code-maze.com/csharp-arraypool-memory-optimization/",
+    "Title": "Memory Optimization With ArrayPool in C#",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      }
+    ]
+  },
+  {
+    "Id": 370,
+    "Href": "https://www.infoworld.com/article/3707268/build-an-api-gateway-using-yarp-in-aspnet-core.html",
+    "Title": "Build an API gateway using YARP in ASP.NET Core",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 15,
+        "Name": "dotnet"
+      },
+      {
+        "Id": 14,
+        "Name": "sa"
+      }
+    ]
+  },
+  {
+    "Id": 371,
+    "Href": "https://www.youtube.com/watch?v=93PHtu0B47s",
+    "Title": "C# 12 To Change Your .NET Classes Forever",
+    "Desc": "Nick Chap - Big Change to constructor syntax",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      }
+    ]
   }
 ]
