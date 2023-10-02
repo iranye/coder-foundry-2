@@ -468,11 +468,28 @@
   {
     "Id": 50,
     "Title": "Grunge-02",
-    "M3uFiles": [],
+    "M3uFiles": [
+      {
+        "TotalMegaBytes": 53,
+        "PartialPath": "Music\\MP3s\\Pixies\\$Pixies.m3u"
+      },
+      {
+        "TotalMegaBytes": 53,
+        "PartialPath": "Music\\MP3s\\Breeders\\Breeders-Shortlist.m3u"
+      },
+      {
+        "TotalMegaBytes": 59,
+        "PartialPath": "Music\\MP3s\\PJHarvey\\PJHarvey-Shortlist.m3u"
+      },
+      {
+        "TotalMegaBytes": 71,
+        "PartialPath": "Music\\MP3s\\that dog\\that dog-Shortlist.m3u"
+      }
+    ],
     "Created": "2023-03-01T17:59:44",
-    "LastModified": "0001-01-01T00:00:00",
+    "LastModified": "2023-09-29T15:45:03",
     "CopyDirectories": false,
-    "M3usTotalMb": 0
+    "M3usTotalMb": 236
   },
   {
     "Id": 51,
@@ -623,11 +640,20 @@
   {
     "Id": 56,
     "Title": "Mellow-01",
-    "M3uFiles": [],
+    "M3uFiles": [
+      {
+        "TotalMegaBytes": 158,
+        "PartialPath": "Music\\MP3s\\10,000 Maniacs\\10,000 Maniacs-Shortlist.m3u"
+      },
+      {
+        "TotalMegaBytes": 269,
+        "PartialPath": "Music\\MP3s\\Natalie Merchant\\Natalie Merchant-Shortlist.m3u"
+      }
+    ],
     "Created": "2023-03-01T18:01:13",
-    "LastModified": "0001-01-01T00:00:00",
+    "LastModified": "2023-09-28T08:37:48",
     "CopyDirectories": false,
-    "M3usTotalMb": 0
+    "M3usTotalMb": 269
   },
   {
     "Id": 57,
@@ -1352,14 +1378,22 @@
         "PartialPath": "Music\\MP3s\\Bob Dylan\\Bob Dylan-Shortlist.m3u"
       },
       {
+        "TotalMegaBytes": 22,
+        "PartialPath": "Music\\MP3s\\Joe Cocker\\Joe Cocker-Shortlist.m3u"
+      },
+      {
         "TotalMegaBytes": 86,
         "PartialPath": "Music\\MP3s\\Ted Nugent\\Ted Nugent-Shortlist.m3u"
+      },
+      {
+        "TotalMegaBytes": 292,
+        "PartialPath": "Music\\MP3s\\Traffic\\Traffic-Shortlist.m3u"
       }
     ],
     "Created": "2023-05-08T19:04:35",
-    "LastModified": "2023-07-01T10:26:06",
+    "LastModified": "2023-09-28T08:37:27",
     "CopyDirectories": false,
-    "M3usTotalMb": 394
+    "M3usTotalMb": 416
   },
   {
     "Id": 93,
