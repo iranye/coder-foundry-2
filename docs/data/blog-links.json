@@ -4930,5 +4930,65 @@
         "Name": "video"
       }
     ]
+  },
+  {
+    "Id": 372,
+    "Href": "https://devblogs.microsoft.com/cosmosdb/exploring-the-free-try-azure-cosmos-db-experience/",
+    "Title": "Free Try Azure Cosmos DB Experience",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 17,
+        "Name": "az"
+      },
+      {
+        "Id": 7,
+        "Name": "sql"
+      }
+    ]
+  },
+  {
+    "Id": 373,
+    "Href": "https://pureinfotech.com/window-11-copilot-best-tips-tricks/",
+    "Title": "Window 11 Copilot tips and tricks",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 14,
+        "Name": "sa"
+      }
+    ]
+  },
+  {
+    "Id": 374,
+    "Href": "https://khalidabuhakmeh.com/dumb-developer-tricks-fizz-buzz-with-csharp-12-and-polly",
+    "Title": "FizzBuzz w Polly and C# 12",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 13,
+        "Name": "blog"
+      },
+      {
+        "Id": 1,
+        "Name": "c#"
+      }
+    ]
+  },
+  {
+    "Id": 375,
+    "Href": "https://dev.to/maurizio8788/options-pattern-in-net-6-ef9",
+    "Title": "OPTIONS PATTERN IN .NET 6",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 13,
+        "Name": "blog"
+      },
+      {
+        "Id": 1,
+        "Name": "c#"
+      }
+    ]
   }
 ]
