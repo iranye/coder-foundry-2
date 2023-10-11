@@ -4156,22 +4156,6 @@
     ]
   },
   {
-    "Id": 314,
-    "Href": "https://techxplore.com/news/2023-08-chatgpt-showdown-stack.html",
-    "Title": "StackOverflow VS AI",
-    "Desc": "",
-    "Tags": [
-      {
-        "Id": 11,
-        "Name": "ai"
-      },
-      {
-        "Id": 12,
-        "Name": "theory"
-      }
-    ]
-  },
-  {
     "Id": 315,
     "Href": "https://code-maze.com/csharp-equality-operator-and-equals-method",
     "Title": "C# == vs Equality",
@@ -4308,18 +4292,6 @@
       {
         "Id": 24,
         "Name": "microserv"
-      }
-    ]
-  },
-  {
-    "Id": 325,
-    "Href": "https://www.computerworld.com/article/3704991/google-chromeos-windows-connection.html",
-    "Title": "Google's new ChromeOS-Windows connection",
-    "Desc": "",
-    "Tags": [
-      {
-        "Id": 14,
-        "Name": "sa"
       }
     ]
   },
@@ -4919,7 +4891,7 @@
     "Id": 371,
     "Href": "https://www.youtube.com/watch?v=93PHtu0B47s",
     "Title": "C# 12 To Change Your .NET Classes Forever",
-    "Desc": "Nick Chap - Big Change to constructor syntax",
+    "Desc": "Nick Chap - Primary constructor syntax",
     "Tags": [
       {
         "Id": 1,
@@ -4988,6 +4960,78 @@
       {
         "Id": 1,
         "Name": "c#"
+      }
+    ]
+  },
+  {
+    "Id": 376,
+    "Href": "https://www.youtube.com/watch?v=IdE_4NIQEro",
+    "Title": "Fix a broken Keurig",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 5,
+        "Name": "misc"
+      }
+    ]
+  },
+  {
+    "Id": 377,
+    "Href": "https://jonhilton.net/net8-blazor-from-scratch/",
+    "Title": "Build a tiny app from scratch using Blazor and .NET 8",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 15,
+        "Name": "dotnet"
+      },
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 378,
+    "Href": "https://dev.to/codewithsadee/how-to-make-crud-app-in-javascript-27je",
+    "Title": "Build a CRUD app in JavaScript",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 379,
+    "Href": "https://bartwullems.blogspot.com/2023/10/create-aspnet-core-backgroundservice.html",
+    "Title": "ASP.NET Core backgroundservice",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      },
+      {
+        "Id": 15,
+        "Name": "dotnet"
+      }
+    ]
+  },
+  {
+    "Id": 380,
+    "Href": "https://nestenius.se/2023/10/09/debugging-cookie-problems/",
+    "Title": "Debugging cookie problems in ASP.NET Core",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 15,
+        "Name": "dotnet"
+      },
+      {
+        "Id": 2,
+        "Name": "web-dev"
       }
     ]
   }

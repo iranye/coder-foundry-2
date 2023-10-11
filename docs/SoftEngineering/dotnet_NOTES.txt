@@ -1,3 +1,7 @@
+AAA async w/o await AAA
+Task.Run(async () => await LoadData()).Wait();
+AAA async w/o await AAA
+
 III Install SDKs III
 
 winget install Microsoft.DotNet.SDK.7
