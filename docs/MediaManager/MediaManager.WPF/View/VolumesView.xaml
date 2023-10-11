@@ -219,7 +219,7 @@
 
                     <!--Songs-->
                     <StackPanel Grid.RowSpan="2" Grid.Column="2" Height="1000">
-                        <ListView Grid.Row="1"
+                        <ListView
                               Margin="6"
                               ItemsSource="{Binding SelectedItem.SelectedM3uFile.FilesInM3U}"
                               ScrollViewer.CanContentScroll="True"
