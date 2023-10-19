@@ -5034,5 +5034,101 @@
         "Name": "web-dev"
       }
     ]
+  },
+  {
+    "Id": 381,
+    "Href": "https://andrewlock.net/exploring-the-dotnet-8-preview-rendering-blazor-components-to-a-string/",
+    "Title": "Rendering Blazor components to a string",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 13,
+        "Name": "blog"
+      },
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      },
+      {
+        "Id": 14,
+        "Name": "sa"
+      }
+    ]
+  },
+  {
+    "Id": 382,
+    "Href": "https://www.freecodecamp.org/news/prompt-engineering-for-web-developers/",
+    "Title": "Prompt Engineering for Web Developers",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 11,
+        "Name": "ai"
+      },
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 383,
+    "Href": "https://www.youtube.com/watch?v=dgojme5tvBM",
+    "Title": "VS  Code Explains - Ep3: LINQ in C#",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      }
+    ]
+  },
+  {
+    "Id": 384,
+    "Href": "https://www.youtube.com/watch?v=SpfIwlAYaKk",
+    "Title": "PostgreSQL Tutorial for Beginners",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 7,
+        "Name": "sql"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      }
+    ]
+  },
+  {
+    "Id": 385,
+    "Href": "https://www.xda-developers.com/how-install-nvm-windows/",
+    "Title": "How to install NVM on Windows",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 14,
+        "Name": "sa"
+      },
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 386,
+    "Href": "https://thedailywtf.com/articles/taking-the-temperature",
+    "Title": "Daily WTF",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 12,
+        "Name": "theory"
+      }
+    ]
   }
 ]
