@@ -4156,22 +4156,6 @@
     ]
   },
   {
-    "Id": 314,
-    "Href": "https://techxplore.com/news/2023-08-chatgpt-showdown-stack.html",
-    "Title": "StackOverflow VS AI",
-    "Desc": "",
-    "Tags": [
-      {
-        "Id": 11,
-        "Name": "ai"
-      },
-      {
-        "Id": 12,
-        "Name": "theory"
-      }
-    ]
-  },
-  {
     "Id": 315,
     "Href": "https://code-maze.com/csharp-equality-operator-and-equals-method",
     "Title": "C# == vs Equality",
@@ -4308,18 +4292,6 @@
       {
         "Id": 24,
         "Name": "microserv"
-      }
-    ]
-  },
-  {
-    "Id": 325,
-    "Href": "https://www.computerworld.com/article/3704991/google-chromeos-windows-connection.html",
-    "Title": "Google's new ChromeOS-Windows connection",
-    "Desc": "",
-    "Tags": [
-      {
-        "Id": 14,
-        "Name": "sa"
       }
     ]
   },
@@ -4916,22 +4888,6 @@
     ]
   },
   {
-    "Id": 371,
-    "Href": "https://www.youtube.com/watch?v=93PHtu0B47s",
-    "Title": "C# 12 To Change Your .NET Classes Forever",
-    "Desc": "Nick Chap - Big Change to constructor syntax",
-    "Tags": [
-      {
-        "Id": 1,
-        "Name": "c#"
-      },
-      {
-        "Id": 20,
-        "Name": "video"
-      }
-    ]
-  },
-  {
     "Id": 372,
     "Href": "https://devblogs.microsoft.com/cosmosdb/exploring-the-free-try-azure-cosmos-db-experience/",
     "Title": "Free Try Azure Cosmos DB Experience",
@@ -4988,6 +4944,246 @@
       {
         "Id": 1,
         "Name": "c#"
+      }
+    ]
+  },
+  {
+    "Id": 376,
+    "Href": "https://www.youtube.com/watch?v=IdE_4NIQEro",
+    "Title": "Fix a broken Keurig",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 5,
+        "Name": "misc"
+      }
+    ]
+  },
+  {
+    "Id": 377,
+    "Href": "https://jonhilton.net/net8-blazor-from-scratch/",
+    "Title": "Build a tiny app from scratch using Blazor and .NET 8",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 15,
+        "Name": "dotnet"
+      },
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 378,
+    "Href": "https://dev.to/codewithsadee/how-to-make-crud-app-in-javascript-27je",
+    "Title": "Build a CRUD app in JavaScript",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 379,
+    "Href": "https://bartwullems.blogspot.com/2023/10/create-aspnet-core-backgroundservice.html",
+    "Title": "ASP.NET Core backgroundservice",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      },
+      {
+        "Id": 15,
+        "Name": "dotnet"
+      }
+    ]
+  },
+  {
+    "Id": 380,
+    "Href": "https://nestenius.se/2023/10/09/debugging-cookie-problems/",
+    "Title": "Debugging cookie problems in ASP.NET Core",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 15,
+        "Name": "dotnet"
+      },
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 381,
+    "Href": "https://andrewlock.net/exploring-the-dotnet-8-preview-rendering-blazor-components-to-a-string/",
+    "Title": "Rendering Blazor components to a string",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 13,
+        "Name": "blog"
+      },
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      },
+      {
+        "Id": 14,
+        "Name": "sa"
+      }
+    ]
+  },
+  {
+    "Id": 382,
+    "Href": "https://www.freecodecamp.org/news/prompt-engineering-for-web-developers/",
+    "Title": "Prompt Engineering for Web Developers",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 11,
+        "Name": "ai"
+      },
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 383,
+    "Href": "https://www.youtube.com/watch?v=dgojme5tvBM",
+    "Title": "VS  Code Explains - Ep3: LINQ in C#",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      }
+    ]
+  },
+  {
+    "Id": 384,
+    "Href": "https://www.youtube.com/watch?v=SpfIwlAYaKk",
+    "Title": "PostgreSQL Tutorial for Beginners",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 7,
+        "Name": "sql"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      }
+    ]
+  },
+  {
+    "Id": 385,
+    "Href": "https://www.xda-developers.com/how-install-nvm-windows/",
+    "Title": "How to install NVM on Windows",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 14,
+        "Name": "sa"
+      },
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 386,
+    "Href": "https://thedailywtf.com/articles/taking-the-temperature",
+    "Title": "Daily WTF",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 12,
+        "Name": "theory"
+      }
+    ]
+  },
+  {
+    "Id": 387,
+    "Href": "https://www.codeproject.com/Articles/5370282/Functional-Programming-in-Csharp-2",
+    "Title": "Functional Programming in C#",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      },
+      {
+        "Id": 12,
+        "Name": "theory"
+      }
+    ]
+  },
+  {
+    "Id": 388,
+    "Href": "https://www.youtube.com/watch?v=dw10N9Douf8",
+    "Title": "What's White Trash? | Jim Gaffigan",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 27,
+        "Name": "misc"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      }
+    ]
+  },
+  {
+    "Id": 389,
+    "Href": "https://m.youtube.com/watch?v=ZVaSx80uNV0",
+    "Title": "Parenting | Jim Gaffigan",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 27,
+        "Name": "misc"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      }
+    ]
+  },
+  {
+    "Id": 390,
+    "Href": "https://www.freecodecamp.org/news/how-docker-containers-work/",
+    "Title": "How Docker Containers Work",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 9,
+        "Name": "docker"
+      }
+    ]
+  },
+  {
+    "Id": 391,
+    "Href": "https://www.forbes.com/sites/traversmark/2023/10/23/a-psychologist-explains-the-6-stages-of-marriage/?sh=c23b0bc5a865",
+    "Title": "6 Stages of Marriage",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 5,
+        "Name": "misc"
       }
     ]
   }
