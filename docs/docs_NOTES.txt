@@ -1,4 +1,8 @@
-Add Error-handling on fetch (e.g., for bad json)
+TODO:
+	Delete directories: .vs, .vscode, bin, obj
+	Add Error-handling on fetch (e.g., for bad json (see Paul Sherriff's jQuery course))
+	Clean up existing html pages, i.e., update structure, etc. based on Gill's course: BuildWebsiteHTMLandCSS
+	Move existing Regexer code into sub-directory & implement new Regexer page using pages-pattern from previous step
 
 Tags for dev-blog:
 api
