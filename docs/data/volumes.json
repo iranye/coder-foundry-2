@@ -1212,12 +1212,16 @@
       {
         "TotalMegaBytes": 310,
         "PartialPath": "Music\\MP3s\\JethroTull\\_JethroTull-ShortList.m3u"
+      },
+      {
+        "TotalMegaBytes": 167,
+        "PartialPath": "Music\\MP3s\\Santana\\Santana-Shortlist.m3u"
       }
     ],
     "Created": "2023-03-18T17:21:09",
-    "LastModified": "2023-05-03T17:01:19",
+    "LastModified": "2023-10-13T08:55:38",
     "CopyDirectories": false,
-    "M3usTotalMb": 623
+    "M3usTotalMb": 790
   },
   {
     "Id": 87,
@@ -1420,5 +1424,19 @@
     "LastModified": "2023-05-30T11:29:39",
     "CopyDirectories": false,
     "M3usTotalMb": 425
+  },
+  {
+    "Id": 94,
+    "Title": "KGON-07",
+    "M3uFiles": [
+      {
+        "TotalMegaBytes": 22,
+        "PartialPath": "Music\\SimpleDriveMusic\\Rod Stewart\\Storyteller - The Complete Anthology 1964 - 1990\\RodStewart_36.m3u"
+      }
+    ],
+    "Created": "2023-10-17T11:51:32",
+    "LastModified": "2023-10-17T11:52:02",
+    "CopyDirectories": false,
+    "M3usTotalMb": 0
   }
 ]
