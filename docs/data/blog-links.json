@@ -5186,5 +5186,37 @@
         "Name": "misc"
       }
     ]
+  },
+  {
+    "Id": 392,
+    "Href": "https://devblogs.microsoft.com/dotnet/the-convenience-of-system-io/",
+    "Title": "System.IO",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 13,
+        "Name": "blog"
+      },
+      {
+        "Id": 1,
+        "Name": "c#"
+      }
+    ]
+  },
+  {
+    "Id": 393,
+    "Href": "https://medium.com/@nile.bits/building-scalable-asp-net-core-apps-with-rabbitmq-message-queues-9a85ca7e7da0",
+    "Title": "Building Scalable ASP.NET Core Apps with RabbitMQ",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 15,
+        "Name": "dotnet"
+      },
+      {
+        "Id": 24,
+        "Name": "microserv"
+      }
+    ]
   }
 ]
