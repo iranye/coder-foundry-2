@@ -4888,22 +4888,6 @@
     ]
   },
   {
-    "Id": 371,
-    "Href": "https://www.youtube.com/watch?v=93PHtu0B47s",
-    "Title": "C# 12 To Change Your .NET Classes Forever",
-    "Desc": "Nick Chap - Primary constructor syntax",
-    "Tags": [
-      {
-        "Id": 1,
-        "Name": "c#"
-      },
-      {
-        "Id": 20,
-        "Name": "video"
-      }
-    ]
-  },
-  {
     "Id": 372,
     "Href": "https://devblogs.microsoft.com/cosmosdb/exploring-the-free-try-azure-cosmos-db-experience/",
     "Title": "Free Try Azure Cosmos DB Experience",
@@ -5128,6 +5112,78 @@
       {
         "Id": 12,
         "Name": "theory"
+      }
+    ]
+  },
+  {
+    "Id": 387,
+    "Href": "https://www.codeproject.com/Articles/5370282/Functional-Programming-in-Csharp-2",
+    "Title": "Functional Programming in C#",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      },
+      {
+        "Id": 12,
+        "Name": "theory"
+      }
+    ]
+  },
+  {
+    "Id": 388,
+    "Href": "https://www.youtube.com/watch?v=dw10N9Douf8",
+    "Title": "What's White Trash? | Jim Gaffigan",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 27,
+        "Name": "misc"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      }
+    ]
+  },
+  {
+    "Id": 389,
+    "Href": "https://m.youtube.com/watch?v=ZVaSx80uNV0",
+    "Title": "Parenting | Jim Gaffigan",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 27,
+        "Name": "misc"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      }
+    ]
+  },
+  {
+    "Id": 390,
+    "Href": "https://www.freecodecamp.org/news/how-docker-containers-work/",
+    "Title": "How Docker Containers Work",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 9,
+        "Name": "docker"
+      }
+    ]
+  },
+  {
+    "Id": 391,
+    "Href": "https://www.forbes.com/sites/traversmark/2023/10/23/a-psychologist-explains-the-6-stages-of-marriage/?sh=c23b0bc5a865",
+    "Title": "6 Stages of Marriage",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 5,
+        "Name": "misc"
       }
     ]
   }
