@@ -12,20 +12,49 @@
       <LegacyMFA>false</LegacyMFA>
     </DriverData>
   </Connection>
+  <Namespace>Microsoft.VisualBasic</Namespace>
+  <Namespace>Microsoft.VisualBasic.FileIO</Namespace>
 </Query>
 
 
 // SEE ALSO: C:\src\dev\coder-foundry-2\docs\SoftEngineering\LINQ\GENERAL-01.linq
 void Main()
 {
-	DateTimeHaha();
+	// CsvRead();
+	// DateTimeHaha();
 	// FileListings();
 	// NullCoalescing();
-	// StringFormatting();
+	StringFormatting();
 	// GetPayorInfo();
 	// PayorToggleSetting();
 	// GetTransactions();
 	// GetVisitInfo();
+}
+
+void CsvRead()
+{
+	var csvFilePath = @"FILE.CSV";
+	csvFilePath.Dump();
+	using (TextFieldParser parser = new TextFieldParser(csvFilePath))
+	{
+		parser.TextFieldType = FieldType.Delimited;
+		parser.SetDelimiters(",");
+		int i = 0;
+		while (!parser.EndOfData)
+		{
+			Console.Write($"[{i++}]: ");
+			//Process row
+			int j = 0;
+			string[] fields = parser.ReadFields();
+			foreach (string field in fields)
+			{
+				Console.Write(field + ", ");
+				j++;
+			}
+			Console.WriteLine();
+		}
+	}
+
 }
 
 void DateTimeHaha()
@@ -94,6 +123,11 @@ void StringFormatting()
 {
 	var fmt = "{0:D}";
 	var toPrint = string.Format(fmt, DateTime.Now);
+	toPrint.Dump();
+	
+	var x = 1;
+	toPrint = x.ToString("");
+	toPrint = toPrint.PadLeft(2, '0');
 	toPrint.Dump();
 }
 
