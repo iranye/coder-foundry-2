@@ -5218,5 +5218,137 @@
         "Name": "microserv"
       }
     ]
+  },
+  {
+    "Id": 394,
+    "Href": "https://www.youtube.com/watch?v=VBF1wxgjwU8",
+    "Title": "Docker 101",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 9,
+        "Name": "docker"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      }
+    ]
+  },
+  {
+    "Id": 395,
+    "Href": "https://phys.org/news/2023-10-scientists-recycling-plastics.html",
+    "Title": "Scientists close the cycle on recycling mixed plastics",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 5,
+        "Name": "misc"
+      }
+    ]
+  },
+  {
+    "Id": 396,
+    "Href": "https://laurentkempe.com/2023/10/24/simplify-your-dotnet-docker-image-publishing-workflow-with-the-dotnet-sdk/",
+    "Title": "Docker image publishing workflow with the .NET",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 9,
+        "Name": "docker"
+      }
+    ]
+  },
+  {
+    "Id": 397,
+    "Href": "https://blog.jetbrains.com/dotnet/2023/11/07/how-jetbrains-rider-implemented-net-webassembly-debugging/",
+    "Title": "JetBrains Rider Implements .NET WebAssembly Debugging",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 15,
+        "Name": "dotnet"
+      },
+      {
+        "Id": 19,
+        "Name": "ed"
+      },
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 398,
+    "Href": "https://www.youtube.com/watch?v=Rc4jV_3wFi4",
+    "Title": "Nik blog - Parallel await(s)",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 23,
+        "Name": "async"
+      },
+      {
+        "Id": 1,
+        "Name": "c#"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      }
+    ]
+  },
+  {
+    "Id": 399,
+    "Href": "https://dev.to/bigsondev/10-projects-to-skyrocket-your-coding-skills-19hl",
+    "Title": "10 Projects to skyrocket your coding skills",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 12,
+        "Name": "theory"
+      },
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 400,
+    "Href": "https://sysdig.com/resources/guides/s-securing-containers-and-cloud-for-dummies/",
+    "Title": "Securing Containers and Cloud for Dummies",
+    "Desc": "book",
+    "Tags": [
+      {
+        "Id": 9,
+        "Name": "docker"
+      },
+      {
+        "Id": 14,
+        "Name": "sa"
+      }
+    ]
+  },
+  {
+    "Id": 401,
+    "Href": "https://visualstudiomagazine.com/articles/2023/11/14/net-8-ga.aspx?m=1",
+    "Title": "Microsoft Ships .NET 8",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      },
+      {
+        "Id": 15,
+        "Name": "dotnet"
+      },
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
   }
 ]

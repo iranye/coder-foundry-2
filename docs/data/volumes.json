@@ -802,11 +802,36 @@
   {
     "Id": 65,
     "Title": "Sinatra",
-    "M3uFiles": [],
+    "M3uFiles": [
+      {
+        "TotalMegaBytes": 22,
+        "PartialPath": "Music\\MP3s\\WorldCafe\\_WorldCafe-ShortList.m3u"
+      },
+      {
+        "TotalMegaBytes": 82,
+        "PartialPath": "Music\\MP3s\\AmyWinehouse\\AmyWinehouse-Shortlist.m3u"
+      },
+      {
+        "TotalMegaBytes": 64,
+        "PartialPath": "Music\\MP3s\\AnnieLennox\\AnnieLennox-Shortlist.m3u"
+      },
+      {
+        "TotalMegaBytes": 221,
+        "PartialPath": "Music\\MP3s\\Frank Sinatra\\FrankSinatra-Shortlist.m3u"
+      },
+      {
+        "TotalMegaBytes": 109,
+        "PartialPath": "Music\\MP3s\\Kink Live Eight\\KinkLiveEight-Shortlist.m3u"
+      },
+      {
+        "TotalMegaBytes": 191,
+        "PartialPath": "Music\\MP3s\\Neil Diamond\\NeilDiamond.m3u"
+      }
+    ],
     "Created": "2023-03-01T18:03:08",
-    "LastModified": "0001-01-01T00:00:00",
+    "LastModified": "2023-11-16T07:14:21",
     "CopyDirectories": false,
-    "M3usTotalMb": 0
+    "M3usTotalMb": 689
   },
   {
     "Id": 66,
@@ -1438,5 +1463,19 @@
     "LastModified": "2023-10-17T11:52:02",
     "CopyDirectories": false,
     "M3usTotalMb": 0
+  },
+  {
+    "Id": 95,
+    "Title": "Classical-01",
+    "M3uFiles": [
+      {
+        "TotalMegaBytes": 401,
+        "PartialPath": "Music\\MP3s\\_Classical\\_Classical.m3u"
+      }
+    ],
+    "Created": "2023-11-15T09:45:36",
+    "LastModified": "2023-11-15T09:48:45",
+    "CopyDirectories": false,
+    "M3usTotalMb": 22
   }
 ]
