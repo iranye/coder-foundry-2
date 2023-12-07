@@ -5350,5 +5350,81 @@
         "Name": "web-dev"
       }
     ]
+  },
+  {
+    "Id": 402,
+    "Href": "https://jeremydmiller.com/2023/11/28/building-a-critter-stack-application-event-storming/",
+    "Title": "Building a Critter Stack Application: Event Storming",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 12,
+        "Name": "theory"
+      },
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 403,
+    "Href": "https://robconery.com/software-design/does-functional-programming-still-matter/",
+    "Title": "Does Functional Programming Matter To You?",
+    "Desc": "Rob Conery",
+    "Tags": [
+      {
+        "Id": 13,
+        "Name": "blog"
+      },
+      {
+        "Id": 12,
+        "Name": "theory"
+      }
+    ]
+  },
+  {
+    "Id": 404,
+    "Href": "https://khalidabuhakmeh.com/how-to-use-regular-expressions-and-match-evaluators-in-dotnet",
+    "Title": "How to use Regular Expressions and Match Evaluators in .NET",
+    "Desc": "Khalid Abuhakmeh",
+    "Tags": [
+      {
+        "Id": 13,
+        "Name": "blog"
+      },
+      {
+        "Id": 1,
+        "Name": "c#"
+      }
+    ]
+  },
+  {
+    "Id": 405,
+    "Href": "https://www.schneier.com/blog/archives/2023/12/ai-and-trust.html",
+    "Title": "AI and Trust",
+    "Desc": "Bruce Schneier",
+    "Tags": [
+      {
+        "Id": 11,
+        "Name": "ai"
+      },
+      {
+        "Id": 13,
+        "Name": "blog"
+      }
+    ]
+  },
+  {
+    "Id": 406,
+    "Href": "https://dev.to/alvaromontoro/creating-an-interactive-image-gallery-with-html-and-css-35pi",
+    "Title": "Creating an Interactive Image Gallery with HTML and CSS",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
   }
 ]
