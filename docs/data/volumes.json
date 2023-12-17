@@ -757,11 +757,15 @@
   },
   {
     "Id": 63,
-    "Title": "RockMix-01",
+    "Title": "RockMix-02",
     "M3uFiles": [
       {
-        "TotalMegaBytes": 22,
+        "TotalMegaBytes": 55,
         "PartialPath": "Music\\MP3s\\Soundtrack_Coneheads\\_ConeheadsSoundtrack-ShortList.m3u"
+      },
+      {
+        "TotalMegaBytes": 314,
+        "PartialPath": "Music\\MP3s\\U2\\_U2-ShortList.m3u"
       },
       {
         "TotalMegaBytes": 69,
@@ -769,9 +773,9 @@
       }
     ],
     "Created": "2023-03-01T18:02:45",
-    "LastModified": "2023-03-18T16:41:00",
+    "LastModified": "2023-12-16T19:32:39",
     "CopyDirectories": false,
-    "M3usTotalMb": 0
+    "M3usTotalMb": 516
   },
   {
     "Id": 64,
@@ -1477,5 +1481,23 @@
     "LastModified": "2023-11-15T09:48:45",
     "CopyDirectories": false,
     "M3usTotalMb": 22
+  },
+  {
+    "Id": 96,
+    "Title": "Reggae-01",
+    "M3uFiles": [
+      {
+        "TotalMegaBytes": 86,
+        "PartialPath": "Music\\MP3s\\Bob Marley & The Wailers\\_BobMarley-ShortList.m3u"
+      },
+      {
+        "TotalMegaBytes": 359,
+        "PartialPath": "Music\\MP3s\\Lady_Saw\\Lady_Saw-Shortlist.m3u"
+      }
+    ],
+    "Created": "2023-12-17T17:16:03",
+    "LastModified": "2023-12-17T18:09:41",
+    "CopyDirectories": false,
+    "M3usTotalMb": 445
   }
 ]

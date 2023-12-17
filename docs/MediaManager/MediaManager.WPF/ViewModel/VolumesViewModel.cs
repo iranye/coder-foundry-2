@@ -429,6 +429,8 @@
             string message = "OK";
 
             var targetDirName = SelectedItem.Title is null ? "TEMP" : SelectedItem.Title;
+            var randomStr = Helper.GetRandomString(4);
+            targetDirName += $"-{randomStr}";
             string destDirectoryFullPath = Path.Combine(mediaManagerOptions.Value.CopyToPath, targetDirName);
 
             if (!Directory.Exists(destDirectoryFullPath))

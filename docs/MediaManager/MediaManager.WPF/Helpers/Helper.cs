@@ -6,6 +6,19 @@
 
     public static class Helper
     {
+        public static string GetRandomString(int strLen)
+        {
+            var charArr = new char[strLen];
+            var strChars = "abcdefghijklmnopqrstuvwxyz";
+            for (int i = 0; i < strLen; i++)
+            {
+                var rand = new Random();
+                int ind = rand.Next(strChars.Length);
+                charArr[i] = strChars[ind];
+            }
+            return string.Join("", charArr);
+        }
+
         public static IEnumerable<FileInfo> GetFileInfosFromFile(string fullPath)
         {
             if (!File.Exists(fullPath))

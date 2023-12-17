@@ -13,25 +13,24 @@
         </DataTemplate>
     </UserControl.Resources>
     <!-- Volume/Topic View -->
-    <ScrollViewer VerticalScrollBarVisibility="Auto" KeyDown="VolumeItem_KeyDown">
-        <Grid>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="Auto"/>
-                <ColumnDefinition/>
-                <ColumnDefinition Width="Auto"/>
-            </Grid.ColumnDefinitions>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
 
-            <!-- Items list -->
-            <Grid Width="300"
+        <!-- Items list -->
+        <Grid Width="300"
                   Background="#AAA">
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="Auto"/>
-                    <RowDefinition/>
-                </Grid.RowDefinitions>
-                <StackPanel>
-                    <GroupBox Header="S_earch"  Margin="6,0" Padding="0">
-                        <StackPanel Height="50">
-                            <TextBox Text="{Binding FilterString}"
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <StackPanel>
+                <GroupBox Header="S_earch"  Margin="6,0" Padding="0">
+                    <StackPanel Height="50">
+                        <TextBox Text="{Binding FilterString}"
                                  DockPanel.Dock="Left"
                                  MinWidth="260"
                                  Height="27"
@@ -39,33 +38,35 @@
                                  Name="SearchInput"
                                  KeyDown="SearchInput_KeyDown"
                                  TextAlignment="Justify" />
-                            <StackPanel Margin="0 -2" Orientation="Horizontal" >
-                                <Button HorizontalAlignment="Left" Content="_Clear" Width="75" Margin="0 3 0 0" Click="ClearFilter_Click" Command="{Binding ClearFilterCommand}" />
-                                <Button HorizontalAlignment="Left" Content="_JSON" Width="75" Margin="0 3 0 0" Click="ViewJson_Click" ToolTip="Open JSON File" />
-                                <Button HorizontalAlignment="Left" Content="_LOGS" Width="75" Margin="0 3 0 0" Click="ViewLogs_Click" ToolTip="Open LOG File" />
-                            </StackPanel>
+                        <StackPanel Margin="0 -2" Orientation="Horizontal" >
+                            <Button HorizontalAlignment="Left" Content="_Clear" Width="75" Margin="0 3 0 0" Click="ClearFilter_Click" Command="{Binding ClearFilterCommand}" />
+                            <Button HorizontalAlignment="Left" Content="_JSON" Width="75" Margin="0 3 0 0" Click="ViewJson_Click" ToolTip="Open JSON File" />
+                            <Button HorizontalAlignment="Left" Content="_LOGS" Width="75" Margin="0 3 0 0" Click="ViewLogs_Click" ToolTip="Open LOG File" />
                         </StackPanel>
-                    </GroupBox>
-                    <StackPanel Orientation="Horizontal">
-                        <Button Margin="10" Width="75" Command="{Binding AddCommand}" Click="AddNewItem_Click">
-                            <StackPanel Orientation="Horizontal">
-                                <Image Source="/Images/add.png" Height="18" Margin="0 0 5 0"/>
-                                <TextBlock Text="Add"/>
-                            </StackPanel>
-                        </Button>
-                        <Button Content="Delete" Width="75" Margin="0 10 10 10"  Command="{Binding DeleteCommand}" />
                     </StackPanel>
+                </GroupBox>
+                <StackPanel Orientation="Horizontal">
+                    <Button Margin="10" Width="75" Command="{Binding AddCommand}" Click="AddNewItem_Click">
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="/Images/add.png" Height="18" Margin="0 0 5 0"/>
+                            <TextBlock Text="Add"/>
+                        </StackPanel>
+                    </Button>
+                    <Button Content="Delete" Width="75" Margin="0 10 10 10"  Command="{Binding DeleteCommand}" />
                 </StackPanel>
-                <ListView Grid.Row="1"
+            </StackPanel>
+            <ListView Grid.Row="1"
                           ItemsSource="{Binding Path=ListViewItems}"
                           SelectedItem="{Binding SelectedItem,Mode=TwoWay}"
                           ItemTemplate="{StaticResource CustomerDataTemplate}"
                           Margin="10 0 10 10">
-                </ListView>
-            </Grid>
+            </ListView>
+        </Grid>
+
+        <ScrollViewer Grid.Column="1" VerticalScrollBarVisibility="Auto">
 
             <!-- Volume detail -->
-            <StackPanel Grid.Column="1" Margin="10" Visibility="{Binding IsItemSelected,Converter={StaticResource BooleanToVisibilityConv}}">
+            <StackPanel Margin="10" Visibility="{Binding IsItemSelected,Converter={StaticResource BooleanToVisibilityConv}}">
                 <Grid>
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="*"/>
@@ -78,7 +79,7 @@
                     </Grid.RowDefinitions>
                     <Expander Header="Current Dir">
                         <WrapPanel Visibility="{Binding IsItemSelected,Converter={StaticResource BooleanToVisibilityConv}}">
-                            <GroupBox Header="Current Dir" Padding="0">                                
+                            <GroupBox Header="Current Dir" Padding="0">
                                 <StackPanel >
                                     <TextBox Text="{Binding FolderFilter}"
                                          DockPanel.Dock="Left"
@@ -253,6 +254,6 @@
                     </StackPanel>
                 </Grid>
             </StackPanel>
-        </Grid>
-    </ScrollViewer>
+        </ScrollViewer>
+    </Grid>
 </UserControl>
