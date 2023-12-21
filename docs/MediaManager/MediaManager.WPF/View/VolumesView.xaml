@@ -187,13 +187,12 @@
                                 </GroupBox>
                             </StackPanel>
                             <ListView Margin="6"
-                                      VerticalAlignment="Top"
+                                      VerticalAlignment="Stretch"
                                       ItemsSource="{Binding SelectedItem.M3uFiles}"
                                       SelectedItem="{Binding SelectedItem.SelectedM3uFile}"
                                       ScrollViewer.CanContentScroll="True"
                                       ScrollViewer.VerticalScrollBarVisibility="Auto"
-                                      MinHeight="200"
-                                      MaxHeight="600">
+                                      MinHeight="200">
                                 <ListView.ItemTemplate>
                                     <DataTemplate>
                                         <StackPanel Orientation="Horizontal">
