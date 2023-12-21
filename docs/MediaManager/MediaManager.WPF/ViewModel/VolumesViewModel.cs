@@ -11,12 +11,12 @@
     using MediaManager.WPF.Command;
     using MediaManager.WPF.Config;
     using MediaManager.WPF.Helpers;
+    using MediaManager.WPF.Services;
     using Microsoft.Extensions.Logging;
     using Microsoft.Extensions.Options;
     using System;
     using System.Collections.Generic;
     using System.Collections.ObjectModel;
-    using System.Diagnostics;
     using System.IO;
     using System.Linq;
     using System.Text;
@@ -30,14 +30,16 @@
         private readonly IOptions<MediaManagerOptions> mediaManagerOptions;
         private readonly ILogger<VolumesViewModel> logger;
         private VolumeItemViewModel? selectedItem;
+        private IFileSystemService fileSystemService;
 
         public VolumesViewModel(IVolumeDataProvider dataProvider, IMapper mapper, IOptions<MediaManagerOptions> mediaManagerOptions,
-            ILogger<VolumesViewModel> logger)
+            ILogger<VolumesViewModel> logger, IFileSystemService fileSystemService)
         {
             this.dataProvider = dataProvider;
             this.mapper = mapper;
             this.mediaManagerOptions = mediaManagerOptions;
             this.logger = logger;
+            this.fileSystemService = fileSystemService ?? throw new ArgumentNullException(nameof(fileSystemService));
             AddCommand = new DelegateCommand(Add);
             DeleteCommand = new DelegateCommand(Delete, CanDelete);
             SaveCommand = new DelegateCommand(Save);
@@ -185,10 +187,10 @@
         {
             if (CurrentWorkingDirectory == null || string.IsNullOrEmpty(CurrentWorkingDirectory.CurrentDirPath))
             {
-                // StatusViewModel.AddLogMessage("CWD not set");
+                logger.LogWarning("CWD not set");
                 return;
             }
-            Process.Start($"CMD.exe", " /C explorer " + CurrentWorkingDirectory.CurrentDirPath);
+            Task.Run(async () => await fileSystemService.OpenDirectoryAsync(CurrentWorkingDirectory.CurrentDirPath)).Wait();
         }
 
         public void CreateM3u(object? parameter)
@@ -508,6 +510,14 @@
                 logger.LogError("Failed to create CopyFiles script: '{destScriptFullPath}': {ex.Message}", destScriptFullPath, ex.Message);
             }
             logger.LogInformation("Message from CreatScript: {Message}", message);
+        }
+
+        internal void ViewTextFile(string filePath)
+        {
+            if (File.Exists(filePath))
+            {
+                Task.Run(async () => await fileSystemService.OpenFileAsync(filePath)).Wait();
+            }
         }
     }
 }

@@ -7,7 +7,6 @@
 {
     using MediaManager.Domain.Model;
     using MediaManager.WPF.ViewModel;
-    using System.Diagnostics;
     using System.IO;
     using System.Windows;
     using System.Windows.Controls;
@@ -90,16 +89,21 @@
                     MessageBoxResult messageBoxResult = MessageBox.Show($"File not found: {ViewModel.JsonFileFullPath}", "File not found", MessageBoxButton.OK);
                     return;
                 }
-                Process.Start($"CMD.exe", "/C %NP% " + ViewModel.JsonFileFullPath);
+                ViewModel.ViewTextFile(ViewModel.JsonFileFullPath);
             }
         }
 
         private void ViewLogs_Click(object sender, RoutedEventArgs e)
         {
-            var logFile = "app.log";
-            if (File.Exists(logFile))
+            if (ViewModel != null)
             {
-                Process.Start($"CMD.exe", "/C %NP% " + logFile);
+                var logFile = "app.log";
+                if (!File.Exists(logFile))
+                {
+                    MessageBoxResult messageBoxResult = MessageBox.Show($"File not found: {logFile}", "File not found", MessageBoxButton.OK);
+                    return;
+                }
+                ViewModel.ViewTextFile(logFile);
             }
         }
 

@@ -7,6 +7,7 @@
     // --------------------------------------------------------------------------------------------------------------------
     using MediaManager.Domain.Data;
     using MediaManager.WPF.Config;
+    using MediaManager.WPF.Services;
     using MediaManager.WPF.ViewModel;
     using Microsoft.Extensions.Configuration;
     using Microsoft.Extensions.DependencyInjection;
@@ -28,6 +29,8 @@
                     services.AddTransient<MainViewModel>();
                     services.AddTransient<VolumesViewModel>();
                     services.AddTransient<GenericViewModel>();
+                    services.AddTransient<IFileSystemService, FileSystemService>();
+                    services.AddTransient<ICommandLineService, CommandLineService>();
                     services.AddTransient<IVolumeDataProvider, VolumeDataProvider>();
                     services.AddAutoMapper(Assembly.GetExecutingAssembly());
                     services.AddOptions<MediaManagerOptions>()
