@@ -5658,5 +5658,37 @@
         "Name": "web-dev"
       }
     ]
+  },
+  {
+    "Id": 419,
+    "Href": "https://bugtrackingsystem.up.railway.app/Home/Dashboard",
+    "Title": "Christian Ortiz - Coder Foundry",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 15,
+        "Name": "dotnet"
+      },
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 420,
+    "Href": "https://github.com/cortiz313/TheBugTracker/tree/main/TheBugTracker",
+    "Title": "Christian Ortiz - BugTracker Github",
+    "Desc": "Coder Foundry",
+    "Tags": [
+      {
+        "Id": 15,
+        "Name": "dotnet"
+      },
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
   }
 ]
