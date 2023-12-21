@@ -6,6 +6,7 @@ obj/
 .hg/
 /__pycache__/
 MvvmExample/
+*-pub/
 .vs/
 packages/
 CSS3_MM_TUTORIALS/

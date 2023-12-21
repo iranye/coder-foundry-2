@@ -2,6 +2,7 @@
 cd
 set srcdir=MediaManager.WPF
 set pubdir=..\..\mediamanager-pub\Release
+set zipdir=..\..\mediamanager-pub\MediaManager.pub
 dotnet cake --target="Version"
 
 type Directory.Build.props
@@ -14,6 +15,11 @@ dotnet publish -o %pubdir%
 
 pause
 
-dotnet publish -o %pubdir%
+echo robocopy %pubdir% %zipdir% /mir /tee /v
+pause
+robocopy %pubdir% %zipdir% /mir /tee /v
+
+echo 7zproject %zipdir% ..
+7zproject %zipdir% %zipdir%\..
 
 cd ..

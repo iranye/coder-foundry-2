@@ -77,9 +77,13 @@
                         <RowDefinition Height="Auto" />
                         <RowDefinition Height="400" />
                     </Grid.RowDefinitions>
-                    <Expander Header="Current Dir">
-                        <WrapPanel Visibility="{Binding IsItemSelected,Converter={StaticResource BooleanToVisibilityConv}}">
-                            <GroupBox Header="Current Dir" Padding="0">
+                        <Expander Header="Current Dir">
+                        <GroupBox Header="Current Dir" Padding="0">
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="230" />
+                                    <RowDefinition Height="Auto" />
+                                </Grid.RowDefinitions>
                                 <StackPanel >
                                     <TextBox Text="{Binding FolderFilter}"
                                          DockPanel.Dock="Left"
@@ -113,15 +117,19 @@
                                             </HierarchicalDataTemplate>
                                         </TreeView.ItemTemplate>
                                     </TreeView>
+                                </StackPanel>
+                                <Grid Grid.Row="1" MinHeight="200">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="50" />
+                                        <RowDefinition Height="Auto" />
+                                    </Grid.RowDefinitions>
                                     <StackPanel Orientation="Horizontal">
                                         <TextBox Height="30" Width="500" Text="{Binding CurrentWorkingDirectory.CurrentDirPath, Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"/>
                                         <Button Content="Open" Width="75" Margin="10" ToolTip="Open Explorer to CWD" Command="{Binding OpenExplorerWindowCommand}" />
                                     </StackPanel>
-                                    <ListView ItemsSource="{Binding CurrentWorkingDirectory.CwdFiles}"
-                                          SelectedItem="{Binding CurrentWorkingDirectory.SelectedFile}"
+                                    <ListView Grid.Row="1" ItemsSource="{Binding CurrentWorkingDirectory.CwdFiles}"                                          SelectedItem="{Binding CurrentWorkingDirectory.SelectedFile}"
                                           ScrollViewer.CanContentScroll="True"
-                                          ScrollViewer.VerticalScrollBarVisibility="Auto"
-                                          MinHeight="200">
+                                          MinHeight="200" MaxHeight="300">
                                         <ListView.ItemTemplate>
                                             <DataTemplate>
                                                 <StackPanel Orientation="Horizontal">
@@ -134,9 +142,9 @@
                                             </DataTemplate>
                                         </ListView.ItemTemplate>
                                     </ListView>
-                                </StackPanel>
-                            </GroupBox>
-                        </WrapPanel>
+                                </Grid>
+                            </Grid>
+                        </GroupBox>
                     </Expander>
 
                     <!--M3us-->
@@ -179,13 +187,13 @@
                                 </GroupBox>
                             </StackPanel>
                             <ListView Margin="6"
-                                      DockPanel.Dock="Top"
+                                      VerticalAlignment="Top"
                                       ItemsSource="{Binding SelectedItem.M3uFiles}"
                                       SelectedItem="{Binding SelectedItem.SelectedM3uFile}"
                                       ScrollViewer.CanContentScroll="True"
-                                      ScrollViewer.VerticalScrollBarVisibility="Visible"
+                                      ScrollViewer.VerticalScrollBarVisibility="Auto"
                                       MinHeight="200"
-                                      MaxHeight="1000">
+                                      MaxHeight="600">
                                 <ListView.ItemTemplate>
                                     <DataTemplate>
                                         <StackPanel Orientation="Horizontal">
@@ -219,7 +227,7 @@
                           VerticalAlignment="Stretch" />
 
                     <!--Songs-->
-                    <StackPanel Grid.RowSpan="2" Grid.Column="2" Height="1000">
+                    <StackPanel Grid.RowSpan="2" Grid.Column="2">
                         <ListView
                               Margin="6"
                               ItemsSource="{Binding SelectedItem.SelectedM3uFile.FilesInM3U}"
