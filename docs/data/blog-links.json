@@ -3577,13 +3577,25 @@
   },
   {
     "Id": 266,
-    "Href": "https://csfirst.withgoogle.com/s/en/home?gclid=Cj0KCQjwi46iBhDyARIsAE3nVrYFF4vClahXYMy6BjPZV83t3N2ByVTZafctsVWx7XF_bplpBWL-GuUaAkFqEALw_wcB#",
+    "Href": "https://csfirst.withgoogle.com/s/en/home",
     "Title": "computer science curriculum to teach coding",
     "Desc": "",
     "Tags": [
       {
         "Id": 12,
         "Name": "theory"
+      },
+      {
+        "Id": 15,
+        "Name": "dotnet"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      },
+      {
+        "Id": 2,
+        "Name": "web-dev"
       }
     ]
   },
@@ -5456,6 +5468,194 @@
       {
         "Id": 20,
         "Name": "video"
+      }
+    ]
+  },
+  {
+    "Id": 409,
+    "Href": "https://www.youtube.com/watch?v=a0xOqNemRoY",
+    "Title": "Fluent UI Blazor components",
+    "Desc": ".NET Conf 2023",
+    "Tags": [
+      {
+        "Id": 15,
+        "Name": "dotnet"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      },
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 410,
+    "Href": "https://www.youtube.com/watch?v=FpQXyFoZ9aY",
+    "Title": "ASP.NET Core APIs with native AOT",
+    "Desc": ".NET Conf 2023",
+    "Tags": [
+      {
+        "Id": 15,
+        "Name": "dotnet"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      },
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 411,
+    "Href": "https://www.youtube.com/watch?v=fVkA1AHd37M",
+    "Title": "C# with Godot to make Games",
+    "Desc": ".NET Conf 2023 - Code Pong",
+    "Tags": [
+      {
+        "Id": 15,
+        "Name": "dotnet"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      },
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 412,
+    "Href": "https://www.youtube.com/watch?v=scIAwLrruMY",
+    "Title": ".NET Containers advancements in .NET 8",
+    "Desc": ".NET Conf 2023",
+    "Tags": [
+      {
+        "Id": 9,
+        "Name": "docker"
+      },
+      {
+        "Id": 15,
+        "Name": "dotnet"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      },
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 413,
+    "Href": "https://dev.to/lissy93/50-ways-to-bring-in-extra-cash-as-a-developer-19b6",
+    "Title": "50 ways to bring in extra cash as a developer",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 6,
+        "Name": "code-challenge"
+      },
+      {
+        "Id": 12,
+        "Name": "theory"
+      }
+    ]
+  },
+  {
+    "Id": 414,
+    "Href": "https://dev.to/wasp/supercharge-your-windows-development-the-ultimate-guide-to-wsl-195m",
+    "Title": "Windows Development: The Ultimate Guide to WSL",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 10,
+        "Name": "linux"
+      },
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 415,
+    "Href": "https://www.youtube.com/watch?v=IzDMg916t98",
+    "Title": "Search for Values in .NET 8",
+    "Desc": "Nick C - new SearchValues<T>",
+    "Tags": [
+      {
+        "Id": 13,
+        "Name": "blog"
+      },
+      {
+        "Id": 1,
+        "Name": "c#"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      }
+    ]
+  },
+  {
+    "Id": 416,
+    "Href": "https://cheezburger.com/23200261/programming-memes-for-coding-geeks-november-26-2023",
+    "Title": "Programming Memes for Coding Geeks",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 5,
+        "Name": "misc"
+      }
+    ]
+  },
+  {
+    "Id": 417,
+    "Href": "https://www.youtube.com/watch?v=nQ34SsFVIp4",
+    "Title": "XAML tools in Visual Studio",
+    "Desc": ".NET MAUI Minutes",
+    "Tags": [
+      {
+        "Id": 15,
+        "Name": "dotnet"
+      },
+      {
+        "Id": 22,
+        "Name": "rich-client"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      }
+    ]
+  },
+  {
+    "Id": 418,
+    "Href": "https://www.youtube.com/watch?v=v84VOudElNI",
+    "Title": "Minimal API +SPA, a perfect match",
+    "Desc": ".NET Conf 2023 - React + dotnet",
+    "Tags": [
+      {
+        "Id": 15,
+        "Name": "dotnet"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      },
+      {
+        "Id": 2,
+        "Name": "web-dev"
       }
     ]
   }
