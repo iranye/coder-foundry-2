@@ -5426,5 +5426,37 @@
         "Name": "web-dev"
       }
     ]
+  },
+  {
+    "Id": 407,
+    "Href": "https://www.youtube.com/watch?v=N1weyWS_pL0",
+    "Title": "What's new with WinForms ",
+    "Desc": ".NET Conf 2023",
+    "Tags": [
+      {
+        "Id": 22,
+        "Name": "rich-client"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      }
+    ]
+  },
+  {
+    "Id": 408,
+    "Href": "https://www.youtube.com/watch?v=yF9SwL0p0Y0",
+    "Title": "Clean Architecture with ASP.NET Core 8",
+    "Desc": ".NET Conf 2023 - Ardalis",
+    "Tags": [
+      {
+        "Id": 12,
+        "Name": "theory"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      }
+    ]
   }
 ]

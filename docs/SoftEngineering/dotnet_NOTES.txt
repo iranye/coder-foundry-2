@@ -18,6 +18,12 @@ to update: dotnet tool update -g Microsoft.dotnet-try
 
 MMM Microsoft.dotnet-try 
 
+PACKAGE INSTALL PACKAGE INSTALL PACKAGE INSTALL
+dotnet new install Ardalis.CleanArchitecture.Template::9.0.0-preview2
+dotnet new clean-arch -n NimblePros.Sample
+
+PACKAGE INSTALL PACKAGE INSTALL PACKAGE INSTALL
+
 TOOL TOOL TOOL
 dotnet tool restore
 dotnet tool run dotnet-cake -- --Target=Generate-Coverage-Report
