@@ -5690,5 +5690,273 @@
         "Name": "web-dev"
       }
     ]
+  },
+  {
+    "Id": 421,
+    "Href": "https://nietras.com/2023/11/14/dotnet-and-csharp-versions/?ref=dailydev",
+    "Title": ".NET and C# Versions - Features By Version",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      },
+      {
+        "Id": 15,
+        "Name": "dotnet"
+      }
+    ]
+  },
+  {
+    "Id": 422,
+    "Href": "https://ayende.com/blog/200353-B/learning-over-the-holidays-yet-another-bug-tracker-sample-app",
+    "Title": "Yet Another Bug Tracker App dotnet + RavenDB",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 13,
+        "Name": "blog"
+      },
+      {
+        "Id": 15,
+        "Name": "dotnet"
+      }
+    ]
+  },
+  {
+    "Id": 423,
+    "Href": "https://www.youtube.com/watch?v=cpL-fuiEfwU",
+    "Title": "Nik Chapsas LINQ methods All vs TrueForAll",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 13,
+        "Name": "blog"
+      },
+      {
+        "Id": 1,
+        "Name": "c#"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      }
+    ]
+  },
+  {
+    "Id": 424,
+    "Href": "https://www.youtube.com/watch?v=XpFsMB6FoOs",
+    "Title": "Linux Boot Process",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 10,
+        "Name": "linux"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      }
+    ]
+  },
+  {
+    "Id": 425,
+    "Href": "https://stackoverflow.blog/2023/12/11/three-types-of-ai-assisted-programmers/",
+    "Title": "Stackoverflow: three-types-of-ai-assisted-programmers",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 11,
+        "Name": "ai"
+      }
+    ]
+  },
+  {
+    "Id": 426,
+    "Href": "https://www.youtube.com/watch?v=UY4Br23k1jQ",
+    "Title": "Burke Learns Blazor",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 20,
+        "Name": "video"
+      },
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 427,
+    "Href": "https://www.theregister.com/2023/12/26/michael_stonebraker_feature/",
+    "Title": "Postgres pioneer Michael Stonebraker",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 13,
+        "Name": "blog"
+      },
+      {
+        "Id": 7,
+        "Name": "sql"
+      }
+    ]
+  },
+  {
+    "Id": 428,
+    "Href": "https://www.tomsguide.com/news/best-netflix-original-movies-2023",
+    "Title": "Netfix recommendations",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 4,
+        "Name": "recr"
+      }
+    ]
+  },
+  {
+    "Id": 429,
+    "Href": "https://medium.com/@paulhammer/mastering-ef-core-performance-with-assplitquery-a-game-changer-for-complex-queries-to-avoid-116e529f5b43",
+    "Title": "EF Core Performance Tips",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 13,
+        "Name": "blog"
+      },
+      {
+        "Id": 7,
+        "Name": "sql"
+      }
+    ]
+  },
+  {
+    "Id": 430,
+    "Href": "https://www.youtube.com/watch?v=6SaYkzxAULo",
+    "Title": "Coder Foundry - .NET 8 + Blazor Server Side Magic",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 20,
+        "Name": "video"
+      },
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 431,
+    "Href": "https://youtu.be/4KHFrbJHCHc?si=3UFRfNNX86yyxiE2",
+    "Title": "Nik Chap - Create CLI Apps in .NET",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      }
+    ]
+  },
+  {
+    "Id": 432,
+    "Href": "https://www.xda-developers.com/wingetui-2-2-0-update/",
+    "Title": "WingetUI downloading CLI packages on Windows",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 14,
+        "Name": "sa"
+      }
+    ]
+  },
+  {
+    "Id": 433,
+    "Href": "https://www.youtube.com/watch?v=gl9--LlIeyg",
+    "Title": "Reusable styles in your app",
+    "Desc": ".NET MAUI Minutes",
+    "Tags": [
+      {
+        "Id": 15,
+        "Name": "dotnet"
+      },
+      {
+        "Id": 22,
+        "Name": "rich-client"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      }
+    ]
+  },
+  {
+    "Id": 434,
+    "Href": "https://dev.to/braide/css-grid-vs-flexbox-choosing-the-right-layout-technique-1hfa",
+    "Title": "CSS Grid vs. Flexbox",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 435,
+    "Href": "https://thenewstack.io/donald-knuths-2023-christmas-lecture-make-the-cells-dance/",
+    "Title": "Donald Knuth’s 2023 Christmas Lecture",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 12,
+        "Name": "theory"
+      }
+    ]
+  },
+  {
+    "Id": 436,
+    "Href": "https://www.youtube.com/watch?v=4pqHLyhnuUY",
+    "Title": "System.Text.Json - How to read & write .NET objects as JSON",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      }
+    ]
+  },
+  {
+    "Id": 437,
+    "Href": "https://dev.to/paulgordon/after-using-rawjs-im-never-touching-react-again-or-any-framework-vanilla-javascript-is-the-future-3ac1",
+    "Title": "Used RawJS, never touching React again",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 438,
+    "Href": "https://www.remotasks.com/en/projects/coding-experts-t1t2-3423645",
+    "Title": "Earn $ Training AI Chatbots",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 11,
+        "Name": "ai"
+      }
+    ]
   }
 ]
