@@ -6086,5 +6086,53 @@
         "Name": "web-dev"
       }
     ]
+  },
+  {
+    "Id": 447,
+    "Href": "https://wizardzines.com/comics/inside-git/",
+    "Title": "Inside git",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 16,
+        "Name": "git"
+      }
+    ]
+  },
+  {
+    "Id": 448,
+    "Href": "https://timheuer.com/blog/anatomy-of-a-dotnet-devcontainer/",
+    "Title": "Anatomy of a .NET devcontainer",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 9,
+        "Name": "docker"
+      },
+      {
+        "Id": 15,
+        "Name": "dotnet"
+      }
+    ]
+  },
+  {
+    "Id": 449,
+    "Href": "https://khalidabuhakmeh.com/vestpocket-file-based-data-storage-for-aot-dotnet-applications",
+    "Title": "VestPocket: File-based Data Storage",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 13,
+        "Name": "blog"
+      },
+      {
+        "Id": 1,
+        "Name": "c#"
+      },
+      {
+        "Id": 15,
+        "Name": "dotnet"
+      }
+    ]
   }
 ]
