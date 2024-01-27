@@ -5936,18 +5936,6 @@
     ]
   },
   {
-    "Id": 437,
-    "Href": "https://dev.to/paulgordon/after-using-rawjs-im-never-touching-react-again-or-any-framework-vanilla-javascript-is-the-future-3ac1",
-    "Title": "Used RawJS, never touching React again",
-    "Desc": "",
-    "Tags": [
-      {
-        "Id": 2,
-        "Name": "web-dev"
-      }
-    ]
-  },
-  {
     "Id": 438,
     "Href": "https://www.remotasks.com/en/projects/coding-experts-t1t2-3423645",
     "Title": "Earn $ Training AI Chatbots",
@@ -5956,6 +5944,146 @@
       {
         "Id": 11,
         "Name": "ai"
+      }
+    ]
+  },
+  {
+    "Id": 439,
+    "Href": "https://dev.to/kshyun28/how-to-make-your-awesome-github-profile-hog",
+    "Title": "Improve your Github Profile",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 13,
+        "Name": "blog"
+      },
+      {
+        "Id": 16,
+        "Name": "git"
+      }
+    ]
+  },
+  {
+    "Id": 440,
+    "Href": "https://www.youtube.com/watch?v=TLNdwvIFoCg",
+    "Title": "Lazygit",
+    "Desc": "typecraft",
+    "Tags": [
+      {
+        "Id": 16,
+        "Name": "git"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      }
+    ]
+  },
+  {
+    "Id": 441,
+    "Href": "https://www.telerik.com/blogs/aspnet-core-basics-knowing-applying-design-patterns",
+    "Title": "Design Patterns in ASP.NET Core",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 12,
+        "Name": "theory"
+      },
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 442,
+    "Href": "https://youtu.be/-Dpg9fqXWGM?si=Wum1K4-n2XDJO-Z4",
+    "Title": "Integration Testing in ASP.NET Core",
+    "Desc": "Raw Coding",
+    "Tags": [
+      {
+        "Id": 26,
+        "Name": "testing"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      },
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 443,
+    "Href": "https://www.youtube.com/watch?v=hqyozHSL0Nk",
+    "Title": "dotnet 8 Blazor Tailwind Template",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 15,
+        "Name": "dotnet"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      },
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 444,
+    "Href": "https://www.dexerto.com/tech/modders-make-the-wii-relevant-again-thanks-to-ingenious-hack-2471340/",
+    "Title": "Wii Music Streaming Server hack",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 27,
+        "Name": "media"
+      },
+      {
+        "Id": 14,
+        "Name": "sa"
+      }
+    ]
+  },
+  {
+    "Id": 445,
+    "Href": "https://www.youtube.com/watch?v=21zduERRS3M",
+    "Title": "Containers with dotnet and Docker",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 9,
+        "Name": "docker"
+      },
+      {
+        "Id": 15,
+        "Name": "dotnet"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      }
+    ]
+  },
+  {
+    "Id": 446,
+    "Href": "https://www.angularaddicts.com/p/the-best-of-angular-2023",
+    "Title": "Angular: a collection of my favorite resources of 2023",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 13,
+        "Name": "blog"
+      },
+      {
+        "Id": 2,
+        "Name": "web-dev"
       }
     ]
   }
