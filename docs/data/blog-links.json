@@ -2204,22 +2204,6 @@
     ]
   },
   {
-    "Id": 166,
-    "Href": "https://visualstudiomagazine.com/articles/2022/02/10/blazor-hybrid-net-7.aspx?m=1",
-    "Title": "Blazor Hybrid in .NET 7",
-    "Desc": "",
-    "Tags": [
-      {
-        "Id": 15,
-        "Name": "dotnet"
-      },
-      {
-        "Id": 2,
-        "Name": "web-dev"
-      }
-    ]
-  },
-  {
     "Id": 168,
     "Href": "https://dev.to/davidkroell/dont-use-stringtolower-in-c-when-comparing-strings-1hdi",
     "Title": "Don't use String.ToLower() in C# when comparing strings",
@@ -2444,22 +2428,6 @@
     ]
   },
   {
-    "Id": 186,
-    "Href": "https://myfox8.com/news/good-for-her/greensboro-woman-uses-tech-to-help-with-homeless-crisis/",
-    "Title": "Greensboro woman uses tech to help the homeless",
-    "Desc": "Students at the University of Central Florida are helping her build the (cloud-based) app.",
-    "Tags": [
-      {
-        "Id": 17,
-        "Name": "az"
-      },
-      {
-        "Id": 12,
-        "Name": "theory"
-      }
-    ]
-  },
-  {
     "Id": 187,
     "Href": "https://m.youtube.com/shorts/IETnIoz-jFQ",
     "Title": "Watch Copilot Explain Code Like a Human!",
@@ -2604,22 +2572,6 @@
       {
         "Id": 7,
         "Name": "sql"
-      }
-    ]
-  },
-  {
-    "Id": 198,
-    "Href": "https://jonhilton.net/blazor-united/",
-    "Title": "Blazor's biggest challenges",
-    "Desc": "",
-    "Tags": [
-      {
-        "Id": 13,
-        "Name": "blog"
-      },
-      {
-        "Id": 2,
-        "Name": "web-dev"
       }
     ]
   },
@@ -3972,18 +3924,6 @@
       {
         "Id": 10,
         "Name": "linux"
-      }
-    ]
-  },
-  {
-    "Id": 299,
-    "Href": "https://visualstudiomagazine.com/articles/2023/07/13/xaml-blazor.aspx?m=1",
-    "Title": "Silverlight Just Won't Die: 'XAML for Blazor'",
-    "Desc": "",
-    "Tags": [
-      {
-        "Id": 2,
-        "Name": "web-dev"
       }
     ]
   },
