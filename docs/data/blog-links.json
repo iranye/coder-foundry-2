@@ -6074,5 +6074,89 @@
         "Name": "dotnet"
       }
     ]
+  },
+  {
+    "Id": 450,
+    "Href": "https://www.code4it.dev/blog/how-to-get-random-items/",
+    "Title": ".net 8 updates of Random.GetItems",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 15,
+        "Name": "dotnet"
+      }
+    ]
+  },
+  {
+    "Id": 451,
+    "Href": "https://www.windowscentral.com/software-apps/windows-11/how-to-find-out-the-ssd-health-on-windows-11",
+    "Title": "SSD Health Check",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 14,
+        "Name": "sa"
+      }
+    ]
+  },
+  {
+    "Id": 452,
+    "Href": "https://github.blog/2024-01-08-github-certifications-are-generally-available/",
+    "Title": "GitHub Certifications ",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 16,
+        "Name": "git"
+      },
+      {
+        "Id": 12,
+        "Name": "theory"
+      }
+    ]
+  },
+  {
+    "Id": 453,
+    "Href": "https://andrewlock.net/understanding-default-interface-methods/",
+    "Title": "Understanding C# 8 default interface methods",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      }
+    ]
+  },
+  {
+    "Id": 454,
+    "Href": "https://www.youtube.com/watch?si=3i20vnHJv9qgNzt-&v=HcVfL9o4LUw&feature=youtu.be",
+    "Title": "Blazor JS Interop",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 20,
+        "Name": "video"
+      },
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 455,
+    "Href": "https://www.youtube.com/watch?v=DdsD1j8a-DA",
+    "Title": "Sortable Drag & Drop Lists for your Blazor",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 20,
+        "Name": "video"
+      },
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
   }
 ]
