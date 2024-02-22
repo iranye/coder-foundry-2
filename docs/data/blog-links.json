@@ -5952,6 +5952,10 @@
       {
         "Id": 2,
         "Name": "web-dev"
+      },
+      {
+        "Id": 1,
+        "Name": "c#"
       }
     ]
   },
@@ -6156,6 +6160,86 @@
       {
         "Id": 2,
         "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 456,
+    "Href": "https://dev.to/dotnet/an-introduction-to-the-world-of-containers-with-net-8-4elf",
+    "Title": "World of Containers with .NET 8",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 9,
+        "Name": "docker"
+      },
+      {
+        "Id": 15,
+        "Name": "dotnet"
+      }
+    ]
+  },
+  {
+    "Id": 457,
+    "Href": "https://khalidabuhakmeh.com/how-to-map-sql-results-to-any-object-using-entity-framework-core-8",
+    "Title": "EF Core 8 - Map SQL Results To Any Object",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      },
+      {
+        "Id": 7,
+        "Name": "sql"
+      }
+    ]
+  },
+  {
+    "Id": 458,
+    "Href": "https://arstechnica.com/information-technology/2024/02/doing-dns-and-dhcp-for-your-lan-the-old-way-the-way-that-works/",
+    "Title": "DNS and DHCP for your LAN the old way",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 10,
+        "Name": "linux"
+      },
+      {
+        "Id": 14,
+        "Name": "sa"
+      }
+    ]
+  },
+  {
+    "Id": 459,
+    "Href": "https://www.youtube.com/watch?v=nka_qn6bDWU",
+    "Title": "What you should know about Threads in .NET",
+    "Desc": "Raw Coding",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      }
+    ]
+  },
+  {
+    "Id": 460,
+    "Href": "https://www.youtube.com/watch?v=cWLgbULu4p0",
+    "Title": "Building an ASP.NET Core App using Functional Programming",
+    "Desc": "Raw Coding",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
       }
     ]
   }
