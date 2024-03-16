@@ -1,4 +1,19 @@
-https://stackoverflow.com/questions/10418975/how-to-change-line-ending-settings
+
+EEE EEE EEE fatal: Unable to persist credentials with the 'wincredman' credential store EEE EEE EEE
+
+https://stackoverflow.com/questions/72695102/git-suddenly-wont-authenticate-to-github-automatically
+
+-- 1.
+git config --global credential.credentialStore dpapi
+
+-- 2.
+SET GCM_CREDENTIAL_STORE="wincredman"
+
+EEE EEE EEE fatal: Unable to persist credentials with the 'wincredman' credential store EEE EEE EEE
+
+https://jvns.ca/blog/2024/03/08/how-head-works-in-git/
+git show HEAD
+
 
 --Stop tracking of appsettings.json
 git ls-files -o | grep appsettings.json
