@@ -6314,5 +6314,61 @@
         "Name": "c#"
       }
     ]
+  },
+  {
+    "Id": 466,
+    "Href": "https://www.youtube.com/watch?v=Y2iJOPxw0JU",
+    "Title": "Books every software engineer should read in 2024",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 12,
+        "Name": "theory"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      }
+    ]
+  },
+  {
+    "Id": 467,
+    "Href": "https://www.youtube.com/watch?v=E_bkN_KperE",
+    "Title": "Use dotnet-outdated to update their project's references",
+    "Desc": "Hanselman walking through updating NuGets, etc",
+    "Tags": [
+      {
+        "Id": 13,
+        "Name": "blog"
+      },
+      {
+        "Id": 15,
+        "Name": "dotnet"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      }
+    ]
+  },
+  {
+    "Id": 468,
+    "Href": "https://www.youtube.com/watch?v=p1gsK69m94Y",
+    "Title": "Nick C - Build Messaging in .NET with Wolverine",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 13,
+        "Name": "blog"
+      },
+      {
+        "Id": 24,
+        "Name": "microserv"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      }
+    ]
   }
 ]
