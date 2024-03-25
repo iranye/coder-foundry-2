@@ -6370,5 +6370,97 @@
         "Name": "video"
       }
     ]
+  },
+  {
+    "Id": 469,
+    "Href": "https://martinfowler.com/articles/2024-refactoring-code-samples.html",
+    "Title": "Code samples for the opening chapter of Refactoring",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      },
+      {
+        "Id": 12,
+        "Name": "theory"
+      }
+    ]
+  },
+  {
+    "Id": 470,
+    "Href": "https://lifehacker.com/health/use-the-hefe-method-to-get-better-at-small-talk",
+    "Title": "HEFE Method to Strike Up a Conversation",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 5,
+        "Name": "misc"
+      },
+      {
+        "Id": 4,
+        "Name": "recr"
+      }
+    ]
+  },
+  {
+    "Id": 471,
+    "Href": "https://stackoverflow.com/questions/14628398/copying-files-in-the-background",
+    "Title": "Copying files using Background Worker",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 23,
+        "Name": "async"
+      },
+      {
+        "Id": 1,
+        "Name": "c#"
+      }
+    ]
+  },
+  {
+    "Id": 472,
+    "Href": "https://www.psypost.org/link-between-anxious-attachment-and-materialistic-values-revealed-in-new-psychology-study/",
+    "Title": "Link between anxious attachment and materialistic values",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 5,
+        "Name": "misc"
+      },
+      {
+        "Id": 12,
+        "Name": "theory"
+      }
+    ]
+  },
+  {
+    "Id": 473,
+    "Href": "https://www.frontendmentor.io/solutions/written-in-visual-studio-code-using-html5-and-css3-isdQneXivI",
+    "Title": "Recipe Page HTML + CSS",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 474,
+    "Href": "https://www.youtube.com/watch?v=9o5alYDEraI",
+    "Title": "Coder Foundry - Changing A Site CSS With No JavaScript",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 20,
+        "Name": "video"
+      },
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
   }
 ]
