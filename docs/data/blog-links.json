@@ -6462,5 +6462,277 @@
         "Name": "web-dev"
       }
     ]
+  },
+  {
+    "Id": 475,
+    "Href": "https://www.youtube.com/watch?v=v8-yeWXCsi4",
+    "Title": "Go and WASM - Learn WebAssembly",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 476,
+    "Href": "https://www.youtube.com/watch?v=ip3Z4ZcAgA8",
+    "Title": "Background Jobs in ASP.NET Core",
+    "Desc": "Tim Corey",
+    "Tags": [
+      {
+        "Id": 23,
+        "Name": "async"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      },
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 477,
+    "Href": "https://www.youtube.com/watch?v=sIIfnGqEIds",
+    "Title": "What is Blazor? [Pt 1] | Front-end Web Development with .NET",
+    "Desc": "Daniel Roth",
+    "Tags": [
+      {
+        "Id": 15,
+        "Name": "dotnet"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      },
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 478,
+    "Href": "https://www.youtube.com/watch?v=73Q5EabiEHM",
+    "Title": "Scheduling for Your .NET Applications",
+    "Desc": "Nick Chapsas",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      }
+    ]
+  },
+  {
+    "Id": 479,
+    "Href": "https://www.youtube.com/watch?v=cIzuhlkPvTI",
+    "Title": "Clean Razor code in your Blazor apps with Sonar",
+    "Desc": "Daniel Roth - Add EF Scaffolded Component Get QuickGrid",
+    "Tags": [
+      {
+        "Id": 20,
+        "Name": "video"
+      },
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 480,
+    "Href": "https://sii.pl/blog/en/windows-subsystem-for-linux-wsl-2-part-3-docker-installation-and-configuration/",
+    "Title": "WSL 2 - Part 3: Docker installation and configuration",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 9,
+        "Name": "docker"
+      },
+      {
+        "Id": 10,
+        "Name": "linux"
+      }
+    ]
+  },
+  {
+    "Id": 481,
+    "Href": "https://www.zenbusiness.com/file/cuban2-yt/",
+    "Title": "Mark Cuban's - Create your LLC",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 5,
+        "Name": "misc"
+      }
+    ]
+  },
+  {
+    "Id": 482,
+    "Href": "https://www.upworthy.com/teens-to-do-list-before-screen-time",
+    "Title": "Kids pre-screentime checklist",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 5,
+        "Name": "misc"
+      }
+    ]
+  },
+  {
+    "Id": 483,
+    "Href": "https://code-maze.com/csharp-how-to-resolve-ioptions-instance-inside-program-class/",
+    "Title": "Resolve IOptions Instance in Program.cs",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      }
+    ]
+  },
+  {
+    "Id": 484,
+    "Href": "https://andrewlock.net/implementing-dijkstras-algorithm-for-finding-the-shortest-path-between-two-nodes-using-priorityqueue-in-dotnet-9/",
+    "Title": "Dijkstra's algorithm",
+    "Desc": "Andrew Lock",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      },
+      {
+        "Id": 12,
+        "Name": "theory"
+      },
+      {
+        "Id": 9,
+        "Name": "docker"
+      },
+      {
+        "Id": 15,
+        "Name": "dotnet"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      }
+    ]
+  },
+  {
+    "Id": 485,
+    "Href": "https://dev.to/karenpayneoregon/multiple-connections-for-appsettingsjson-c-52b2",
+    "Title": "Multiple connections for appsettings.json",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 13,
+        "Name": "blog"
+      },
+      {
+        "Id": 1,
+        "Name": "c#"
+      },
+      {
+        "Id": 15,
+        "Name": "dotnet"
+      }
+    ]
+  },
+  {
+    "Id": 486,
+    "Href": "https://www.linkedin.com/pulse/unlock-your-childs-potential-where-start-computer-early-imran-vlcqf/",
+    "Title": "Child Starter Computer Programming",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 12,
+        "Name": "theory"
+      }
+    ]
+  },
+  {
+    "Id": 487,
+    "Href": "https://www.youtube.com/watch?v=ivPptt3Ae5o",
+    "Title": "Secure Your Home Network",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 14,
+        "Name": "sa"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      }
+    ]
+  },
+  {
+    "Id": 488,
+    "Href": "https://www.youtube.com/watch?v=R-z2Hv-7nxk",
+    "Title": "Writing async/await from scratch in C#",
+    "Desc": "Scott Hanselman, Stephen Toub",
+    "Tags": [
+      {
+        "Id": 23,
+        "Name": "async"
+      },
+      {
+        "Id": 1,
+        "Name": "c#"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      }
+    ]
+  },
+  {
+    "Id": 489,
+    "Href": "https://www.youtube.com/watch?v=nyqjpL1Wt68",
+    "Title": "Let's Learn .NET - Containers",
+    "Desc": "Jayme Singleton, Chet Husk, microservices",
+    "Tags": [
+      {
+        "Id": 9,
+        "Name": "docker"
+      },
+      {
+        "Id": 15,
+        "Name": "dotnet"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      }
+    ]
+  },
+  {
+    "Id": 490,
+    "Href": "https://andrewlock.net/working-on-a-git-branch-in-two-different-folders-concurrently/",
+    "Title": "Sync a git branch between Windows and WSL filesystems",
+    "Desc": "Andrew Lock",
+    "Tags": [
+      {
+        "Id": 13,
+        "Name": "blog"
+      },
+      {
+        "Id": 16,
+        "Name": "git"
+      },
+      {
+        "Id": 10,
+        "Name": "linux"
+      }
+    ]
   }
 ]
