@@ -2204,22 +2204,6 @@
     ]
   },
   {
-    "Id": 166,
-    "Href": "https://visualstudiomagazine.com/articles/2022/02/10/blazor-hybrid-net-7.aspx?m=1",
-    "Title": "Blazor Hybrid in .NET 7",
-    "Desc": "",
-    "Tags": [
-      {
-        "Id": 15,
-        "Name": "dotnet"
-      },
-      {
-        "Id": 2,
-        "Name": "web-dev"
-      }
-    ]
-  },
-  {
     "Id": 168,
     "Href": "https://dev.to/davidkroell/dont-use-stringtolower-in-c-when-comparing-strings-1hdi",
     "Title": "Don't use String.ToLower() in C# when comparing strings",
@@ -2444,22 +2428,6 @@
     ]
   },
   {
-    "Id": 186,
-    "Href": "https://myfox8.com/news/good-for-her/greensboro-woman-uses-tech-to-help-with-homeless-crisis/",
-    "Title": "Greensboro woman uses tech to help the homeless",
-    "Desc": "Students at the University of Central Florida are helping her build the (cloud-based) app.",
-    "Tags": [
-      {
-        "Id": 17,
-        "Name": "az"
-      },
-      {
-        "Id": 12,
-        "Name": "theory"
-      }
-    ]
-  },
-  {
     "Id": 187,
     "Href": "https://m.youtube.com/shorts/IETnIoz-jFQ",
     "Title": "Watch Copilot Explain Code Like a Human!",
@@ -2604,22 +2572,6 @@
       {
         "Id": 7,
         "Name": "sql"
-      }
-    ]
-  },
-  {
-    "Id": 198,
-    "Href": "https://jonhilton.net/blazor-united/",
-    "Title": "Blazor's biggest challenges",
-    "Desc": "",
-    "Tags": [
-      {
-        "Id": 13,
-        "Name": "blog"
-      },
-      {
-        "Id": 2,
-        "Name": "web-dev"
       }
     ]
   },
@@ -3972,18 +3924,6 @@
       {
         "Id": 10,
         "Name": "linux"
-      }
-    ]
-  },
-  {
-    "Id": 299,
-    "Href": "https://visualstudiomagazine.com/articles/2023/07/13/xaml-blazor.aspx?m=1",
-    "Title": "Silverlight Just Won't Die: 'XAML for Blazor'",
-    "Desc": "",
-    "Tags": [
-      {
-        "Id": 2,
-        "Name": "web-dev"
       }
     ]
   },
@@ -5936,9 +5876,409 @@
     ]
   },
   {
-    "Id": 437,
-    "Href": "https://dev.to/paulgordon/after-using-rawjs-im-never-touching-react-again-or-any-framework-vanilla-javascript-is-the-future-3ac1",
-    "Title": "Used RawJS, never touching React again",
+    "Id": 438,
+    "Href": "https://www.remotasks.com/en/projects/coding-experts-t1t2-3423645",
+    "Title": "Earn $ Training AI Chatbots",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 11,
+        "Name": "ai"
+      }
+    ]
+  },
+  {
+    "Id": 439,
+    "Href": "https://dev.to/kshyun28/how-to-make-your-awesome-github-profile-hog",
+    "Title": "Improve your Github Profile",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 13,
+        "Name": "blog"
+      },
+      {
+        "Id": 16,
+        "Name": "git"
+      }
+    ]
+  },
+  {
+    "Id": 440,
+    "Href": "https://www.youtube.com/watch?v=TLNdwvIFoCg",
+    "Title": "Lazygit",
+    "Desc": "typecraft",
+    "Tags": [
+      {
+        "Id": 16,
+        "Name": "git"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      }
+    ]
+  },
+  {
+    "Id": 441,
+    "Href": "https://www.telerik.com/blogs/aspnet-core-basics-knowing-applying-design-patterns",
+    "Title": "Design Patterns in ASP.NET Core",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 12,
+        "Name": "theory"
+      },
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 442,
+    "Href": "https://youtu.be/-Dpg9fqXWGM?si=Wum1K4-n2XDJO-Z4",
+    "Title": "Integration Testing in ASP.NET Core",
+    "Desc": "Raw Coding",
+    "Tags": [
+      {
+        "Id": 26,
+        "Name": "testing"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      },
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      },
+      {
+        "Id": 1,
+        "Name": "c#"
+      }
+    ]
+  },
+  {
+    "Id": 443,
+    "Href": "https://www.youtube.com/watch?v=hqyozHSL0Nk",
+    "Title": "dotnet 8 Blazor Tailwind Template",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 15,
+        "Name": "dotnet"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      },
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 444,
+    "Href": "https://www.dexerto.com/tech/modders-make-the-wii-relevant-again-thanks-to-ingenious-hack-2471340/",
+    "Title": "Wii Music Streaming Server hack",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 27,
+        "Name": "media"
+      },
+      {
+        "Id": 14,
+        "Name": "sa"
+      }
+    ]
+  },
+  {
+    "Id": 445,
+    "Href": "https://www.youtube.com/watch?v=21zduERRS3M",
+    "Title": "Containers with dotnet and Docker",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 9,
+        "Name": "docker"
+      },
+      {
+        "Id": 15,
+        "Name": "dotnet"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      }
+    ]
+  },
+  {
+    "Id": 446,
+    "Href": "https://www.angularaddicts.com/p/the-best-of-angular-2023",
+    "Title": "Angular: a collection of my favorite resources of 2023",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 13,
+        "Name": "blog"
+      },
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 447,
+    "Href": "https://wizardzines.com/comics/inside-git/",
+    "Title": "Inside git",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 16,
+        "Name": "git"
+      }
+    ]
+  },
+  {
+    "Id": 448,
+    "Href": "https://timheuer.com/blog/anatomy-of-a-dotnet-devcontainer/",
+    "Title": "Anatomy of a .NET devcontainer",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 9,
+        "Name": "docker"
+      },
+      {
+        "Id": 15,
+        "Name": "dotnet"
+      }
+    ]
+  },
+  {
+    "Id": 449,
+    "Href": "https://khalidabuhakmeh.com/vestpocket-file-based-data-storage-for-aot-dotnet-applications",
+    "Title": "VestPocket: File-based Data Storage",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 13,
+        "Name": "blog"
+      },
+      {
+        "Id": 1,
+        "Name": "c#"
+      },
+      {
+        "Id": 15,
+        "Name": "dotnet"
+      }
+    ]
+  },
+  {
+    "Id": 450,
+    "Href": "https://www.code4it.dev/blog/how-to-get-random-items/",
+    "Title": ".net 8 updates of Random.GetItems",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 15,
+        "Name": "dotnet"
+      }
+    ]
+  },
+  {
+    "Id": 451,
+    "Href": "https://www.windowscentral.com/software-apps/windows-11/how-to-find-out-the-ssd-health-on-windows-11",
+    "Title": "SSD Health Check",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 14,
+        "Name": "sa"
+      }
+    ]
+  },
+  {
+    "Id": 452,
+    "Href": "https://github.blog/2024-01-08-github-certifications-are-generally-available/",
+    "Title": "GitHub Certifications ",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 16,
+        "Name": "git"
+      },
+      {
+        "Id": 12,
+        "Name": "theory"
+      }
+    ]
+  },
+  {
+    "Id": 453,
+    "Href": "https://andrewlock.net/understanding-default-interface-methods/",
+    "Title": "Understanding C# 8 default interface methods",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      }
+    ]
+  },
+  {
+    "Id": 454,
+    "Href": "https://www.youtube.com/watch?si=3i20vnHJv9qgNzt-&v=HcVfL9o4LUw&feature=youtu.be",
+    "Title": "Blazor JS Interop",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 20,
+        "Name": "video"
+      },
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 455,
+    "Href": "https://www.youtube.com/watch?v=DdsD1j8a-DA",
+    "Title": "Sortable Drag & Drop Lists for your Blazor",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 20,
+        "Name": "video"
+      },
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 456,
+    "Href": "https://dev.to/dotnet/an-introduction-to-the-world-of-containers-with-net-8-4elf",
+    "Title": "World of Containers with .NET 8",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 9,
+        "Name": "docker"
+      },
+      {
+        "Id": 15,
+        "Name": "dotnet"
+      }
+    ]
+  },
+  {
+    "Id": 457,
+    "Href": "https://khalidabuhakmeh.com/how-to-map-sql-results-to-any-object-using-entity-framework-core-8",
+    "Title": "EF Core 8 - Map SQL Results To Any Object",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      },
+      {
+        "Id": 7,
+        "Name": "sql"
+      }
+    ]
+  },
+  {
+    "Id": 458,
+    "Href": "https://arstechnica.com/information-technology/2024/02/doing-dns-and-dhcp-for-your-lan-the-old-way-the-way-that-works/",
+    "Title": "DNS and DHCP for your LAN the old way",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 10,
+        "Name": "linux"
+      },
+      {
+        "Id": 14,
+        "Name": "sa"
+      }
+    ]
+  },
+  {
+    "Id": 459,
+    "Href": "https://www.youtube.com/watch?v=nka_qn6bDWU",
+    "Title": "What you should know about Threads in .NET",
+    "Desc": "Raw Coding",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      }
+    ]
+  },
+  {
+    "Id": 460,
+    "Href": "https://www.youtube.com/watch?v=cWLgbULu4p0",
+    "Title": "Building an ASP.NET Core App using Functional Programming",
+    "Desc": "Raw Coding",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      }
+    ]
+  },
+  {
+    "Id": 461,
+    "Href": "https://jeremybytes.blogspot.com/2024/02/method-injection-in-aspnet-core-api.html",
+    "Title": "Method Injection in ASP.NET Core: API Controllers vs. MVC Controllers",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 13,
+        "Name": "blog"
+      },
+      {
+        "Id": 1,
+        "Name": "c#"
+      },
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 462,
+    "Href": "https://arstechnica.com/gadgets/2024/02/what-i-do-to-clean-up-a-clean-install-of-windows-11-23h2-and-edge/",
+    "Title": "Clean up a 'clean' install of Windows 11 and Edge",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 14,
+        "Name": "sa"
+      }
+    ]
+  },
+  {
+    "Id": 463,
+    "Href": "https://dev.to/aryan_shourie/introduction-to-html-web-components-3ijm",
+    "Title": "Introduction to HTML Web Components",
     "Desc": "",
     "Tags": [
       {
@@ -5948,14 +6288,450 @@
     ]
   },
   {
-    "Id": 438,
-    "Href": "https://www.remotasks.com/en/projects/coding-experts-t1t2-3423645",
-    "Title": "Earn $ Training AI Chatbots",
+    "Id": 464,
+    "Href": "https://www.codeproject.com/Articles/5378745/Inside-Git-Stash",
+    "Title": "Inside Git Stash",
     "Desc": "",
     "Tags": [
       {
-        "Id": 11,
-        "Name": "ai"
+        "Id": 16,
+        "Name": "git"
+      }
+    ]
+  },
+  {
+    "Id": 465,
+    "Href": "https://www.thomasclaudiushuber.com/2024/03/11/csharp-12-primary-constructors/",
+    "Title": "C# 12: Primary Constructors",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 13,
+        "Name": "blog"
+      },
+      {
+        "Id": 1,
+        "Name": "c#"
+      }
+    ]
+  },
+  {
+    "Id": 466,
+    "Href": "https://www.youtube.com/watch?v=Y2iJOPxw0JU",
+    "Title": "Books every software engineer should read in 2024",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 12,
+        "Name": "theory"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      }
+    ]
+  },
+  {
+    "Id": 467,
+    "Href": "https://www.youtube.com/watch?v=E_bkN_KperE",
+    "Title": "Use dotnet-outdated to update their project's references",
+    "Desc": "Hanselman walking through updating NuGets, etc",
+    "Tags": [
+      {
+        "Id": 13,
+        "Name": "blog"
+      },
+      {
+        "Id": 15,
+        "Name": "dotnet"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      }
+    ]
+  },
+  {
+    "Id": 468,
+    "Href": "https://www.youtube.com/watch?v=p1gsK69m94Y",
+    "Title": "Nick C - Build Messaging in .NET with Wolverine",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 13,
+        "Name": "blog"
+      },
+      {
+        "Id": 24,
+        "Name": "microserv"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      }
+    ]
+  },
+  {
+    "Id": 469,
+    "Href": "https://martinfowler.com/articles/2024-refactoring-code-samples.html",
+    "Title": "Code samples for the opening chapter of Refactoring",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      },
+      {
+        "Id": 12,
+        "Name": "theory"
+      }
+    ]
+  },
+  {
+    "Id": 470,
+    "Href": "https://lifehacker.com/health/use-the-hefe-method-to-get-better-at-small-talk",
+    "Title": "HEFE Method to Strike Up a Conversation",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 5,
+        "Name": "misc"
+      },
+      {
+        "Id": 4,
+        "Name": "recr"
+      }
+    ]
+  },
+  {
+    "Id": 471,
+    "Href": "https://stackoverflow.com/questions/14628398/copying-files-in-the-background",
+    "Title": "Copying files using Background Worker",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 23,
+        "Name": "async"
+      },
+      {
+        "Id": 1,
+        "Name": "c#"
+      }
+    ]
+  },
+  {
+    "Id": 472,
+    "Href": "https://www.psypost.org/link-between-anxious-attachment-and-materialistic-values-revealed-in-new-psychology-study/",
+    "Title": "Link between anxious attachment and materialistic values",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 5,
+        "Name": "misc"
+      },
+      {
+        "Id": 12,
+        "Name": "theory"
+      }
+    ]
+  },
+  {
+    "Id": 473,
+    "Href": "https://www.frontendmentor.io/solutions/written-in-visual-studio-code-using-html5-and-css3-isdQneXivI",
+    "Title": "Recipe Page HTML + CSS",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 474,
+    "Href": "https://www.youtube.com/watch?v=9o5alYDEraI",
+    "Title": "Coder Foundry - Changing A Site CSS With No JavaScript",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 20,
+        "Name": "video"
+      },
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 475,
+    "Href": "https://www.youtube.com/watch?v=v8-yeWXCsi4",
+    "Title": "Go and WASM - Learn WebAssembly",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 476,
+    "Href": "https://www.youtube.com/watch?v=ip3Z4ZcAgA8",
+    "Title": "Background Jobs in ASP.NET Core",
+    "Desc": "Tim Corey",
+    "Tags": [
+      {
+        "Id": 23,
+        "Name": "async"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      },
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 477,
+    "Href": "https://www.youtube.com/watch?v=sIIfnGqEIds",
+    "Title": "What is Blazor? [Pt 1] | Front-end Web Development with .NET",
+    "Desc": "Daniel Roth",
+    "Tags": [
+      {
+        "Id": 15,
+        "Name": "dotnet"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      },
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 478,
+    "Href": "https://www.youtube.com/watch?v=73Q5EabiEHM",
+    "Title": "Scheduling for Your .NET Applications",
+    "Desc": "Nick Chapsas",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      }
+    ]
+  },
+  {
+    "Id": 479,
+    "Href": "https://www.youtube.com/watch?v=cIzuhlkPvTI",
+    "Title": "Clean Razor code in your Blazor apps with Sonar",
+    "Desc": "Daniel Roth - Add EF Scaffolded Component Get QuickGrid",
+    "Tags": [
+      {
+        "Id": 20,
+        "Name": "video"
+      },
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 480,
+    "Href": "https://sii.pl/blog/en/windows-subsystem-for-linux-wsl-2-part-3-docker-installation-and-configuration/",
+    "Title": "WSL 2 - Part 3: Docker installation and configuration",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 9,
+        "Name": "docker"
+      },
+      {
+        "Id": 10,
+        "Name": "linux"
+      }
+    ]
+  },
+  {
+    "Id": 481,
+    "Href": "https://www.zenbusiness.com/file/cuban2-yt/",
+    "Title": "Mark Cuban's - Create your LLC",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 5,
+        "Name": "misc"
+      }
+    ]
+  },
+  {
+    "Id": 482,
+    "Href": "https://www.upworthy.com/teens-to-do-list-before-screen-time",
+    "Title": "Kids pre-screentime checklist",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 5,
+        "Name": "misc"
+      }
+    ]
+  },
+  {
+    "Id": 483,
+    "Href": "https://code-maze.com/csharp-how-to-resolve-ioptions-instance-inside-program-class/",
+    "Title": "Resolve IOptions Instance in Program.cs",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      }
+    ]
+  },
+  {
+    "Id": 484,
+    "Href": "https://andrewlock.net/implementing-dijkstras-algorithm-for-finding-the-shortest-path-between-two-nodes-using-priorityqueue-in-dotnet-9/",
+    "Title": "Dijkstra's algorithm",
+    "Desc": "Andrew Lock",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      },
+      {
+        "Id": 12,
+        "Name": "theory"
+      },
+      {
+        "Id": 9,
+        "Name": "docker"
+      },
+      {
+        "Id": 15,
+        "Name": "dotnet"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      }
+    ]
+  },
+  {
+    "Id": 485,
+    "Href": "https://dev.to/karenpayneoregon/multiple-connections-for-appsettingsjson-c-52b2",
+    "Title": "Multiple connections for appsettings.json",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 13,
+        "Name": "blog"
+      },
+      {
+        "Id": 1,
+        "Name": "c#"
+      },
+      {
+        "Id": 15,
+        "Name": "dotnet"
+      }
+    ]
+  },
+  {
+    "Id": 486,
+    "Href": "https://www.linkedin.com/pulse/unlock-your-childs-potential-where-start-computer-early-imran-vlcqf/",
+    "Title": "Child Starter Computer Programming",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 12,
+        "Name": "theory"
+      }
+    ]
+  },
+  {
+    "Id": 487,
+    "Href": "https://www.youtube.com/watch?v=ivPptt3Ae5o",
+    "Title": "Secure Your Home Network",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 14,
+        "Name": "sa"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      }
+    ]
+  },
+  {
+    "Id": 488,
+    "Href": "https://www.youtube.com/watch?v=R-z2Hv-7nxk",
+    "Title": "Writing async/await from scratch in C#",
+    "Desc": "Scott Hanselman, Stephen Toub",
+    "Tags": [
+      {
+        "Id": 23,
+        "Name": "async"
+      },
+      {
+        "Id": 1,
+        "Name": "c#"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      }
+    ]
+  },
+  {
+    "Id": 489,
+    "Href": "https://www.youtube.com/watch?v=nyqjpL1Wt68",
+    "Title": "Let's Learn .NET - Containers",
+    "Desc": "Jayme Singleton, Chet Husk, microservices",
+    "Tags": [
+      {
+        "Id": 9,
+        "Name": "docker"
+      },
+      {
+        "Id": 15,
+        "Name": "dotnet"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      }
+    ]
+  },
+  {
+    "Id": 490,
+    "Href": "https://andrewlock.net/working-on-a-git-branch-in-two-different-folders-concurrently/",
+    "Title": "Sync a git branch between Windows and WSL filesystems",
+    "Desc": "Andrew Lock",
+    "Tags": [
+      {
+        "Id": 13,
+        "Name": "blog"
+      },
+      {
+        "Id": 16,
+        "Name": "git"
+      },
+      {
+        "Id": 10,
+        "Name": "linux"
       }
     ]
   }

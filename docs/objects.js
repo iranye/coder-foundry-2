@@ -30,7 +30,7 @@ function InsertSorted(head, data_obj) {
 
     var current = head;
     
-    if (data_obj < head.data) { // insert at head   
+    if (data_obj <= head.data) { // insert at head   
         head = new ListNode(data_obj);
         head.next = current;
         return head;
