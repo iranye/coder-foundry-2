@@ -394,10 +394,6 @@
     "Title": "ClassicRock-10",
     "M3uFiles": [
       {
-        "TotalMegaBytes": 88,
-        "PartialPath": "Music\\MP3s\\Soundtrack_HowardStern\\_HowardSternSoundtrack-ShortList.m3u"
-      },
-      {
         "TotalMegaBytes": 87,
         "PartialPath": "Music\\MP3s\\Lynyrd Skynyrd\\_LynyrdSkynyrd-ShortList.m3u"
       },
@@ -410,18 +406,14 @@
         "PartialPath": "Music\\MP3s\\REO Speedwagon\\_REO-SpeedWagon-ShortList.m3u"
       },
       {
-        "TotalMegaBytes": 389,
-        "PartialPath": "Music\\MP3s\\Rush\\_Rush-ShortList.m3u"
-      },
-      {
-        "TotalMegaBytes": 104,
-        "PartialPath": "Music\\MP3s\\Tesla\\_Tesla-ShortList.m3u"
+        "TotalMegaBytes": 602,
+        "PartialPath": "Music\\MP3s\\Rush\\Rush-Shortlist.m3u"
       }
     ],
     "Created": "2023-03-01T17:59:12",
-    "LastModified": "2023-04-19T19:28:55",
+    "LastModified": "2024-01-30T09:33:54",
     "CopyDirectories": false,
-    "M3usTotalMb": 749
+    "M3usTotalMb": 770
   },
   {
     "Id": 49,
@@ -1459,14 +1451,18 @@
     "Title": "KGON-07",
     "M3uFiles": [
       {
-        "TotalMegaBytes": 22,
-        "PartialPath": "Music\\SimpleDriveMusic\\Rod Stewart\\Storyteller - The Complete Anthology 1964 - 1990\\RodStewart_36.m3u"
+        "TotalMegaBytes": 167,
+        "PartialPath": "Music\\MP3s\\Doors\\_Doors-ShortList.m3u"
+      },
+      {
+        "TotalMegaBytes": 494,
+        "PartialPath": "Music\\SimpleDriveMusic\\Rod Stewart\\Rod Stewart-Shortlist.m3u"
       }
     ],
     "Created": "2023-10-17T11:51:32",
-    "LastModified": "2023-10-17T11:52:02",
+    "LastModified": "2024-01-25T15:56:06",
     "CopyDirectories": false,
-    "M3usTotalMb": 0
+    "M3usTotalMb": 661
   },
   {
     "Id": 95,
