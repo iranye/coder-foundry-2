@@ -6734,5 +6734,85 @@
         "Name": "linux"
       }
     ]
+  },
+  {
+    "Id": 491,
+    "Href": "https://ayende.com/blog/200897-A/certificates-from-the-ground-up?Key=9e98e4bd-d871-4bc1-92f0-5bdd5995f30f",
+    "Title": "Certificates from the Ground Up",
+    "Desc": "Ayende Rahien",
+    "Tags": [
+      {
+        "Id": 14,
+        "Name": "sa"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      }
+    ]
+  },
+  {
+    "Id": 492,
+    "Href": "https://www.youtube.com/watch?v=WqXgl8EZzcs",
+    "Title": "Await Async Tasks in .NET 9",
+    "Desc": "Nick",
+    "Tags": [
+      {
+        "Id": 23,
+        "Name": "async"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      }
+    ]
+  },
+  {
+    "Id": 493,
+    "Href": "https://www.youtube.com/watch?v=KTsyS3rDUgg",
+    "Title": ".NET Live: Lessons Learned Building Source Generators",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 15,
+        "Name": "dotnet"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      }
+    ]
+  },
+  {
+    "Id": 494,
+    "Href": "https://dotnet.microsoft.com/en-us/learn/videos",
+    "Title": "Free videos for learning about .NET",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 15,
+        "Name": "dotnet"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      }
+    ]
+  },
+  {
+    "Id": 495,
+    "Href": "https://www.kdnuggets.com/10-github-repositories-to-master-computer-science",
+    "Title": "10 GitHub Repositories to Master Computer Science",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 6,
+        "Name": "code-challenge"
+      },
+      {
+        "Id": 12,
+        "Name": "theory"
+      }
+    ]
   }
 ]
