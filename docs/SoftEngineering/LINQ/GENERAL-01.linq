@@ -1,17 +1,4 @@
 <Query Kind="Program">
-  <Connection>
-    <ID>420b162b-f922-4b50-91cc-0313fe659f60</ID>
-    <NamingServiceVersion>2</NamingServiceVersion>
-    <Persist>true</Persist>
-    <Server>XBISQL842</Server>
-    <AllowDateOnlyTimeOnly>true</AllowDateOnlyTimeOnly>
-    <DeferDatabasePopulation>true</DeferDatabasePopulation>
-    <Database>TEMP_FCHHOH_EH_DEV</Database>
-    <NoPluralization>true</NoPluralization>
-    <DriverData>
-      <LegacyMFA>false</LegacyMFA>
-    </DriverData>
-  </Connection>
   <Namespace>Microsoft.VisualBasic</Namespace>
   <Namespace>Microsoft.VisualBasic.FileIO</Namespace>
 </Query>
@@ -22,13 +9,85 @@ void Main()
 {
 	// CsvRead();
 	// DateTimeHaha();
+	// CopyFilesToProcess();
+	DeleteProcessedFiles();
 	// FileListings();
 	// NullCoalescing();
-	StringFormatting();
+	// StringFormatting();
 	// GetPayorInfo();
 	// PayorToggleSetting();
 	// GetTransactions();
 	// GetVisitInfo();
+}
+
+void DeleteProcessedFiles()
+{
+	// Get list of files in AVIs (I:\Media-Track\MoviesAndTv\_Family_Flat\BLUEY\AVIs)
+	// Foreach file in ToProcess
+	// if exists in AVIs directory, delete it from ToProcess
+
+	var aviFiles = Directory.GetFiles(@"I:\Media-Track\MoviesAndTv\_Family_Flat\BLUEY\AVIs", "*.avi").ToList();
+	var aviFilesMassaged = new List<string>();
+	foreach (var avi in aviFiles)
+	{
+		var basename = Path.GetFileNameWithoutExtension(avi);
+		aviFilesMassaged.Add(basename);
+	}
+
+	var toProcessDir = @"I:\Media-Track\MoviesAndTv\_Family_Flat\BLUEY\ToProcess";
+	var matchedAviCount = 0;
+	var mkvFiles = Directory.GetFiles(toProcessDir, "*.mkv").ToList();
+	foreach (var mkv in mkvFiles)
+	{
+		var baseMkv = Path.GetFileNameWithoutExtension(mkv);
+		if (aviFilesMassaged.Any(a => a == baseMkv))
+		{
+			matchedAviCount++;
+			// UN-COMMENT TO DELETE!!!
+			// File.Delete(mkv);
+			baseMkv.Dump();
+		}
+	}
+	Console.WriteLine($"Matched {matchedAviCount} AVI(s)");
+}
+
+void CopyFilesToProcess()
+{
+	// Get list of files in AVIs (I:\Media-Track\MoviesAndTv\_Family_Flat\BLUEY\AVIs)
+	// Foreach file in Parent Dir
+	// if (!avis.Contains(file))
+	//   copy to <to-process> directory
+
+	var aviFiles = Directory.GetFiles(@"I:\Media-Track\MoviesAndTv\_Family_Flat\BLUEY\AVIs", "*.avi").ToList();
+	var aviFilesMassaged = new List<string>();
+	foreach (var avi in aviFiles)
+	{
+		var basename = Path.GetFileNameWithoutExtension(avi);
+		aviFilesMassaged.Add(basename);
+	}
+
+	var toProcessDir = @"I:\Media-Track\MoviesAndTv\_Family_Flat\BLUEY\ToProcess";
+	var i = 0;
+	var matchedAviCount = 0;
+	var mkvFiles = Directory.GetFiles(@"I:\Media-Track\MoviesAndTv\_Family_Flat\BLUEY", "*.mkv").ToList();
+	foreach (var mkv in mkvFiles)
+	{
+		var baseMkv = Path.GetFileNameWithoutExtension(mkv);
+		if (aviFilesMassaged.Any(a => a == baseMkv))
+		{
+			matchedAviCount++;
+		}
+		else
+		{
+			i++;
+			var ext = Path.GetExtension(mkv);
+			baseMkv.Dump();
+			var targetFile = Path.Combine(toProcessDir, baseMkv + ext);
+			File.Copy(mkv, targetFile);
+		}
+	}
+	Console.WriteLine($"Matched {matchedAviCount} AVI(s)");
+	Console.WriteLine($"{i} MKV(s) to process");
 }
 
 void CsvRead()
