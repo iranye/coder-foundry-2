@@ -6814,5 +6814,61 @@
         "Name": "theory"
       }
     ]
+  },
+  {
+    "Id": 496,
+    "Href": "https://www.codeproject.com/Tips/5381772/WPF-DataGrid-with-RichText-RowDetails-Grouping-Fil",
+    "Title": "WPF DataGrid with RichText, RowDetails, Grouping, Filter and more",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      },
+      {
+        "Id": 22,
+        "Name": "rich-client"
+      }
+    ]
+  },
+  {
+    "Id": 497,
+    "Href": "https://dev.to/theyasirr/docker-mastery-a-comprehensive-guide-for-beginners-and-pros-2p18",
+    "Title": "Docker Mastery: A Comprehensive Guide",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 9,
+        "Name": "docker"
+      }
+    ]
+  },
+  {
+    "Id": 498,
+    "Href": "https://dev.to/karenpayneoregon/get-sql-server-stored-procedures-with-c-5h2a",
+    "Title": "Get SQL-Server Stored Procedures with C#",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      },
+      {
+        "Id": 7,
+        "Name": "sql"
+      }
+    ]
+  },
+  {
+    "Id": 499,
+    "Href": "https://dev.to/shohams/17-best-developer-productivity-tools-to-try-1a2a",
+    "Title": "17 Best Developer Productivity Tools to Try",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 12,
+        "Name": "theory"
+      }
+    ]
   }
 ]
