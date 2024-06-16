@@ -30,6 +30,7 @@ TOOL TOOL TOOL
 dotnet tool restore
 dotnet tool run dotnet-cake -- --Target=Generate-Coverage-Report
 
+dotnet test "C:\src\code\GraphFhirUpsertService\tests\HCHB.GraphFhirUpsert.Tests\HCHB.GraphFhirUpsert.Tests.csproj" --logger "trx;LogFileName=UnitTests.trx" --configuration Release --no-build --no-restore --results-directory "C:\temp\test\test-results"  /property:CollectCoverage=True /property:CoverletOutputFormat=\"opencover\" /property:CoverletOutput="C:\temp\test\test-results\Tests-Coverage.xml"
 C:/Program Files/dotnet/dotnet.exe" test "C:/Users/dbelkofer/source/repos/NotificationService/tests/HCHB.NotifyCommon.Tests/HCHB.NotifyCommon.Tests.csproj" --logger "trx;LogFileName=HCHB.NotifyCommon.Tests-UnitTests.trx" --configuration Release --no-build --no-restore --results-directory "C:/Users/dbelkofer/source/repos/NotificationService/artifacts/test-results" /property:CollectCoverage=True /property:CoverletOutputFormat=\"opencover\" /property:CoverletOutput="C:/Users/dbelkofer/source/repos/NotificationService/artifacts/test-results/HCHB.NotifyCommon.Tests-Coverage.xml
 
 dotnet test /p:CollectCoverage=true
@@ -66,7 +67,7 @@ dotnet test /p:CollectCoverage=true
 
 
 dotnet list <sln or csproj> package --vulnerable --include-transitive --source "https://api.nuget.org/v3/index.json"
-
+dotnet list HCHB.ExchangeRequestBrokerServicev2.csproj package --vulnerable --include-transitive --source "https://api.nuget.org/v3/index.json"
 
 TOOL TOOL TOOL
 
