@@ -1,17 +1,5 @@
 [
   {
-    "Id": 1,
-    "Href": "https://gist.github.com/dahlsailrunner/1765b807940e29951ea6bdfb36cd85dd",
-    "Title": "VS Code Configuring for C#",
-    "Desc": "",
-    "Tags": [
-      {
-        "Id": 1,
-        "Name": "c#"
-      }
-    ]
-  },
-  {
     "Id": 2,
     "Href": "https://medium.com/@shubhadeepchat/logging-in-net-core-with-serilog-in-2-minutes-a41ec3192183",
     "Title": "Serilog",
@@ -44,18 +32,6 @@
       {
         "Id": 7,
         "Name": "sql"
-      }
-    ]
-  },
-  {
-    "Id": 5,
-    "Href": "https://cointelegraph.com/news/nodes-are-going-to-dethrone-tech-giants-from-apple-to-google",
-    "Title": "Nodes are going to dethrone tech giants",
-    "Desc": "Talks about Decentralized Apps (DApps)",
-    "Tags": [
-      {
-        "Id": 12,
-        "Name": "theory"
       }
     ]
   },
@@ -1028,18 +1004,6 @@
       {
         "Id": 7,
         "Name": "sql"
-      }
-    ]
-  },
-  {
-    "Id": 83,
-    "Href": "https://iranye.github.io/coder-foundry-2/docs/dev-blog.html",
-    "Title": "Dev Blog Main",
-    "Desc": "",
-    "Tags": [
-      {
-        "Id": 13,
-        "Name": "blog"
       }
     ]
   },
@@ -6861,13 +6825,169 @@
   },
   {
     "Id": 499,
-    "Href": "https://dev.to/shohams/17-best-developer-productivity-tools-to-try-1a2a",
-    "Title": "17 Best Developer Productivity Tools to Try",
+    "Href": "https://stackoverflow.com/questions/1050222/what-is-the-difference-between-concurrency-and-parallelism",
+    "Title": "Difference between concurrency and parallelism?",
     "Desc": "",
     "Tags": [
       {
+        "Id": 23,
+        "Name": "async"
+      },
+      {
         "Id": 12,
         "Name": "theory"
+      }
+    ]
+  },
+  {
+    "Id": 500,
+    "Href": "https://www.youtube.com/watch?v=ptKjWPC7pqw",
+    "Title": "Deep Dive into RegEx with Stephen Toub",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      },
+      {
+        "Id": 12,
+        "Name": "theory"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      }
+    ]
+  },
+  {
+    "Id": 501,
+    "Href": "https://learn.microsoft.com/en-us/aspnet/core/fundamentals/middleware/?view=aspnetcore-8.0#built-in-middleware",
+    "Title": ".net 8 - built-in MiddleWare",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 15,
+        "Name": "dotnet"
+      },
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      },
+      {
+        "Id": 10,
+        "Name": "linux"
+      },
+      {
+        "Id": 14,
+        "Name": "sa"
+      }
+    ]
+  },
+  {
+    "Id": 502,
+    "Href": "https://dev.to/sein_digital/why-you-should-self-host-everything-2f31",
+    "Title": "Why You Should Self-Host Everything",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 10,
+        "Name": "linux"
+      },
+      {
+        "Id": 14,
+        "Name": "sa"
+      }
+    ]
+  },
+  {
+    "Id": 503,
+    "Href": "https://www.scichart.com/blog/is-wpf-dead-whats-the-future-of-wpf/",
+    "Title": "Is WPF Dead? The Data Says No",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 22,
+        "Name": "rich-client"
+      }
+    ]
+  },
+  {
+    "Id": 504,
+    "Href": "https://dev.to/somadevtoo/9-caching-strategies-for-system-design-interviews-369g",
+    "Title": "9 Caching Strategies",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 7,
+        "Name": "sql"
+      },
+      {
+        "Id": 12,
+        "Name": "theory"
+      }
+    ]
+  },
+  {
+    "Id": 505,
+    "Href": "https://www.youtube.com/watch?v=CwZjQJHwHbQ",
+    "Title": "Blazor Competitor is Here",
+    "Desc": "nick",
+    "Tags": [
+      {
+        "Id": 15,
+        "Name": "dotnet"
+      },
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      }
+    ]
+  },
+  {
+    "Id": 506,
+    "Href": "https://www.verywellmind.com/can-a-relationship-between-two-introverts-work-8646770",
+    "Title": "Introverts Relationship",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 5,
+        "Name": "misc"
+      },
+      {
+        "Id": 12,
+        "Name": "theory"
+      }
+    ]
+  },
+  {
+    "Id": 507,
+    "Href": "https://www.xda-developers.com/these-are-the-best-docker-containers-i-use-on-my-nas/",
+    "Title": "Docker containers to use on your NAS",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 9,
+        "Name": "docker"
+      }
+    ]
+  },
+  {
+    "Id": 508,
+    "Href": "https://dev.to/rasheedmozaffar/cancellation-tokens-in-c-35c1",
+    "Title": "Cancellation Tokens in C#",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 23,
+        "Name": "async"
+      },
+      {
+        "Id": 1,
+        "Name": "c#"
       }
     ]
   }
