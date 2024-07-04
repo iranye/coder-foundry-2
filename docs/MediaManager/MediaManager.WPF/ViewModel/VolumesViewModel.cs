@@ -411,6 +411,18 @@
             }
         }
 
+        internal void OpenFolderForM3u(M3uFileViewModel m3UFileViewModel)
+        {
+            if (SelectedItem is not null)
+            {
+                var pathToFolder = m3UFileViewModel.FileEntry?.ParentDirectory.FullName;
+                if (!String.IsNullOrWhiteSpace(pathToFolder))
+                {
+                    Task.Run(async () => await fileSystemService.OpenDirectoryAsync(pathToFolder)).Wait();
+                }
+            }
+        }
+
         internal void RemoveFileEntry(FileEntry fileToDelete)
         {
             if (SelectedItem is not null && SelectedItem.SelectedM3uFile is not null)

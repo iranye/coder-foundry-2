@@ -125,6 +125,15 @@
             }
         }
 
+        private void BtnOpenFolderForM3u_Click(object sender, RoutedEventArgs e)
+        {
+            var fileContext = ((Button)sender).DataContext as M3uFileViewModel;
+            if (ViewModel is not null && fileContext is not null)
+            {
+                ViewModel.OpenFolderForM3u(fileContext);
+            }
+        }
+
         private void BtnRemoveFile_Click(object sender, RoutedEventArgs e)
         {
             var fileToDelete = ((Button)sender).DataContext as FileEntry;

@@ -196,7 +196,8 @@
                                 <ListView.ItemTemplate>
                                     <DataTemplate>
                                         <StackPanel Orientation="Horizontal">
-                                            <Button Name="BtnRemoveM3u" Content="x" ToolTip="Remove M3U" Click="BtnRemoveM3u_Click" />
+                                            <Button Margin="0 0 2 0" Padding="5,0" Name="BtnRemoveM3u" Content="x" ToolTip="Remove M3U" Click="BtnRemoveM3u_Click" />
+                                            <Button Padding="5,0" Name="BtnOpenFolderForM3u" Content="o" ToolTip="OpenFolder with M3U" Click="BtnOpenFolderForM3u_Click" />
                                             <Label Padding="8,0" VerticalContentAlignment="Center">
                                                 <TextBlock Text="{Binding Name}" />
                                             </Label>
