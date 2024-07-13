@@ -6990,5 +6990,53 @@
         "Name": "c#"
       }
     ]
+  },
+  {
+    "Id": 509,
+    "Href": "https://www.geeksforgeeks.org/how-to-persist-data-in-a-dockerized-postgres-database-using-volumes/",
+    "Title": "Persist Data In A Dockerized Postgres Database Using Volumes",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 9,
+        "Name": "docker"
+      },
+      {
+        "Id": 7,
+        "Name": "sql"
+      }
+    ]
+  },
+  {
+    "Id": 510,
+    "Href": "    https://www.youtube.com/watch?v=fdbW9eC3rN4",
+    "Title": "Manage Database Migrations in .NET without EF Core",
+    "Desc": "Nick",
+    "Tags": [
+      {
+        "Id": 7,
+        "Name": "sql"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      }
+    ]
+  },
+  {
+    "Id": 511,
+    "Href": "https://arxiv.org/abs/1608.03960",
+    "Title": "Conflict-Free Replicated JSON Datatype",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 7,
+        "Name": "sql"
+      },
+      {
+        "Id": 12,
+        "Name": "theory"
+      }
+    ]
   }
 ]
