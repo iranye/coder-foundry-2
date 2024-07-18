@@ -7038,5 +7038,73 @@
         "Name": "theory"
       }
     ]
+  },
+  {
+    "Id": 512,
+    "Href": "https://haacked.com/archive/2024/07/01/dotnet-aspire-vs-docker/",
+    "Title": ".NET Aspire vs Docker",
+    "Desc": "Docker + Postgresql",
+    "Tags": [
+      {
+        "Id": 17,
+        "Name": "az"
+      },
+      {
+        "Id": 9,
+        "Name": "docker"
+      },
+      {
+        "Id": 7,
+        "Name": "sql"
+      }
+    ]
+  },
+  {
+    "Id": 513,
+    "Href": "https://codewithmukesh.com/blog/structured-logging-with-serilog-in-aspnet-core/",
+    "Title": "Logging with Serilog in ASP.NET Core",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 15,
+        "Name": "dotnet"
+      },
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 514,
+    "Href": "https://www.youtube.com/watch?v=kNzssE7Ir60",
+    "Title": "Don't Use Polly in .NET Directly. Use this instead!",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "c#"
+      },
+      {
+        "Id": 15,
+        "Name": "dotnet"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      }
+    ]
+  },
+  {
+    "Id": 515,
+    "Href": "https://dev.to/mrtrom/git-config-a-beginners-guide-with-advanced-tips-393f",
+    "Title": "Git Config: A Beginner's Guide w Advanced Tips",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 16,
+        "Name": "git"
+      }
+    ]
   }
 ]
