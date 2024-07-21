@@ -1,5 +1,0 @@
-SEE ALSO:
-Hosting platforms mentioned in RawCoding notes:
-  Linode
-
-https://console.firebase.google.com/?pli=1
