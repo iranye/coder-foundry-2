@@ -972,18 +972,6 @@
     ]
   },
   {
-    "Id": 80,
-    "Href": "https://thefederalist.com/2023/02/02/5-riveting-films-snubbed-by-the-academy-awards/",
-    "Title": "Movies blog",
-    "Desc": "",
-    "Tags": [
-      {
-        "Id": 5,
-        "Name": "misc"
-      }
-    ]
-  },
-  {
     "Id": 81,
     "Href": "https://www.youtube.com/watch?v=4xuBT3BbsYU",
     "Title": "Dev blog SAAS",
@@ -2592,22 +2580,6 @@
       {
         "Id": 22,
         "Name": "rich-client"
-      }
-    ]
-  },
-  {
-    "Id": 203,
-    "Href": "https://www.infoworld.com/article/3688936/aspnet-core-gets-full-stack-web-programming-in-net-8.html",
-    "Title": "ASP.NET Core gets full-stack web programming in .NET 8",
-    "Desc": "",
-    "Tags": [
-      {
-        "Id": 15,
-        "Name": "dotnet"
-      },
-      {
-        "Id": 2,
-        "Name": "web-dev"
       }
     ]
   },
@@ -7104,6 +7076,22 @@
       {
         "Id": 16,
         "Name": "git"
+      }
+    ]
+  },
+  {
+    "Id": 516,
+    "Href": "https://devblogs.microsoft.com/dotnet/why-and-how-to-execute-graph-ql-queries-in-dotnet/",
+    "Title": "Execute GraphQL Queries in .NET",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 15,
+        "Name": "dotnet"
+      },
+      {
+        "Id": 7,
+        "Name": "sql"
       }
     ]
   }
