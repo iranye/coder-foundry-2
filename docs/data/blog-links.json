@@ -7094,5 +7094,93 @@
         "Name": "sql"
       }
     ]
+  },
+  {
+    "Id": 517,
+    "Href": "https://weblog.west-wind.com/posts/2024/Jul/25/Back-to-Basics-Await-a-Task-with-a-Timeout",
+    "Title": "Await a Task with a Timeout",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 23,
+        "Name": "async"
+      },
+      {
+        "Id": 13,
+        "Name": "blog"
+      },
+      {
+        "Id": 1,
+        "Name": "c#"
+      }
+    ]
+  },
+  {
+    "Id": 518,
+    "Href": "https://www.youtube.com/watch?v=fv2-A5e-KHA",
+    "Title": "MongoDB Provider for EF Core – C# Tutorial",
+    "Desc": "Free Code Camp",
+    "Tags": [
+      {
+        "Id": 8,
+        "Name": "big-data"
+      },
+      {
+        "Id": 15,
+        "Name": "dotnet"
+      },
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      }
+    ]
+  },
+  {
+    "Id": 519,
+    "Href": "https://dev.to/bigsondev/10-projects-to-master-frontend-web-development-acm",
+    "Title": "10 Projects to master Frontend & Web Development",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 20,
+        "Name": "video"
+      },
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 520,
+    "Href": "https://piccalil.li/blog/styling-tables-the-modern-css-way/",
+    "Title": "Styling Tables the Modern CSS Way",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 2,
+        "Name": "web-dev"
+      }
+    ]
+  },
+  {
+    "Id": 521,
+    "Href": "https://www.youtube.com/watch?v=gXVekOfDSTI",
+    "Title": "5 Ways To BOOST Your Salary As A Software Developer 2024",
+    "Desc": "Dave Farley",
+    "Tags": [
+      {
+        "Id": 12,
+        "Name": "theory"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      }
+    ]
   }
 ]
