@@ -7182,5 +7182,37 @@
         "Name": "video"
       }
     ]
+  },
+  {
+    "Id": 522,
+    "Href": "https://blog.postsharp.net/singleton",
+    "Title": "Singleton Pattern in C# Today Is Not Your Dad's One!",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 13,
+        "Name": "blog"
+      },
+      {
+        "Id": 1,
+        "Name": "c#"
+      }
+    ]
+  },
+  {
+    "Id": 523,
+    "Href": "https://www.youtube.com/watch?v=DM65_JyGxCo",
+    "Title": "Docker Compose with Network Chuck",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 9,
+        "Name": "docker"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      }
+    ]
   }
 ]
