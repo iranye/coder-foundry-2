@@ -4075,7 +4075,7 @@
     "Id": 317,
     "Href": "https://www.youtube.com/watch?v=Go0HZL3vcuc",
     "Title": "DI in .net 8",
-    "Desc": "",
+    "Desc": "Nick talks bout keyed DI registrations",
     "Tags": [
       {
         "Id": 1,
@@ -7212,6 +7212,30 @@
       {
         "Id": 20,
         "Name": "video"
+      }
+    ]
+  },
+  {
+    "Id": 524,
+    "Href": "https://blog.codinghorror.com/progamming-fonts/",
+    "Title": "Progamming Fonts",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 12,
+        "Name": "theory"
+      }
+    ]
+  },
+  {
+    "Id": 525,
+    "Href": "https://jsonplaceholder.typicode.com/",
+    "Title": "Jsonplaceholder - free online REST API",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 2,
+        "Name": "web-dev"
       }
     ]
   }
