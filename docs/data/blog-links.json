@@ -7238,5 +7238,41 @@
         "Name": "web-dev"
       }
     ]
+  },
+  {
+    "Id": 526,
+    "Href": "https://www.youtube.com/watch?v=F1ONxvjdLlc&t=599s",
+    "Title": "Getting Started with Dapper in .NET",
+    "Desc": "Nick covers AWS free DB tier",
+    "Tags": [
+      {
+        "Id": 17,
+        "Name": "az"
+      },
+      {
+        "Id": 7,
+        "Name": "sql"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      }
+    ]
+  },
+  {
+    "Id": 527,
+    "Href": "https://www.docker.com/blog/docker-best-practices-using-arg-and-env-in-your-dockerfiles/",
+    "Title": "Docker Best Practices",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 13,
+        "Name": "blog"
+      },
+      {
+        "Id": 9,
+        "Name": "docker"
+      }
+    ]
   }
 ]
