@@ -7274,5 +7274,33 @@
         "Name": "docker"
       }
     ]
-  }
+  },
+  {
+    "Id": 528,
+    "Href": "https://www.quantamagazine.org/srinivasa-ramanujan-was-a-genius-math-is-still-catching-up-20241021/",
+    "Title": "Math Catching Up to the Mysterious Genius of Srinivasa Ramanujan",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 12,
+        "Name": "theory"
+      }
+    ]
+  },
+  {
+    "Id": 529,
+    "Href": "https://www.youtube.com/watch?v=a9iCsCrMSnI",
+    "Title": "Rider is now FREE, My 7 MUST KNOW features",
+    "Desc": "Raw Coding",
+    "Tags": [
+      {
+        "Id": 19,
+        "Name": "ed"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      }
+    ]
+  }  
 ]

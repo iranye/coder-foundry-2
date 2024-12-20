@@ -1,0 +1,84 @@
+STEPS for SQLite:
+Microsoft.EntityFrameworkCore.Sqlite
+Microsoft.EntityFrameworkCore.Tools
+
+::: ::: ::: ::: :::
+::: Program.cs ::::
+::: ::: ::: ::: :::
+
+var builder = WebApplication.CreateBuilder(args);
+
+// Add services to the container.
+builder.Services.AddDbContext<PhotosDbContext>(o => o.UseSqlite(
+    builder.Configuration["ConnectionStrings:PhotosDBConnectionString"]));
+    
+::: ::: ::: ::: ::: ::: :::
+::: appsettings.json ::::::
+::: ::: ::: ::: ::: ::: :::
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "ConnectionStrings": {
+    "PhotosDBConnectionString": "Data Source=PhotoSlider.db"
+  },
+  "AllowedHosts": "*"
+}
+
+::: ::: ::: ::: ::: ::: :::
+::: PhotosDbContext.cs ::::
+::: ::: ::: ::: ::: ::: :::
+
+using Microsoft.EntityFrameworkCore;
+using PhotoSlider.API.Data.Entities;
+
+namespace PhotoSlider.API.Data.DbContexts;
+
+public class PhotosDbContext : DbContext
+{
+    public DbSet<Photo> Photos { get; set; } = null!;
+    public DbSet<Collection> Collections { get; set; } = null!;
+
+    public PhotosDbContext(DbContextOptions<PhotosDbContext> options)
+        : base(options)
+    { }
+
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+        _ = modelBuilder.Entity<Collection>().HasData(
+            new(1, "Kids"),
+            new(2, "Vacation"),
+            new(3, "School"),
+            new(4, "Nature"),
+            new(5, "Potpourri")
+            );
+
+        _ = modelBuilder.Entity<Photo>().HasData(
+           new(1, "IMG_20231112", "Picture 5"),
+           new(4, "IMG_20231115", "Disney 2018"),
+           new(5, "IMG_20231116", "Sunset 2020"),
+           new(6, "IMG_20231117", "Sunset 2022")
+           );
+
+        _ = modelBuilder
+            .Entity<Photo>()
+            .HasMany(d => d.Collections)
+            .WithMany(i => i.Photos)
+            .UsingEntity(e => e.HasData(
+                new { PhotosId = 1, CollectionsId = 1 },
+                new { PhotosId = 2, CollectionsId = 1 },
+                new { PhotosId = 3, CollectionsId = 1 },
+                new { PhotosId = 1, CollectionsId = 3 },
+                new { PhotosId = 2, CollectionsId = 3 },
+                new { PhotosId = 4, CollectionsId = 2 },
+                new { PhotosId = 5, CollectionsId = 4 },
+                new { PhotosId = 6, CollectionsId = 4 },
+                new { PhotosId = 3, CollectionsId = 2 }
+                ));
+
+        base.OnModelCreating(modelBuilder);
+    }
+}

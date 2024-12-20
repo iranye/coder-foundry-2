@@ -1,0 +1,18 @@
+
+##############################################################################################
+using System.Text.Json;
+var options = new JsonSerializerOptions { WriteIndented = true };
+var eJson = JsonSerializer.Serialize<DocumentReference>(expected, options);
+var aJson = JsonSerializer.Serialize<DocumentReference>(result, options);
+
+
+##############################################################################################
+using Newtonsoft.Json;
+string tJson = JsonConvert.SerializeObject(template, Formatting.Indented,
+                        new JsonSerializerSettings()
+                        {
+                            ReferenceLoopHandling = ReferenceLoopHandling.Ignore
+                        });
+
+##############################################################################################
+
