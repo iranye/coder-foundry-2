@@ -1,3 +1,34 @@
+
+::: ::: ::: ::: ::::: ::::
+::: Implementing Auth ::::
+::: ::: ::: ::: ::::: ::::
+--01. New Blazor Web App => Individual Authorization then add nuget: Microsoft.AspNetCore.Identity.EntityFrameworkCore
+--02. In csproj and Program.cs replace SqlServer with Sqlite:
+REPLACE:
+  builder.Services.AddDbContext<ApplicationDbContext>(options =>
+      options.UseSqlServer(connectionString));
+
+WITH:
+  builder.Services.AddDbContext<ApplicationDbContext>(options =>
+      options.UseSqlite(connectionString));  
+
+--03. DELETE Everything in Migrations Folder
+--04. add-migration auth-init
+--05. ensure SQLite connection string, e.g.:
+  "ConnectionStrings": {
+    "DefaultConnection": "Data Source=C:\\Data\\AuthApp.db"
+  },
+--06. Move Migrations into nested folder in Data if desired
+--07. update-database then check db file is created
+
+
+
+::: ::: ::: ::: ::: ::: ::: ::::
+::: Connecting within Rider ::::
+::: ::: ::: ::: ::: ::: ::: ::::
+
+jdbc:sqlite:C:/Data/PieShopHRM.db
+
 STEPS for SQLite:
 Microsoft.EntityFrameworkCore.Sqlite
 Microsoft.EntityFrameworkCore.Tools
