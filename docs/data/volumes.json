@@ -853,12 +853,57 @@
   },
   {
     "Id": 68,
-    "Title": "Xmas-01",
-    "M3uFiles": [],
+    "Title": "Xmas-01-a3ba4e",
+    "M3uFiles": [
+      {
+        "TotalMegaBytes": 89,
+        "PartialPath": "Music\\MP3s\\Wynton Marsalis & Ellis Marsalis\\_WyntonMars-ShortList.m3u"
+      },
+      {
+        "TotalMegaBytes": 56,
+        "PartialPath": "Music\\SimpleDriveMusic\\0_Christmas\\Bing Crosby - White Christmas\\Bing Crosby - White Christmas-Shortlist.m3u"
+      },
+      {
+        "TotalMegaBytes": 82,
+        "PartialPath": "Music\\SimpleDriveMusic\\0_Christmas\\Time Life Treasury of Christmas\\Christmas Favorites\\Christmas Favorites-Shortlist.m3u"
+      },
+      {
+        "TotalMegaBytes": 78,
+        "PartialPath": "Music\\SimpleDriveMusic\\0_Christmas\\Time Life Treasury of Christmas\\Christmas Joy\\Christmas Joy-Shortlist.m3u"
+      },
+      {
+        "TotalMegaBytes": 47,
+        "PartialPath": "Music\\MP3s\\_Christmas\\ChristmasMemoriesDisc2\\ChristmasMemoriesDisc2-Shortlist.m3u"
+      },
+      {
+        "TotalMegaBytes": 76,
+        "PartialPath": "Music\\SimpleDriveMusic\\0_Christmas\\Dean Martin - Making Spirits Bright\\Dean Martin - Making Spirits Bright-Shortlist.m3u"
+      },
+      {
+        "TotalMegaBytes": 36,
+        "PartialPath": "Music\\SimpleDriveMusic\\0_Christmas\\Frank Sinatra - A Jolly Christmas from Frank Sinatra\\Frank Sinatra - A Jolly Christmas from Frank Sinatra-Shortlist.m3u"
+      },
+      {
+        "TotalMegaBytes": 47,
+        "PartialPath": "Music\\SimpleDriveMusic\\0_Christmas\\Harry Connick, Jr. - Happy for the Holidays\\Harry Connick, Jr. - Happy for the Holidays-Shortlist.m3u"
+      },
+      {
+        "TotalMegaBytes": 75,
+        "PartialPath": "Music\\SimpleDriveMusic\\0_Christmas\\Time Life Treasury of Christmas\\Holiday Cheer\\Holiday Cheer-Shortlist.m3u"
+      },
+      {
+        "TotalMegaBytes": 64,
+        "PartialPath": "Music\\MP3s\\_Christmas\\Pink Martini\\PinkMartini_Xmas.m3u"
+      },
+      {
+        "TotalMegaBytes": 72,
+        "PartialPath": "Music\\SimpleDriveMusic\\0_Christmas\\Tony Bennett - Snowfall-The Tony Bennett Christmas Album\\Tony Bennett - Snowfall-The Tony Bennett Christmas Album-Shortlist.m3u"
+      }
+    ],
     "Created": "2023-03-01T18:03:31",
-    "LastModified": "0001-01-01T00:00:00",
+    "LastModified": "2024-12-21T14:19:38",
     "CopyDirectories": false,
-    "M3usTotalMb": 0
+    "M3usTotalMb": 556
   },
   {
     "Id": 69,
