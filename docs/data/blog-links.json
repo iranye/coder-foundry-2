@@ -7302,5 +7302,17 @@
         "Name": "video"
       }
     ]
-  }  
+  },
+  {
+    "Id": 530,
+    "Href": "https://www.usenix.org/publications/loginonline/evolution-sre-google",
+    "Title": "The Evolution of SRE at Google",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 14,
+        "Name": "sa"
+      }
+    ]
+  }
 ]

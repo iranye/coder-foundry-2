@@ -12,14 +12,15 @@ WITH:
   builder.Services.AddDbContext<ApplicationDbContext>(options =>
       options.UseSqlite(connectionString));  
 
---03. DELETE Everything in Migrations Folder
---04. add-migration auth-init
---05. ensure SQLite connection string, e.g.:
+--03. DELETE Everything in Migrations Folder (that gets included in templated auth project)
+--04. update AppDbContext : IdentityDbContext<ApplicationUser>
+--05. add-migration auth-init
+--06. ensure SQLite connection string, e.g.:
   "ConnectionStrings": {
     "DefaultConnection": "Data Source=C:\\Data\\AuthApp.db"
   },
---06. Move Migrations into nested folder in Data if desired
---07. update-database then check db file is created
+--07. Move Migrations into nested folder in Data if desired
+--08. update-database then check db file is created
 
 
 
@@ -32,6 +33,9 @@ jdbc:sqlite:C:/Data/PieShopHRM.db
 STEPS for SQLite:
 Microsoft.EntityFrameworkCore.Sqlite
 Microsoft.EntityFrameworkCore.Tools
+
+As long as connection is active, a db-wal file (Write-Ahead-Logging) exists.
+To sync writes back to the DB, de-activate the connection within Database panel
 
 ::: ::: ::: ::: :::
 ::: Program.cs ::::
