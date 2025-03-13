@@ -29,6 +29,7 @@ WITH:
 ::: ::: ::: ::: ::: ::: ::: ::::
 
 jdbc:sqlite:C:/Data/PieShopHRM.db
+jdbc:sqlite:C:/Data/FreeBilling.db
 
 STEPS for SQLite:
 Microsoft.EntityFrameworkCore.Sqlite

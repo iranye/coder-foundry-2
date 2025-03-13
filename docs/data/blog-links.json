@@ -7314,5 +7314,17 @@
         "Name": "sa"
       }
     ]
+  },
+  {
+    "Id": 531,
+    "Href": "https://ludic.mataroa.blog/blog/i-will-fucking-dropkick-you-if-you-use-that-spreadsheet/",
+    "Title": "Dropkick your spreadsheet",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 13,
+        "Name": "blog"
+      }
+    ]
   }
 ]
