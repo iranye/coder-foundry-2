@@ -22,9 +22,13 @@ function ListNode(data_obj) {
   this.next = null;
 }
 
-function InsertSorted(head, data_obj) {
+function InsertSorted(head, data_obj, doUnique) {
     if (head === null) {
         head = new ListNode(data_obj);
+        return head;
+    }
+    
+    if (doUnique && AlreadyExists(head, data_obj)) {
         return head;
     }
 
@@ -48,9 +52,13 @@ function InsertSorted(head, data_obj) {
     return head;
 }
 
-function InsertSortedReverse(head, data_obj) {
+function InsertSortedReverse(head, data_obj, doUnique) {
     if (head === null) {
         head = new ListNode(data_obj);
+        return head;
+    }
+    
+    if (doUnique && AlreadyExists(head, data_obj)) {
         return head;
     }
 
@@ -72,6 +80,22 @@ function InsertSortedReverse(head, data_obj) {
     tmp.next = current;
 
     return head;
+}
+
+function AlreadyExists(head, data_obj) {
+    if (head === null) {
+        return false;
+    }
+    var current = head;
+
+    while(current != null) {
+        if (current.data == data_obj) {
+          return true;
+        }
+        current = current.next;
+    }
+
+    return false;
 }
 
 //Table Object keeps FieldObjs as Linked List

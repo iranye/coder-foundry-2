@@ -301,6 +301,8 @@
       input = (document.getElementById("sql_code").checked) ? sql_sub(input) : input;
       var doSorting = document.getElementById("sort_output").checked;
       var doSortingReverse = document.getElementById("sort_output_reverse").checked;
+      var doUnique = document.getElementById("unique").checked;
+      console.log("doUnique: " + doUnique);
       var startNumber = document.getElementById("start_number").value;
       var endNumber = document.getElementById("end_number").value;
       var sample = get_regex_string();
@@ -402,14 +404,14 @@
             linkedList = new ListNode(line);
             current = linkedList;
           } else {
-            linkedList = InsertSorted(linkedList, line);
+            linkedList = InsertSorted(linkedList, line, doUnique);
           }
         } else if (doSortingReverse) {
           if (linkedList == null) {
             linkedList = new ListNode(line);
             current = linkedList;
           } else {
-            linkedList = InsertSortedReverse(linkedList, line);
+            linkedList = InsertSortedReverse(linkedList, line, doUnique);
           }
         } else {
           line = line.replace(origLinePat, line_orig);
@@ -758,6 +760,7 @@
 
       <input type="checkbox" id="sort_output" accesskey="S" />Sort Results
       <input type="checkbox" id="sort_output_reverse" />Reverse Sort Results
+      <input type="checkbox" id="unique" />Unique results
       <input type="checkbox" id="sql_code" />SQL
       <input type="checkbox" id="to_upper_first" accesskey="U" />Uppercase First Char
       <input type="checkbox" id="suppress_numbering" onchange="suppress_numbering_changed();" />Suppress Numbering
