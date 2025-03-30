@@ -75,9 +75,9 @@ namespace PhotoSlider.API.Data.DbContexts;
 
 public class PhotosDbContext : DbContext
 {
-    public DbSet<Photo> Photos { get; set; } = null!;
-    public DbSet<Collection> Collections { get; set; } = null!;
-
+    public DbSet<Photo> Photos => Set<Photo>();
+    public DbSet<Collection> Collections => Set<Collection>();
+    
     public PhotosDbContext(DbContextOptions<PhotosDbContext> options)
         : base(options)
     { }
