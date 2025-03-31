@@ -37,7 +37,7 @@
         {
             this.dataProvider = dataProvider;
             this.mapper = mapper;
-            this.mediaManagerOptions = mediaManagerOptions;
+            this.mediaManagerOptions = mediaManagerOptions; // TODO: Try Resolve %MEDIA%, then fall back to paths in appsettings
             this.logger = logger;
             this.fileSystemService = fileSystemService ?? throw new ArgumentNullException(nameof(fileSystemService));
             AddCommand = new DelegateCommand(Add);
