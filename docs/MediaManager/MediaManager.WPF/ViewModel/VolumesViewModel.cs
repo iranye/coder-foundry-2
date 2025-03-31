@@ -49,8 +49,8 @@
             CollectMbsCommand = new DelegateCommand(CollectMbs);
             CreateScriptCommand = new DelegateCommand(CreateScript);
 
-            logger.LogInformation("Initalize CurrentWorkingDirectory with StartingPath: {StartingPath}", mediaManagerOptions.Value.StartingPath);
-            currentWorkingDirectory = new CurrentWorkingDirectory(mediaManagerOptions.Value.StartingPath);
+            logger.LogInformation("Initalize CurrentWorkingDirectory with StartingPath: {StartingPath}", mediaManagerOptions.Value.StartPath);
+            currentWorkingDirectory = new CurrentWorkingDirectory(mediaManagerOptions.Value.RootPath);
             currentWorkingDirectory.PropertyChanged += CurrentWorkingDirectory_PropertyChanged;
             if (CurrentWorkingDirectory.CurrentDirectoryInfo is null)
             {
@@ -124,7 +124,7 @@
             string message;
             if (folderViewModel.Parent is null)
             {
-                CurrentWorkingDirectory.CurrentDirectoryInfo = Helper.GetDirectoryInfo(mediaManagerOptions.Value.StartingPath, out message);
+                CurrentWorkingDirectory.CurrentDirectoryInfo = Helper.GetDirectoryInfo(mediaManagerOptions.Value.StartPath, out message);
                 FolderFilter = String.Empty;
                 if (!String.IsNullOrEmpty(message))
                 {
@@ -132,7 +132,7 @@
                 }
                 return;
             }
-            var changeToDirectory = Path.Combine(mediaManagerOptions.Value.StartingPath, folderViewModel.PathToRoot);
+            var changeToDirectory = Path.Combine(mediaManagerOptions.Value.StartPath, folderViewModel.PathToRoot);
 
             CurrentWorkingDirectory.CurrentDirectoryInfo = Helper.GetDirectoryInfo(changeToDirectory, out message);
             if (!String.IsNullOrEmpty(message))
@@ -154,7 +154,7 @@
                 {
                     try
                     {
-                        var m3uFile = new M3uFile(fileEntryToAdd.FullPath, mediaManagerOptions.Value.RootDirectory);
+                        var m3uFile = new M3uFile(fileEntryToAdd.FullPath, mediaManagerOptions.Value.RootPath);
                         SelectedItem.M3uFiles.Add(new M3uFileViewModel(m3uFile));
                     }
                     catch (Exception ex)
@@ -286,7 +286,7 @@
                     Volumes.Clear();
                     foreach (var volume in volumes)
                     {
-                        Volumes.Add(new VolumeItemViewModel(volume, mediaManagerOptions.Value.RootDirectory));
+                        Volumes.Add(new VolumeItemViewModel(volume, mediaManagerOptions.Value.RootPath));
                     }
                 }
             }
@@ -305,7 +305,7 @@
                 Title = "New",
                 Created = new DateTime(DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day, DateTime.Now.Hour, DateTime.Now.Minute, DateTime.Now.Second)
             };
-            var viewModel = new VolumeItemViewModel(volume, mediaManagerOptions.Value.RootDirectory);
+            var viewModel = new VolumeItemViewModel(volume, mediaManagerOptions.Value.RootPath);
             Volumes.Add(viewModel);
             ListViewItems.Add(viewModel);
             SelectedItem = viewModel;
@@ -445,7 +445,7 @@
             var targetDirName = SelectedItem.Title is null ? "TEMP" : SelectedItem.Title;
             var randomStr = Helper.GetRandomString(4);
             targetDirName += $"-{randomStr}";
-            string destDirectoryFullPath = Path.Combine(mediaManagerOptions.Value.CopyToPath, targetDirName);
+            string destDirectoryFullPath = Path.Combine(mediaManagerOptions.Value.CopyPath, targetDirName);
 
             if (!Directory.Exists(destDirectoryFullPath))
             {

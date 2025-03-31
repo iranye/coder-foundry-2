@@ -1,6 +1,16 @@
 MediaManager.WPF
 
 TODO:
+	Create JSON file options:
+		PROS:
+			Be able to create m3u playlists on the fly using deserialized JSON
+			May be possible to keep a directory structure in a JSON
+			Store more info than can be put into m3u files
+			May be able to handle wide characters better (than having to maintain separate vlc-generated playlists)
+			Allows assigning a quality value rather than just deleting from m3u
+		CONS:			
+			More files to have to maintain
+			JSON file easy to get out of sync (may be able to update JSON when using FileMaze to move, delete, add files)
 	FIX:
 		
 
