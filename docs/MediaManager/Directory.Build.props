@@ -1,7 +1,7 @@
 ﻿<Project>
 <PropertyGroup>
     <Company>HCHB</Company>
-    <Version>1.0.9</Version>
+    <Version>1.0.10</Version>
     <AssemblyTitle>WorkTool.App</AssemblyTitle>
 </PropertyGroup>
 </Project>

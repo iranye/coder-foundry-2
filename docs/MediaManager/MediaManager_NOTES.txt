@@ -5,6 +5,7 @@ TODO:
 		PROS:
 			Be able to create m3u playlists on the fly using deserialized JSON
 			May be possible to keep a directory structure in a JSON
+			May be able to maintain a list of tags within each JSON
 			Store more info than can be put into m3u files
 			May be able to handle wide characters better (than having to maintain separate vlc-generated playlists)
 			Allows assigning a quality value rather than just deleting from m3u
