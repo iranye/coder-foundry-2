@@ -1,8 +1,10 @@
 MediaManager.WPF
 
 TODO:
-	Create JSON file options:
+    Be able to open this file from the client
+	Create JSON file options (for each flattened MP3 directory, create a separate JSON):
 		PROS:
+            Manage user-specific preferences (i.e., user logs in to client)
 			Be able to create m3u playlists on the fly using deserialized JSON
 			May be possible to keep a directory structure in a JSON
 			May be able to maintain a list of tags within each JSON
