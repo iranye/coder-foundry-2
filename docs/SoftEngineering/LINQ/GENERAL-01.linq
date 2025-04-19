@@ -24,7 +24,25 @@ void Main()
 	// TrackProgress();
 	// ShowUniqueAndDupes();
 	// ActionExample();
-	ImmutableExamples();
+	// ImmutableExamples();
+	DelegateExamples();
+}
+
+void DelegateExamples()
+{
+	// Nick C:
+	// https://www.youtube.com/shorts/0KcpqJZlQbo
+	Func<int, int, int> add = (x, y) => x + y;
+	var result = add(2, 3);
+	result.Dump();
+	
+	// isEven Predicate is the same as Func<int, bool>
+	Predicate<int> isEven = x => x % 2 == 0;
+	bool resultIsEven = isEven(7);
+	resultIsEven.Dump();
+
+	Action<string> greet = name => $"Hello {name}".Dump();
+	greet("Martha");
 }
 
 void ImmutableExamples()
