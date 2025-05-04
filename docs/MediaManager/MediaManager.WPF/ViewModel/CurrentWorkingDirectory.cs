@@ -65,6 +65,17 @@
                 rootFolder = new Folder { Name = CurrentDirectoryInfo.Name };
                 foreach (var dirInfo in CurrentDirectoryInfo.GetDirectories())
                 {
+                    if (
+                        dirInfo.Name.Contains("Synology")
+                        || dirInfo.Name.Contains(".git")
+                        || dirInfo.Name.Contains("FileListManager")
+                        || dirInfo.Name.Contains("LogFiles")
+                        || dirInfo.Name.Contains("OggMusic")
+                        || dirInfo.Name.Contains("Snarf")
+                    )
+                    {
+                        continue;
+                    }
                     var childFolder = new Folder { Name = dirInfo.Name };
                     rootFolder.Children.Add(childFolder);
                     GetSubDirs(dirInfo, childFolder);
@@ -75,7 +86,7 @@
 
         private void GetSubDirs(DirectoryInfo dirInfo, Folder folder)
         {
-            foreach (var subDir in dirInfo.GetDirectories().Where(d => !d.Name.Contains("Synology")))
+            foreach (var subDir in dirInfo.GetDirectories())
             {
                 var childFolder = new Folder { Name = subDir.Name };
                 folder.Children.Add(childFolder);

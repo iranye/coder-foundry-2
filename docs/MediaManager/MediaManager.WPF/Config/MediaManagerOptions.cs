@@ -45,23 +45,30 @@ namespace MediaManager.WPF.Config
                     var foundPath = string.Empty;
                     try
                     {
-                        if (configSettingRoot == "%MEDIA%")
+                        if (Directory.Exists(configSettingRoot))
                         {
-                            foundPath = Environment.GetEnvironmentVariable("MEDIA");
-                            if (Directory.Exists(foundPath))
-                            {
-                                rootPath = foundPath;
-                            }
+                            rootPath = configSettingRoot;
                         }
                         else
                         {
-                            foundPath = RootDirectory;
+                            if (configSettingRoot == "%MEDIA%")
+                            {
+                                foundPath = Environment.GetEnvironmentVariable("MEDIA");
+                                if (Directory.Exists(foundPath))
+                                {
+                                    rootPath = foundPath;
+                                }
+                            }
+                            else
+                            {
+                                rootPath = RootDirectory;
+                            }
                         }
                     }
                     catch { }
-                    if (String.IsNullOrWhiteSpace(foundPath))
+                    if (String.IsNullOrWhiteSpace(rootPath))
                     {
-                        foundPath = @"D:\\Media-Track";
+                        rootPath = @"D:\\Media-Track";
                     }
 
                 }

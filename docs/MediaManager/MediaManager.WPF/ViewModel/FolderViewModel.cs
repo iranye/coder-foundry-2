@@ -18,6 +18,11 @@
             get { return children; }
         }
         public string Name { get; set; } = string.Empty;
+
+        public override string ToString()
+        {
+            return String.IsNullOrWhiteSpace(Name) ? "EMPTY" : Name;
+        }
     }
 
     public class FolderViewModel : ViewModelBase

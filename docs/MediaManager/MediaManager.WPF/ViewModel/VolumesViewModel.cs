@@ -50,7 +50,7 @@
             CreateScriptCommand = new DelegateCommand(CreateScript);
 
             logger.LogInformation("Initalize CurrentWorkingDirectory with StartingPath: {StartingPath}", mediaManagerOptions.Value.StartPath);
-            currentWorkingDirectory = new CurrentWorkingDirectory(mediaManagerOptions.Value.RootPath);
+            currentWorkingDirectory = new CurrentWorkingDirectory(mediaManagerOptions.Value.StartPath);
             currentWorkingDirectory.PropertyChanged += CurrentWorkingDirectory_PropertyChanged;
             if (CurrentWorkingDirectory.CurrentDirectoryInfo is null)
             {
