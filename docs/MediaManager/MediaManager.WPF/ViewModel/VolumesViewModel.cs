@@ -19,6 +19,7 @@
     using System.Collections.ObjectModel;
     using System.IO;
     using System.Linq;
+    using System.Runtime;
     using System.Text;
     using System.Threading.Tasks;
     using System.Windows;
@@ -195,7 +196,45 @@
 
         public void CreateM3u(object? parameter)
         {
+            if (CurrentWorkingDirectory == null || string.IsNullOrEmpty(CurrentWorkingDirectory.CurrentDirPath) || CurrentWorkingDirectory.CurrentDirectoryInfo is null)
+            {
+                logger.LogWarning("CWD not set");
+                return;
+            }
 
+            var dirInfo = CurrentWorkingDirectory.CurrentDirectoryInfo;
+            var m3uFileName = string.Format("{0}-Shortlist.m3u", dirInfo.Name);
+            var fileFilters = new List<String> { ".mp3", ".flac" };
+            var filesByFilter = GetFilesByExtensions(dirInfo, fileFilters.ToArray()).ToList();
+
+            m3uFileName = Path.Combine(dirInfo.FullName, m3uFileName);
+            var fileExists = File.Exists(m3uFileName);
+            var writer = new StreamWriter(m3uFileName);
+            foreach (var file in filesByFilter)
+            {
+                writer.WriteLine(file.Name);
+            }
+            writer.Close();
+
+            if (fileExists)
+            {
+                logger.LogInformation("M3u over-written: {m3uFileName}", m3uFileName);
+            }
+            else
+            {
+                logger.LogInformation("New M3u created: {m3uFileName}", m3uFileName);
+            }
+            CurrentWorkingDirectory.PopulateCwdFiles();
+        }
+
+        public static IEnumerable<FileInfo> GetFilesByExtensions(DirectoryInfo dir, params string[] extensions)
+        {
+            if (extensions == null || extensions.Length == 0)
+            {
+                return dir.EnumerateFiles();
+            }
+            IEnumerable<FileInfo> files = dir.EnumerateFiles();
+            return files.Where(f => extensions.Contains(f.Extension));
         }
 
         public void CollectMbs(object? parameter)

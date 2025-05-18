@@ -108,18 +108,23 @@
                 {
                     currentDirectoryInfo = value;
                     CwdFiles.Clear();
-                    if (currentDirectoryInfo != null)
-                    {
-                        foreach (var fileInfo in currentDirectoryInfo.GetFiles("*.m3u"))
-                        {
-                            CwdFiles.Add(new FileEntry(fileInfo));
-                        }
-                        currentDirPath = currentDirectoryInfo.FullName;
-                        Status = $"Switch to {currentDirectoryInfo.FullName}";
-                    }
+                    PopulateCwdFiles();
                     RaisePropertyChanged();
                     RaisePropertyChanged(nameof(CurrentDirPath));
                 }
+            }
+        }
+
+        internal void PopulateCwdFiles()
+        {
+            if (currentDirectoryInfo != null)
+            {
+                foreach (var fileInfo in currentDirectoryInfo.GetFiles("*.m3u"))
+                {
+                    CwdFiles.Add(new FileEntry(fileInfo));
+                }
+                currentDirPath = currentDirectoryInfo.FullName;
+                Status = $"Switch to {currentDirectoryInfo.FullName}";
             }
         }
 

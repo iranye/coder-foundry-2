@@ -124,8 +124,9 @@
                                         <RowDefinition Height="Auto" />
                                     </Grid.RowDefinitions>
                                     <StackPanel Orientation="Horizontal">
-                                        <TextBox Height="30" Width="500" Text="{Binding CurrentWorkingDirectory.CurrentDirPath, Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"/>
+                                        <TextBox Height="30" Width="430" Text="{Binding CurrentWorkingDirectory.CurrentDirPath, Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"/>
                                         <Button Content="Open" Width="75" Margin="10" ToolTip="Open Explorer to CWD" Command="{Binding OpenExplorerWindowCommand}" />
+                                        <Button Content="M3U" Width="70" Margin="10" ToolTip="Create M3u" Command="{Binding CreateM3uCommand}" />
                                     </StackPanel>
                                     <ListView Grid.Row="1" ItemsSource="{Binding CurrentWorkingDirectory.CwdFiles}"                                          SelectedItem="{Binding CurrentWorkingDirectory.SelectedFile}"
                                           ScrollViewer.CanContentScroll="True"
@@ -160,7 +161,6 @@
                             </StackPanel>
                             <StackPanel Orientation="Horizontal" DockPanel.Dock="Top">
                                 <Button Content="Save" Width="70" Margin="10" Command="{Binding SaveCommand}" />
-                                <Button Content="M3U" Width="70" Margin="10" Command="{Binding CreateM3uCommand}" />
                                 <Button Content="Collect MBs"
                                     Width="100" Margin="10"
                                     Command="{Binding CollectMbsCommand}"
