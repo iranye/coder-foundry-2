@@ -504,6 +504,8 @@
             {
                 return;
             }
+
+            Task.Run(async () => await fileSystemService.OpenDirectoryAsync(destDirectoryFullPath)).Wait();
             string destScriptFullPath = Path.Combine(destDirectoryFullPath, $"{targetDirName}.cmd");
             string newM3uFullPath = Path.Combine(destDirectoryFullPath, $"{targetDirName}.m3u");
 
