@@ -416,10 +416,12 @@
             if (SelectedItem is not null)
             {
                 var pathToFolder = m3UFileViewModel.FileEntry?.ParentDirectory.FullName;
-                if (!String.IsNullOrWhiteSpace(pathToFolder))
+                if (string.IsNullOrWhiteSpace(pathToFolder))
                 {
-                    Task.Run(async () => await fileSystemService.OpenDirectoryAsync(pathToFolder)).Wait();
+                    logger.LogInformation("IsNullOrWhiteSpace: {FileEntry} ParentDir", m3UFileViewModel.FileEntry);
+                    return;
                 }
+                Task.Run(async () => await fileSystemService.OpenDirectoryAsync(pathToFolder)).Wait();
             }
         }
 

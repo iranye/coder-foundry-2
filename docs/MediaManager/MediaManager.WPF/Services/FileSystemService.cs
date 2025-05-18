@@ -107,21 +107,26 @@ public class FileSystemService : IFileSystemService
             logger.LogError("Directory not found: '{directoryPath}'", directoryPath);
             return;
         }
+        directoryPath = $"\"{directoryPath}\"";
         var explorerExePath = @"C:\Windows\explorer.exe";
+
+        logger.LogInformation("{explorerExePath} {directoryPath}", explorerExePath, directoryPath);
         await RunCommand(explorerExePath, directoryPath);
     }
 
-    private static async Task RunCommand(string command, string parameters)
+    private async Task RunCommand(string command, string parameters)
     {
         try
         {
             await Cli.Wrap(command)
                 .WithArguments(parameters)
+                .WithValidation(CommandResultValidation.None)
                 .ExecuteAsync();
         }
         catch (Exception ex)
         {
             Console.WriteLine(ex);
+            logger.LogError("ERROR: '{Message}'", ex.Message);
         }
     }
 

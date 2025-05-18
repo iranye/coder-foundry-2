@@ -88,6 +88,8 @@
         {
             foreach (var subDir in dirInfo.GetDirectories())
             {
+                if (dirInfo.Name.Contains("Synology")) continue;
+
                 var childFolder = new Folder { Name = subDir.Name };
                 folder.Children.Add(childFolder);
                 GetSubDirs(subDir, childFolder);
