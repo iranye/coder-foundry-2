@@ -119,6 +119,7 @@
         {
             if (currentDirectoryInfo != null)
             {
+                CwdFiles.Clear();
                 foreach (var fileInfo in currentDirectoryInfo.GetFiles("*.m3u"))
                 {
                     CwdFiles.Add(new FileEntry(fileInfo));

@@ -153,11 +153,11 @@
                         <DockPanel MinWidth="500">
                             <StackPanel Orientation="Horizontal" DockPanel.Dock="Top">
                                 <Label>Title:</Label>
-                                <TextBox Height="30" Text="{Binding SelectedItem.Title, Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" Width="150" Name="Title"/>
+                                <TextBox Height="30" Width="250" Text="{Binding SelectedItem.Title, Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" Name="Title"/>
                                 <Label Width="55">Created:</Label>
-                                <TextBox Height="30" Width="160" IsReadOnly="True" Text="{Binding SelectedItem.Created, Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"/>
+                                <TextBox Height="30" Width="120" IsReadOnly="True" IsTabStop="False" Text="{Binding SelectedItem.Created, Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"/>
                                 <Label Width="80">LastModified:</Label>
-                                <TextBox Height="30" Width="160" IsReadOnly="True" Text="{Binding SelectedItem.LastModified, Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"/>
+                                <TextBox Height="30" Width="120" IsReadOnly="True" IsTabStop="False" Text="{Binding SelectedItem.LastModified, Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"/>
                             </StackPanel>
                             <StackPanel Orientation="Horizontal" DockPanel.Dock="Top">
                                 <Button Content="Save" Width="70" Margin="10" Command="{Binding SaveCommand}" />
