@@ -378,7 +378,6 @@
         return;
       }
       var linkedList = null;
-      var current = null;
 
       // Include additional sequential numbering to input lines
       for (var i = 1; i < lines.length; i++) {
@@ -402,14 +401,18 @@
         if (doSorting) {
           if (linkedList == null) {
             linkedList = new ListNode(line);
-            current = linkedList;
           } else {
             linkedList = InsertSorted(linkedList, line, doUnique);
           }
         } else if (doSortingReverse) {
           if (linkedList == null) {
             linkedList = new ListNode(line);
-            current = linkedList;
+          } else {
+            linkedList = InsertSortedReverse(linkedList, line, doUnique);
+          }
+        } else if (doUnique) {
+          if (linkedList == null) {
+            linkedList = new ListNode(line);
           } else {
             linkedList = InsertSortedReverse(linkedList, line, doUnique);
           }

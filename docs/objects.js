@@ -22,6 +22,30 @@ function ListNode(data_obj) {
   this.next = null;
 }
 
+function InsertUnique(head, data_obj) {
+    if (head === null) {
+        head = new ListNode(data_obj);
+        return head;
+    }
+    
+    if (AlreadyExists(head, data_obj)) {
+        return head;
+    }
+
+    var current = head;
+    var previous = current;
+    
+    while(current != null) {
+      previous = current;
+      current = current.next;
+    }
+
+    var tmp = new ListNode(data_obj);
+    previous.next = tmp;
+
+    return head;
+}
+
 function InsertSorted(head, data_obj, doUnique) {
     if (head === null) {
         head = new ListNode(data_obj);
