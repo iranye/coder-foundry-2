@@ -72,7 +72,7 @@ add into appsettings.json:
     }
 
 
-* SQLITE *
++---- SQLITE --------------------------------------+--------+--------+--------+
 
   "ConnectionStrings": {
     "BethanysPieShopDbContextConnection": "Data Source=..\\..\\Data\\BethanysPieShop.db"

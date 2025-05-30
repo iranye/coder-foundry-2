@@ -302,7 +302,6 @@
       var doSorting = document.getElementById("sort_output").checked;
       var doSortingReverse = document.getElementById("sort_output_reverse").checked;
       var doUnique = document.getElementById("unique").checked;
-      console.log("doUnique: " + doUnique);
       var startNumber = document.getElementById("start_number").value;
       var endNumber = document.getElementById("end_number").value;
       var sample = get_regex_string();
@@ -751,22 +750,22 @@
 <textarea id="outbox" class="toggle" name="outbox" rows="14" cols="144"></textarea><br />
 
     <p>
-      <input type="radio" name="regex" value="generic" checked />Generic
-      <input type="radio" name="regex" value="ado_item" />ado_item
-      <input type="radio" name="regex" value="dev2bak" />dev2bak
-      <input type="radio" name="regex" value="bak2dev" />bak2dev
-      <input type="radio" name="regex" value="mrobo" />Multi-Robocopy
-      <input type="radio" name="regex" value="rn" />Bulk Rename
-      <input type="radio" name="regex" value="cast_varchar" />CAST
+      <input type="radio" name="regex" value="generic" id="generic" checked /><label for="generic">Generic</label>
+      <input type="radio" name="regex" value="ado_item" id="ado_item" /><label for="ado_item">ado_item</label>
+      <input type="radio" name="regex" value="dev2bak" id="dev2bak" /><label for="dev2bak">dev2bak</label>
+      <input type="radio" name="regex" value="bak2dev" id="bak2dev" /><label for="bak2dev">bak2dev</label>
+      <input type="radio" name="regex" value="mrobo" id="mrobo" /><label for="mrobo">Multi-Robocopy</label>
+      <input type="radio" name="regex" value="rn" id="rn" /><label for="rn">Bulk Rename</label>
+      <input type="radio" name="regex" value="cast_varchar" id="cast_varchar" /><label for="cast_varchar">CAST</label>
 
       <br />
 
-      <input type="checkbox" id="sort_output" accesskey="S" />Sort Results
-      <input type="checkbox" id="sort_output_reverse" />Reverse Sort Results
-      <input type="checkbox" id="unique" />Unique results
-      <input type="checkbox" id="sql_code" />SQL
-      <input type="checkbox" id="to_upper_first" accesskey="U" />Uppercase First Char
-      <input type="checkbox" id="suppress_numbering" onchange="suppress_numbering_changed();" />Suppress Numbering
+      <input type="checkbox" id="sort_output" accesskey="S" /><label for="sort_output">Sort Results</label>
+      <input type="checkbox" id="sort_output_reverse" /><label for="sort_output_reverse">Reverse Sort Results</label>
+      <input type="checkbox" id="unique" /><label for="unique">Unique results</label>
+      <input type="checkbox" id="sql_code" /><label for="sql_code">SQL</label>
+      <input type="checkbox" id="to_upper_first" accesskey="U" /><label for="to_upper_first">Uppercase First Char</label>
+      <input type="checkbox" id="suppress_numbering" onchange="suppress_numbering_changed();" /><label for="suppress_numbering">Suppress Numbering</label>
       [Start #: <input type="text" size="3" id="start_number" value="1" />, End #: <input type="text" size="3" id="end_number" value="" />]
     </p>
 
