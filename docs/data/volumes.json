@@ -1,23 +1,14 @@
 [
   {
-    "Id": 2,
-    "Title": "Soul",
-    "M3uFiles": null,
-    "Created": "0001-01-01T00:00:00",
-    "LastModified": "0001-01-01T00:00:00",
-    "CopyDirectories": false,
-    "M3usTotalMb": 0
-  },
-  {
     "Id": 28,
-    "Title": "AltHeavyVol1_EXP",
+    "Title": "are-as-bek-gdsm-nin-spn-awln-cm-bhp",
     "M3uFiles": [
       {
         "TotalMegaBytes": 69,
         "PartialPath": "Music\\MP3s\\Audioslave\\_Audioslave-ShortList.m3u"
       },
       {
-        "TotalMegaBytes": 122,
+        "TotalMegaBytes": 116,
         "PartialPath": "Music\\MP3s\\Beck\\_Beck-ShortList.m3u"
       },
       {
@@ -46,47 +37,39 @@
       }
     ],
     "Created": "2023-03-01T17:01:38",
-    "LastModified": "2023-03-25T14:11:05",
+    "LastModified": "2025-05-19T11:26:32",
     "CopyDirectories": false,
-    "M3usTotalMb": 686
+    "M3usTotalMb": 680
   },
   {
     "Id": 29,
-    "Title": "AltHeavyVol2_EXP",
+    "Title": "ar-bb-bc-gz-sr",
     "M3uFiles": [
-      {
-        "TotalMegaBytes": 130,
-        "PartialPath": "Music\\MP3s\\Beastie Boys\\_BeastieBoys-ShortList.m3u"
-      },
       {
         "TotalMegaBytes": 18,
         "PartialPath": "Music\\MP3s\\Black Crowes\\_BlackCrowesShakeMM.m3u"
-      },
-      {
-        "TotalMegaBytes": 72,
-        "PartialPath": "Music\\MP3s\\Counting Crows\\_CountingCrows.m3u"
       },
       {
         "TotalMegaBytes": 140,
         "PartialPath": "Music\\MP3s\\Gorillaz\\_Gorillaz-ShortList.m3u"
       },
       {
-        "TotalMegaBytes": 188,
-        "PartialPath": "Music\\MP3s\\Pantera\\_Pantera-ShortList.m3u"
-      },
-      {
         "TotalMegaBytes": 78,
         "PartialPath": "Music\\MP3s\\Stone Roses\\_StoneRoses-ShortList.m3u"
+      },
+      {
+        "TotalMegaBytes": 22,
+        "PartialPath": "Music\\MP3s\\Beastie Boys\\Beastie Boys-Shortlist.m3u"
       }
     ],
     "Created": "2023-03-01T17:49:34",
-    "LastModified": "2023-04-04T16:57:37",
+    "LastModified": "2025-05-19T10:26:07",
     "CopyDirectories": false,
-    "M3usTotalMb": 626
+    "M3usTotalMb": 298
   },
   {
     "Id": 30,
-    "Title": "AltNew-02",
+    "Title": "as-dg-ec-kl-snds-am",
     "M3uFiles": [
       {
         "TotalMegaBytes": 75,
@@ -114,18 +97,14 @@
       }
     ],
     "Created": "2023-03-01T17:54:47",
-    "LastModified": "2023-03-25T14:13:38",
+    "LastModified": "2025-05-19T10:37:30",
     "CopyDirectories": false,
     "M3usTotalMb": 522
   },
   {
     "Id": 31,
-    "Title": "AltNew-01",
+    "Title": "an-ftp-vw-ws-cc",
     "M3uFiles": [
-      {
-        "TotalMegaBytes": 200,
-        "PartialPath": "Music\\MP3s\\Death Cab For Cutie\\_DeathCabForCutie-ShortList.m3u"
-      },
       {
         "TotalMegaBytes": 111,
         "PartialPath": "Music\\MP3s\\Foster the People\\_FosterThePeople.m3u"
@@ -144,13 +123,13 @@
       }
     ],
     "Created": "2023-03-01T17:54:56",
-    "LastModified": "2023-03-25T14:13:15",
+    "LastModified": "2025-05-19T10:33:02",
     "CopyDirectories": false,
     "M3usTotalMb": 715
   },
   {
     "Id": 32,
-    "Title": "AltOldies-01",
+    "Title": "ar-cbs-sc-smp",
     "M3uFiles": [
       {
         "TotalMegaBytes": 96,
@@ -163,38 +142,38 @@
       {
         "TotalMegaBytes": 268,
         "PartialPath": "Music\\MP3s\\Smashing Pumpkins\\_SmashingPumpkins-ShortList.m3u"
-      },
-      {
-        "TotalMegaBytes": 18,
-        "PartialPath": "Music\\MP3s\\Spin Doctors\\_SpinDoctors-ShortList.m3u"
       }
     ],
     "Created": "2023-03-01T17:55:28",
-    "LastModified": "2023-03-25T14:19:18",
+    "LastModified": "2025-05-19T10:40:15",
     "CopyDirectories": false,
     "M3usTotalMb": 680
   },
   {
     "Id": 33,
-    "Title": "AltOldies-02",
+    "Title": "ar-rem-icldfree-u2",
     "M3uFiles": [
-      {
-        "TotalMegaBytes": 62,
-        "PartialPath": "Music\\MP3s\\Dave Matthews Band\\_DaveMatthewsand-ShortList.m3u"
-      },
       {
         "TotalMegaBytes": 331,
         "PartialPath": "Music\\MP3s\\REM\\_REM-ShortList.m3u"
+      },
+      {
+        "TotalMegaBytes": 180,
+        "PartialPath": "Music\\MP3s\\_IcloudFree\\IcloudFree-Shortlist.m3u"
+      },
+      {
+        "TotalMegaBytes": 227,
+        "PartialPath": "Music\\MP3s\\U2\\U2-Shortlist.m3u"
       }
     ],
     "Created": "2023-03-01T17:55:48",
-    "LastModified": "2023-03-25T14:20:10",
+    "LastModified": "2025-05-19T12:05:56",
     "CopyDirectories": false,
-    "M3usTotalMb": 393
+    "M3usTotalMb": 331
   },
   {
     "Id": 34,
-    "Title": "AltOldies-03_EXP",
+    "Title": "are-sblm-td-ip-rhcp",
     "M3uFiles": [
       {
         "TotalMegaBytes": 30,
@@ -209,18 +188,18 @@
         "PartialPath": "Music\\MP3s\\Iggy Pop\\$Iggy Pop-BrickByBrick.m3u"
       },
       {
-        "TotalMegaBytes": 393,
+        "TotalMegaBytes": 223,
         "PartialPath": "Music\\MP3s\\Red Hot Chili Peppers\\Red Hot Chili Peppers-Shortlist.m3u"
       }
     ],
     "Created": "2023-03-01T17:56:35",
-    "LastModified": "2023-03-25T14:23:53",
+    "LastModified": "2025-05-19T10:41:17",
     "CopyDirectories": false,
     "M3usTotalMb": 562
   },
   {
     "Id": 35,
-    "Title": "AltOldies-04",
+    "Title": "ar-jd-liv-p4p-pj",
     "M3uFiles": [
       {
         "TotalMegaBytes": 124,
@@ -240,18 +219,9 @@
       }
     ],
     "Created": "2023-03-01T17:56:54",
-    "LastModified": "2023-04-05T14:16:43",
+    "LastModified": "2025-05-19T11:01:48",
     "CopyDirectories": false,
     "M3usTotalMb": 797
-  },
-  {
-    "Id": 37,
-    "Title": "Childrens",
-    "M3uFiles": [],
-    "Created": "2023-03-01T17:57:15",
-    "LastModified": "0001-01-01T00:00:00",
-    "CopyDirectories": false,
-    "M3usTotalMb": 0
   },
   {
     "Id": 38,
@@ -653,29 +623,25 @@
   },
   {
     "Id": 57,
-    "Title": "Metal-02",
+    "Title": "mtl-scrp-ironm-judasp",
     "M3uFiles": [
-      {
-        "TotalMegaBytes": 65,
-        "PartialPath": "Music\\MP3s\\Iron Maiden\\_IronMaiden-ShortList.m3u"
-      },
       {
         "TotalMegaBytes": 109,
         "PartialPath": "Music\\MP3s\\Scorpions\\_Scorpions-ShortList.m3u"
       },
       {
-        "TotalMegaBytes": 54,
-        "PartialPath": "Music\\MP3s\\Helmet\\$Helmet.m3u"
+        "TotalMegaBytes": 139,
+        "PartialPath": "Music\\MP3s\\Iron Maiden\\Iron Maiden-Shortlist.m3u"
       },
       {
-        "TotalMegaBytes": 319,
+        "TotalMegaBytes": 393,
         "PartialPath": "Music\\MP3s\\Judas Priest\\Judas Priest-Shortlist.m3u"
       }
     ],
     "Created": "2023-03-01T18:01:27",
-    "LastModified": "2023-03-20T19:14:15",
+    "LastModified": "2025-05-19T09:36:57",
     "CopyDirectories": false,
-    "M3usTotalMb": 547
+    "M3usTotalMb": 726
   },
   {
     "Id": 59,
@@ -738,15 +704,6 @@
     "Title": "Relaxing-01",
     "M3uFiles": [],
     "Created": "2023-03-01T18:02:19",
-    "LastModified": "0001-01-01T00:00:00",
-    "CopyDirectories": false,
-    "M3usTotalMb": 0
-  },
-  {
-    "Id": 62,
-    "Title": "Rock-01_EXP",
-    "M3uFiles": [],
-    "Created": "2023-03-01T18:02:28",
     "LastModified": "0001-01-01T00:00:00",
     "CopyDirectories": false,
     "M3usTotalMb": 0
@@ -832,24 +789,6 @@
     "LastModified": "2023-11-16T07:14:21",
     "CopyDirectories": false,
     "M3usTotalMb": 689
-  },
-  {
-    "Id": 66,
-    "Title": "Soft",
-    "M3uFiles": [],
-    "Created": "2023-03-01T18:03:13",
-    "LastModified": "0001-01-01T00:00:00",
-    "CopyDirectories": false,
-    "M3usTotalMb": 0
-  },
-  {
-    "Id": 67,
-    "Title": "Soundtracks-01",
-    "M3uFiles": [],
-    "Created": "2023-03-01T18:03:18",
-    "LastModified": "0001-01-01T00:00:00",
-    "CopyDirectories": false,
-    "M3usTotalMb": 0
   },
   {
     "Id": 68,
@@ -1321,14 +1260,14 @@
   },
   {
     "Id": 88,
-    "Title": "AltOldies-05",
+    "Title": "ar-b52-cultcb-cur-devo-dpmd",
     "M3uFiles": [
       {
         "TotalMegaBytes": 69,
         "PartialPath": "Music\\MP3s\\B-52s\\_B52s.m3u"
       },
       {
-        "TotalMegaBytes": 63,
+        "TotalMegaBytes": 37,
         "PartialPath": "Music\\MP3s\\Culture Club\\_CultureClub.m3u"
       },
       {
@@ -1340,14 +1279,14 @@
         "PartialPath": "Music\\MP3s\\Devo\\_Devo.m3u"
       },
       {
-        "TotalMegaBytes": 535,
+        "TotalMegaBytes": 490,
         "PartialPath": "Music\\SimpleDriveMusic\\Depeche Mode\\DepecheMode-Shortlist.m3u"
       }
     ],
     "Created": "2023-03-25T10:32:06",
-    "LastModified": "2023-03-25T10:42:25",
+    "LastModified": "2025-05-19T11:31:52",
     "CopyDirectories": false,
-    "M3usTotalMb": 830
+    "M3usTotalMb": 759
   },
   {
     "Id": 89,
@@ -1365,12 +1304,8 @@
   },
   {
     "Id": 90,
-    "Title": "AltOldies-06",
+    "Title": "ar-tod-weezr-fltr",
     "M3uFiles": [
-      {
-        "TotalMegaBytes": 68,
-        "PartialPath": "Music\\MP3s\\Stone Temple Pilots\\_StoneTemplePilots-ShortList.m3u"
-      },
       {
         "TotalMegaBytes": 15,
         "PartialPath": "Music\\MP3s\\TempleOfTheDog\\_TempleOfTheDog-ShortList.m3u"
@@ -1380,22 +1315,18 @@
         "PartialPath": "Music\\MP3s\\Weezer\\_Weezer-ShortList.m3u"
       },
       {
-        "TotalMegaBytes": 63,
-        "PartialPath": "Music\\MP3s\\Yo La Tengo\\_Yo La Tengo.m3u"
-      },
-      {
         "TotalMegaBytes": 35,
         "PartialPath": "Music\\MP3s\\Floater\\$Floater.m3u"
       }
     ],
     "Created": "2023-03-25T14:20:14",
-    "LastModified": "2023-03-25T14:23:06",
+    "LastModified": "2025-05-19T11:29:17",
     "CopyDirectories": false,
-    "M3usTotalMb": 255
+    "M3usTotalMb": 227
   },
   {
     "Id": 91,
-    "Title": "AltOldies-06_EXP",
+    "Title": "are-aic-ec-lp-lh-sd-dist-ms",
     "M3uFiles": [
       {
         "TotalMegaBytes": 333,
@@ -1427,7 +1358,7 @@
       }
     ],
     "Created": "2023-03-25T14:25:21",
-    "LastModified": "0001-01-01T00:00:00",
+    "LastModified": "2025-05-19T09:43:44",
     "CopyDirectories": false,
     "M3usTotalMb": 698
   },
@@ -1544,5 +1475,63 @@
     "LastModified": "2023-12-17T18:09:41",
     "CopyDirectories": false,
     "M3usTotalMb": 445
+  },
+  {
+    "Id": 97,
+    "Title": "as-dcab-10km-cc-ths",
+    "M3uFiles": [
+      {
+        "TotalMegaBytes": 22,
+        "PartialPath": "Music\\MP3s\\Death Cab For Cutie\\_DeathCabForCutie-ShortList.m3u"
+      },
+      {
+        "TotalMegaBytes": 196,
+        "PartialPath": "Music\\MP3s\\Talking Heads\\$Talking Heads.m3u"
+      },
+      {
+        "TotalMegaBytes": 215,
+        "PartialPath": "Music\\MP3s\\10,000 Maniacs\\10,000 Maniacs-Shortlist.m3u"
+      },
+      {
+        "TotalMegaBytes": 181,
+        "PartialPath": "Music\\MP3s\\Counting Crows\\Counting Crows-Shortlist.m3u"
+      }
+    ],
+    "Created": "2025-04-27T09:02:46",
+    "LastModified": "2025-05-19T10:33:39",
+    "CopyDirectories": false,
+    "M3usTotalMb": 592
+  },
+  {
+    "Id": 98,
+    "Title": "DIO-IM",
+    "M3uFiles": [
+      {
+        "TotalMegaBytes": 77,
+        "PartialPath": "Music\\MP3s\\Dio\\Dio-Shortlist.m3u"
+      },
+      {
+        "TotalMegaBytes": 139,
+        "PartialPath": "Music\\MP3s\\Iron Maiden\\Iron Maiden-Shortlist.m3u"
+      }
+    ],
+    "Created": "2025-04-27T10:57:45",
+    "LastModified": "2025-04-27T11:33:27",
+    "CopyDirectories": false,
+    "M3usTotalMb": 216
+  },
+  {
+    "Id": 99,
+    "Title": "ar-hol",
+    "M3uFiles": [
+      {
+        "TotalMegaBytes": 71,
+        "PartialPath": "Music\\MP3s\\Hole\\Hole-Shortlist.m3u"
+      }
+    ],
+    "Created": "2025-04-27T11:01:11",
+    "LastModified": "2025-05-19T09:39:36",
+    "CopyDirectories": false,
+    "M3usTotalMb": 71
   }
 ]

@@ -1,6 +1,8 @@
 MediaManager.WPF
 
-TODO:
+Updates:
+	Add "Show Empty Volumes" button in top left
+	Migrate volumes.json to CLOUD
     Be able to open this file from the client
 	Create JSON file options (for each flattened MP3 directory, create a separate JSON):
 		PROS:
@@ -34,4 +36,14 @@ dotnet sln add .\MediaManagerTests\MediaManagerTests.csproj
 
 dotnet new console --name SearchQuery --output SearchQuery
 dotnet sln add .\SearchQuery\SearchQuery.csproj
+
++--------DATA BACKUP----------------------------------+--------+--------+--------+
++--------VOLUMES--------+
+copy /y C:\src\dev\coder-foundry-2\docs\Data\Volumes.json %ONEDRIVE%\Data\Volumes-intelly.json
+
+kdiff3 C:\src\dev\coder-foundry-2\docs\Data\Volumes.json C:\Users\zombi\OneDrive\Data\Volumes-intelly.json
+
++--------M3Us--------+
+
+robocopy %MEDIA%\Music\MP3s %ONEDRIVE%\Data\Media-Track\Music\MP3s /e /s /if *.m3u /l
 
