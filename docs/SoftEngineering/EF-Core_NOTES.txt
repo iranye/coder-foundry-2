@@ -93,6 +93,7 @@ Drop-Database
 CMD>
 	dotnet tool install dotnet-ef -g
 	dotnet tool update dotnet-ef -g
+	dotnet tool install --global dotnet-ef --version 8.0.16
   
 	dotnet ef migrations add InitialDb
 	dotnet ef database update
