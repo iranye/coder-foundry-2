@@ -7326,5 +7326,53 @@
         "Name": "blog"
       }
     ]
+  },
+  {
+    "Id": 532,
+    "Href": "https://machinelearningmastery.com/the-complete-guide-to-vector-databases-for-machine-learning/",
+    "Title": "Vector Databases for Machine Learning",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 11,
+        "Name": "ai"
+      }
+    ]
+  },
+  {
+    "Id": 533,
+    "Href": "https://www.kdnuggets.com/creating-a-text-to-sql-app-with-openai-fastapi-sqlite",
+    "Title": "Creating a Text to SQL App with OpenAI + FastAPI + SQLite",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 11,
+        "Name": "ai"
+      },
+      {
+        "Id": 25,
+        "Name": "python"
+      },
+      {
+        "Id": 7,
+        "Name": "sql"
+      }
+    ]
+  },
+  {
+    "Id": 534,
+    "Href": "https://www.youtube.com/watch?v=kOhLoixrJXo",
+    "Title": "MCP In 26 Minutes",
+    "Desc": "",
+    "Tags": [
+      {
+        "Id": 11,
+        "Name": "ai"
+      },
+      {
+        "Id": 20,
+        "Name": "video"
+      }
+    ]
   }
 ]
