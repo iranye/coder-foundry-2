@@ -18,25 +18,45 @@
 
         void SaveAll(List<Volume> volumeList);
 
-        string JsonFileFullPath { get; set; }
+        string JsonFileName { get; set; }
+
+        string JsonFileFullPath { get; }
     }
 
     public class VolumeDataProvider : IVolumeDataProvider
     {
-        private string _storageFile = @"..\..\Data\Volumes.json";
+        private string localStorageFilePath = @"..\..\Data";
+        private string storageFileName = @"MediaVolumes.json";
 
-        public string JsonFileFullPath
+        public string JsonFileName
         {
             get
             {
-                return Path.GetFullPath(_storageFile);
+                return storageFileName;
             }
             set
             {
                 if (value is not null)
                 {
-                    _storageFile = value;
+                    storageFileName = value;
                 }
+            }
+        }
+
+        public string JsonFileFullPath
+        {
+            get
+            {
+                var onedrivePath = Environment.GetEnvironmentVariable("ONEDRIVE");
+                if (String.IsNullOrWhiteSpace(onedrivePath))
+                {
+                    var localPath = Path.Combine(localStorageFilePath, JsonFileName);
+                    return Path.GetFullPath(localPath);
+                }
+
+                var cloudFilePath = onedrivePath + @"\Data\" + JsonFileName;
+
+                return Path.GetFullPath(cloudFilePath);
             }
         }
 
@@ -124,7 +144,7 @@
         private void SaveToFile(List<Volume> volumeList)
         {
             string json = JsonConvert.SerializeObject(volumeList, Formatting.Indented);
-            File.WriteAllText(_storageFile, json);
+            File.WriteAllText(JsonFileFullPath, json);
         }
 
         private List<Volume>? ReadFromFile()
@@ -144,12 +164,12 @@
                 new Volume{Id=25, Title= "Adamkrafft"},
                 new Volume{Id=26, Title= "Adams"},
             };
-            if (!File.Exists(_storageFile))
+            if (!File.Exists(JsonFileFullPath))
             {
                 return defaultList;
             }
 
-            string json = File.ReadAllText(_storageFile);
+            string json = File.ReadAllText(JsonFileFullPath);
             if (!String.IsNullOrWhiteSpace(json))
             {
                 return JsonConvert.DeserializeObject<List<Volume>>(json);

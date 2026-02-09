@@ -7,6 +7,8 @@
 {
     using MediaManager.Domain.Model;
     using MediaManager.WPF.ViewModel;
+    using System;
+    using System.Diagnostics;
     using System.IO;
     using System.Windows;
     using System.Windows.Controls;
@@ -84,12 +86,18 @@
         {
             if (ViewModel != null)
             {
-                if (!File.Exists(ViewModel.JsonFileFullPath))
+                var quotedFilePath = ViewModel.JsonFileFullPath;
+                quotedFilePath = $"\"{quotedFilePath}\"";
+                try
                 {
-                    MessageBoxResult messageBoxResult = MessageBox.Show($"File not found: {ViewModel.JsonFileFullPath}", "File not found", MessageBoxButton.OK);
+                    Process.Start($"CMD.exe", "/C %NP% " + quotedFilePath);
+                }
+                catch (Exception ex)
+                {
+                    var message = ex.Message;
+                    MessageBoxResult messageBoxResult = MessageBox.Show($"Failed to open JSON file: {quotedFilePath}", $"{message}", MessageBoxButton.OK);
                     return;
                 }
-                ViewModel.ViewTextFile(ViewModel.JsonFileFullPath);
             }
         }
 

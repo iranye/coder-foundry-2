@@ -7,15 +7,15 @@
 
     public class GenericViewModel : ViewModelBase
     {
-        private readonly IVolumeDataProvider _dataProvider;
-        private readonly IMapper _mapper;
-        private VolumeItemViewModel? _selectedItem;
+        private readonly IVolumeDataProvider dataProvider;
+        private readonly IMapper mapper;
+        private VolumeItemViewModel? selectedItem;
 
         public GenericViewModel(IVolumeDataProvider dataProvider, IMapper mapper)
         {
-            _dataProvider = dataProvider;
-            _dataProvider.JsonFileFullPath = @"..\..\Data\Generic.json";
-            _mapper = mapper;
+            this.dataProvider = dataProvider;
+            this.dataProvider.JsonFileName = @"Generic.json";
+            this.mapper = mapper;
             // AddCommand = new DelegateCommand(Add);
             // DeleteCommand = new DelegateCommand(Delete, CanDelete);
             // SaveCommand = new DelegateCommand(Save);
