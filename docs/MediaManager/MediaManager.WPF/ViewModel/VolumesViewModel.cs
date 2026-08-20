@@ -5,7 +5,7 @@
     //   Copyright (c) IRANYE. All rights reserved.
     // </copyright>
     // --------------------------------------------------------------------------------------------------------------------
-    using AutoMapper;
+    using Mapster;
     using MediaManager.Domain.Data;
     using MediaManager.Domain.Model;
     using MediaManager.WPF.Command;
@@ -19,7 +19,6 @@
     using System.Collections.ObjectModel;
     using System.IO;
     using System.Linq;
-    using System.Runtime;
     using System.Text;
     using System.Threading.Tasks;
     using System.Windows;
@@ -27,17 +26,17 @@
     public class VolumesViewModel : ViewModelBase
     {
         private readonly IVolumeDataProvider dataProvider;
-        private readonly IMapper mapper;
         private readonly IOptions<MediaManagerOptions> mediaManagerOptions;
         private readonly ILogger<VolumesViewModel> logger;
         private VolumeItemViewModel? selectedItem;
         private IFileSystemService fileSystemService;
 
-        public VolumesViewModel(IVolumeDataProvider dataProvider, IMapper mapper, IOptions<MediaManagerOptions> mediaManagerOptions,
+        public VolumesViewModel(IVolumeDataProvider dataProvider, IOptions<MediaManagerOptions> mediaManagerOptions,
             ILogger<VolumesViewModel> logger, IFileSystemService fileSystemService)
         {
             this.dataProvider = dataProvider;
-            this.mapper = mapper;
+            this.dataProvider.JsonFileName = "MediaVolumes.json";
+
             this.mediaManagerOptions = mediaManagerOptions; // TODO: Try Resolve %MEDIA%, then fall back to paths in appsettings
             this.logger = logger;
             this.fileSystemService = fileSystemService ?? throw new ArgumentNullException(nameof(fileSystemService));
@@ -429,10 +428,10 @@
 
         private void SaveVolume(VolumeItemViewModel itemViewModel)
         {
-            var item = mapper.Map<VolumeItemViewModel, Volume>(itemViewModel);
+            var item = itemViewModel.Adapt<Volume>();
             dataProvider.Save(item);
 
-            if (item is not null)
+            if (SelectedItem is not null && item is not null)
             {
                 SelectedItem.Id = item.Id;
             }

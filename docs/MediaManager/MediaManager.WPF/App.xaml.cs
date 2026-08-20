@@ -7,13 +7,13 @@
     // --------------------------------------------------------------------------------------------------------------------
     using MediaManager.Domain.Data;
     using MediaManager.WPF.Config;
+    using MediaManager.WPF.Maps;
     using MediaManager.WPF.Services;
     using MediaManager.WPF.ViewModel;
     using Microsoft.Extensions.Configuration;
     using Microsoft.Extensions.DependencyInjection;
     using Microsoft.Extensions.Hosting;
     using Microsoft.Extensions.Logging;
-    using System.Reflection;
     using System.Windows;
 
     public partial class App : Application
@@ -32,7 +32,7 @@
                     services.AddTransient<IFileSystemService, FileSystemService>();
                     services.AddTransient<ICommandLineService, CommandLineService>();
                     services.AddTransient<IVolumeDataProvider, VolumeDataProvider>();
-                    services.AddAutoMapper(Assembly.GetExecutingAssembly());
+                    services.AddMaps();
                     services.AddOptions<MediaManagerOptions>()
                         .Configure<IConfiguration>((options, configuration) =>
                         {

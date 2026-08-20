@@ -1,6 +1,5 @@
 ﻿namespace MediaManager.WPF.ViewModel
 {
-    using AutoMapper;
     using MediaManager.Domain.Data;
     using MediaManager.WPF.Command;
     using System.Collections.ObjectModel;
@@ -8,14 +7,12 @@
     public class GenericViewModel : ViewModelBase
     {
         private readonly IVolumeDataProvider dataProvider;
-        private readonly IMapper mapper;
         private VolumeItemViewModel? selectedItem;
 
-        public GenericViewModel(IVolumeDataProvider dataProvider, IMapper mapper)
+        public GenericViewModel(IVolumeDataProvider dataProvider)
         {
             this.dataProvider = dataProvider;
-            this.dataProvider.JsonFileName = @"Generic.json";
-            this.mapper = mapper;
+            _dataProvider.JsonFileName = "Generic.json";
             // AddCommand = new DelegateCommand(Add);
             // DeleteCommand = new DelegateCommand(Delete, CanDelete);
             // SaveCommand = new DelegateCommand(Save);

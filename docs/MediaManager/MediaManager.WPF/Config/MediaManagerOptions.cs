@@ -68,7 +68,7 @@ namespace MediaManager.WPF.Config
                     catch { }
                     if (String.IsNullOrWhiteSpace(rootPath))
                     {
-                        rootPath = @"D:\\Media-Track";
+                        rootPath = @"C:\\Media";
                     }
 
                 }
