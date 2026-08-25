@@ -546,6 +546,11 @@
       s += dummy_data;
       push_to_regex_list('bak2dev', s);
 
+      s = '.*src\\\\code\\\\(.+)~~{ "Exectuable": "Copy", "Parameters": "", "WorkingDirectory": "", "Arguments": [ "%bak%\\\$1", "%dev%\\\$1" ] }, \n';
+      dummy_data = "C:\\src\\code\\ConfigService\\src\\IProcessMappings.cs\n";
+      s += dummy_data;
+      push_to_regex_list('bak2devJson', s);
+
       s = '()~~insert into tblQueueHTML (ItemIdentityID, ProcessingFlag) values($1, 0)\n';
       dummy_data = "7051220\n" + "7051223\n";
       s += dummy_data;
@@ -754,6 +759,7 @@
       <input type="radio" name="regex" value="ado_item" id="ado_item" /><label for="ado_item">ado_item</label>
       <input type="radio" name="regex" value="dev2bak" id="dev2bak" /><label for="dev2bak">dev2bak</label>
       <input type="radio" name="regex" value="bak2dev" id="bak2dev" /><label for="bak2dev">bak2dev</label>
+      <input type="radio" name="regex" value="bak2devJson" id="bak2devJson" /><label for="bak2devJson">bak2devJson</label>
       <input type="radio" name="regex" value="mrobo" id="mrobo" /><label for="mrobo">Multi-Robocopy</label>
       <input type="radio" name="regex" value="rn" id="rn" /><label for="rn">Bulk Rename</label>
       <input type="radio" name="regex" value="cast_varchar" id="cast_varchar" /><label for="cast_varchar">CAST</label>
